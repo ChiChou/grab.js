@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha tests"
   },
+  "bin": {
+    "grab.js": "./cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/ChiChou/grab.js.git"
@@ -19,5 +22,8 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
   }
 }

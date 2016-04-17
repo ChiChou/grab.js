@@ -4,7 +4,9 @@
   "description": "zgrab in node.js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests"
+    "test": "mocha tests",
+    "test-cov": "istanbul cover --report html _mocha -- -R spec tests/*.js",
+    "test-travis": "istanbul cover --report lcovonly _mocha -- -R spec tests/*.js"
   },
   "bin": {
     "grab.js": "./cli.js"
@@ -21,6 +23,8 @@
   "homepage": "https://github.com/ChiChou/grab.js#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
     "mocha": "^2.4.5"
   },
   "dependencies": {

@@ -2,7 +2,7 @@
   "name": "grab.js",
   "version": "1.0.0",
   "description": "zgrab in node.js",
-  "main": "index.js",
+  "main": "lib/",
   "scripts": {
     "test": "mocha tests",
     "test-cov": "istanbul cover --report html _mocha -- -R spec tests/*.js",

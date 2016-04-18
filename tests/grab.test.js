@@ -10,6 +10,8 @@ const net = require('net'),
   fs = require('fs'),
   path = require('path');
 
+const key = name => path.join(__dirname, 'keys', name);
+
 describe('grabber', () => {
   it('should read banner', done => {
     let randomBanner = 'This-Is-A-TCP-Banner\n' + Math.random().toString(16);
@@ -26,7 +28,6 @@ describe('grabber', () => {
   });
 
   it('should support tls', done => {
-    let key = name => path.join(__dirname, 'keys', name);
     let options = {
       key: fs.readFileSync(key('server-key.pem')),
       ca: [fs.readFileSync(key('ca-key.pem'))],
@@ -69,11 +70,48 @@ describe('grabber', () => {
       });
   });
 
-  it('should reject when time reached', done => {
-    grabber.grab('8.8.8.8', 80, { timeout: 10 })
+  it('should support https (tls and payload)', done => {
+    const options = {
+      key: fs.readFileSync(key('server-key.pem')),
+      cert: fs.readFileSync(key('server-cert.pem'))
+    };
+
+    const signature = Math.random().toString(36);
+
+    let server = https.createServer(options, (req, res) => {
+      res.writeHead(200);
+      res.end(signature);
+    }).listen(() => {
+      let port = server.address().port;
+      grabber.grab('127.0.0.1', port, { tls: true, noKeepAlive: true })
+        .payload(new Buffer(`GET / HTTP/1.1\r\n\r\n`))
+        .run()
+        .then(result => {
+          expect(result.banner.toString()).to.includes(signature);
+          done();
+        })
+        .catch(done);
+    });
+
+  });
+
+  it('should reject when timeout', done => {
+    let silentServer = net.createServer( /* listening but never send banner */ )
+      .listen(() => {
+        grabber.grab('127.0.0.1', silentServer.address().port, { timeout: 10 })
+          .run()
+          .catch(err => {
+            expect(err instanceof Error).to.be.true;
+            done();
+          });
+      });
+  });
+
+  it('should reject when destination unavaliable', done => {
+    grabber.grab('169.254.1.1', 21, {timeout: 20})
       .run()
       .catch(err => {
-        expect(err.toString()).to.match(/^Error: Unable to read banner/);
+        expect(err instanceof Error).to.be.true;
         done();
       });
   });

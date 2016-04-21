@@ -1,0 +1,1 @@
+{"pattern":"^200 OK [\\d.]+ ([\\w._-]+) oco-([\\w._-]+) \n$","flag":"","cpes":[],"matchers":{"product":"OVH OvhCheckOut","version":"$2","hostname":"$1"}}

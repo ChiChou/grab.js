@@ -1,0 +1,1 @@
+{"pattern":"^\\xc8\\x00\\x03\\x00\\x00\\x00\\x00\\x00Phantasy Star Online Blue Burst Game Server\\. Copyright 1999-2004 SONICTEAM\\.\\x00Tethealla Gate v([\\w._-]+)................................................................................................$","flag":"s","cpes":[],"matchers":{"product":"Phantasy Star Online game server","version":"$1"}}

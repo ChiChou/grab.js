@@ -1,0 +1,8 @@
+{"pattern":"^\\x01remshd: connect: Connection refused\n$","flag":"","cpes":["o:hp:hp-ux"],"matchers":{"product":"HP-UX kerberized rsh","os":"HP-UX"}}
+{"pattern":"^\\x01[kr]shd: Authentication failed: Bad sendauth version was sent\n","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"Solaris kerberised rsh","os":"Solaris"}}
+{"pattern":"^\\x01krshd: Kerberos Authentication Failed\\.\r\n","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"AIX kerberised rsh","os":"AIX"}}
+{"pattern":"^\\x01krshd: Echec de l'authentification Kerberos\\.\r\n\\0","flag":"","cpes":["o:ibm:aix"],"matchers":{"info":"French","product":"AIX kerberised rsh","os":"AIX"}}
+{"pattern":"^\\x01kshd: Authentication failed: ","flag":"","cpes":[],"matchers":{"product":"Kerberized rsh","os":"Unix"}}
+{"pattern":"^\\x01rshd ?: [-\\d]+ The host name for your address is not known\\.\n","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"AIX (kerberized?) rshd","os":"AIX"}}
+{"pattern":"^\\x01rshd ?: [-\\d]+ Le nom d'h\\xf4te correspondant \\xe0 l'adresse est inconnu\\.\n","flag":"","cpes":["o:ibm:aix"],"matchers":{"info":"French","product":"AIX (kerberized?) rshd","os":"AIX"}}
+{"pattern":"^\\x01rshd: [-\\d]+ The remote user login is not correct\\.\n","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"AIX (kerberized?) rshd","os":"AIX"}}

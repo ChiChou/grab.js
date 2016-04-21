@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0d\\0\\0\\0\\x18$","flag":"","cpes":[],"matchers":{"product":"ISC (BIND|DHCPD) OMAPI"}}

@@ -1,0 +1,2 @@
+{"pattern":"^\\0%\rJTAG Server\r\n\\0\\0\\0\\x08\\0\\0\\0\\xf0","flag":"","cpes":[],"matchers":{"product":"Altera Quartus JTAG service"}}
+{"pattern":"^\\x55\\x0a\\x04\\x0d\\xe5$","flag":"","cpes":[],"matchers":{"device":"specialized","product":"Macraigor mpDemon JTAG debugger"}}

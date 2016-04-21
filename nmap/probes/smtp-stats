@@ -1,0 +1,1 @@
+{"pattern":"^Statistics from .*\n M   msgsfr  bytes_from   msgsto    bytes_to  msgsrej msgsdis  Mailer\n","flag":"","cpes":[],"matchers":{"product":"Multi Router Traffic Grapher smtp statistics"}}

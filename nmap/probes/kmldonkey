@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.1 400 Bad Request\r\nServer: KMLDonkey\/(\\d\\S+)","flag":"","cpes":[],"matchers":{"product":"KMLDonkey","version":"$1"}}

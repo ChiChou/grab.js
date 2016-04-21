@@ -1,0 +1,1 @@
+{"pattern":"^\\xff\\xff\\xfb&$","flag":"","cpes":["a:novell:zenworks_desktops"],"matchers":{"product":"Novell ZENworks Imaging Proxy"}}

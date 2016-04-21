@@ -1,0 +1,1 @@
+{"pattern":"^unsupported auth method\\0","flag":"","cpes":["o:belllabs:plan_9"],"matchers":{"product":"Plan 9 cpu","os":"Plan 9"}}

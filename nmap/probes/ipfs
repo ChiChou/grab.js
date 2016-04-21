@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\0\\0\\x04\\0\\0(..)\\0\\0\\1\n\\x10................\\x12.*\\x1a.(?:P-\\d+,?)+\".[\\w.,_-]+\\*.[\\w.,_-]+$","flag":"s","cpes":[],"matchers":{"product":"InterPlanetary File System peer"}}
+{"pattern":"^\\0\\0..\n\\x10................\\x12.*\\x1a.(?:P-\\d+,?)+\".[\\w.,_-]+\\*.[\\w.,_-]+$","flag":"s","cpes":[],"matchers":{"product":"InterPlanetary File System peer"}}

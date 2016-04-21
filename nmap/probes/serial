@@ -1,0 +1,1 @@
+{"pattern":"^\nAccess to serial port port01 via unauthorised telnet is not allowed\n\n","flag":"","cpes":[],"matchers":{"info":"disabled","device":"remote management","product":"Opengear serial port unauthenticated access"}}

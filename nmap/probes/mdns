@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\0\\x84\\0\\0\\0\\0\\x05\\0\\0\\0\\0.Lexmark ([\\x20-\\x7f]+)\\x0c_host-config\\x04_udp\\x05local\\0","flag":"s","cpes":["h:lexmark:$1"],"matchers":{"device":"printer","product":"Lexmark $1 printer mdns"}}
+{"pattern":"^\\0\\0\\x84\\0\\0\\x01..\\0\\0\\0\\0\\x09_services\\x07_dns-sd\\x04_udp\\x05local\\0\\0\\x0c\\0\\x01","flag":"s","cpes":[],"matchers":{"product":"DNS-based service discovery"}}

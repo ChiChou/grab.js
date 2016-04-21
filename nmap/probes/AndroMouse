@@ -1,0 +1,2 @@
+{"pattern":"^AMServer$","flag":"s","cpes":[],"matchers":{"product":"AndroMouse Android remote mouse server"}}
+{"pattern":"^GOTBACK$","flag":"s","cpes":[],"matchers":{"product":"AndroMouse Android remote mouse server"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\?\\x008 \\xc3p EFTSRV1                                 ([\\d.]+) ","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Ingenico EFTSRVd","version":"$1","os":"Windows"}}

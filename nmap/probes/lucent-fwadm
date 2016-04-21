@@ -1,0 +1,1 @@
+{"pattern":"^0001;2$","flag":"","cpes":["a:lucent:security_management_server"],"matchers":{"product":"Lucent Security Management Server"}}

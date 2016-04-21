@@ -1,0 +1,1 @@
+{"pattern":"^([\\d.]+) SSL(?: LOG)?\\0            +\\0$","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"Partimage+SSL","version":"$1","os":"Linux"}}

@@ -1,0 +1,1 @@
+{"pattern":"^cpu: *[\\d.]+ mem: *[\\d.]+ swp: *[\\d.]+\\0","flag":"","cpes":[],"matchers":{"product":"jmond unix resource monitor","os":"Unix"}}

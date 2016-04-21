@@ -1,0 +1,1 @@
+{"pattern":"^I hear ya fa shizzle!\n$","flag":"","cpes":["a:wolfssl:wolfssl"],"matchers":{"product":"WolfSSL example TLS server"}}

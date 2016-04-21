@@ -1,0 +1,1 @@
+{"pattern":"^220 ([-\\w.]+) SAFT server \\(sendfiled ([\\w.]+) on ([\\w]+)\\) ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"sendfiled","version":"$2","os":"$3","hostname":"$1"}}

@@ -1,0 +1,3 @@
+{"pattern":"^\\x0b\\0\\0......\\0\\0$","flag":"s","cpes":[],"matchers":{"product":"L2J loginserver"}}
+{"pattern":"^\\x9b\\0\\0\\xfd\\x8a\\\"\\0Zx\\0.{129}\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"s","cpes":[],"matchers":{"product":"L2J loginserver"}}
+{"pattern":"^\\xba\\0.{184}$","flag":"s","cpes":[],"matchers":{"product":"L2J loginserver"}}

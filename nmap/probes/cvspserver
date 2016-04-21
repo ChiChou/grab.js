@@ -1,0 +1,10 @@
+{"pattern":"^no repository configured in \/","flag":"","cpes":[],"matchers":{"info":"broken","product":"CVS pserver"}}
+{"pattern":"^\/usr\/sbin\/cvs-pserver: line \\d+: .*cvs: No such file or directory\n","flag":"","cpes":[],"matchers":{"info":"broken","product":"CVS pserver"}}
+{"pattern":"^Unknown command: `pserver'\n\nCVS commands are:\n","flag":"","cpes":[],"matchers":{"info":"broken","product":"CVS pserver"}}
+{"pattern":"^cvs \\[pserver aborted\\]: bad auth protocol start: HELP\r\n\n?$","flag":"","cpes":[],"matchers":{"product":"cvs pserver"}}
+{"pattern":"^cvs \\[server aborted\\]: bad auth protocol start: HELP\r\n$","flag":"","cpes":["a:march-hare:cvsnt"],"matchers":{"product":"CVSNT cvs pserver"}}
+{"pattern":"^cvs \\[server aborted\\]: bad auth protocol start: HELP\r\nerror  \n$","flag":"","cpes":["a:march-hare:cvsnt"],"matchers":{"product":"CVSNT cvs pserver"}}
+{"pattern":"^cvsnt \\[server aborted\\]: bad auth protocol start: HELP\r\nerror  \n$","flag":"","cpes":["a:march-hare:cvsnt"],"matchers":{"product":"CVSNT cvs pserver"}}
+{"pattern":"^cvsntsrv \\[server aborted\\]: bad auth protocol start: HELP\r\nerror  \n$","flag":"","cpes":["a:march-hare:cvsnt"],"matchers":{"product":"CVSNT cvs pserver"}}
+{"pattern":"^cvs-pserver \\[pserver aborted\\]: bad auth protocol start: HELP\r\n\n","flag":"","cpes":[],"matchers":{"product":"cvs pserver"}}
+{"pattern":"^-f \\[pserver aborted\\]: bad auth protocol start: HELP\r\n\n","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"SunOS cvs pserver","os":"SunOS"}}

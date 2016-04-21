@@ -1,0 +1,3 @@
+{"pattern":"^XBMSP-1\\.0 1\\.0 CcXstream Media Server (\\d[-.\\w]+)\n","flag":"","cpes":[],"matchers":{"product":"CcXstream Media Server","version":"$1"}}
+{"pattern":"^XBMSP-1\\.0 1\\.0 Media File XStream Server \n","flag":"","cpes":[],"matchers":{"product":"Media File XStream"}}
+{"pattern":"^XBMSP-1\\.0 1\\.0 xbmsd ([\\w._-]+)\n","flag":"","cpes":[],"matchers":{"product":"xbmspd","version":"$1"}}

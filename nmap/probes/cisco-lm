@@ -1,0 +1,1 @@
+{"pattern":"^<\\?xml version=\\\"1\\.0\\\" encoding=\\\"UTF-8\\\"\\?><LicXmlDoc><MessageType><ParamValue>RESPONSE<\/ParamValue><\/MessageType><OperationCode><ParamValue>4923<\/ParamValue><\/OperationCode><\/LicXmlDoc>$","flag":"","cpes":["h:cisco:call_manager:6"],"matchers":{"product":"Cisco CallManager license manager","version":"6"}}

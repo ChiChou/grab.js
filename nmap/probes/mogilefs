@@ -1,0 +1,1 @@
+{"pattern":"^ERR unknown_command Unknown\\+server\\+command\r\n","flag":"","cpes":[],"matchers":{"product":"MogileFS distributed filesystem"}}

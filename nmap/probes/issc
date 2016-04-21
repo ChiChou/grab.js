@@ -1,0 +1,1 @@
+{"pattern":"^\rYou do not have permission to connect to the builder port\\.\r\nTalk to an admin at port \\d+ for entry\\.\r\n","flag":"","cpes":[],"matchers":{"product":"ISS System Scanner Console"}}

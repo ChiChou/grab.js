@@ -1,0 +1,1 @@
+{"pattern":"^VERSION=MYPROXYv([\\w._-]+)\nRESPONSE=1\nERROR=authentication failed\n\\0$","flag":"","cpes":[],"matchers":{"product":"MyProxy credential management","version":"$1"}}

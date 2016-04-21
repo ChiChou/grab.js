@@ -1,0 +1,1 @@
+{"pattern":"^32\r $","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Cyber Power PowerPanelPlus UPS Server","os":"Windows"}}

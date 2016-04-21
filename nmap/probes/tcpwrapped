@@ -1,0 +1,1 @@
+{"pattern":"^You are not welcome to use (\\w+) from [\\w._-]+\\.\n$","flag":"","cpes":[],"matchers":{"info":"$1","product":"BSD TCP Wrappers"}}

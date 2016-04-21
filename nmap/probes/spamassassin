@@ -1,0 +1,2 @@
+{"pattern":"^SPAMD\/1\\.0 76 Bad header line: \r\n","flag":"","cpes":["a:apache:spamassassin"],"matchers":{"product":"SpamAssassin spamd"}}
+{"pattern":"^SPAMD\/1\\.0 76 Bad header line: GET \/ HTTP\/1\\.0\r\r?\n","flag":"","cpes":["a:apache:spamassassin"],"matchers":{"product":"SpamAssassin spamd"}}

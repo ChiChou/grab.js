@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x02\t\\0\\0\\0\\x01\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"","cpes":["o:supermicro:intelligent_platform_management_firmware"],"matchers":{"product":"SuperMicro IPMI RMCP"}}

@@ -1,0 +1,1 @@
+{"pattern":"^protocolErrorInf error=Missing\\\\040hw\\\\040string\\\\040from\\\\040:\\\\040null\\.\\\\040Check\\\\040hardware state=disconnected\n","flag":"","cpes":["a:sun:ray_server_software"],"matchers":{"product":"Sun Ray utsvcd"}}

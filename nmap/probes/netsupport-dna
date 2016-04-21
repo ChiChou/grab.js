@@ -1,0 +1,1 @@
+{"pattern":"^\\x01\\0\\0\\0\\x01\\0\\0\\0\\0\\0\\0\\0\n\\x0c00\\d{10}$","flag":"","cpes":[],"matchers":{"product":"NetSupport DNA asset management"}}

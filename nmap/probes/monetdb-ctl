@@ -1,0 +1,1 @@
+{"pattern":"^merovingian:2:\\w+:\n","flag":"","cpes":["a:monetdb:monetdb"],"matchers":{"product":"MonetDB control"}}

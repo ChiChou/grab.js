@@ -1,0 +1,3 @@
+{"pattern":"^220 VMware Authentication Daemon Version (\\d[-.\\w]+): SSL Required\r\n","flag":"","cpes":[],"matchers":{"product":"VMware Authentication Daemon","version":"$1"}}
+{"pattern":"^220 VMware Authentication Daemon Version (\\d[-.\\w]+): SSL [rR]equired, MKSDisplayProtocol:VNC(?: ,)? \r\n","flag":"","cpes":[],"matchers":{"info":"Uses VNC","product":"VMware Authentication Daemon","version":"$1"}}
+{"pattern":"^220 VMware Authentication Daemon Version (\\d[-.\\w]+): SSL Required, ServerDaemonProtocol:(SOAP|IPC), MKSDisplayProtocol:VNC","flag":"","cpes":[],"matchers":{"info":"Uses VNC, $2","product":"VMware Authentication Daemon","version":"$1"}}

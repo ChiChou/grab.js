@@ -1,0 +1,23 @@
+{"pattern":"^0.*\\x02\\x01\\0\\x04\\x06public\\xa2.*\\x06\\x08\\+\\x06\\x01\\x02\\x01\\x01\\x05\\0\\x04[^\\0]([^\\0]+)","flag":"s","cpes":[],"matchers":{"info":"public","product":"SNMPv1 server","hostname":"$1"}}
+{"pattern":"^0.*\\x02\\x01\\0\\x04\\x06public\\xa2","flag":"s","cpes":[],"matchers":{"info":"public","product":"SNMPv1 server"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x00\\x00","flag":"s","cpes":[],"matchers":{}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x00\\x09","flag":"s","cpes":[],"matchers":{"product":"Cisco SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x00\\x63","flag":"s","cpes":[],"matchers":{"product":"Cisco SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x00\\xfd","flag":"s","cpes":[],"matchers":{"product":"Xerox SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x05\\x95","flag":"s","cpes":[],"matchers":{"product":"Scientific Atlanta SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x06\\x34","flag":"s","cpes":[],"matchers":{"product":"Brocade SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x06\\x7f","flag":"s","cpes":[],"matchers":{"product":"QLogic SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x04\\x50","flag":"s","cpes":[],"matchers":{"product":"IBM SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x07\\xdb","flag":"s","cpes":[],"matchers":{"product":"Huawei SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x07\\xe5","flag":"s","cpes":[],"matchers":{"product":"Lexmark SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x0b\\x2f","flag":"s","cpes":[],"matchers":{"product":"Thomson SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x0d\\x59","flag":"s","cpes":[],"matchers":{"product":"Blue Coat SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x13\\x70","flag":"s","cpes":[],"matchers":{"product":"Canon SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x1f\\x88","flag":"s","cpes":["a:net-snmp:net-snmp"],"matchers":{"product":"net-snmp"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\x80\\0\\x30\\x44","flag":"s","cpes":[],"matchers":{"device":"firewall","product":"Fortinet SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x39\\xe7","flag":"s","cpes":[],"matchers":{"product":"Aruba Networks SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\0\\x75\\xcb","flag":"s","cpes":[],"matchers":{"product":"OpenBSD SNMP service"}}
+{"pattern":"^..\\x02\\x01\\x030.\\x02\\x02Ji\\x02.{3,4}\\x04\\x01.\\x02\\x01\\x03\\x04.{5,6}\\x01\\0\\x02\\x03","flag":"s","cpes":[],"matchers":{"device":"router","product":"MikroTik router SNMP service"}}
+{"pattern":"^0\\x82\\0\\x37\\x02\\x01\\0\\x04\\x06public\\xa2\\x82\\0\\x28\\x02.{41,43}\nSoftW:\\x20([^\\0\n]+)\nMCU:\\x20([^\\0\n]+)\n","flag":"s","cpes":[],"matchers":{"info":"$1","product":"$2"}}
+{"pattern":"^0\\x82\\0\\x37\\x02\\x01\\0\\x04\\x06public\\xa2\\x82\\0\\x28.{20}\\x2b\\x06\\x01\\x02\\x01\\x01\\x05\\0\\x04\nZBR_SPICE0","flag":"s","cpes":["h:zebra:gx430t"],"matchers":{"device":"printer","product":"Zebra GX430T label printer SNMP service"}}
+{"pattern":"^0\\x82\\0\\x3a\\x02\\x01\\0\\x04\\x06public\\xa2\\x82\\0\\x2b.{20}\\x06\\x08\\x2b\\x06\\x01\\x02\\x01\\x01\\x05\\0\\x04\\x0bcfr25657985","flag":"s","cpes":["h:zyxel:prestige_660hw"],"matchers":{"device":"broadband router","product":"ZyXEL Prestige 660HW ADSL router"}}

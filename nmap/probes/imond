@@ -1,0 +1,3 @@
+{"pattern":"^ERR password required\r\nERR password required\r\n","flag":"","cpes":[],"matchers":{"device":"router","product":"imond fli4l router config"}}
+{"pattern":"^ERR administrator password required\r\nERR administrator password required\r\n$","flag":"","cpes":[],"matchers":{"device":"router","product":"imond fli4l router config"}}
+{"pattern":"^ERR\r\nERR\r\n$","flag":"","cpes":[],"matchers":{"device":"router","product":"imond fli4l router config"}}

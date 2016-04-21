@@ -1,0 +1,1 @@
+{"pattern":"^\\xCE\\x63\\xD1\\xD2\\x16\\xE7\\x13\\xCF........\\x01\\x12\\x78\\xC4\\xE3\\xD6\\xA6\\x65\\x51\\x75\\x51\\xEB\\x2A\\x3F","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"info":"no password","product":"BackOrifice trojan","version":"1.20","os":"Windows"}}

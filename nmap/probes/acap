@@ -1,0 +1,1 @@
+{"pattern":"^\\* ACAP \\(IMPLEMENTATION \\\"CommuniGate Pro ACAP (\\d[-.\\w]+)\\\"\\) ","flag":"","cpes":["a:stalker:communigate_pro:$1"],"matchers":{"info":"for mail client preference sharing","product":"CommuniGate Pro ACAP server","version":"$1"}}

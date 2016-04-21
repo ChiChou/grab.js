@@ -1,0 +1,4 @@
+{"pattern":"^HP Data Protector ([\\w._-]+): INET, internal build ([\\w._-]+), built on (.*)\n$","flag":"","cpes":["a:hp:data_protector:$1"],"matchers":{"info":"internal build $2; built on $3","product":"HP Data Protector","version":"$1"}}
+{"pattern":"^HP OpenView OmniBack II ([-.\\w]+): INET, ","flag":"","cpes":["a:hp:omniback_ii:$1"],"matchers":{"product":"HP OpenView OmniBackII","version":"$1"}}
+{"pattern":"^\\0\\0\\0.\\xff\\xfe1\\x005\\0\\0\\0 \\0\\x07\\0\\x01\\0\\[\\x001\\x002\\0:\\x001\\0\\]\\0\\0\\0 \\0\\x07\\0\\x02\\0\\[\\x002\\x000\\x000\\x003\\0\\]\\0\\0\\0 ","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"HP OpenView Omniback","os":"Windows"}}
+{"pattern":"^\\0\\0\\0.15\\0 \\x07\\x01\\[12:1\\]\\0 \\x07\\x02\\[2003\\]\\0 \\x07\\x051\\d+\\0 INET\\0 ([\\w._-]+)\\0","flag":"s","cpes":[],"matchers":{"product":"HP OpenView Omniback\/Data Protector","hostname":"$1","os":"Unix"}}

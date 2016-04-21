@@ -1,0 +1,1 @@
+{"pattern":"^Response: Follows\r\nPrivilege: Command\r\n--END COMMAND--\r\n","flag":"","cpes":["a:digium:asterisk"],"matchers":{"product":"Asterisk Call Manager Proxy"}}

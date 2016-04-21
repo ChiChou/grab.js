@@ -1,0 +1,84 @@
+{"pattern":"^220 ([-\\w_.]+) PGP Universal service ready \\(proxied server greeted us with: (.*)\\)\r\n","flag":"","cpes":["a:pgp:universal_server"],"matchers":{"info":"Proxied greeting: $2","product":"PGP Universal smtp proxy","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP\/DeleGate\/([\\d.]+) ready at .*\r\n","flag":"","cpes":[],"matchers":{"product":"DeleGate smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\/.+\\w]+) SMTP AnalogX Proxy (\\d[-.\\w]+) \\(Release\\) ready\r\n","flag":"","cpes":["a:analogx:proxy:$2"],"matchers":{"product":"AnalogX SMTP proxy","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP spamd IP-based SPAM blocker; .*\r\n","flag":"","cpes":[],"matchers":{"product":"spamd smtpd","hostname":"$1"}}
+{"pattern":"^220 YahooPOPs! Simple Mail Transfer Service Ready\r\n","flag":"","cpes":[],"matchers":{"product":"YahooPOPs! smtpd"}}
+{"pattern":"^220  ESMTP smtprelay service ready\\.\r\n","flag":"","cpes":[],"matchers":{"device":"firewall","product":"GeNUGate firewall smtp relay"}}
+{"pattern":"^220 ([-\\w_.]+) Tumbleweed MMS SMTP Relay Service ready\r\n","flag":"","cpes":[],"matchers":{"device":"firewall","product":"Tumbleweed smtp proxy","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP hotsmtpd v([\\d.]+)\\. ESMTP-HTTPMail Gateway based on hotwayd\\.\r\n","flag":"","cpes":[],"matchers":{"product":"hotsmtpd based on hotwayd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) Welcome SpamFilter for ISP SMTP Server v([\\d.]+) - Unlicensed Evaluation Copy\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"Unregistered","product":"SpamFilter for ISP smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 Welcome to the 1st SMTP Server\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"1st SMTP relay","os":"Windows"}}
+{"pattern":"^421 proxyplus\\.universe SMTP server\\. Insecure access - terminating\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"Access denied","product":"Proxy+ smtp proxy","os":"Windows"}}
+{"pattern":"^220 AVG ESMTP Proxy Server Beta - ([\\d.\/]+) \\[[\\d.]+\\]\r\n","flag":"","cpes":["a:avg:anti-virus:$1","o:microsoft:windows"],"matchers":{"product":"AVG smtp proxy","version":"$1","os":"Windows"}}
+{"pattern":"^220 AVG ESMTP Proxy Server ([\\d.\/]+) \\[[\\d.\/]+\\]\r\n","flag":"","cpes":["a:avg:anti-virus:$1","o:microsoft:windows"],"matchers":{"product":"AVG smtp proxy","version":"$1","os":"Windows"}}
+{"pattern":"^554 ([\\d.]+) ([-\\w_.]+) No mail service\r\n","flag":"","cpes":[],"matchers":{"product":"Symantec SGS smtp proxy","version":"$1","hostname":"$2"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP Scalix SMTP Relay ([\\d.]+); .*\r\n","flag":"","cpes":[],"matchers":{"product":"Scalix smtp relay","version":"$2","hostname":"$1"}}
+{"pattern":"^220 Traffic Inspector SMTP Gate \\(SPAM protected\\), ver\\. ([\\w._-]+), ready at.*\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Smart-Soft spam filtering smtp-proxy","version":"$1","os":"Windows"}}
+{"pattern":"^220 mailwall SMTP Server \\(Ikarus MailWall by David Grabenweger\\) ready\r\n","flag":"","cpes":[],"matchers":{"product":"Ikarus MailWall smtp-proxy"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP - eXpurgate ([\\d.]+) \\(","flag":"","cpes":[],"matchers":{"product":"eXpurgate smtp proxy","version":"$2","hostname":"$1"}}
+{"pattern":"^220 CCProxy ([\\d.]+) SMTP Service Ready\\(Unregistered\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"Unregistered","product":"CCProxy smtp proxy","version":"$1","os":"Windows"}}
+{"pattern":"^220 CCProxy ([\\d.]+) SMTP Service Ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"CCProxy smtp proxy","version":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) F-Secure\/fsigk_smtp\/\\d+\/[-\\w_.]+\r\n","flag":"","cpes":[],"matchers":{"product":"F-Secure Internet Gateway SMTP proxy","hostname":"$1"}}
+{"pattern":"^521 Host does not accept mail from you, closing transmission channel\\.\\.\\.\r\n","flag":"","cpes":[],"matchers":{"product":"F-Secure Internet Gatekeeper smtp proxy"}}
+{"pattern":"^NoSpamToday! SMTP Proxy Monitoring Service Ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Byteplant NoSpamToday! smtp proxy"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP bitdefender","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"BitDefender anti-virus mail gateway","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP BitDefender Proxy version ([^\r\n]+)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"BitDefender anti-virus mail gateway","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP BitDefender Proxy\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"BitDefender anti-virus mail gateway","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 Proxy\\+ SMTP server at ([-\\w_.]+)\\. Authentication required\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Proxy+ smtp proxy","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 [-\\w_.]+ avast! SMTP proxy ready\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Avast! anti-virus smtp proxy","os":"Windows"}}
+{"pattern":"^220 UserGate: SMTP service ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"UserGate smtp proxy","os":"Windows"}}
+{"pattern":"^220 ([\\w._-]+) WebShielde1000\/SMTP Ready\\.\r\n","flag":"","cpes":[],"matchers":{"device":"security-misc","product":"McAfee WebShield e1000 smtp proxy","version":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) (SCM\\d+)\/SMTP Ready\\.\r\n","flag":"","cpes":[],"matchers":{"device":"security-misc","product":"McAfee $2 smtp proxy","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) Welcome to SpamFilterISP SMTP Server v([\\w._-]+) - Unlicensed Evaluation Copy\r\n","flag":"","cpes":[],"matchers":{"info":"evaluation copy","product":"SpamFilterISP smtp proxy","version":"$2","hostname":"$1"}}
+{"pattern":"^220 arkoon Sendmail ready\\. \r\n","flag":"","cpes":[],"matchers":{"product":"Arkoon smtp proxy"}}
+{"pattern":"^554 You are not allowed to connect\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Symantec Brightmail smtp proxy"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP Symantec Brightmail Gateway\r\n","flag":"","cpes":[],"matchers":{"product":"Symantec Brightmail smtp proxy","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) \\[ESMTP Server\\] service ready;Bonjour; [^\r\n]*\r\n","flag":"","cpes":["a:trendmicro:interscan_messaging_security_suite"],"matchers":{"device":"proxy server","product":"Trend Micro InterScan Messaging Security smtp proxy","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP server ready \\(Alligate v([\\w._-]+)\\)(?: AUTH ONLY)?\r\n","flag":"","cpes":[],"matchers":{"product":"Alligate smtp proxy","version":"$2","hostname":"$1"}}
+{"pattern":"^220 Alligate Greylisting Server ready\r\n","flag":"","cpes":[],"matchers":{"product":"Alligate smtp proxy greylisting server"}}
+{"pattern":"^220 ([\\w._-]+)\\.ARK Sendmail ready\\. \r\n","flag":"","cpes":[],"matchers":{"info":"Sendmail","product":"Arkoon smtp replay","hostname":"$1"}}
+{"pattern":"^421 too many connections\r\n","flag":"","cpes":[],"matchers":{"product":"Barracuda 300 spam filter"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP Service ready\r\n","flag":"","cpes":[],"matchers":{"product":"ESET NOD32 anti-virus smtp proxy","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) MAILFOUNDRY ESMTP\r\n","flag":"","cpes":[],"matchers":{"product":"MailFoundry antispam smtp proxy","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) EWSA(\\w+)\/SMTP Ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"McAfee EWSA $2 smtp proxy","hostname":"$1"}}
+{"pattern":"^421 Cannot establish SSL with SMTP server ([][\\w._:-]+), SSL_connect error 336031996\r\n","flag":"","cpes":[],"matchers":{"info":"SMTP server $1","product":"Zentynal SMTP filter"}}
+{"pattern":"^220 ([\\w._-]+) AVKSMTP Server\r\n","flag":"","cpes":[],"matchers":{"product":"GData AntiVirenKit MailGateway smtp proxy","hostname":"$1"}}
+{"pattern":"^220 (\\S+) F-Secure Anti-Virus for Internet Mail ready","flag":"","cpes":[],"matchers":{"product":"F-Secure AV SMTP Proxy","hostname":"$1"}}
+{"pattern":"^220 (\\S+) Welcome to SpamFilter for ISP SMTP Server v(\\d\\S+)","flag":"","cpes":[],"matchers":{"product":"LogSat SMTP Proxy","version":"$2","hostname":"$1"}}
+{"pattern":"^220-TrendMicro IMSS SMTP proxy\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Trend Micro SMTP Proxy","os":"Windows"}}
+{"pattern":"^220-([\\w._-]+) ESMTP Welcome to smtpf #\\d+ \\(\\w+\\)\r\n220 Copyright 2006, 2011 by SnertSoft\\. All rights reserved\\.\r\n","flag":"","cpes":[],"matchers":{"product":"SnertSoft Barricade MX smtp proxy","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP EdgeWave mag3000\r\n","flag":"","cpes":[],"matchers":{"device":"proxy server","product":"EdgeWave MAG3000 Email Filtering appliance smtp proxy","hostname":"$1"}}
+{"pattern":"^220 Net at Work Mail Gateway ready\r\n","flag":"","cpes":[],"matchers":{"product":"Net at Work Mail Gateway smtp proxy"}}
+{"pattern":"^220 ([\\w._-]+) ([\\w._-]+)\/SMTP Ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"McAfee $2 smtp proxy","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) Python SMTP proxy version ([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"product":"Python SMTP Proxy","version":"$2","hostname":"$1"}}
+{"pattern":"^421 <ASSP\\.nospam> service temporarily unavailable, closing transmission\r\n","flag":"","cpes":[],"matchers":{"product":"ASSP Anti-Spam Proxy smtp proxy"}}
+{"pattern":"^554 No SMTPd here\r\n","flag":"","cpes":[],"matchers":{"info":"blacklisted","product":"SonicWALL Email Security smtp proxy"}}
+{"pattern":"^554 5\\.7\\.1 You are not allowed to connect\\.\r\n","flag":"","cpes":["a:symantec:messaging_gateway"],"matchers":{"info":"blacklisted","product":"Symantec Messaging Gateway"}}
+{"pattern":"^220 ([\\w._-]+) GWAVA Proxy Copyright \\(c\\) \\d\\d\\d\\d GWAVA, Inc\\. All rights reserved\\. Ready\r\n","flag":"","cpes":[],"matchers":{"product":"GWAVA Proxy smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) -- E-MailRelay V([\\w._-]+) -- Service ready\r\n","flag":"","cpes":["a:graeme_walker:emailrelay:$2"],"matchers":{"product":"E-MailRelay smtp proxy","version":"$2","hostname":"$1"}}
+{"pattern":"^554 5\\.7\\.1 Access denied\r\n$","flag":"","cpes":["a:kerio:connect"],"matchers":{"info":"access denied","product":"Kerio Connect smtp proxy"}}
+{"pattern":"^220 ([\\w.-]+) ESMTP Trustwave SEG \\(v([\\d.]+)\\) Ready\r\n","flag":"","cpes":["a:trustwave:secure_email_gateway:$2"],"matchers":{"product":"Trustwave Secure Email Gateway","version":"$2","hostname":"$1"}}
+{"pattern":"^220 smtp\\.postman\\.i2p ESMTP I2PNet Mailservice\r\n","flag":"","cpes":["a:i2p_project:i2p"],"matchers":{"product":"I2P Tunnel SMTP proxy"}}
+{"pattern":"^220 ([-\\w_.]+) .*\r\n250-[-\\w_.]+ supports the following ESMTP extensions:\r\n250-SIZE \\d+\r\n250-DSN\r\n250-8bitmime\r\n250 OK\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Trend Micro IMSS smtp proxy","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP [\\w._-]+\r\n501 5\\.5\\.2 HELO requires domain address\r\n","flag":"","cpes":[],"matchers":{"device":"proxy server","product":"SonicWALL Email Security Appliance smtp proxy","hostname":"$1"}}
+{"pattern":"^220 Ready to receive mail -=- ESMTP\r\n250-Ready to receive mail -=-\r\n250-AUTH LOGIN PLAIN\r\n250-AUTH=LOGIN PLAIN\r\n250-PIPELINING\r\n250 8BITMIME\r\n","flag":"","cpes":["a:pineapp:mail-secure"],"matchers":{"product":"PineApp Mail-SeCure smtp proxy"}}
+{"pattern":"^220 MailStore SMTP Proxy Server\r\n250-([\\w._-]+)\r\n250-STARTTLS\r\n250 MAILSTORE\r\n","flag":"","cpes":[],"matchers":{"product":"MailStore smtp proxy","hostname":"$1"}}
+{"pattern":"^220 OutgoingFilter SMTP\r\n502 OutgoingFilter Command not implemented\r\n","flag":"","cpes":["a:drweb:smtp-proxy"],"matchers":{"product":"Dr.Web SMTP-proxy"}}
+{"pattern":"^220 SMTP service ready\r\n214-Commands:\r\n214-\tDATA\tRCPT\tMAIL\tQUIT\tRSET\r\n214 \tHELO\tVRFY\tEXPN\tHELP\tNOOP\r\n","flag":"","cpes":[],"matchers":{"device":"firewall","product":"WatchGuard smtp proxy"}}
+{"pattern":"^220 ready\r\n214-Commands:\r\n214-    HELO    MAIL    RCPT    DATA\r\n214-    RSET    NOOP    QUIT    HELP\r\n214-    VRFY    EXPN\r\n214-For more info use HELP <topic>\r\n214 End of HELP info\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"602LAN Suite smtpd","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP service ready\r\n214 Help message\r\n","flag":"","cpes":[],"matchers":{"product":"CA Secure Content smtp proxy","hostname":"$1"}}
+{"pattern":"^421 ([-\\w_.]+) is too busy\\. Please try again later\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Surfcontrol smtp proxy","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP; .*\r\n500 Syntax error, command unrecognized\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Anti-Spam SMTP Proxy","hostname":"$1"}}
+{"pattern":"^220 WebShield SMTP MR2\r\n","flag":"","cpes":["a:mcafee:webshield_smtp","o:microsoft:windows"],"matchers":{"product":"McAfee WebShield smtp proxy","os":"Windows"}}
+{"pattern":"^220 SMTP Proxy Server Ready\r\n250 \\+OK entry follows, ends in \\.\r\n","flag":"","cpes":["a:ciphertrust:ironmail"],"matchers":{"product":"IronMail CipherTrust SMTP Proxy"}}
+{"pattern":"^220 SMTP SDC Ready\r\n250 \\+OK entry follows, ends in \\.\r\n","flag":"","cpes":["a:ciphertrust:ironmail"],"matchers":{"product":"IronMail SMTP proxy"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP; .* \\+\\d{4}\r\n500 Syntax error, command unrecognized\r\n","flag":"","cpes":["a:symantec:mail_security","o:microsoft:windows"],"matchers":{"product":"Symantec Mail Security smtp proxy","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([\\w._-]+) Symantec Mail Security ","flag":"","cpes":["a:symantec:mail_security","o:microsoft:windows"],"matchers":{"product":"Symantec Mail Security smtp proxy","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP smtprelay service ready\\.\r\n214-This is smtprelay\r\n214-Topics:","flag":"","cpes":[],"matchers":{"device":"security-misc","product":"Genua smtprelay","hostname":"$1"}}
+{"pattern":"^220 SMTP ESMTP ready at .*0\r\n214-\r\n214 End of HELP info\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"SurfControl smtp proxy","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+)\r\n214-HELO domain\r\n214-EHLO domain\r\n214-QUIT\r\n214-MAIL FROM:<reverse-path> \\[options\\]\r\n","flag":"","cpes":[],"matchers":{"product":"RedCondor smtp proxy","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP Ready\r\n211 Help:->Supported Commands: HELO,EHLO,QUIT,HELP,RCPT,MAIL,DATA,RSET,NOOP\r\n","flag":"","cpes":[],"matchers":{"product":"NoSpamToday! smtp proxy","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP Relay Service ready\r\n500 Syntax error, command unrecognized\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Tumbleweed Email Firewall smtp proxy","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([\\w._-]+) AngelmatoPhylax SMTP proxy\r\n214 see RFC2821\r\n","flag":"","cpes":[],"matchers":{"product":"AngelmatoPhylax smtp proxy","hostname":"$1"}}
+{"pattern":"^503 Synchronization error\r\n","flag":"","cpes":[],"matchers":{"product":"Altospam smtp proxy"}}
+{"pattern":"^220 ([\\w._-]+)\r\n214-Usage: HELP <topic>\r\n214-Topics:\r\n214-\tHELO EHLO MAIL RCPT DATA\r\n214-\tVRFY EXPN RSET NOOP QUIT\r\n214 End of HELP info\r\n","flag":"","cpes":["h:barracudanetworks:spam_%26_virus_firewall_600:-"],"matchers":{"product":"Barracuda Networks Spam Firewall","hostname":"$1"}}

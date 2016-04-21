@@ -1,0 +1,1 @@
+{"pattern":"^SCMBUG-SERVER RELEASE_([-\\w_.]+) \\d+\n","flag":"","cpes":[],"matchers":{"product":"Scmbug bugtracker","version":"$1"}}

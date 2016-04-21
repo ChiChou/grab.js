@@ -1,0 +1,1 @@
+{"pattern":"^\\x04\\0\\x03\\x11$","flag":"","cpes":["a:openttd:openttd"],"matchers":{"product":"OpenTTD gameserver"}}

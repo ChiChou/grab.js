@@ -1,0 +1,1 @@
+{"pattern":"^Unknown option: --inetd\nusage: git \\[--version\\] \\[--exec-path\\[=GIT_EXEC_PATH\\]\\] \\[--html-path\\] \\[-p\\x7c--paginate\\x7c--no-pager\\] \\[--bare\\] \\[--git-dir=GIT_DIR\\] \\[--work-tree=GIT_WORK_TREE\\] \\[--help\\] COMMAND \\[ARGS\\]\n","flag":"","cpes":["a:git:git"],"matchers":{"info":"misconfigured","product":"git-daemon"}}

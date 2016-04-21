@@ -1,0 +1,4 @@
+{"pattern":"^\\0\\0\\0\\x0b<CSC\/>\\0","flag":"","cpes":[],"matchers":{"product":"Raritan KVM"}}
+{"pattern":"^LFB 1\\.0[56]$","flag":"","cpes":[],"matchers":{"product":"IBM BladeCenter KVM"}}
+{"pattern":"^\\0\\0\\0\\0\\0\\x84\\0\\x10\\x7c\\x9f\\xfb\\0\\0\\0\\0\\0$","flag":"","cpes":[],"matchers":{"product":"KVM daemon"}}
+{"pattern":"^BEEF\\x83\\0\\0","flag":"","cpes":[],"matchers":{"product":"KVM daemon"}}

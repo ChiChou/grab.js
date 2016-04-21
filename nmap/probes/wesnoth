@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\0\\0.\\0\\0\\0\\x1f\\x02version\\0\\x04([\\d.]+)\\0\\0\\x02mustlogin\\0\\x05\\x01\\0","flag":"s","cpes":[],"matchers":{"product":"Battle For Wesnoth game server","version":"$1"}}
+{"pattern":"^\\0\\0\\0.\\0\\0\\0.\\x1f\\x8b\\x08\\0\\0\\0\\0\\0\\0\\xff\\x8b\\.K-\\*\\xce\\xcc\\xcf\\x8b\\xe5\\x8a\\xd6\\x873\\x01 \\xbc\\x17\\x06\\x15\\0\\0\\0","flag":"","cpes":[],"matchers":{"product":"Battle For Wesnoth game server"}}

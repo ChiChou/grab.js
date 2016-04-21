@@ -1,0 +1,1 @@
+{"pattern":"Access violation at address \\w+ in module 'Xplorer\\.exe'\\. Read of address","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"SoftOne Business Xplorer","os":"Windows"}}

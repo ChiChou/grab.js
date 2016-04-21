@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\xca\\0\\0\\0\\0\\0\\x04\\0\\0\\0\\0$","flag":"","cpes":["a:dantz:retrospect:6.0"],"matchers":{"product":"Dantz Retrospect","version":"6.0"}}
+{"pattern":"^\\0\\xca\\0\\0\\0\\0\\0\\x04\\0\\0\\0\\0\\0\\0\\x02\\($","flag":"","cpes":["a:dantz:retrospect"],"matchers":{"product":"Dantz Retrospect backup client"}}

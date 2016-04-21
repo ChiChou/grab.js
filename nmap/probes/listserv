@@ -1,0 +1,1 @@
+{"pattern":"^The file name you specified is invalid\\. LISTSERV files have names like\r\n\\\"BOARD\\.MINUTES\\\" or \\\"XYZ-L LOG9303\\\" \\(without the quotes\\)\\.\r\n","flag":"","cpes":["a:lsoft:listserv"],"matchers":{"product":"LISTSERV Administration service"}}

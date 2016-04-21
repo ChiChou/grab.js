@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\.[\\w._\/-]+\/Library\/Preferences\/PyCharm([\\w._-]+)\\0\\)[\\w._\/-]+\/Library\/Caches\/PyCharm[\\w._-]+$","flag":"","cpes":["a:jetbrains:pycharm:$1","o:apple:mac_os_x"],"matchers":{"product":"PyCharm","version":"$1","os":"Mac OS X"}}

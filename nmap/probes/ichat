@@ -1,0 +1,1 @@
+{"pattern":"^\r\n                                Welcome To\r\n                             ichat ROOMS (\\d[-.\\w]+)\r\n==","flag":"","cpes":["a:koz.com:ichat_rooms_server:$1"],"matchers":{"product":"iChat Rooms","version":"$1"}}

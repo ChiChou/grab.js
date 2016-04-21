@@ -1,0 +1,1 @@
+{"pattern":"^MULTIPLICITYP$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Stardock Multiplicity KVM daemon","os":"Windows"}}

@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\0\\0\\x14\\0\\0p\\0\\0\\0..\\0\\0\\0\\0\\x02\\x01\\0\\0","flag":"s","cpes":["a:sgi:performance_co-pilot"],"matchers":{"product":"SGI Performance Co-Pilot"}}
+{"pattern":"^\\0\\0\\0\\x14\\0\\0p\\0\\0\\0..\\xff\\xff\\xfc\\x11\\x02\\x000a","flag":"s","cpes":["a:sgi:performance_co-pilot"],"matchers":{"product":"SGI Performance Co-Pilot"}}

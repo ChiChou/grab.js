@@ -1,0 +1,2 @@
+{"pattern":"^\\xd5\\xc1\\xd2","flag":"","cpes":[],"matchers":{"product":"IBM Network Job Entry (JES)"}}
+{"pattern":"^\\xc1\\xc3\\xd2","flag":"","cpes":[],"matchers":{"product":"IBM Network Job Entry (JES)"}}

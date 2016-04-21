@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\0\\0\\x18\\0\\0..\\0\\0..\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\0\\0\\0\\x02\\0\\0\\0\\0\\0\\0\\0.([^\\0]+)\\0","flag":"s","cpes":[],"matchers":{"info":"User $1","product":"CA Spectrum"}}
+{"pattern":"^550 Bad syntax\\. Go away\\.\n$","flag":"","cpes":[],"matchers":{"product":"CA Spectrum"}}

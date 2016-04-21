@@ -1,0 +1,2 @@
+{"pattern":"^ERR 0 222\n\n","flag":"","cpes":[],"matchers":{"product":"BigAnt Messenger server"}}
+{"pattern":"^HTTP\/1\\.1  403\naenflag:0\ncontent-length:0\nserver:AntServer\n\n","flag":"","cpes":[],"matchers":{"product":"BigAnt Messenger server"}}

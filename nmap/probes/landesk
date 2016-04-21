@@ -1,0 +1,1 @@
+{"pattern":"^TDMM\\x1c\\0\\0\\0\\x14\\0\\0\\0","flag":"","cpes":["a:landesk:landesk_management_suite"],"matchers":{"info":"Targeted Multicast Service","product":"LANDesk Management Suite"}}

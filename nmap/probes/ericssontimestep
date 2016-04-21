@@ -1,0 +1,1 @@
+{"pattern":"^.{8}\\0\\0\\0\\0\\0\\0\\0\\0\\x0b\\x10\\x05\\0\\0\\0\\0\\0\\0\\0\\0\\(\\0\\0\\0\\x0c\\0\\0\\0\\0\\x01\\0\\0\\x1e$","flag":"s","cpes":[],"matchers":{"product":"Ericsson Timestep Permit VPN"}}

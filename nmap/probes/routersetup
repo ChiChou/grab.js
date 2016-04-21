@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0.\\xffSMBr\\0\\0\\0\\0\\x80","flag":"s","cpes":[],"matchers":{"device":"router","product":"Nortel\/D-Link router instant setup"}}

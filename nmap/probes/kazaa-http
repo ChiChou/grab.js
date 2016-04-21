@@ -1,0 +1,4 @@
+{"pattern":"^HTTP\/1\\.1 \\d\\d\\d .*\r\nServer: giFT-FastTrack ([\\d.]+)\r\nX-Kazaa-Username: giFTed\r\nX-Kazaa-Network: ([-.\\w]+)\r\n","flag":"","cpes":[],"matchers":{"info":"network: $2","product":"giFTed FastTrack P2P client","version":"$1"}}
+{"pattern":"^HTTP\/1\\.1 \\d\\d\\d .*\r\nServer: giFT-FastTrack ([\\d.]+)\r\nX-Kazaa-Username: www\\.k-lite\\.com\\.br\r\nX-Kazaa-Network: ([-.\\w]+)\r\n","flag":"","cpes":[],"matchers":{"info":"network: $2","product":"K-Lite FastTrack P2P client","version":"$1"}}
+{"pattern":"^HTTP\/1\\.0 404 Not Found\r?\nX-Kazaa-Username: (\\S+)\r\nX-Kazaa-Network: ([-.\\w]+)\r\n","flag":"","cpes":[],"matchers":{"info":"username: $1; network: $2","product":"KaZaA P2P client"}}
+{"pattern":"^HTTP\/1\\.[01] 404 Not Found\r?\nServer: giFT-FastTrack ([\\d.]+)\r\nX-Kazaa-Username: (\\S+)\r\nX-Kazaa-Network: ([-.\\w]+)\r\n","flag":"","cpes":[],"matchers":{"info":"username: $2; network: $3","product":"KaZaA P2P client","version":"$1"}}

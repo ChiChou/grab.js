@@ -1,0 +1,13 @@
+{"pattern":"^\\x05\\0\\x05\\0\\0\\x01.{6}HTTP","flag":"s","cpes":[],"matchers":{"info":"No authentication required; connection ok"}}
+{"pattern":"^\\x05\\0\\x05\\x01","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^\\x05\\0\\x05\\x02","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^\\x05\\0\\x05\\x03","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^\\x05\\0\\x05\\x04","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^\\x05\\0\\x05\\x05","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^\\x05\\0\\x05\\x06","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^\\x05\\0\\x05\\x07","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^\\x05\\0\\x05\\x08","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^\\x05\\x01","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^\\x05\\x02","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^\\x05\\xFF$","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^\\x05\\0$","flag":"i","cpes":[],"matchers":{}}

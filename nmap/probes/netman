@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0 \\0\\0\\0\\x01\\xd5\\x1f\\x0fK\\0\\0\\0\\0\\x18\\?c\\0\\0\\0\\0\\0\\x01\\0\\0\\x00([\\w._-]+)   $","flag":"","cpes":[],"matchers":{"product":"Tivoli Workload Scheduler Netman","version":"$1"}}

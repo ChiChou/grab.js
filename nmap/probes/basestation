@@ -1,0 +1,1 @@
+{"pattern":"^(?:MSG|SEL|ID|AIR|STA|CLK)(?:,[^,\r\n]*){9,21}\r\n","flag":"","cpes":[],"matchers":{"product":"ADS-B flight data"}}

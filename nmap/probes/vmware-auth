@@ -1,0 +1,2 @@
+{"pattern":"^220 VMware Authentication Daemon Version (\\d[-.\\w]+).*\r\n530 Please login with USER and PASS\\.\r\n","flag":"s","cpes":[],"matchers":{"product":"VMware Authentication Daemon","version":"$1"}}
+{"pattern":"^220 VMware Authentication Daemon Version (\\d[-.\\w]+), ServerDaemonProtocol:(SOAP|IPC), MKSDisplayProtocol:VNC","flag":"","cpes":[],"matchers":{"info":"Uses VNC, $2","product":"VMware Authentication Daemon","version":"$1"}}

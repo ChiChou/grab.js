@@ -1,0 +1,2 @@
+{"pattern":"^WWWOFFLE Server Status\n-*\nVersion *: (\\d.*)\n","flag":"","cpes":[],"matchers":{"product":"WWWOFFLE proxy control","version":"$1"}}
+{"pattern":"^WWWOFFLE Incorrect Password\n","flag":"","cpes":[],"matchers":{"info":"Unauthorized","product":"WWWOFFLE proxy control"}}

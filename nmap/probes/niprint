@@ -1,0 +1,1 @@
+{"pattern":"^NIPrint received command: ET \/ HTTP\/1\\.0\r\\.\r\nThis command is not in LPD specification, ignored\r\nNIPrint received command: \\.\r\nThis command is not in LPD specification, ignored\r\n","flag":"","cpes":[],"matchers":{"product":"Network Instruments NIPrint network analyzer"}}

@@ -1,0 +1,20 @@
+{"pattern":"^\\x01remshd: getservbyname\n$","flag":"","cpes":["o:hp:hp-ux"],"matchers":{"product":"HP-UX Remshd","os":"HP-UX"}}
+{"pattern":"^\\x01remshd: Kerberos Authentication not enabled\\.\n","flag":"","cpes":["o:hp:hp-ux"],"matchers":{"info":"Kerberos disabled","product":"HP-UX Remshd","os":"HP-UX"}}
+{"pattern":"^\\x01remshd: Error! Kerberos authentication failed","flag":"","cpes":["o:hp:hp-ux"],"matchers":{"info":"Kerberos broken","product":"HP-UX Remshd","os":"HP-UX"}}
+{"pattern":"^\\* You are not welcome to use rshd from .*\n","flag":"","cpes":[],"matchers":{"info":"Access denied","product":"FreeBSD rshd","os":"Unix"}}
+{"pattern":"^\\x01getnameinfo: Temporary failure in name resolution\n","flag":"","cpes":["a:netkit:netkit_rsh"],"matchers":{"product":"Netkit rshd"}}
+{"pattern":"^\\x01Unauthorized request rejected\\.\n","flag":"","cpes":["o:ibm:os2"],"matchers":{"product":"OS\/2 rshd","os":"OS\/2"}}
+{"pattern":"^(?:ba)?sh-\\d\\.\\d+\\w?# $","flag":"","cpes":[],"matchers":{"info":"**BACKDOOR**","product":"ROOT SHELL","os":"Unix"}}
+{"pattern":"^(?:ba)?sh-\\d\\.\\d+\\w?\\$ $","flag":"","cpes":[],"matchers":{"info":"**BACKDOOR**","product":"bind shell","os":"Unix"}}
+{"pattern":"^:: w4ck1ng-shell \\(Private Build v([\\w._-]+)\\) bind shell backdoor :: \n\n","flag":"","cpes":[],"matchers":{"info":"**BACKDOOR**","product":"w4ck1ng-shell","version":"$1"}}
+{"pattern":"^root@metasploitable:\/# ","flag":"","cpes":[],"matchers":{"product":"Metasploitable root shell"}}
+{"pattern":"^(?:ba)?sh: no job control in this shell\n(?:ba)?sh-\\d\\.\\d+\\w?\\$ $","flag":"","cpes":[],"matchers":{"info":"**BACKDOOR**","product":"bind shell","os":"Unix"}}
+{"pattern":"^Microsoft Windows ([^[]+) \\[[^]]+ ([\\d.]+)\\]\r\n\\(C\\) Copyright 1985-\\d\\d\\d\\d Microsoft Corp\\.\r\n\r\n(.*)>","flag":"","cpes":["o:microsoft:windows_$SUBST(1,\" \",\"_\")"],"matchers":{"info":"**BACKDOOR**; Windows $2; path: $3","product":"CMD.EXE","os":"Windows $1"}}
+{"pattern":"^bash: line 1: \\$'\\\r': command not found\nbash: line 2: \\$'\\\r': command not found\n","flag":"","cpes":["a:gnu:bash"],"matchers":{"info":"**BACKDOOR**","product":"Bash shell"}}
+{"pattern":"^bash: line 1: \r: command not found\nbash: line 2: \r: command not found\n","flag":"","cpes":["a:gnu:bash"],"matchers":{"info":"**BACKDOOR**","product":"Bash shell"}}
+{"pattern":"\r: bad character in file name: '\/bin\/\r'\n$","flag":"","cpes":["o:belllabs:plan_9"],"matchers":{"info":"**BACKDOOR**","product":"Plan 9 rc shell","os":"Plan 9"}}
+{"pattern":"^\r\n <{5}-{35}>{5}\r\n <{5}    CipherLab  Ethernet Cradle {5}>{5}\r\n <{5}-{35}>{5}\r\n {10}\\[Press 'Enter' to continue\\.\\]\r\nKernel Version: Kernel-([\\w._-]+)\r\nLib Version: Ethernet Cradle-([\\w._-]+)\r\nMACID: ([\\dA-F:]+)\r\nIP: [\\d.]+\r\nLocal Name: ([^\r\n]+)\r\n\r\n","flag":"","cpes":[],"matchers":{"info":"Kernel-$1; MAC: $3","device":"specialized","product":"CipherLab Ethernet Cradle command shell","version":"$2","hostname":"$4"}}
+{"pattern":"^\\x01INTERnet ACP Error  Status = %SYSTEM-F-TOOMUCHDATA\r\n\\0$","flag":"","cpes":["o:hp:openvms"],"matchers":{"product":"OpenVMS shelld","os":"OpenVMS"}}
+{"pattern":"^\\x01Permission denied\\.\n$","flag":"","cpes":["a:netapp:data_ontap"],"matchers":{"product":"Netapp ONTAP rshd"}}
+{"pattern":"^\\0rsh: \\x10: Command not supported\n","flag":"","cpes":[],"matchers":{"device":"printer","product":"Ricoh rshd"}}
+{"pattern":"^\\0Access is denied\n$","flag":"","cpes":["a:microsoft:windows_services_for_unix","o:microsoft:windows"],"matchers":{"product":"Windows Services for Unix rsh","os":"Windows"}}

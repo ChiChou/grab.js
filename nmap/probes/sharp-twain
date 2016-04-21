@@ -1,0 +1,1 @@
+{"pattern":"^Network TWAIN server, protocol=1\\.0, status=ready, port=52001\r\n$","flag":"","cpes":[],"matchers":{"device":"printer","product":"Sharp printer network TWAIN"}}

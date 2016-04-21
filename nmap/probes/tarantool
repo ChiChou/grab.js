@@ -1,0 +1,1 @@
+{"pattern":"---\r\ninfo:\r\n  version: \\\"([^\\\"]*)\\\"\r\n  uptime: (\\d*)\r\n  pid: (\\d*)\r\n  (?:[._\\w\\s]*: .*\r\n)*  config: \\\"([^\\\"]*)\\\"","flag":"","cpes":[],"matchers":{"info":"Uptime: $2, PID: $3, Config: $4","product":"Tarantool","version":"$1"}}

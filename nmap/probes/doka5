@@ -1,0 +1,1 @@
+{"pattern":"^\\xff\\0\\0\\x14\\x9d\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x11l\\0\\0\\0\\x17\\0\\0","flag":"","cpes":["a:surecomp:doka_5"],"matchers":{"product":"Surecomp DOKA 5"}}

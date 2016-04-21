@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\0\\0$","flag":"","cpes":["a:red-gate:sql_monitor","o:microsoft:windows"],"matchers":{"product":"Red-Gate SQL Monitor","os":"Windows"}}

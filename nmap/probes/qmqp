@@ -1,0 +1,2 @@
+{"pattern":"^58:Dnetstring format error while receiving QMQP packet header,$","flag":"","cpes":["a:postfix:postfix"],"matchers":{"info":"Quick Mail Queueing Protocol","product":"Postfix qmqpd"}}
+{"pattern":"^58:Dnetstring format error while receiving QMQP packet header,","flag":"","cpes":[],"matchers":{"product":"Postfix qmqpd"}}

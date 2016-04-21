@@ -1,0 +1,1 @@
+{"pattern":"^\\x00\\x03\\xf1\\x26.{88}(.*)\\0\\0(?:.*?:){5}(.*)\\0\\0$","flag":"s","cpes":[],"matchers":{"info":"name: $P(1); description: $P(2)","product":"Freelancer"}}

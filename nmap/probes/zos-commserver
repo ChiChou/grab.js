@@ -1,0 +1,1 @@
+{"pattern":"^EZY1315E \\d\\d\/\\d\\d\/\\d\\d \\d\\d:\\d\\d:\\d\\d INVALID TRANID=\r\n\r\n PARTNER INET ADDR=[\\d.]+ PORT=   \\d+                                      ","flag":"","cpes":["o:ibm:z%2fos"],"matchers":{"product":"IBM z\/OS Communications Server","os":"z\/OS"}}

@@ -1,0 +1,1 @@
+{"pattern":"^1\\0$","flag":"","cpes":["a:symantec:veritas_netbackup"],"matchers":{"product":"Veritas Netbackup Network Utility"}}

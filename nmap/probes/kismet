@@ -1,0 +1,2 @@
+{"pattern":"^\\*KISMET: 0\\.0\\.0 \\d+ \\x01Kismet\\x01 \\d+ \\d+ (\\S+) \n\\*PROTOCOLS:","flag":"","cpes":[],"matchers":{"product":"Kismet server","version":"$1"}}
+{"pattern":"^\\*KISMET: ([\\d.]+) \\d+ \\x01Kismet\\x01 \\d+ \n\\*PROTOCOLS:","flag":"","cpes":[],"matchers":{"product":"Kismet server","version":"$1"}}

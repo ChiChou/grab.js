@@ -1,0 +1,3 @@
+{"pattern":"^220 ([-.\\w]+) SNPP server \\(HylaFAX \\(tm\\) Version ([-.\\w]+)\\) ready.\r\n","flag":"","cpes":[],"matchers":{"product":"HylaFAX SNPP","version":"$2","hostname":"$1"}}
+{"pattern":"^220 QuickPage v(\\d[-.\\w]+) SNPP server ready at ","flag":"","cpes":[],"matchers":{"product":"QuickPage SNPP","version":"$1"}}
+{"pattern":"^220 ([-.\\w]+) SNPP Sendpage ([-\\w_.]+) ","flag":"","cpes":[],"matchers":{"product":"Sendpage SNPP","version":"$2","hostname":"$1"}}

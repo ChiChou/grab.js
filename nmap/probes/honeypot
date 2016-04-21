@@ -1,0 +1,8 @@
+{"pattern":"^503 Service Unavailable\r\n\r\n\\0$","flag":"","cpes":[],"matchers":{"product":"Network Flight Recorder BackOfficer Friendly honeypot"}}
+{"pattern":"^\r\nlogin: \\0$","flag":"","cpes":[],"matchers":{"product":"Network Flight Recorder BackOfficer Friendly telnet honeypot"}}
+{"pattern":"^\r\n[-\\w_.]+ [\\d.]+ - Unauthorized access \\x07prohibited under penalty of law\\.\r\n\r\nlogin: \\xff\\xfc\\x01","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Whiz Kid Technomagic Imaginary telnet honeypot","os":"Windows"}}
+{"pattern":"^Microsoft Windows XP \\[Version [\\d.]+\\]\n\\(C\\) Copyright 1985-\\d+ Microsoft Corp\\.\n\nC:\\\\>","flag":"","cpes":[],"matchers":{"product":"honeyd cmdexe.pl"}}
+{"pattern":"^HTTP\/1\\.0 401 Unauthorized\r\n\r\n<BODY><HTML><H1>401 - Authorization Failed<\/H1><\/HTML><\/BODY>\\0","flag":"","cpes":[],"matchers":{"product":"Network Flight Recorder BackOfficer Friendly http honeypot"}}
+{"pattern":"^\r\nHTTP\/1\\.1 404 Not Found\r\nConnection: close\r\nContent-Type: text\/html\r\nContent-Length: 36\r\nServer: IIS 5\\.0\r\n\r\nErro\\. URL n\\xe3o encontrada no servidor","flag":"","cpes":[],"matchers":{"product":"Valhalla honeypot"}}
+{"pattern":"^HTTP\/1\\.0 200 OK\r\nAllow: OPTIONS, GET, HEAD, POST\r\nContent-Length: 0\r\nConnection: close\r\n\r\n","flag":"","cpes":[],"matchers":{"product":"Dionaea Honeypot httpd"}}
+{"pattern":"^SIP\/2\\.0 200 OK\r\nContent-Length: 0\r\nVia: SIP\/2\\.0\/TCP nm;branch=foo\r\nFrom: sip:nm@nm;tag=root\r\nAccept: application\/sdp\r\nTo: sip:nm2@nm2\r\nContact: sip:nm2@nm2\r\nCSeq: 42 OPTIONS\r\nAllow: REGISTER, OPTIONS, INVITE, CANCEL, BYE, ACK\r\nCall-ID: 50000\r\nAccept-Language: en\r\n\r\n","flag":"","cpes":[],"matchers":{"product":"Dionaea Honeypot sipd"}}

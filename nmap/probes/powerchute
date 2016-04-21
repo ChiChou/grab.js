@@ -1,0 +1,3 @@
+{"pattern":"^server=&type=0&id=&count=1&oid=[\\d.]+&value=&error=4\n","flag":"","cpes":[],"matchers":{"device":"power-device","product":"APC Powerchute"}}
+{"pattern":"^RTSP\/1\\.0 400 Bad request\r\nContent-type: text\/html\r\n\r\n","flag":"","cpes":[],"matchers":{"device":"power-device","product":"APC PowerChute Agent","version":"6.x|7.x"}}
+{"pattern":"^RTSP\/1\\.0 400 Bad request\nContent-type: text\/html\n\n","flag":"","cpes":[],"matchers":{"device":"power-device","product":"APC PowerChute Agent","version":"7.X"}}

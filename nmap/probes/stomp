@@ -1,0 +1,1 @@
+{"pattern":"^ERROR\nmessage:Unknown STOMP action:.+ org\\.apache\\.activemq\\.","flag":"s","cpes":["a:apache:activemq"],"matchers":{"product":"Apache ActiveMQ"}}

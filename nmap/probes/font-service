@@ -1,0 +1,7 @@
+{"pattern":"^\\0\\0\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x06\\0\\0\\0\\0@\\x0c\\0p\\x17\\0\\0X Consortium\\x01\n\\x01\\0\\x05\\0\\0\\0....\\0\\0..\\0\\0\\0\\0$","flag":"s","cpes":["o:sun:sunos"],"matchers":{"product":"Sun Solaris fs.auto","os":"Solaris"}}
+{"pattern":"^\\0\\0\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x06\\0\\0\\0\\0@\\x0c\\0\\xd4\\x17\\0\\0X Consortium\\x01\n\\x01\\0\\x05\\0\\0\\0....\\0\\0..\\0\\0\\0\\0$","flag":"s","cpes":["o:hp:hp-ux"],"matchers":{"product":"HP-UX X Font Server","os":"HP-UX"}}
+{"pattern":"^\\0\\0\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x0e\\0\\0\\0\\0 \\*\\0.\\x19\\0\\0The XFree86 Project[-.\\w() ]+..\\x01\n\\x01\\0\\x05\\0\\0\\0....\\0\\0..\\0\\0\\0","flag":"s","cpes":["a:xfree86:xfree86"],"matchers":{"product":"XFree86 X Font Server","os":"Unix"}}
+{"pattern":"^\\0\\0\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x07\\0\\0\\0\\0 \\x10\\0....X\\.Org Foundation\\x01\n","flag":"s","cpes":["a:x:x.org_x11"],"matchers":{"product":"X.Org X Font Server","os":"Unix"}}
+{"pattern":"^\\0\\0\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x07\\0\\0\\0\\0.......The X\\.Org Group","flag":"s","cpes":["a:x:x.org_x11"],"matchers":{"product":"X.Org X Font Server","os":"Unix"}}
+{"pattern":"^\\0\\0\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x04\\0\\0\\0\\0.......HD\\0@","flag":"s","cpes":[],"matchers":{"product":"X Font Server for TrueType Fonts","os":"Unix"}}
+{"pattern":"^\\0\\0\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\r\\0\\0\\0\\0.......International Business Machines Corp\\.","flag":"s","cpes":["o:ibm:aix"],"matchers":{"product":"IBM AIX X Font Server","os":"AIX"}}

@@ -1,0 +1,2 @@
+{"pattern":"^\\x02\\x05\\0\\0\\x12\\0\\0\\0\\0\\0\\0\\x02\\0\\x02en\\0\\x0e$","flag":"","cpes":["a:ibm:director"],"matchers":{"info":"slp_srvreg.exe","product":"IBM Director SLP Service Registration"}}
+{"pattern":"^\\x02\\x05\\0\\0\\x12\\0\\0\\0\\0\\0\\0@\\0\\x02en\\xff\\xef","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"AIX SLP Directory Agent","os":"AIX"}}

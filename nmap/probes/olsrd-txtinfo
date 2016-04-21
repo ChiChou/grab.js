@@ -1,0 +1,2 @@
+{"pattern":"^HTTP\/1\\.0 200 OK\nContent-type: text\/plain\n\nTable: Links\nLocal IP\tRemote IP\tHyst\\.\tLQ\tNLQ\tCost\n[\\w._-]+\t[\\w._-]+\t[\\d.]+\t[\\d.]+\t[\\d.]+\t[\\d.]+\t\n","flag":"","cpes":[],"matchers":{"product":"olsrd txtinfo plugin","version":"0.6.3"}}
+{"pattern":"^HTTP\/1\\.0 200 OK\\0Content-type: text\/plain\n\\0Table: Links\nLocal IP\tRemote IP\tHyst\\.\tLQ\tNLQ\tCost\\0[\\w._-]+\t[\\w._-]+\t[\\d.]+\t[\\d.]+\t[\\d.]+\t[\\d.]+\t\n","flag":"","cpes":[],"matchers":{"product":"olsrd txtinfo plugin","version":"0.6.7"}}

@@ -1,0 +1,5 @@
+{"pattern":"^Sorry, you \\(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\) are not among the allowed hosts\\.\\.\\.\n$","flag":"","cpes":[],"matchers":{"product":"Netsaint status daemon"}}
+{"pattern":"^ERROR Client is not among hosts allowed to connect\\.","flag":"","cpes":[],"matchers":{"product":"Nagios Statd Server"}}
+{"pattern":"^Unknown command\n$","flag":"","cpes":[],"matchers":{"product":"Netsaint Status Daemon"}}
+{"pattern":"^ERROR No function requested from client\\.","flag":"","cpes":["a:nagios:nagios"],"matchers":{"product":"Nagios Statd Server"}}
+{"pattern":"^ERROR: Unknown request number\\.","flag":"","cpes":["a:nagios:nagios"],"matchers":{"product":"NC_Net nagios server"}}

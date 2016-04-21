@@ -1,0 +1,1 @@
+{"pattern":"^ENAME.{1}(.+)JSON.{1}(\\d+)VERS.{1}(.+)UUID.{1}(.+)$","flag":"","cpes":[],"matchers":{"info":"Server Name: $1, JSON: $2, UUID: $4","product":"Logitech SqueezeCenter music server","version":"$3"}}

@@ -1,0 +1,1 @@
+{"pattern":"^([0-9A-Z]{5}[A-Z]\\d{6})\r\n>","flag":"","cpes":[],"matchers":{"info":"SN $1","device":"media device","product":"Roku remote API"}}

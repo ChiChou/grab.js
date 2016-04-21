@@ -1,0 +1,1 @@
+{"pattern":"^101 imqbroker ([^\n]+)\n","flag":"","cpes":[],"matchers":{"product":"Java Message Service","version":"$1"}}

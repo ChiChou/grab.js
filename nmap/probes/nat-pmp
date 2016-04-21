@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\xfe\\0\\x01\\0\\0..$","flag":"s","cpes":[],"matchers":{"device":"router","product":"natpmp daemon"}}
+{"pattern":"^\\0\\0\\0\\x01...\\0$","flag":"s","cpes":[],"matchers":{"device":"router","product":"Apple Time Capsule"}}

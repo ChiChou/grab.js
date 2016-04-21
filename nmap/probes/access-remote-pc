@@ -1,0 +1,1 @@
+{"pattern":"^\\x99\\xf3\\0\\0\\0\\0\\0\\0\\xff\\xff\\xff\\xff$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Access Remote PC","os":"Windows"}}

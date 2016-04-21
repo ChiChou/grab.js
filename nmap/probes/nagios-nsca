@@ -1,0 +1,1 @@
+{"pattern":"^.{128}[\\x52-\\x5F]...$","flag":"s","cpes":[],"matchers":{"product":"Nagios NSCA"}}

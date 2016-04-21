@@ -1,0 +1,1 @@
+{"pattern":"^\\0&\\xeb\\xefTQM\\xee\\[B","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"Sun Cobalt Adaptive Firewall","os":"Linux"}}

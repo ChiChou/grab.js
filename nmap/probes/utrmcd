@@ -1,0 +1,1 @@
+{"pattern":"^\\x01in\\.utrcmdd \\(remote\\): protocol error \\(1\\)\n\\0","flag":"","cpes":["a:sun:ray_server_software"],"matchers":{"product":"Sun Ray utrmcdd"}}

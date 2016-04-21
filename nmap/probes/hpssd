@@ -1,0 +1,1 @@
+{"pattern":"^msg=messageerror\nresult-code=5\n","flag":"","cpes":["a:hp:linux_imaging_and_printing_project","o:linux:linux_kernel"],"matchers":{"product":"HP Services and Status Daemon","os":"Linux"}}

@@ -1,0 +1,1 @@
+{"pattern":"^([\\w._-]+)\nListener for [\\w._-]+ AutoSysAdapter\nEOS\nExit Code = 1001\nIP <[\\d.]+> is not authorized for this request\\. Please contact your Web Administrator\\.\nEOS\n","flag":"","cpes":[],"matchers":{"info":"not authorized","product":"CA AutoSys RCS Listener","version":"$1"}}

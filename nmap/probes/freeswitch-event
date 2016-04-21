@@ -1,0 +1,1 @@
+{"pattern":"^Content-Type: auth\/request\n\n","flag":"","cpes":["a:freeswitch:freeswitch"],"matchers":{"product":"FreeSWITCH mod_event_socket"}}

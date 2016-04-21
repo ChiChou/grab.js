@@ -1,0 +1,3 @@
+{"pattern":"^NBDMAGIC\\0\\0B\\x02\\x81\\x86\\x12S","flag":"","cpes":["a:wouter_verhelst:nbd"],"matchers":{"info":"old handshake","product":"Network Block Device"}}
+{"pattern":"^NBDMAGICIHAVEOPT\\0\\0","flag":"","cpes":["a:wouter_verhelst:nbd:2.9.17"],"matchers":{"info":"new handshake","product":"Network Block Device","version":"2.9.17"}}
+{"pattern":"^NBDMAGICIHAVEOPT\\0\\x01","flag":"","cpes":["a:wouter_verhelst:nbd"],"matchers":{"info":"new handshake","product":"Network Block Device"}}

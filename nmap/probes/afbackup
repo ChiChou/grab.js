@@ -1,0 +1,2 @@
+{"pattern":"^afbackup ([\\d.]+)\n\nAF's backup server ready\\.\n","flag":"","cpes":[],"matchers":{"product":"afbackup","version":"$1"}}
+{"pattern":"^.*, Warning on encryption key file `\/etc\/afbackup\/cryptkey': File not readable\\.\n.*, Warning: Ignoring file `\/etc\/afbackup\/cryptkey', using compiled-in key\\.\nafbackup 3\\.4\n\nAF's backup server ready\\.\n\\x9d\\x84\\x0bZ$","flag":"","cpes":[],"matchers":{"info":"using compiled-in key","product":"afbackup"}}

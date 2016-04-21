@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0T\\0\\0\\0\\x03\\0\\0\\0\\0\\0\\0\\0\\x01\\x1b\\xde\\x83B\\xca\\xc0\\xf3\\?\\0\\0\\0\\x06aomSrv\\0\\0\\0\\0\\0\\x01\\*\\0\\0\\0\\0\\0\\0\\x01\\0\\0\\0\\0\\0\\0\\0\r[\\d.]+\\0\\0\\0\\0\\0\\0\\x04root\\0\\0\\x06\\(\\0\\0\\0J$","flag":"","cpes":[],"matchers":{"device":"firewall","product":"Avaya Alarm Origination Manager"}}

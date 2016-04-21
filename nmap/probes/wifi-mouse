@@ -1,0 +1,3 @@
+{"pattern":"^system\\x20mac\\x2010\\.9\nversion\\x201\\.5\\.0\\.0\n$","flag":"s","cpes":["o:apple:mac_os_x"],"matchers":{"product":"WiFi Mouse","os":"Mac OS X"}}
+{"pattern":"^system\\x20windows\\x206\\.1\nversion\\x201\\.\\x205\\.\\x200\\.\\x200\n$","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"WiFi Mouse","os":"Windows"}}
+{"pattern":"^system\\x20linux\\x2010\\.0\\.4\nversion\\x201\\.\\x205\\.\\x200\\.\\x200\n$","flag":"s","cpes":["o:linux:linux_kernel"],"matchers":{"product":"WiFi Mouse","os":"Linux"}}

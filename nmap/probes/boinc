@@ -1,0 +1,8 @@
+{"pattern":"^<unrecognized\/>\n\\x03$","flag":"","cpes":[],"matchers":{"product":"Boinc GUI RPC port"}}
+{"pattern":"^<error>unrecognized op<\/error\/>\n\\x03$","flag":"","cpes":[],"matchers":{"product":"Boinc GUI RPC port"}}
+{"pattern":"^<boinc_gui_rpc_reply>\n<error>unrecognized op<\/error>\n<\/boinc_gui_rpc_reply>\n\\x03","flag":"","cpes":[],"matchers":{"product":"Boinc GUI RPC port"}}
+{"pattern":"^<boinc_gui_rpc_reply>\n<error>unrecognized op: \r\n\r<\/error>\n<\/boinc_gui_rpc_reply>\n\\x03","flag":"","cpes":[],"matchers":{"product":"Boinc GUI RPC port"}}
+{"pattern":"^<boinc_gui_rpc_reply>\n<client_version>(\\d+)<\/client_version>\n<error>unrecognized op<\/error>\n<\/boinc_gui_rpc_reply>\n","flag":"","cpes":[],"matchers":{"product":"Boinc GUI RPC port","version":"$1"}}
+{"pattern":"^<boinc_gui_rpc_reply>\n<client_version>(\\d+)<\/client_version>\n<unauthorized\/>\n<\/boinc_gui_rpc_reply>\n","flag":"","cpes":[],"matchers":{"product":"Boinc GUI RPC port","version":"$1"}}
+{"pattern":"^<boinc_gui_rpc_reply>\n<major_version>(\\d+)<\/major_version>\n<minor_version>(\\d+)<\/minor_version>\n<release>(\\d+)<\/release>","flag":"","cpes":[],"matchers":{"product":"Boinc GUI RPC port","version":"$1.$2.$3"}}
+{"pattern":"^<boinc_gui_rpc_reply>\n<unauthorized\/>\n<\/boinc_gui_rpc_reply>\n\\x03","flag":"","cpes":[],"matchers":{"info":"Unauthorized","product":"Boinc GUI RPC port"}}

@@ -1,0 +1,1 @@
+{"pattern":"^SynchroEdit ([\\d.]+) running on ([\\w._-]+)\n$","flag":"","cpes":[],"matchers":{"product":"SynchroEdit request server","version":"$1","hostname":"$2"}}

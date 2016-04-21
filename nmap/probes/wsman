@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.1 501 Method Not Implemented\r\n\r\n501 Method Not Implemented","flag":"","cpes":[],"matchers":{"product":"Openwsman"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\x03\\x11\\0\\x02V1\\xec\\xe7\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\xdd\\0\\x04\\0\\0","flag":"","cpes":["a:six_group:market_data_feed"],"matchers":{"product":"SIX Market Data Feed (MDF)"}}

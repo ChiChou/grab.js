@@ -1,0 +1,1 @@
+{"pattern":"^\\[AUTHPOINT RESPONSE\\]\r\nreturn_code=AUTHPOINT ERROR\r\nreturn_code_text=Error response parsed by base message object: Invalid or missing register #\r\nresponse=\r\nidentifier=\r\napproval_code=\r\n$","flag":"","cpes":[],"matchers":{"product":"Authpoint payment processing"}}

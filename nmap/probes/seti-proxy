@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.0 200 OK\r\nServer: SetiQueue\/(\\d+)\r\n","flag":"","cpes":[],"matchers":{"product":"SetiQueue SETI@Home proxy","version":"$1"}}

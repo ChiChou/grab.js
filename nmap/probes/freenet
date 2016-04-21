@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.1 400 Parse error: Could not parse request line \\(split\\.length=1\\): HELP\r\n","flag":"","cpes":[],"matchers":{"product":"Freenet"}}

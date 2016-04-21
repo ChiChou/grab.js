@@ -1,0 +1,2 @@
+{"pattern":"^\\(err \\(type xen\\.xend\\.XendError\\.XendError\\) \\(value 'Invalid operation: GET'\\)\\)\n$","flag":"","cpes":[],"matchers":{"info":"Xen","product":"Oracle Virtual Service Agent"}}
+{"pattern":"^\\(err \\(type \\\"<class 'xen\\.xend\\.XendError\\.XendError'>\\\"\\) \\(value 'Invalid operation: GET'\\)\\)\n$","flag":"","cpes":[],"matchers":{"info":"Xen","product":"Oracle Virtual Service Agent"}}

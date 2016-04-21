@@ -1,0 +1,10 @@
+{"pattern":"^\r\n\r\n([-`|.\\w]+)  \\(Eggdrop v(\\d[-.\\w+]+) +\\([cC]\\) *1997.*\r\n\r\n","flag":"","cpes":[],"matchers":{"info":"botname: $1","product":"Eggdrop irc bot console","version":"$2"}}
+{"pattern":"\\(Eggdrop v([\\d.]+) \\(C\\) 1997 Robey Pointer.*Eggheads","flag":"s","cpes":[],"matchers":{"product":"Eggdrop IRC bot console","version":"$1"}}
+{"pattern":"\\(Eggdrop v([\\d.]+)\\+ipv6 \\(C\\) 1997 Robey Pointer.*Eggheads","flag":"s","cpes":[],"matchers":{"product":"Eggdrop IRC bot console with ipv6","version":"$1"}}
+{"pattern":"\\(Eggdrop v([\\d.]+)\\+SSL \\(C\\) 1997 Robey Pointer.*Eggheads","flag":"s","cpes":[],"matchers":{"product":"Eggdrop IRC bot console with SSL","version":"$1"}}
+{"pattern":"\\(Eggdrop v([\\d.]+)\\+rc(\\d+) \\(C\\) 1997 Robey Pointer.*Eggheads","flag":"s","cpes":[],"matchers":{"product":"Eggdrop IRC bot console","version":"$1 rc $2"}}
+{"pattern":"\\(Eggdrop v([\\d.]+)\\+(?:STEALER\\.net|Gentoo) \\(C\\) 1997 Robey Pointer.*Eggheads","flag":"s","cpes":["o:gentoo:linux"],"matchers":{"info":"Gentoo","product":"Eggdrop IRC bot console with Gentoo patches","version":"$1","os":"Linux"}}
+{"pattern":"Copyright \\(C\\) 1997 Robey Pointer\r\n.*Eggheads","flag":"","cpes":[],"matchers":{"product":"Eggdrop IRC bot console"}}
+{"pattern":"^\r\nNickname\\.\r\nSorry, that nickname format is invalid\\.\r\n$","flag":"","cpes":[],"matchers":{"product":"Eggdrop irc bot console"}}
+{"pattern":"\r\nSorry, that nickname format is invalid\\.\r\n$","flag":"","cpes":[],"matchers":{"product":"Eggdrop irc bot console"}}
+{"pattern":"^\r\nSurnom\\.\r\nSorry, that nickname format is invalid\\.\r\n$","flag":"","cpes":[],"matchers":{"info":"French","product":"Eggdrop irc bot console"}}

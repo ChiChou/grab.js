@@ -1,0 +1,1 @@
+{"pattern":"^[\\d.]+:\\$PORT$","flag":"","cpes":[],"matchers":{"product":"TeamSpeak domain name server"}}

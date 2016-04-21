@@ -1,0 +1,1 @@
+{"pattern":"^Ericom GCS v([\\d.]+)\\0","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Ericom PowerTermWebConnect","version":"$1","os":"Windows"}}

@@ -1,0 +1,2 @@
+{"pattern":"^% No search key specified\n\n","flag":"","cpes":[],"matchers":{"product":"Merit Internet Routing Registry"}}
+{"pattern":"^%  No entries found for the selected source\\(s\\)\\.\n$","flag":"","cpes":[],"matchers":{"product":"Merit Internet Routing Registry whoisd"}}

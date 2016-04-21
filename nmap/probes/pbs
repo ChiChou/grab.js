@@ -1,0 +1,1 @@
+{"pattern":"^\\+2\\+(\\d)5\\+15058\\+0\\+72\\+56Bad DIS based Request Protocol MSG=cannot decode message","flag":"","cpes":[],"matchers":{"product":"Portable Batch System","version":"2.$1"}}

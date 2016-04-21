@@ -1,0 +1,2 @@
+{"pattern":"^\\d\\d\\d\\d\\d\\d\\d\\dUC4:global001NAT {24}\\x04H(.+)\\x20","flag":"","cpes":[],"matchers":{"info":"name: $1","product":"UC4 Executor"}}
+{"pattern":"^\\d\\d\\d\\d\\d\\d\\d\\dUC4:global001NAT {24}","flag":"","cpes":[],"matchers":{"product":"UC4 Executor"}}

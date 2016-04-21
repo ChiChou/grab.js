@@ -1,0 +1,2 @@
+{"pattern":"^TS3\n\rWelcome to the TeamSpeak 3 ServerQuery interface, type \\\"help\\\" for a list of commands and \\\"help <command>\\\" for information on a specific command\\.\n\r$","flag":"","cpes":["a:teamspeak:teamspeak3"],"matchers":{"product":"TeamSpeak 3 ServerQuery"}}
+{"pattern":"^TS3\n\r","flag":"","cpes":["a:teamspeak:teamspeak3"],"matchers":{"product":"TeamSpeak 3 ServerQuery"}}

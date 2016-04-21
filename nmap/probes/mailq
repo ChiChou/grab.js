@@ -1,0 +1,1 @@
+{"pattern":"^version zmailer ([\\d.]+)\n220 MAILQ-V2-CHALLENGE: ","flag":"","cpes":[],"matchers":{"product":"ZMailer","version":"$1","os":"Unix"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x10ip_infilter=true$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"ha_server.exe","product":"Rational Soft Hidden Administrator Server","os":"Windows"}}

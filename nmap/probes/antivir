@@ -1,0 +1,3 @@
+{"pattern":"^220 Symantec AntiVirus Scan Engine ready\\.\r\n","flag":"","cpes":["a:symantec:antivirus","a:symantec:antivirus_scan_engine"],"matchers":{"product":"Symantec AntiVirus Scan Engine"}}
+{"pattern":"^200 NOD32SS ([\\d.]+) \\((\\d+)\\)\r\n","flag":"","cpes":["a:eset:nod32_antivirus:$1"],"matchers":{"product":"NOD32 AntiVirus","version":"$1 ($2)"}}
+{"pattern":"^\\0\\0\\x80\\0$","flag":"","cpes":[],"matchers":{"product":"drweb anti-virus"}}

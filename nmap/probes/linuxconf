@@ -1,0 +1,2 @@
+{"pattern":"^500 access denied: Check networking\/linuxconf network access\r\n$","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"info":"Access denied","product":"Linuxconf","os":"Linux"}}
+{"pattern":"^500 access denied: Check config\/networking\/misc\/linuxconf network access\r\n<p>\r\nBy default,","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"info":"Access denied","product":"Linuxconf","os":"Linux"}}

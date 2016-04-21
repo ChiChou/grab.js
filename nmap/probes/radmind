@@ -1,0 +1,1 @@
+{"pattern":"^200-?RAP 1 ([-\\w_.]+) ([-\\w_.]+) radmind access protocol\r\n","flag":"","cpes":[],"matchers":{"product":"radmind","version":"$2","hostname":"$1"}}

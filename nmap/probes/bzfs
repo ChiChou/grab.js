@@ -1,0 +1,2 @@
+{"pattern":"^BZFS\\d\\d\\d\\d\\0$","flag":"","cpes":[],"matchers":{"product":"BZFlag game server"}}
+{"pattern":"^BZFS\\d\\d\\d\\d\r\n\r\n$","flag":"","cpes":[],"matchers":{"product":"BZFlag game server"}}

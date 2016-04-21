@@ -1,0 +1,6 @@
+{"pattern":"^[\\d\\D]{28}\\s*OpenAFS\\s+([\\d\\.]+)\\s+([^\\0]+)\\0","flag":"","cpes":["a:openafs:openafs:$1"],"matchers":{"info":"$2","product":"OpenAFS","version":"$1"}}
+{"pattern":"^[\\d\\D]{28}\\s*OpenAFS\\s+stable\\s+([\\d\\.]+)\\s+([^\\0]+)\\0","flag":"","cpes":["a:openafs:openafs:$1"],"matchers":{"info":"$2 stable","product":"OpenAFS","version":"$1"}}
+{"pattern":"^[\\d\\D]{28}\\s*OpenAFS([\\d\\.]{3}[^\\s\\0]*)\\s+([^\\0]+)\\0","flag":"","cpes":["a:openafs:openafs:$1"],"matchers":{"info":"$2","product":"OpenAFS","version":"$1"}}
+{"pattern":"^[\\d\\D]{28}\\s*OpenAFS([\\d\\.]{3}[^\\s\\0]*)\\0","flag":"","cpes":["a:openafs:openafs:$1"],"matchers":{"product":"OpenAFS","version":"$1"}}
+{"pattern":"^[\\d\\D]{28}\\s*Base\\sconfiguration\\safs([\\d\\.]+)\\s+[^\\s\\0\\;]+[\\0\\;]","flag":"","cpes":[],"matchers":{"product":"Transarc AFS","version":"$1"}}
+{"pattern":"^[\\d\\D]{28}\\s*arla-([\\d\\.]+)\\0","flag":"","cpes":[],"matchers":{"product":"Arla","version":"$1"}}

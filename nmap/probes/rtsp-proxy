@@ -1,0 +1,3 @@
+{"pattern":"^RTSP\/1\\.0 200 OK\r\n.*Via: [\\d.]+ ([-\\w_.]+) \\(NetCache NetApp\/([\\w.]+)\\)\r\n\r\n","flag":"s","cpes":["a:netapp:netcache:$2"],"matchers":{"product":"NetApp NetCache rtsp proxy","version":"$2","hostname":"$1"}}
+{"pattern":"^RTSP\/1\\.0 451 Parameter Not Understood\r\n\r\n$","flag":"","cpes":[],"matchers":{"product":"RTSP Proxy Reference Implementation"}}
+{"pattern":"^RTSP\/1\\.0 403 Forbidden: Proxy not licensed\r\nSession: \\w+\r\n\r\n","flag":"","cpes":[],"matchers":{"info":"Unlicensed","product":"Blue Coat rtsp proxy"}}

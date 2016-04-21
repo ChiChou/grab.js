@@ -1,0 +1,1 @@
+{"pattern":"^IOR:[a-zA-Z0-9]{32}","flag":"","cpes":["a:sophos:enterprise_console"],"matchers":{"info":"Interroperable Object Reference Service","product":"Sophos Message Router"}}

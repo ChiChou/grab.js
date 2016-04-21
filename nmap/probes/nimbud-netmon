@@ -1,0 +1,1 @@
+{"pattern":"^nimbus\/([\\d.]+) \\d+ \\d+\r\nmtype","flag":"","cpes":[],"matchers":{"product":"Nimsoft Nimbus network monitor","version":"$1"}}

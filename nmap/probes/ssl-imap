@@ -1,0 +1,2 @@
+{"pattern":"^\\* BYE Fatal error: tls_init\\(\\) failed\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server"],"matchers":{"product":"Cyrus imapd"}}
+{"pattern":"^\\* BYE Fatal error: tls_start_servertls\\(\\) failed\r\n$","flag":"","cpes":["a:cmu:cyrus_imap_server"],"matchers":{"product":"Cyrus imapd"}}

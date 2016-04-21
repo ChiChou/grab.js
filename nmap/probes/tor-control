@@ -1,0 +1,1 @@
+{"pattern":"^514 Authentication required\\.\r\n$","flag":"","cpes":["a:torproject:tor"],"matchers":{"info":"Authentication required","product":"Tor control port"}}

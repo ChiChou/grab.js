@@ -1,0 +1,1 @@
+{"pattern":"^ERROR: Command doesn't seem to be followed by a space followed by arguments\n$","flag":"","cpes":["a:last:last.fm"],"matchers":{"product":"Last.fm client"}}

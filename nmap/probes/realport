@@ -1,0 +1,1 @@
+{"pattern":"^\\xff\\x17Access to unopened port.$","flag":"s","cpes":[],"matchers":{"device":"terminal server","product":"Digi EtherLite 16 or 32 RealPort"}}

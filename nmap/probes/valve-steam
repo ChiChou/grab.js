@@ -1,0 +1,2 @@
+{"pattern":"^\\xff\\xff\\xff\\xff!L_\\xa0.{28}\\0\\0\\0\\x08\\x06\\x10\\x06\\x18\\x9c\\xd3\\x01\\\".([\\w.-]+)0\\x028","flag":"","cpes":[],"matchers":{"product":"Valve Steam In-Home Streaming service","hostname":"$1"}}
+{"pattern":"^\\xff\\xff\\xff\\xff!L_\\xa0","flag":"","cpes":[],"matchers":{"product":"Valve Steam In-Home Streaming service"}}

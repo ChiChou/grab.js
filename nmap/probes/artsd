@@ -1,0 +1,1 @@
+{"pattern":"^MCOP\\0\\0\\0.\\0\\0\\0\\x01\\0\\0\\0\\x10aRts\/MCOP-([\\d.]+)\\0\\0\\0\\0","flag":"s","cpes":[],"matchers":{"info":"MCOP $1","product":"artsd"}}

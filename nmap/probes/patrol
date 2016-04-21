@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\r..Who are you\\?\n\\0","flag":"s","cpes":["a:bmc:patrol_agent"],"matchers":{"product":"BMC Patrol Agent","os":"Unix"}}

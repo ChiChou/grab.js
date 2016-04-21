@@ -1,0 +1,1 @@
+{"pattern":"^QCONN\r\n\\xff\\xfd\\\"$","flag":"","cpes":["o:qnx:qnx"],"matchers":{"product":"qconn remote IDE support","os":"QNX"}}

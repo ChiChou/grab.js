@@ -1,0 +1,1 @@
+{"pattern":"^..\\0\\x08\\0\\x03[\\0\r][\\0\n]$","flag":"s","cpes":["o:cisco:ios"],"matchers":{"device":"router","product":"Cisco SLA Responder","os":"IOS"}}

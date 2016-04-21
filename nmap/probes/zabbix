@@ -1,0 +1,3 @@
+{"pattern":"^ZBXD\\x01\\x10\\0\\0\\0\\0\\0\\0\\0ZBX_NOTSUPPORTED","flag":"","cpes":["a:zabbix:zabbix"],"matchers":{"product":"Zabbix Monitoring System"}}
+{"pattern":"^OK$","flag":"","cpes":["a:zabbix:zabbix"],"matchers":{"product":"Zabbix Monitoring System"}}
+{"pattern":"^NOT OK\n$","flag":"","cpes":["a:zabbix:zabbix"],"matchers":{"product":"Zabbix Monitoring System"}}

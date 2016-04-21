@@ -1,0 +1,1 @@
+{"pattern":"^\\x02\\x02$","flag":"","cpes":[],"matchers":{"device":"security-misc","product":"LogLogic protocol"}}

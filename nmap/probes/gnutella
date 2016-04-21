@@ -1,0 +1,14 @@
+{"pattern":"^HTTP\/1\\.[01] 404 Not Found\r\nServer: gtk-gnutella\/(\\d[-.\\w]+) \\(([^\\)\r\n]+)\\)\r\n","flag":"","cpes":[],"matchers":{"info":"$2","product":"gtk-gnutella P2P client","version":"$1"}}
+{"pattern":"^HTTP\/1\\.[01] 403 Browse Host Disabled\r\nServer: gtk-gnutella\/(\\d[-.\\w]+) \\(([^\\)\r\n]+)\\)\r\n","flag":"","cpes":[],"matchers":{"info":"$2; browse host disabled","product":"gtk-gnutella P2P client","version":"$1"}}
+{"pattern":"^HTTP\/1\\.[01] \\d\\d\\d .*\r\nServer: gtk-gnutella\/(\\d[-\\w.]+) \\([-\\d]+; GTK2; Linux i686\\)\r\n.*sharing (\\d+) files ([\\d.]+ \\w+) total<\/h3>\r\n","flag":"s","cpes":["o:linux:linux_kernel"],"matchers":{"info":"Sharing $2 files, $3","product":"gtk-gnutella P2P client","version":"$1","os":"Linux"}}
+{"pattern":"^HTTP\/1\\.1 406 Not Acceptable\r\n(?:\r\n)?$","flag":"","cpes":["a:limewire:limewire"],"matchers":{"product":"LimeWire Gnutella P2P client"}}
+{"pattern":"^HTTP\/1\\.0 406 Not Acceptable\r\nDate: .*\r\nServer: LimeWire\/([\\w._-]+)\r\n","flag":"","cpes":["a:limewire:limewire:$1"],"matchers":{"product":"LimeWire Gnutella P2P client","version":"$1"}}
+{"pattern":"^HTTP\/1\\.0 200\r\nServer: Mutella\r\n","flag":"","cpes":[],"matchers":{"product":"Mutella Gnutella P2P client"}}
+{"pattern":"^HTTP\/1\\.1 404 Not Found\r\nServer: giFT-Gnutella\/(\\d[-.\\w]+)\r\n","flag":"","cpes":[],"matchers":{"product":"GiFT P2P client gnutella module","version":"$1"}}
+{"pattern":"^HTTP\/1\\.1 200 OK\r\n.*Server: Shareaza (\\d\\S+)","flag":"s","cpes":[],"matchers":{"product":"Shareaza","version":"$1"}}
+{"pattern":"^HTTP\/1\\.1 \\d\\d\\d .*Server: BearShare ([\\d.]+)\r\n","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"BearShare Gnutella P2P client","version":"$1","os":"Windows"}}
+{"pattern":"^HTTP\/1\\.1 \\d\\d\\d .*Server: BearShare ([\\d.]+) \\(([^)]+)\\)\r\n","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"info":"$2","product":"BearShare Gnutella P2P client","version":"$1","os":"Windows"}}
+{"pattern":"^HTTP\/1\\.1 503 Web: Disabled\r\nServer: BearShare Pro ([\\d.]+)\r\nContent-Length: \\d+\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"Web disabled","product":"BearShare Pro Gnutella P2P client","version":"$1","os":"Windows"}}
+{"pattern":"^HTTP\/1\\.1 503 Web: Disabled\r\nServer: BearShare Lite ([\\d.]+)\r\nContent-Length: \\d+\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"Web disabled","product":"BearShare Lite Gnutella P2P client","version":"$1","os":"Windows"}}
+{"pattern":"^HTTP\/1\\.1 \\d\\d\\d .*\r\nDate: .*\r\nServer: GhostWhiteCrab\/([\\d.]+)\r\nConnection: close\r\n\r\n","flag":"","cpes":[],"matchers":{"product":"GhostWhiteCrab gnutella cache","version":"$1"}}
+{"pattern":"^HTTP\/1\\.0 501 Not Implemented\r\nDate: .*\r\nServer: Frosty\/([\\w._-]+)\r\nContent-Length: 0\r\nConnection: Close\r\n\r\n","flag":"","cpes":[],"matchers":{"info":"Frosty $1","product":"Frostwire P2P"}}

@@ -1,0 +1,3 @@
+{"pattern":"^220 ([-.\\w]+) server \\(HylaFAX \\(tm\\) Version (\\d[-.\\w]+)\\) ready\\.\r\n$","flag":"","cpes":[],"matchers":{"product":"HylaFAX","version":"$2","os":"Unix","hostname":"$1"}}
+{"pattern":"^130 Warning, client address \\\"[\\d.]+\\\" is not listed for host name \\\"([-.\\w]+)\\\"\\.\r\n","flag":"","cpes":[],"matchers":{"info":"IP unauthorized","product":"HylaFAX","hostname":"$1"}}
+{"pattern":"^130 Warning, no inverse address mapping for client host name \\\"[-\\w_.]+\\\"\\.\r\n220 ([-\\w_.]+) server \\(HylaFAX \\(tm\\) Version ([\\d.]+)\\) ready\\.\r\n","flag":"","cpes":[],"matchers":{"info":"Reverse DNS unauthorized","product":"HylaFAX","version":"$2","hostname":"$1"}}

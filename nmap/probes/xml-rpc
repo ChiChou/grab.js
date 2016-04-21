@@ -1,0 +1,5 @@
+{"pattern":"^HTTP\/1\\.0 400 Bad Request\r\nServer: Apache XML-RPC (\\d[-.\\w ]+)\r\n\r\nMethod GET not implemented \\(try POST\\)$","flag":"","cpes":[],"matchers":{"product":"Apache XML-RPC","version":"$1"}}
+{"pattern":"^HTTP\/1\\.1 \\d\\d\\d .*Server: XMLRPC_ABYSS\/Xmlrpc-c ([\\w._-]+)\r\n","flag":"s","cpes":[],"matchers":{"info":"Xmlrpc-c $1","product":"ABYSS httpd"}}
+{"pattern":"^HTTP\/1\\.1 \\d\\d\\d .*Server: XMLRPC_ABYSS\/([\\w._-]+)\r\n","flag":"s","cpes":[],"matchers":{"info":"Xmlrpc-c $1","product":"ABYSS httpd"}}
+{"pattern":"^HTTP\/1\\.1 \\d\\d\\d .*Server: Xmlrpc-c_Abyss\/([\\w._-]+)\r\n","flag":"s","cpes":[],"matchers":{"info":"Xmlrpc-c $1","product":"ABYSS httpd"}}
+{"pattern":"^HTTP\/1\\.1 404 Not Found\r\nServer: Atheme\/([\\w._-]+)\r\nContent-Type: text\/plain\r\nContent-Length: 24\r\n\r\nHTTP\/1\\.1 404 Not Found\r\n","flag":"","cpes":["a:atheme:atheme:$1"],"matchers":{"product":"Atheme IRC Services","version":"$1"}}

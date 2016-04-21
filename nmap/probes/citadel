@@ -1,0 +1,1 @@
+{"pattern":"^200.*Citadel(?:\/UX)?","flag":"","cpes":["a:citadel:ux"],"matchers":{"product":"Citadel (UX) messaging server"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x152999 Invalid command\n\\xff\\xff\\xff\\xfc$","flag":"","cpes":[],"matchers":{"product":"Bacula file daemon"}}

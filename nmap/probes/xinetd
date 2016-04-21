@@ -1,0 +1,1 @@
+{"pattern":"^(?:[-\\w_.]+ (?:tcp|udp) \\d{1,5}\n)+","flag":"","cpes":[],"matchers":{"product":"xinetd service display","os":"Unix"}}

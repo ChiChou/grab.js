@@ -1,0 +1,1 @@
+{"pattern":"^FreeDoko server\n\\d+\\.\\d+: name: ([^\n]+)\n","flag":"","cpes":[],"matchers":{"info":"name: $1","product":"FreeDoko game server"}}

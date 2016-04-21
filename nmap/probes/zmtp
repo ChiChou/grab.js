@@ -1,0 +1,1 @@
+{"pattern":"^\\xff\\0\\0\\0\\0\\0\\0\\0\\x01\\x7f$","flag":"","cpes":[],"matchers":{"product":"ZeroMQ ZMTP 2.0"}}

@@ -1,0 +1,1 @@
+{"pattern":"^Expecting SSL \\(optional\\) and CONFIG as first commands\\.\n","flag":"","cpes":[],"matchers":{"product":"csync2"}}

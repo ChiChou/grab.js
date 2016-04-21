@@ -1,0 +1,1 @@
+{"pattern":"^\\x08Ihttp:\/\/schemas\\.microsoft\\.com\/ws\/2006\/05\/framing\/faults\/UnsupportedVersion","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":".NET Message Framing","os":"Windows"}}

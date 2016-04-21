@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x0c\\x01\\x03\\0\\0\\0\\0\\x07.\\0\\0\\0\\0\\0\\0\\x07.Content-Type:  text\/html; charset=Windows-\\d+\r\n\r\n<!--\r\n This page was created by the \r\n SAP Internet Transaction Server","flag":"s","cpes":[],"matchers":{"product":"SAP Internet Transaction Server"}}

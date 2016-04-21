@@ -1,0 +1,1 @@
+{"pattern":"^GET \/ HT\\xff\\xff\\xff\\xff$","flag":"","cpes":["a:motorola:device_manager"],"matchers":{"product":"Motorola Device Manager"}}

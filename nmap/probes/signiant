@@ -1,0 +1,1 @@
+{"pattern":"^dds_pc: _ms=([\\w._-]+)\\xfe_si=Process controller\\xfe_mid=9010\\xfe_sev=0\\xfe_dt=\\d+\/\\d+\/\\d+\\xfe_tm=\\d+:\\d+:\\d+\\xfe_pkg=\\xfe\n\n","flag":"","cpes":[],"matchers":{"product":"Signiant Media Exchange","hostname":"$1"}}

@@ -1,0 +1,1 @@
+{"pattern":"^EYE1.(.*?)(\\x02\\d|\\x03\\d{2}|\\x04\\d{3}|\\x05\\d{4}|\\x06\\d{5})","flag":"s","cpes":[],"matchers":{"info":"game: $1; port: $P(2)","product":"All-Seeing Eye"}}

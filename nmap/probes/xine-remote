@@ -1,0 +1,1 @@
+{"pattern":"^([-\\w_.]+) xine-ui ([\\d.]+) remote server\\. Nice to meet you\\.\n","flag":"","cpes":[],"matchers":{"product":"Xine-UI remote control","version":"$2","hostname":"$1"}}

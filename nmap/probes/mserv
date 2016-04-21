@@ -1,0 +1,1 @@
+{"pattern":"^200 Mserv (\\d[-.\\w]+) \\(c\\) James Ponder [-\\d]+ - Type: USER <username>\r\n\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Mserv music server","version":"$1"}}

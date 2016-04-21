@@ -1,0 +1,1 @@
+{"pattern":"^\\x01\\0\\0\\0\\x1a\\0\\0\\0Millennium Process Server\\0$","flag":"","cpes":[],"matchers":{"product":"Millennium Process Server"}}

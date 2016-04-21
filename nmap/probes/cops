@@ -1,0 +1,1 @@
+{"pattern":"^\\x10\\x06[\\x80-\\xff].......\\x0b\\x01([\\w._-]+)\\0","flag":"s","cpes":[],"matchers":{"product":"Common Open Policy Service (COPS)","version":"1","hostname":"$1"}}

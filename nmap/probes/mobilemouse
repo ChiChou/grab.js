@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.0 200 OK \r\nServer: Mobile Air Mouse Server\r\n.*>The Mobile Air Mouse server running on \\\"([\\w._-]+)\\\"","flag":"s","cpes":[],"matchers":{"product":"Mobile Air Mouse server","hostname":"$1"}}

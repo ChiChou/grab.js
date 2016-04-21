@@ -1,0 +1,39 @@
+{"pattern":"^220 Ftp service of Jana-Server ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"JanaServer ftp proxy","os":"Windows"}}
+{"pattern":"^220 FTP Gateway at Jana Server ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"JanaServer ftp proxy","os":"Windows"}}
+{"pattern":"^220 ([-.\\w]+) FTP proxy \\(Version (\\d[-.\\w]+)\\) ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Gauntlet FTP proxy","version":"$2","hostname":"$1"}}
+{"pattern":"^220 Frox transparent ftp proxy\\. Login with username\\[@host\\[:port\\]\\]\r\n","flag":"","cpes":[],"matchers":{"product":"Frox ftp proxy"}}
+{"pattern":"^501 Proxy unable to contact ftp server\r\n","flag":"","cpes":[],"matchers":{"product":"Frox ftp proxy"}}
+{"pattern":"^220 ([-.+\\w]+) FTP AnalogX Proxy (\\d[-.\\w]+) \\(Release\\) ready\r\n","flag":"","cpes":["a:analogx:proxy:$2"],"matchers":{"product":"AnalogX FTP proxy","version":"$2","hostname":"$1"}}
+{"pattern":"^220 Secure Gateway FTP server","flag":"","cpes":["a:symantec:enterprise_firewall"],"matchers":{"device":"firewall","product":"Symantec Enterprise Firewall FTP proxy"}}
+{"pattern":"^220-Sidewinder ftp proxy\\.  You must login to the proxy first","flag":"","cpes":[],"matchers":{"product":"Sidewinder FTP proxy"}}
+{"pattern":"^220-\r\\x0a220-Sidewinder ftp proxy","flag":"s","cpes":[],"matchers":{"product":"Sidewinder FTP proxy"}}
+{"pattern":"^220 webshield2 FTP proxy ready\\.\r\n","flag":"","cpes":["a:bluecoat:winproxy","o:microsoft:windows"],"matchers":{"product":"Webshield2 FTP proxy","os":"Windows"}}
+{"pattern":"^220 WinProxy FTP Gateway ready, enter username@host\\[:port\\]\r\n","flag":"","cpes":["a:bluecoat:winproxy","o:microsoft:windows"],"matchers":{"product":"WinProxy FTP proxy","os":"Windows"}}
+{"pattern":"^220 WinProxy \\(Version ([^)]+)\\) ready\\.\r\n","flag":"","cpes":["a:bluecoat:winproxy","o:microsoft:windows"],"matchers":{"product":"WinProxy FTP proxy","version":"$1","os":"Windows"}}
+{"pattern":"^220 Proxy602 Gateway ready, enter user@host\\[:port\\]\r\n","flag":"","cpes":[],"matchers":{"device":"firewall","product":"Proxy602 ftp proxy"}}
+{"pattern":"^220 Java FTP Proxy Server \\(usage: USERID=user@site\\) ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Java FTP Proxy"}}
+{"pattern":"^220 ([-\\w_.]+) FTP proxy \\(Version V([\\d.]+)\\) ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Generic FTP proxy","version":"$2","hostname":"$1"}}
+{"pattern":"^220 CoolProxy FTP server & firewall\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"CoolProxy ftp proxy","os":"Windows"}}
+{"pattern":"^220 Finjan SurfinGate Proxy - Server Ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Finjan SurfinGate ftp proxy"}}
+{"pattern":"^220 ([-\\w_.]+) \\(NetCache\\) .*\r\n","flag":"","cpes":["a:netapp:netcache"],"matchers":{"product":"NetApp NetCache ftp proxy","hostname":"$1"}}
+{"pattern":"^220 Welcome to ([-\\w_.]+) Ftp Proxy Service\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Proxy Suite ftp proxy","hostname":"$1"}}
+{"pattern":"^220 Hi! Welcome \\w+ UserGate","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"UserGate ftpd","os":"Windows"}}
+{"pattern":"^220 Webwasher FTP Proxy ([\\d.]+) build (\\d+)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Webwasher ftp proxy","version":"$1 build $2","os":"Windows"}}
+{"pattern":"^220- ([-\\w_.]+) PROXY-FTP server \\(DeleGate\/([\\d.]+)\\) ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"DeleGate ftp proxy","version":"$2","hostname":"$1"}}
+{"pattern":"^500 WinGate Engine Access Denied\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"access denied","product":"WinGate ftp proxy","os":"Windows"}}
+{"pattern":"^220 IWSS FTP proxy ready\r\n","flag":"","cpes":["a:trendmicro:interscan_web_security_suite"],"matchers":{"product":"Trend Micro InterScan Web Security Suite ftp proxy"}}
+{"pattern":"^220 ezProxy FTP Proxy Server Ready \r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ezProxy ftp proxy","os":"Windows"}}
+{"pattern":"^220 FTP proxy \\(v([\\d.]+)\\) ready\r\n530 Login incorrect\\. Expected USER command\r\n","flag":"","cpes":[],"matchers":{"product":"jftpgw ftp proxy","version":"$1"}}
+{"pattern":"^220-Welcome to SpoonProxy V([\\w._-]+) by Pi-Soft Consulting, LLC\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Pi-Soft SpoonProxy ftp proxy","version":"$1","os":"Windows"}}
+{"pattern":"^220-CCProxy FTP Service\\(Unregistered\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"unregistered","product":"CCProxy ftp proxy","os":"Windows"}}
+{"pattern":"^220-CCProxy FTP Service\r\n220-you need to input userid@site as login name\\.\r\n220 Example: user anonymous@ftp\\.netscape\\.com\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"CCProxy ftp proxy","os":"Windows"}}
+{"pattern":"^220 kingate\\(([\\w._-]+)-win32\\) ftp proxy ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"kingate ftp proxy","version":"$1","os":"Windows"}}
+{"pattern":"^220 FileCatalyst Server Enterprise v([^\r\n]*)\r\n$","flag":"","cpes":[],"matchers":{"product":"FileCatalyst ftp proxy","version":"$1"}}
+{"pattern":"^220 ([\\w._-]+), KEN! DSL FTP-Gateway\r\n","flag":"","cpes":[],"matchers":{"product":"AVM KEN! ftp proxy","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+), KEN! FTP-Gateway\r\n","flag":"","cpes":[],"matchers":{"product":"AVM KEN! ftp proxy","hostname":"$1"}}
+{"pattern":"^220 server ready - login please\r\n","flag":"","cpes":["a:squid-cache:squid"],"matchers":{"product":"Squid ftp proxy"}}
+{"pattern":"^421 Proxy is closed \\(unknown user location\\)\r\n$","flag":"","cpes":[],"matchers":{"product":"Zscaler ftp proxy"}}
+{"pattern":"^220 Cleo VLProxy\/([\\w._-]+) FTP server ready\\.\r\n$","flag":"","cpes":[],"matchers":{"product":"Cleo VLProxy ftp proxy","version":"$1"}}
+{"pattern":"^220 McAfee Web Gateway ([\\d.]+ build \\d+)\r\n","flag":"","cpes":["a:mcafee:web_gateway:$1"],"matchers":{"product":"McAfee Web Gateway ftp proxy","version":"$1"}}
+{"pattern":"^220-Firewall ftp proxy\\.  You must login to the proxy first\\.\r\n220 Use   proxy-user:auth-method@destination\\.\r\n","flag":"","cpes":["h:securecomputing:sidewinder"],"matchers":{"device":"firewall","product":"Secure Computing Sidewinder firewall ftp proxy"}}
+{"pattern":"^220 Service Ready\r\n502 Command Not implemented\r\n$","flag":"","cpes":["a:novell:ichain"],"matchers":{"product":"Novell iChain ftp proxy"}}

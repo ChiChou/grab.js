@@ -1,0 +1,1 @@
+{"pattern":"^MIDASd v([\\w.]+) connection accepted\n\\xff","flag":"","cpes":[],"matchers":{"product":"midasd","version":"$1"}}

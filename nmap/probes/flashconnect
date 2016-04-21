@@ -1,0 +1,1 @@
+{"pattern":"^FlashCONNECT ([\\d.]+) invalid message\\.\n$","flag":"","cpes":[],"matchers":{"product":"Raining Data FlashCONNECT","version":"$1"}}

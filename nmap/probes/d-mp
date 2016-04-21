@@ -1,0 +1,1 @@
+{"pattern":"^\\x01\\0\\0\\0\\x08\\x04\\0\\0\\x04\\x04\\0\\0\\0\\x04\\0\\0.{100}","flag":"","cpes":["a:christopher_andrews:darkmultiplayer"],"matchers":{"product":"Dark MultiPlayer Kerbel Space Program mod"}}

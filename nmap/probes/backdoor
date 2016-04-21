@@ -1,0 +1,30 @@
+{"pattern":"^220 jeem\\.mail\\.pv ESMTP\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Jeem backdoor","os":"Windows"}}
+{"pattern":"^\r\nUser Access Verification\r\n\r\nYour PassWord:","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Jeem backdoor","os":"Windows"}}
+{"pattern":"^ \r\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"OptixPro backdoor","os":"Windows"}}
+{"pattern":"^echo o [\\d.]+ \\d+ >s\r\necho common>> s\r\necho common>> s\r\necho bin>> s\r\necho get m220\\.exe","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"JTRAM backdoor","os":"Windows"}}
+{"pattern":"^220 Bot Server \\(Win32\\)\r\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Gaobot backdoor","os":"Windows"}}
+{"pattern":"^PWD$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Subseven backdoor","os":"Windows"}}
+{"pattern":"^\r\n\\[RPL\\]002\r\n$","flag":"","cpes":[],"matchers":{"info":"**BACKDOOR**","product":"Subseven backdoor"}}
+{"pattern":"^=+\n= +RBackdoor ([\\d.]+) ","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"RBackdoor","version":"$1","os":"Windows"}}
+{"pattern":"^220 Windrone Server \\(Win32\\)\r\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"NerdBot backdoor","os":"Windows"}}
+{"pattern":"^Zadej heslo:$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Czech \"zadej heslo\" backdoor","os":"Windows"}}
+{"pattern":"^220 Reptile welcomes you\\.\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Darkmoon backdoor \"reptile\" ftpd","os":"Windows"}}
+{"pattern":"^Sifre_EDIT$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"ProRat trojan","os":"Windows"}}
+{"pattern":"^MZ\\x90\\0\\x03\\0\\0\\0\\x04\\0\\0\\0\\xff\\xff\\0\\0\\xb8\\0\\0\\0\\0\\0\\0\\0@\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0fn\\0\\0\\xd0\\0\\0\\0\\x0e\\x1f\\xba\\x0e\\0\\xb4\t\\xcd!\\xb8\\x01L\\xcd!This program cannot be run in DOS mode\\.","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Korgo worm","os":"Windows"}}
+{"pattern":"^\\xfa\\xcb\\xd9\\xd9\\xdd\\xc5\\xd8\\xce\\xd6","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Theef trojan","os":"Windows"}}
+{"pattern":"^220 SSL Connection Established - Loading Protocol\\.\\.\\.\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"dhcpse.exe","os":"Windows"}}
+{"pattern":"^A-311 Death welcome\\x001","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Haxdoor trojan","os":"Windows"}}
+{"pattern":"^220 CAFEiNi [-\\w_.]+ FTP server\r\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"CAFEiNi trojan","os":"Windows"}}
+{"pattern":"^220 (?:Stny|fuck)Ftpd 0wns j0\r?\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Kibuv.b worm","os":"Windows"}}
+{"pattern":"^220 [Sf.][tu.][nc.][yk.][F.][t.][p.][d.] [0.][w.][n.][s.] [j.][0.]\r?\n","flag":"i","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Generic Kibuv worm","os":"Windows"}}
+{"pattern":"^(?:ba|)sh-([\\d.]+)\\$ ","flag":"","cpes":[],"matchers":{"info":"**BACKDOOR**","product":"Bourne shell","version":"$1"}}
+{"pattern":"^exec .* failed : No such file or directory\n$","flag":"","cpes":[],"matchers":{"info":"misconfigured","product":"netcat -e"}}
+{"pattern":"220-Welcome!\r\n220-\\x1b\\[30m\/\\x1b\\[31m#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#\\xa4#                                                         \r\n220-\\x1b\\[30m\\|          Current Time:  \\x1b\\[35m[^\r\n]*\r\n220-\\x1b\\[30m\\|          Current Date:  \\x1b\\[35m[^\r\n]*\r\n220-\\x1b\\[30m\\\\\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Windows trojan","os":"Windows"}}
+{"pattern":"^!\\* LOLNOGTFO\nDUP\n","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"info":"**MALWARE**","product":"Linux.Flooder.SS C&C server","os":"Linux"}}
+{"pattern":"^x0$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Blackshades connection port","os":"Windows"}}
+{"pattern":"^REQF\\x0c1\\x0c1$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Blackshades transfer port","os":"Windows"}}
+{"pattern":"^Can't fork pty, bye!\n$","flag":"","cpes":[],"matchers":{"info":"**BACKDOOR**","product":"PsychoPhobia backdoor"}}
+{"pattern":"^sh-2\\.05b\\$ ","flag":"","cpes":[],"matchers":{"product":"r0nin rootkit backdoor"}}
+{"pattern":"^:[-\\w_.]+ 451 GET :\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"**BACKDOOR**","os":"Windows"}}
+{"pattern":"^<HTML>\n<HEAD>\n<TITLE>Directory \/<\/TITLE>\n<BASE HREF=\\\"file:\/\\\">\n<\/HEAD>\n<BODY>\n<H1>Directory listing of \/<\/H1>","flag":"","cpes":[],"matchers":{"info":"**BACKDOOR**","product":"No-auth shell","os":"Unix"}}
+{"pattern":"^666(\\d+)\\xff(\\d+)\\xff(\\d+)\\xff$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**; No password; New server port: $1; New client ports: $2, $3","product":"Beast Trojan","version":"version 2","os":"Windows"}}

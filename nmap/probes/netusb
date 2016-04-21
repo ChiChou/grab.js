@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0. connect success c[\\da-f]+ \n\\0\\0\\0\\0. NetUSB ([\\w._-]+), 2\\d\\d\\d, \\d+ \n\\0\\0\\0\\0\\x0c AUTH ISOC\n\\0\\0\\0\\0","flag":"","cpes":[],"matchers":{"product":"TRENDnet NetUSB","version":"$1"}}

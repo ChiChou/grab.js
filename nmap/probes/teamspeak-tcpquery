@@ -1,0 +1,3 @@
+{"pattern":"^\\[TS\\]\r\n","flag":"","cpes":["a:teamspeak:teamspeak2"],"matchers":{"product":"TeamSpeak 2 TCPQuery"}}
+{"pattern":"^\\[TS\\]\r\n([\\w._-]+) Win32 ([\\w._-]+)\r\nOK\r\n$","flag":"","cpes":["a:teamspeak:teamspeak2:$1","o:microsoft:windows"],"matchers":{"info":"$2","product":"TeamSpeak 2 TCPQuery","version":"$1","os":"Windows"}}
+{"pattern":"^\\[TS\\]\r\n([\\w._-]+) Linux ([\\w._-]+)\r\nOK\r\n$","flag":"","cpes":["a:teamspeak:teamspeak2:$1","o:linux:linux_kernel"],"matchers":{"info":"$2","product":"TeamSpeak 2 TCPQuery","version":"$1","os":"Linux"}}

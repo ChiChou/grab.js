@@ -1,0 +1,3 @@
+{"pattern":"^ERROR:Wrong password$","flag":"","cpes":[],"matchers":{"product":"Netsaint Windows Client"}}
+{"pattern":"^ERROR: Invalid password\\.\nERROR: Invalid password\\.\n$","flag":"","cpes":["a:nsclient:nsclient%2b%2b"],"matchers":{"product":"NSClient++"}}
+{"pattern":"^ERROR: No command specified\\.\nERROR: No command specified\\.\n$","flag":"","cpes":["a:nsclient:nsclient%2b%2b"],"matchers":{"product":"NSClient++"}}

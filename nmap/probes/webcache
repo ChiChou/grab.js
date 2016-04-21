@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.0 400 Bad Request\r\nExpires: .*\r\nContent-Type: text\/html\r\n\r\n<html>\n<head><title>Bad formed request or url<\/title>\n","flag":"","cpes":[],"matchers":{"product":"webcache"}}

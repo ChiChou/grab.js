@@ -1,0 +1,1 @@
+{"pattern":"^\\(null\\) 500 Internal Error\n\\(null\\) 500 Internal Error\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Bitdefender Remote Admin Console","os":"Windows"}}

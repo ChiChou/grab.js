@@ -1,0 +1,1 @@
+{"pattern":"^<connectionstate><response>value=<OK><\/response><protocolversion>value=<(\\d+)><\/protocolversion><\/connectionstate>","flag":"","cpes":["a:igel:remote_management_suite"],"matchers":{"info":"protocol version $1","product":"IGEL Remote Management Suite"}}

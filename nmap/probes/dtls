@@ -1,0 +1,1 @@
+{"pattern":"^\\x15\\xfe\\xff\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x07\\x02\\x16\\0\\0\\0\\0\\0$","flag":"","cpes":["a:openssl:openssl"],"matchers":{"product":"OpenSSL DTLS 1.0"}}

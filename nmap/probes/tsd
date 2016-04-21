@@ -1,0 +1,1 @@
+{"pattern":"^unknown command: \\.  Try `help'\\.\nunknown command: \\.  Try `help'\\.\n","flag":"","cpes":["a:opentsdb:opentsdb"],"matchers":{"info":"also http","product":"OpenTSDB TSD"}}

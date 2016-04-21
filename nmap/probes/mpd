@@ -1,0 +1,1 @@
+{"pattern":"^OK MPD ([\\d.]+)\n$","flag":"","cpes":[],"matchers":{"product":"Music Player Daemon","version":"$1"}}

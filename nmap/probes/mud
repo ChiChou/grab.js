@@ -1,0 +1,1 @@
+{"pattern":"^\n\r\\xff\\xfbUDo you want ANSI color\\? \\(Y\/n\\) $","flag":"","cpes":[],"matchers":{"info":"http:\/\/rrp.rom.org\/","product":"ROM-based MUD"}}

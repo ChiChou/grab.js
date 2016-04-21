@@ -1,0 +1,1 @@
+{"pattern":"^<monopd><server version=\\\"([\\d.]+)\\\"\/>.*<\/monopd>\n","flag":"","cpes":[],"matchers":{"product":"monopd","version":"$1","os":"Unix"}}

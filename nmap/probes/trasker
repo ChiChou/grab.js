@@ -1,0 +1,1 @@
+{"pattern":"^TTCP\t([\\w._-]+)\n","flag":"","cpes":[],"matchers":{"product":"Trasker time management","version":"$1"}}

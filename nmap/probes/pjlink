@@ -1,0 +1,2 @@
+{"pattern":"^PJLINK 0\r$","flag":"","cpes":[],"matchers":{"device":"media device","product":"PJLink projector control"}}
+{"pattern":"^PJLINK 1 [0-9a-f]{8}\r$","flag":"","cpes":[],"matchers":{"device":"media device","product":"PJLink projector control"}}

@@ -1,0 +1,2 @@
+{"pattern":"^.\\0\\0\\0\\0Lexmark (\\w+)\\0","flag":"","cpes":["h:lexmark:$1"],"matchers":{"device":"printer","product":"Lexmark $1 print server identification"}}
+{"pattern":"^.\\0\\0\\0\\0Dell ([^\\0]+)\\0$","flag":"","cpes":["h:dell:$1"],"matchers":{"device":"printer","product":"Dell $1 print server identification"}}

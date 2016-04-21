@@ -1,0 +1,1 @@
+{"pattern":"^SGMS Scheduler SGMS (\\d+) ([\\d.]+) .*\n>","flag":"","cpes":[],"matchers":{"info":"SGMS protocol $1","device":"firewall","product":"Sonicwall Viewpoint SGMSd","version":"$2"}}

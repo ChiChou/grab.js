@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\x19\\x02\\0\\x02\\0\\x07\\0Protocol version mismatch\\0","flag":"","cpes":["a:radscan:network_audio_system"],"matchers":{"product":"Network Audio System"}}

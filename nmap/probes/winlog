@@ -1,0 +1,1 @@
+{"pattern":"^\\xd0\\xb7\\x07\\x01$","flag":"","cpes":["a:sielcosistemi:winlog_pro"],"matchers":{"product":"Sielco Sistemi Winlog Pro"}}

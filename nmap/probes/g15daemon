@@ -1,0 +1,1 @@
+{"pattern":"^G15 daemon HELLO$","flag":"","cpes":[],"matchers":{"info":"Logitech G15 keyboard control","product":"g15daemon"}}

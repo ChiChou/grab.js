@@ -1,0 +1,8 @@
+{"pattern":"^0\\.0\\.0\\.0:(\\d+):0:?$","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^([^:]*):(\\d+):0:?$","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^0\\.0\\.0\\.0:(\\d+):0:(.+)$","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^([^:]*):(\\d+):0:(.+)$","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^0\\.0\\.0\\.0:(\\d+):1:?$","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^([^:]*):(\\d+):1:?$","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^0\\.0\\.0\\.0:(\\d+):1:(.+)$","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^([^:]*):(\\d+):1:(.+)$","flag":"i","cpes":[],"matchers":{}}

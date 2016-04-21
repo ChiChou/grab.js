@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x14\\0\\0\\x70\\0\\0\\0\\x03\\x48\\xff\\xff\\xfc\\x11\\x02\\0..$","flag":"s","cpes":["o:sgi:irix:6.5"],"matchers":{"product":"SGI performance metrics collector daemon","os":"IRIX"}}

@@ -1,0 +1,1 @@
+{"pattern":"^star-v3 utility server\n\\0","flag":"","cpes":[],"matchers":{"device":"router","product":"StarUTIL router config","version":"3"}}

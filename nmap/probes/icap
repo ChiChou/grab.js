@@ -1,0 +1,5 @@
+{"pattern":"^ICAP\/1\\.0 501 Method not implemented.*\r\nServer: IronNet\/([\\d.]+)\r\n\r\n","flag":"s","cpes":[],"matchers":{"product":"IronNet Compliance Application","version":"$1"}}
+{"pattern":"^ICAP\/1\\.0 501 Method not implemented.*\r\nService: ProxyAV AV scanner ([^\r\n]+)\r\n","flag":"s","cpes":[],"matchers":{"product":"Blue Coat ProxyAV","version":"$1"}}
+{"pattern":"^ICAP\/1\\.0 501 Other\r\nServer: Traffic Spicer ([\\d.]+)\r\n","flag":"","cpes":[],"matchers":{"product":"Traffic Spicer icapd","version":"$1"}}
+{"pattern":"^ICAP\/1\\.0 501 Method not implemented\r\nConnection: close\r\n\r\n$","flag":"","cpes":[],"matchers":{"product":"Symantec DLP Web Prevent icapd"}}
+{"pattern":"^ICAP\/1\\.0 400 Bad request\r\nServer: C-ICAP\/([\\w._-]+)\r\nConnection: close\r\n\r\n$","flag":"","cpes":[],"matchers":{"product":"C-ICAP","version":"$1"}}

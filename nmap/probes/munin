@@ -1,0 +1,1 @@
+{"pattern":"^# munin node at ([-\\w_.]+)\n$","flag":"","cpes":["a:munin-monitoring:munin"],"matchers":{"product":"Munin","hostname":"$1"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\\"Thread-15\\\"  prio=5 \\(RUNNABLE\\)\r\n------------------------------\r\njava\\.lang\\.ProcessImpl\\.waitFor\\(Native Method\\)\r\ncom\\.iii\\.miltoolbarpanel\\$ToolbarProcess\\$1\\.run\\(miltoolbarpanel\\.java:1168\\)\r\n\r\n","flag":"","cpes":[],"matchers":{"product":"III Millennium Integrated Library System"}}

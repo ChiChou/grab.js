@@ -1,0 +1,2 @@
+{"pattern":"^\\xe1\\xe7\\xef\\xf0\\0\\0\\x00.\\(Righteous Backup Linux Agent\\) ([^\\xe1]+)\\xe1\\xe7\\xe6\\x07\\0\\x01\\0 $","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"R1Soft Righteous Backup Linux Agent","version":"$1","os":"Linux"}}
+{"pattern":"^\\xe1\\xe7\\xe6\\x07\\0\\x01\\0 $","flag":"","cpes":[],"matchers":{"product":"R1Soft Righteous Backup"}}

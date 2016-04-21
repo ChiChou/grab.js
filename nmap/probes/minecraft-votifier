@@ -1,0 +1,1 @@
+{"pattern":"^VOTIFIER ([\\w._-]+)\r?\n$","flag":"","cpes":[],"matchers":{"product":"Votifier plugin for Minecraft game","version":"$1"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\x04\\xef\\xef\\xb3\\0\\0\\0\\x01\\x01\\0\\xc4\\x01\\0\\0\\0\\0","flag":"","cpes":["a:3s-software:codesys_runtime_system"],"matchers":{"product":"CODESYS SoftPLC"}}

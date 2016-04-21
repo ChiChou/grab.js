@@ -1,0 +1,1 @@
+{"pattern":"^\\x01\\x01\\x14\\0\\0%\\0\\0\\0\\0\\0\\0\\0\\x02\\0\\x08register\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x05\\x02\\0\r_defaultRoot_","flag":"","cpes":["a:adobe:flash_media_server"],"matchers":{"product":"Adobe Flash Media Server core"}}

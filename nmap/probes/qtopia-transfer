@@ -1,0 +1,1 @@
+{"pattern":"^220 Qtopia transfer service ready!\n","flag":"","cpes":[],"matchers":{"device":"PDA","product":"Qtopia transfer daemon"}}

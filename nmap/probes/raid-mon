@@ -1,0 +1,2 @@
+{"pattern":"^\\0 \\0.{5}\\x04\\0\\0\\0\\x02\\\\@","flag":"s","cpes":[],"matchers":{"product":"Promise RAID message agent"}}
+{"pattern":"^\\x02 \\0.{5}\\x04\\0\\0\\0\\x02\\\\@","flag":"s","cpes":[],"matchers":{"product":"Promise RAID message agent"}}

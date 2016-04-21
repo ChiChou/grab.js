@@ -1,0 +1,1 @@
+{"pattern":"^\\x16\\x03\\0\\0\\*\\x02\\0\\0&\\x03\\0.*T[oO][rR]1.*[\\x00-\\x20]([-\\w_.]+) <identity>","flag":"s","cpes":["a:torproject:tor"],"matchers":{"info":"Node name: $1","product":"Tor node"}}

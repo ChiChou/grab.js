@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\xfa\\xda\\0\\x02$","flag":"","cpes":["a:oracle:database_lite"],"matchers":{"product":"Oracle Database Lite RMI"}}

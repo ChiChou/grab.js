@@ -1,0 +1,2 @@
+{"pattern":"^\\x16\\x03\\0.*Router\\$([a-zA-Z0-9_-]+).*Sophos EM Certification Manager","flag":"s","cpes":[],"matchers":{"product":"Sophos Message Router","hostname":"$1"}}
+{"pattern":"^\\x16\\x03\\0.*Sophos EM Certification Manager","flag":"s","cpes":[],"matchers":{"product":"Sophos Message Router"}}

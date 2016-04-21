@@ -1,0 +1,3 @@
+{"pattern":"^Welcome to FreeVCS MSSQL NT Service\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"MSSQL","product":"FreeVCS","os":"Windows"}}
+{"pattern":"^Welcome to FreeVCS DBISAM NT Service\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"DBISAM","product":"FreeVCS","os":"Windows"}}
+{"pattern":"^Welcome to FreeVCS Test NT Service\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"FreeVCS","os":"Windows"}}

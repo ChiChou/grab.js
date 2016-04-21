@@ -1,0 +1,1 @@
+{"pattern":"^\\x01\\xff\\0\\xff\\x01\\x1d\\0\\xfd\\0\n\\x03\\x05A\\+ API \\(([\\d.]+)\\) - CCS \\(([\\d.]+)\\)\\0","flag":"","cpes":[],"matchers":{"info":"API $1; CSS $2","product":"Cleo A+"}}

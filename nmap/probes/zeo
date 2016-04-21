@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\0\\0\\x04Z(\\d)0(\\d)$","flag":"","cpes":["a:zope:zope:$1.$2","a:zope:zope_enterprise_objects"],"matchers":{"info":"ZODB $1.$2","product":"Zope Enterprise Objects service"}}
+{"pattern":"^\\0\\0\\0\\x04Z(\\d)([1-9]\\d)$","flag":"","cpes":["a:zope:zope:$1.$2","a:zope:zope_enterprise_objects"],"matchers":{"info":"ZODB $1.$2","product":"Zope Enterprise Objects service"}}

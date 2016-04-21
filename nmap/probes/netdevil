@@ -1,0 +1,1 @@
+{"pattern":"^pass_pleaz$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**TROJAN**","product":"Net-Devil backdoor","os":"Windows"}}

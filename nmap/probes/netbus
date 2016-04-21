@@ -1,0 +1,1 @@
+{"pattern":"^NetBus ([\\d.]+).*\r$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"NetBus trojan","version":"$1","os":"Windows"}}

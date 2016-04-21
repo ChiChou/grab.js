@@ -1,0 +1,1 @@
+{"pattern":"^KO\nnuttcp-t: v([\\d.]+): error scanning parameters\nmay be using older client version than server\n\r\nKO\n","flag":"","cpes":[],"matchers":{"product":"nuttcp network throughput tester","version":"$1"}}

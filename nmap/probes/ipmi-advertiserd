@@ -1,0 +1,1 @@
+{"pattern":"^\\x0e\\0\\0\\0\\0\\0\\0$","flag":"","cpes":["o:supermicro:intelligent_platform_management_firmware"],"matchers":{"device":"remote management","product":"SuperMicro IPMI advertiserd"}}

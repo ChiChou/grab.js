@@ -1,0 +1,1 @@
+{"pattern":"^\\0\n\\0\\0\\x02\\0\\0\\0\\x01\\0$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"WinGate transparent redirection","os":"Windows"}}

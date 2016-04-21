@@ -1,0 +1,1 @@
+{"pattern":"^OK \\d+ \\d+ ([-.\\w]+) CVSup server ready\n","flag":"","cpes":[],"matchers":{"product":"CVSup","version":"$1"}}

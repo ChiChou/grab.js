@@ -1,0 +1,1 @@
+{"pattern":"^The solproxy is used by [\\d.]+\n\rThe client is closed!\n\r","flag":"","cpes":[],"matchers":{"product":"Dell Serial Over LAN proxy"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\x004main\\0\\0\\x01\\0\\0\\0\\0\\x0c\\0\\0\\0\\0\\0\\0\\0\\x0c\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0quit\\xff\\xff\\xff\\xffcrpt$","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"product":"Apple serversettingsd administration daemon","os":"Mac OS X"}}

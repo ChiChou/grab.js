@@ -1,0 +1,4 @@
+{"pattern":"^[\\xd5-\\xe2]...$","flag":"s","cpes":[],"matchers":{"info":"32 bits"}}
+{"pattern":"^[\\xd5-\\xe2]....\\0\\0\\0$","flag":"s","cpes":[],"matchers":{"info":"64 bits"}}
+{"pattern":"^[\\xd5-\\xe2]...$","flag":"s","cpes":[],"matchers":{"info":"32 bits"}}
+{"pattern":"^[\\xd5-\\xe2]....\\0\\0\\0$","flag":"s","cpes":[],"matchers":{"info":"64 bits"}}

@@ -1,0 +1,1 @@
+{"pattern":"^200 NCID Server:  ARC_ncidd ([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"info":"Network Caller ID","product":"ARC_ncidd","version":"$1"}}

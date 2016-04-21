@@ -1,0 +1,2 @@
+{"pattern":"^Invalid FT GWADDR \/ START protocol\n$","flag":"","cpes":["a:zohocorp:manageengine_desktop_central"],"matchers":{"device":"remote management","product":"ManageEngine Desktop Central DesktopCentralServer"}}
+{"pattern":"^Invalid GWADDR \/ START protocol\n$","flag":"","cpes":["a:zohocorp:manageengine_desktop_central"],"matchers":{"device":"remote management","product":"ManageEngine Desktop Central DesktopCentralServer"}}

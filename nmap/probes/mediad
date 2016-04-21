@@ -1,0 +1,1 @@
+{"pattern":"^\\x80\\0\\0\\$\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"","cpes":["o:sgi:irix"],"matchers":{"product":"IRIX mediad","os":"IRIX"}}

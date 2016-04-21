@@ -1,0 +1,1 @@
+{"pattern":"^0\\x11\\0\\0...........@.........\\0\\0\\0\\x01\\0\\0\\0\\0\\0\\0\\0.\\0\\0\\0$","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"DameWare Mini Remote Control","os":"Windows"}}

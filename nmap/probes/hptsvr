@@ -1,0 +1,2 @@
+{"pattern":"^\\(\\0\\0\\0hpt_stor\\x01..\\xbf\\0\\0\\0\\0\\0\\0\\0\\0....\\.\\.\\.E\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"s","cpes":[],"matchers":{"product":"HighPoint RAID management service","version":"3.13"}}
+{"pattern":"^\\(\\0\\0\\0\\0\\0\\0\\0..`\\0\\x01\\xff\\xff\\xff\\xcc\\xfa\\x85\\0C\\x1d\\xe6whfnk\\.\\.\\.E\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"","cpes":[],"matchers":{"product":"HighPoint RAID management service"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\t51000000\\0\\0\\0\\0[^\\0]","flag":"","cpes":["a:checkpoint:firewall-1"],"matchers":{"device":"firewall","product":"Check Point Firewall-1 logging service"}}

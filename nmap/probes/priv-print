@@ -1,0 +1,1 @@
+{"pattern":"^\\xc0\\0\\x12Data field missing$","flag":"","cpes":["h:axis:560"],"matchers":{"device":"print server","product":"AXIS 560 print server"}}

@@ -1,0 +1,1 @@
+{"pattern":"^(\\d+\\.\\d+\\.\\d+) G\\0\\0\\0\\xb6\\0.\t","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"TWD RemoteAnything","version":"$1","os":"Windows"}}

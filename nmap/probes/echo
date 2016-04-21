@@ -1,0 +1,2 @@
+{"pattern":"^help\r\n\r\n$","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^HELP\r\n$","flag":"","cpes":[],"matchers":{}}

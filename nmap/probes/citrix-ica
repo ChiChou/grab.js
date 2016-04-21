@@ -1,0 +1,1 @@
+{"pattern":"^\\x7f\\x7fICA\\0\\x7f\\x7fICA\\0","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Citrix Metaframe XP ICA","os":"Windows"}}

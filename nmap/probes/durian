@@ -1,0 +1,1 @@
+{"pattern":"^<c5>Durian Web Application Server III<c4> ([^<]+)<c0> for Win32\r","flag":"","cpes":["a:mozilla:durian_web_application_server:$1","o:microsoft:windows"],"matchers":{"product":"Durian Web Application Server III","version":"$1","os":"Windows"}}

@@ -1,0 +1,7 @@
+{"pattern":"^\\0\\x0e@........\\0\\0\\0\\0\\0\\0\\x0e@","flag":"s","cpes":["a:openvpn:openvpn"],"matchers":{"product":"OpenVPN"}}
+{"pattern":"^\\0\\x0e@........\\0\\0\\0\\0\\0","flag":"s","cpes":["a:openvpn:openvpn"],"matchers":{"product":"OpenVPN"}}
+{"pattern":"^\\0\\*@.*\\0\\0\\0\\0\\0","flag":"s","cpes":["a:openvpn:openvpn"],"matchers":{"product":"OpenVPN"}}
+{"pattern":"^\\0<\\xaa\\xc5\r\\^\\xf7\\x1b\\xd1\\xe1a\/\\xe8\\x17P\\x9dOb\\xbb\\x93\\x87\\xe0\\xf3v\\x81K\\xa4!\\xe6\\xc7\\x01\\x977u5A\\xd1M\\x1b;\\xc7\\xcb\\x87\\xb5\\x87\\xf3~\\xc8w\\xef\\xd3\\x87eA\\0\\^\\xbf\\xc5\\x93i\\xf6\\x87$","flag":"","cpes":["a:openvpn:openvpn"],"matchers":{"product":"OpenVPN"}}
+{"pattern":"^\\.\\x83&SU\\xe3_\\xd5V\\x01\\0\\0\\0\\0\\0\\x010\\x02\\xfd\\xa8\\xe3\\0","flag":"","cpes":[],"matchers":{"product":"SoftEther VPN OpenVPN Clone Function"}}
+{"pattern":"^\\0\\x1a@........\\x01\\0\\0\\0\\x007\\xa5&\\x08\\xa2\\x1b\\xa0\\xb1\\0\\0\\0\\0$","flag":"","cpes":[],"matchers":{"product":"OpenVPN"}}
+{"pattern":"^@........\\x01\\0\\0\\0\\0d\\xc1x\\x01\\xb8\\x9b\\xcb\\x8f\\0\\0\\0\\0$","flag":"","cpes":[],"matchers":{"product":"OpenVPN"}}

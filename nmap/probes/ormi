@@ -1,0 +1,3 @@
+{"pattern":"^\\xe3\r\n\r\n\\0\\x01\\0.\\0vInvalid protocol verification, illegal ORMI request or request performed with an incompatible version of this protocol","flag":"s","cpes":[],"matchers":{"product":"Oracle Remote Method Invocation"}}
+{"pattern":"^\\xe3\r\n\r\n\\0\\x01\\0\\x03\\x0b\\0vInvalid protocol verification, illegal ORMI request or request performed with an incompatible version of this protocol","flag":"","cpes":[],"matchers":{"product":"Oracle Remote Method Invocation"}}
+{"pattern":"^\\xe3\r\n\r\n\\0\\x01\\0.\\0vInvalid protocol verification, illegal ORMI request or request performed with an incompatible version of this protocol","flag":"s","cpes":[],"matchers":{"product":"Oracle Remote Method Invocation"}}

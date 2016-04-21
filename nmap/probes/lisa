@@ -1,0 +1,4 @@
+{"pattern":"^\\d+ \\*+\n.*\\x000 succeeded\n\\0$","flag":"s","cpes":[],"matchers":{"info":"Sanitized","product":"LAN Information Server"}}
+{"pattern":"^\\d+ ([-\\w_.]+)\n.*\\x000 succeeded\n\\0$","flag":"s","cpes":[],"matchers":{"product":"LAN Information Server","hostname":"$1"}}
+{"pattern":"^\\d+ .*\n\\x000 succeeded\n\\0$","flag":"s","cpes":[],"matchers":{"product":"LAN Information Server"}}
+{"pattern":"^0 succeeded\n\\0$","flag":"","cpes":[],"matchers":{"product":"LAN Information Server"}}

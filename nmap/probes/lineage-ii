@@ -1,0 +1,3 @@
+{"pattern":"^\\x03\\0\\x7e$","flag":"","cpes":[],"matchers":{"product":"Lineage II game server"}}
+{"pattern":"^\\x03\\0\\x84$","flag":"","cpes":[],"matchers":{"product":"l2emurt Lineage II game server"}}
+{"pattern":"^\\x03\\0\\x26$","flag":"","cpes":[],"matchers":{"product":"Lineage II game server"}}

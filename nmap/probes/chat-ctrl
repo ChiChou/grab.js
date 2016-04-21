@@ -1,0 +1,1 @@
+{"pattern":"^InfoChat Server v([\\d.]+) Remote Control ready\n\r","flag":"","cpes":[],"matchers":{"product":"InfoChat Remote Control","version":"$1"}}

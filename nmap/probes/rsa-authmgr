@@ -1,0 +1,1 @@
+{"pattern":"^-ERR Invalid command: \r\n-ERR Invalid command: \r\n","flag":"","cpes":["a:rsa:authentication_manager"],"matchers":{"product":"RSA Authentication Manager node manager"}}

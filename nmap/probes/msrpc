@@ -1,0 +1,4 @@
+{"pattern":"^\\x05\\0\r\\x03\\x10\\0\\0\\0\\x18\\0\\0\\0v\\x07\\0\\0\\x04\\0\\x01\\x05\\0\\0.\\0$","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft RPC","os":"Windows"}}
+{"pattern":"^\\x04\\x06\\0\\0\\x10\\0\\0\\0\\0\\0\\0\\0","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^\\x05\\0\r\\x03\\x10\\0\\0\\0\\x18\\0\\0\\0....\\x04\\0\\x01\\x05\\0...$","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows RPC","os":"Windows"}}
+{"pattern":"^\\x04\\x06\\x20\\0\\x10\\0\\0\\x03\\x02\\x01\\x05\\xa2\\x03\\x02\\x01\n\\xa4\\x81\\x5e0\\x5c\\xa0\\x07\\x03\\x05\\0\\x50\\x80\\0\\x10\\xa2\\x04\\x1b\\x02NM\\xa3\\x170\\x15\\xa0\\x03\\x02\\x01\\0\\xa1\\x0e0\\x0c\\x1b\\x06krbtg....","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft RPC","os":"Windows"}}

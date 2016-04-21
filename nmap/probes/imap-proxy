@@ -1,0 +1,12 @@
+{"pattern":"^\\* OK IMAP4 proxy ready\r\n","flag":"","cpes":[],"matchers":{"product":"imap proxy"}}
+{"pattern":"^\\* BYE PGP Universal no imap4 service here\r\n","flag":"","cpes":["a:pgp:universal_server"],"matchers":{"info":"disabled","product":"PGP Universal imap proxy"}}
+{"pattern":"^\\* OK PGP Universal IMAP4rev1 service ready \\(proxied server greeted us with: ([^)]+)\\)\r\n","flag":"","cpes":["a:pgp:universal_server"],"matchers":{"info":"Banner: $1","product":"PGP Universal imap proxy"}}
+{"pattern":"^\\* OK imapfront ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Mailfront imapfront imap proxy"}}
+{"pattern":"^\\* OK imapfront ready\\. \\+ stunnel\r\n","flag":"","cpes":[],"matchers":{"info":"with stunnel","product":"Mailfront imapfront imap proxy"}}
+{"pattern":"^\\* OK avast! IMAP Proxy\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Avast! anti-virus imap proxy","os":"Windows"}}
+{"pattern":"^\\* OK \\[CAPABILITY IMAP4rev1\\] SpamPal for Windows\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"SpamPal imap proxy","os":"Windows"}}
+{"pattern":"^\\* OK Zarafa IMAP gateway ready\r\n","flag":"","cpes":["a:zarafa:zarafa"],"matchers":{"product":"Zarafa imap proxy","os":"Unix"}}
+{"pattern":"^\\* OK \\[CAPABILITY IMAP4rev1 LITERAL\\+ AUTH=PLAIN\\] Zarafa IMAP gateway ready\r\n","flag":"","cpes":["a:zarafa:zarafa"],"matchers":{"product":"Zarafa imap proxy","os":"Unix"}}
+{"pattern":"\\* OK \\[CAPABILITY IMAP4rev1 UIDPLUS CHILDREN NAMESPACE THREAD=ORDEREDSUBJECT THREAD=REFERENCES SORT QUOTA IDLE ACL ACL2=UNION\\] Courier-IMAP ready\\. Copyright 1998-2008 Double Precision, Inc\\. See COPYING for distribution information\\.\r\n","flag":"","cpes":[],"matchers":{"product":"imapproxy"}}
+{"pattern":"^\\* BYE concurrent connection limit in avast! exceeded\\(pass:\\d+, processes:([\\w._-]+)\\[\\d+\\]\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"connection limit exceeded by $1","product":"Avast! anti-virus IMAP proxy","os":"Windows"}}
+{"pattern":"^\\* OK IMAP4 ready\r\nGET BAD invalid command\r\n","flag":"","cpes":[],"matchers":{"product":"nginx imap proxy"}}

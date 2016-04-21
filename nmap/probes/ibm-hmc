@@ -1,0 +1,1 @@
+{"pattern":"^\\xab\\xab\\xab\\xab\\xa0\\x81\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x01\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x13\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"","cpes":["a:ibm:hardware_management_console","o:ibm:aix"],"matchers":{"product":"IBM Hardware Management Console Cluster Ready Hardware Server","os":"AIX"}}

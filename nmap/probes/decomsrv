@@ -1,0 +1,1 @@
+{"pattern":"^\\x02\\0\\0\\x01\\x03\\0U\\xd0DSQ\\x02\\0\\0\\x01\\x03\\0U\\xd0DSQ$","flag":"","cpes":["a:ibm:lotus_domino"],"matchers":{"info":"decomsrv.exe","product":"Lotus Domino decommission server"}}

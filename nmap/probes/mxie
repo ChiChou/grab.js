@@ -1,0 +1,1 @@
+{"pattern":"^\\x80\\x00\\x00\\x0c\\x72\\xfe\\x1d\\x13\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x02$","flag":"","cpes":[],"matchers":{"product":"Zultys MXIE VoIP presence server"}}

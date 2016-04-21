@@ -1,0 +1,1 @@
+{"pattern":"^\\xbc\\xa0\\xb6$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Arucer backdoor","os":"Windows"}}

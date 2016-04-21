@@ -1,0 +1,1 @@
+{"pattern":"^acam_bitmask\\[0\\]=1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768,1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768\r\nact_actions\\[0\\]=1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\r\nact_buzzer=0\r\n","flag":"","cpes":[],"matchers":{"device":"webcam","product":"Dedicated Micros Digital Sprite 2 camera"}}

@@ -1,0 +1,1 @@
+{"pattern":"^ok\r\nunknown command\r\nunknown command\r\n$","flag":"","cpes":[],"matchers":{"device":"specialized","product":"conserver serial console daemon"}}

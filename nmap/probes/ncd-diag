@@ -1,0 +1,1 @@
+{"pattern":"^WinCE\/WBT Diagnostic port\n\rSerial Number: (\\w+)  MAC Address: 0000(\\w+)\\s+.*CPU info: ([ -.+\\w\/ ]+)\r\n.*(Windows CE Kernel[-.+:\\w ]+)\r","flag":"s","cpes":[],"matchers":{"info":"Serial# $1; MAC: $2; CPU: $3; $4","product":"NCD Thinster Terminal Diagnostic port"}}

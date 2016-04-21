@@ -1,0 +1,1 @@
+{"pattern":"^SGUIL-([\\w._-]+) OPENSSL ENABLED\r\n$","flag":"","cpes":["a:sguil:sguil:$1"],"matchers":{"product":"Sguil","version":"$1"}}

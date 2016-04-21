@@ -1,0 +1,1 @@
+{"pattern":"^\\xff\\x14Port is out of range\\0\\xff\\x14Port is out of range\\0\\xff\\x14Port is out of range\\0\\xff\\x14Port is out of range\\0\\xff\\x14Port is out of range\\0","flag":"","cpes":[],"matchers":{"device":"specialized","product":"Digi USB-over-TCP bridge"}}

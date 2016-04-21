@@ -1,0 +1,1 @@
+{"pattern":"^\\+Welcome to Ability FTP Server \\(Admin\\)\\. \\[20500\\]\r\n","flag":"","cpes":["a:code-crafters:ability_ftp_server","o:microsoft:windows"],"matchers":{"product":"Code-Crafters Ability FTP Server afsmain admin","os":"Windows"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x01\\0\\x17\\0\\x14\\0\\x06\\0\\0\\0\\x01\\0\\0\\0\\0\\0\\0$","flag":"","cpes":["h:rsa:securid"],"matchers":{"product":"RSA SecureID Ace Server"}}

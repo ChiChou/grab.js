@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\0\\0\\x0bSynergy\\0\\x01\\0","flag":"","cpes":[],"matchers":{"info":"plaintext","product":"Synergy KVM"}}
+{"pattern":"^\\0\\0\\0\\x0b.{11}$","flag":"s","cpes":[],"matchers":{"info":"encrypted","product":"Synergy KVM switch","version":">1.4.11"}}

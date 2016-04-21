@@ -1,0 +1,1 @@
+{"pattern":"^\\x01\\0\\0\\0\\0\\0\\0\\0T\\x03\\0\\0\\0\\0\\0\\x01\\x1e\\0\\0\\0\\0\\0\\0;\\0\\0\\0\\0\\0\\0\\0\\0Error: incompatible with administration server \\(version (\\d[-.\\w ]*)\\)\nc\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x01\\0\\0\\0\\0$","flag":"","cpes":[],"matchers":{"product":"SunScreen Remote Administration server","version":"$1"}}

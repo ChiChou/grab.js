@@ -1,0 +1,2 @@
+{"pattern":"^\\0.\\0\\0\\x02\\0\\0\\0.*\\(IAGENT = \\(AGENT_VERSION = ([\\d.]+)\\)\\(RPC_VERSION = ([\\d.]+)\\)\\)","flag":"s","cpes":[],"matchers":{"info":"RPC v$2","product":"Oracle Intelligent Agent","version":"$1"}}
+{"pattern":"^\\0,\\0\\0\\x04\\0\\0\\0\\\"\\0\\0 \\(CONNECT_DATA=\\(COMMAND=version\\)\\)","flag":"","cpes":[],"matchers":{"product":"Oracle DBSNMP"}}

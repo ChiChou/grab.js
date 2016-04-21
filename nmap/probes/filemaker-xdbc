@@ -1,0 +1,2 @@
+{"pattern":"^2\\0TY\\xb8\\xd5\\xbbH:x\\x03\\^v\\xd5\\xdf\\x15Rgc\\xd7\\x1a\\x067\\(\/\\xbf\\xc73\t\\?3\\x85\\x9d\\x92ne\\x0bh\\xbe\\x8a\\]\\xdf!\\x14xA\\xbc\\xb6\\xe9_","flag":"","cpes":[],"matchers":{"product":"FileMaker xDBC"}}
+{"pattern":"^2\\0\\0\\0\\xc3\\x0b.\\0\\0\\0([\\d.]+) on Mac OS X ([\\d.]+) \\(([\\w_]+)\\)\\0\\0\\0\\0\\0","flag":"s","cpes":["o:apple:mac_os_x:$2"],"matchers":{"info":"$3","product":"FileMaker xDBC","version":"$1","os":"Mac OS X $2"}}

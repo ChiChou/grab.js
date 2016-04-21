@@ -1,0 +1,1 @@
+{"pattern":"^### Battlefield 2 ModManager Rcon v([\\d.]+)\\.\n### Digest seed: \\w+\n\n","flag":"","cpes":[],"matchers":{"product":"Battlefield 2 ModManager Remote Console","version":"$1"}}

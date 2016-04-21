@@ -1,0 +1,2 @@
+{"pattern":"^1INVALID REQUEST$","flag":"","cpes":[],"matchers":{"product":"MLDonkey multi-network P2P client"}}
+{"pattern":"^1$","flag":"","cpes":[],"matchers":{"product":"WinMX or Lopster Napster P2P client"}}

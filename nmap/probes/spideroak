@@ -1,0 +1,2 @@
+{"pattern":"^\\x60\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x18..{88}$","flag":"s","cpes":[],"matchers":{"product":"SpiderOak"}}
+{"pattern":"^\\x60\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x06..{88}$","flag":"s","cpes":[],"matchers":{"product":"SpiderOak"}}

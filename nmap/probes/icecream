@@ -1,0 +1,1 @@
+{"pattern":"^[\\x14-\\x1f]\\0\\0\\0$","flag":"","cpes":[],"matchers":{"product":"icecreamd"}}

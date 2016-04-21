@@ -1,0 +1,2 @@
+{"pattern":"^@(?:NETRADIO|MAIN|SYS):[A-Z0-9]+=","flag":"","cpes":[],"matchers":{"device":"media device","product":"Yamaha Net Radio"}}
+{"pattern":"^@(?:NETRADIO|MAIN|SYS):[A-Z0-9]+=","flag":"","cpes":[],"matchers":{"device":"media device","product":"Yamaha Net Radio"}}

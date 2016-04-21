@@ -1,0 +1,1 @@
+{"pattern":"^READY#Logviewer#([\\d.]+)\r\n","flag":"","cpes":["a:sap:netweaver_logviewer:$1"],"matchers":{"product":"SAP NetWeaver Logviewer","version":"$1"}}

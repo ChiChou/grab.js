@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\0\\0\\x3e\\0\\0\\x01\\0\\x03\\x04\\0\\0\\0\\x03\\x03\\x04\\0\\0\\0\\x02\\x01\\x06GSSAPI\\x01\nDIGEST-MD5\\x01\\x08CRAM-MD5\\x02\\x0e([\\w._-]+)$","flag":"","cpes":[],"matchers":{"product":"JBoss Remoting","version":"6","hostname":"$1"}}
+{"pattern":"^\\0\\0\\0.\\0\\0.([\\w.-]+)$","flag":"","cpes":[],"matchers":{"info":"JBoss management interface","product":"JBoss Remoting","hostname":"$1"}}

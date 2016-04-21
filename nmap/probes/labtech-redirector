@@ -1,0 +1,1 @@
+{"pattern":"^\\x02\\0\\0\\x01B\t\\0\\0\\x01B$","flag":"","cpes":["a:labtech_software:labtech"],"matchers":{"product":"Labtech"}}

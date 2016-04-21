@@ -1,0 +1,42 @@
+{"pattern":"^\\+OK POP3 AnalogX Proxy (\\d[-.\\w]+) \\(Release\\) ready\\.\n$","flag":"","cpes":["a:analogx:proxy:$1"],"matchers":{"product":"AnalogX POP3 proxy","version":"$1"}}
+{"pattern":"^\\+OK CCProxy (\\S+) POP3 Service Ready\r\n","flag":"","cpes":[],"matchers":{"product":"CCProxy pop3d","version":"$1"}}
+{"pattern":"^Proxy\\+ POP3 server\\. Insecure access - terminating\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Proxy+ pop3d","os":"Windows"}}
+{"pattern":"^\\+OK TrendMicro IMSS POP3 Proxy at ([\\w._-]+)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Trend Micro IMSS virus scanning POP3 proxy","hostname":"$1","os":"Windows"}}
+{"pattern":"^\\+OK TrendMicro IMSS (\\d[-.\\w ]+) POP3 Proxy at ([-.\\w]+)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Trend Micro IMSS virus scanning POP3 proxy","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK Proxy-POP server \\(DeleGate\/([\\d.]+) by ysato AT delegate DOT org\\) at ([-\\w_.]+) starting\\.\r\n","flag":"","cpes":[],"matchers":{"product":"DeleGate pop3 proxy","version":"$1","hostname":"$2"}}
+{"pattern":"^\\+OK Jana-Server POP3 ready <[\\w.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"JanaServer pop3 proxy","hostname":"$1","os":"Windows"}}
+{"pattern":"^\\+OK POP3 Y(?:ahoo)?POPs! proxy ready\r\n","flag":"","cpes":[],"matchers":{"product":"YahooPOPs! pop3 proxy"}}
+{"pattern":"^\\+OK POP3 \\(Spampal\\) server ready \\(USER command must include mailserver name\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Spampal pop3 proxy","os":"Windows"}}
+{"pattern":"^\\+OK Mirapoint POP3PROXY ([-\\w.]+) server ready\r\n","flag":"","cpes":[],"matchers":{"product":"Mirapoint pop3 proxy","version":"$1"}}
+{"pattern":"^\\+OK AVG POP3 Proxy Server Beta - ([\\d\/.]+) \\[[\\d.]+\\]\r\n","flag":"","cpes":["a:avg:anti-virus:$1_beta","o:microsoft:windows"],"matchers":{"product":"AVG pop3 proxy","version":"$1 Beta","os":"Windows"}}
+{"pattern":"^\\+OK AVG POP3 Proxy Server ([\\d\/.]+) \\[[\\w\/.]+\\]\r\n","flag":"","cpes":["a:avg:anti-virus:$1","o:microsoft:windows"],"matchers":{"product":"AVG pop3 proxy","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK AVG POP3 Proxy Server <[\\w.]+@[-\\w_.]+> ([\\d\/.]+) \\[[\\d\/.]+\\]\r\n","flag":"","cpes":["a:avg:anti-virus:$1","o:microsoft:windows"],"matchers":{"product":"AVG pop3 proxy","version":"$1","os":"Windows"}}
+{"pattern":"^-ERR AVG POP3 Proxy Server: Cannot connect to the mail server!\r\n","flag":"","cpes":["a:avg:anti-virus","o:microsoft:windows"],"matchers":{"info":"broken","product":"AVG pop3 proxy","os":"Windows"}}
+{"pattern":"^\\+OK FreePOPs\/([\\d.]+) pop3 server ready\r\n","flag":"","cpes":[],"matchers":{"product":"FreePOPs pop3 proxy","version":"$1"}}
+{"pattern":"^\\+OK POP3 Spam Inspector Spam Filter Gateway Version ([\\d.]+) Ready\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Spam Inspector pop3 proxy","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK MailMarshal\\(([\\d.]+)\\) POP3 server ready <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":[],"matchers":{"product":"MailMarshal pop3d","version":"$1","hostname":"$2"}}
+{"pattern":"^\\+OK HTML2POP3 server ready \\(([\\d.]+)\\)\r\n","flag":"","cpes":[],"matchers":{"product":"HTML2POP3 pop3 proxy","version":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP3 proxy ready\r\n","flag":"","cpes":[],"matchers":{"product":"pop3gwd pop3 proxy","hostname":"$1"}}
+{"pattern":"^\\+OK AVG POP3 Proxy Server <[\\d.]+@([-\\w_.]+)> ([\\d.]+)\/[\\d.]+ \\[[\\d\/.]+\\]\r\n","flag":"","cpes":["a:avg:anti-virus:$2","o:microsoft:windows"],"matchers":{"product":"AVG pop3 proxy","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK InterScan VirusWall POP3 Proxy\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"InterScan VirusWall pop3 proxy","os":"Windows"}}
+{"pattern":"^\\+OK WinProxy POP3 Proxy Ready\r\n","flag":"","cpes":["a:bluecoat:winproxy","o:microsoft:windows"],"matchers":{"product":"WinProxy pop3 proxy","os":"Windows"}}
+{"pattern":"^-ERR 403 The requested host is forbidden by WinProxy\\.  See your network administrator\\.\n","flag":"","cpes":["a:bluecoat:winproxy","o:microsoft:windows"],"matchers":{"info":"IP forbidden","product":"WinProxy pop3 proxy","os":"Windows"}}
+{"pattern":"^\\+OK MrPostman webmail proxy ready\r\n","flag":"","cpes":[],"matchers":{"product":"MrPostman webmail pop3 proxy"}}
+{"pattern":"^\\+OK (.*) \\(PGP Universal service is proxying this connection\\)\r\n","flag":"","cpes":["a:pgp:universal_server"],"matchers":{"info":"Proxied greeting: $1","product":"PGP Universal pop3 proxy"}}
+{"pattern":"^-ERR PGP Universal no pop3 service here\r\n","flag":"","cpes":["a:symantec:pgp_universal_server"],"matchers":{"product":"Symantec PGP Universal Server pop3 proxy"}}
+{"pattern":"^\\+OK F-Secure\/fsigk_pop\/\\d+\/[-\\w_.]+ starting\\.\r\n","flag":"","cpes":[],"matchers":{"product":"F-Secure Internet Gateway pop3 proxy"}}
+{"pattern":"^\\+OK hello from popgate\\(([\\d.]+)\\)\r\n","flag":"","cpes":[],"matchers":{"product":"POPgate pop3 proxy","version":"$1"}}
+{"pattern":"^\\+OK \\[ISafe POP3 Proxy\\] \r\n","flag":"","cpes":[],"matchers":{"product":"ISafe pop3 proxy"}}
+{"pattern":"^\\+OK <[\\d.]+@([-\\w_.]+)> \\[ISafe POP3 Proxy\\] \r\n","flag":"","cpes":[],"matchers":{"product":"ISafe pop3 proxy","hostname":"$1"}}
+{"pattern":"^\\+OK UserGate: forward ready\r\n-ERR UserGate: Mistake of the protocol\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"UserGate pop3 proxy","os":"Windows"}}
+{"pattern":"^\\+OK kingate pop3 proxy\r\n","flag":"","cpes":[],"matchers":{"product":"kingate pop3-proxy"}}
+{"pattern":"^\\+OK POP3 Proxy Server Ready\r\n","flag":"","cpes":["a:ciphertrust:ironmail"],"matchers":{"product":"IronMail pop3-proxy"}}
+{"pattern":"^\\+OK avast! POP3 proxy ready\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Avast! anti-virus pop3 proxy","os":"Windows"}}
+{"pattern":"^\\+OK O3SIS UMA Proxy POP3 Server ([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"product":"O3SIS UMA pop3 proxy","version":"$1"}}
+{"pattern":"^\\+OK Zarafa POP3 gateway ready\r\n","flag":"","cpes":["a:zarafa:zarafa"],"matchers":{"product":"Zarafa pop3 proxy","os":"Unix"}}
+{"pattern":"^-ERR Not Enrolled\r\rPlease open your internet browser and accept the terms and conditions of use for this service\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Reivernet captive portal pop3 proxy"}}
+{"pattern":"^\\+OK POP3 Ready ([-\\w_.]+) \\w+\r\n-ERR Null command, mate\r\n","flag":"","cpes":[],"matchers":{"product":"Perdition pop3 proxy","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 perditon ready on ([\\w._-]+) \\w+\r\n-ERR Null command, mate\r\n","flag":"","cpes":[],"matchers":{"product":"Perdition pop3 proxy","hostname":"$1"}}
+{"pattern":"^\\+OK POP3Proxy ready\r\n-ERR Unknown command\r\n-ERR Unknown command\r\n","flag":"","cpes":["a:astaro:security_gateway_software"],"matchers":{"device":"firewall","product":"Astaro firewall pop3 proxy"}}
+{"pattern":"^\\+OK POP3Proxy ready on node \\d+\r\n-ERR Unknown command\r\n-ERR Unknown command\r\n","flag":"","cpes":["a:astaro:security_gateway_software"],"matchers":{"device":"firewall","product":"Astaro firewall pop3 proxy"}}
+{"pattern":"^ERR concurrent connection limit in avast! exceeded\\(pass:\\d+, processes:([\\w._-]+)\\[\\d+\\]\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"connection limit exceeded by $1","product":"Avast! anti-virus pop3 proxy","os":"Windows"}}

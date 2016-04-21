@@ -1,0 +1,11 @@
+{"pattern":"^\r\nCEN-IDOC Control Console\r\n\r\nCEN-IDOC>","flag":"","cpes":["h:crestron:cen-iodc"],"matchers":{"device":"media device","product":"Crestron CEN-IDOC music player connection text ui"}}
+{"pattern":"^\r\nRMC Control Console\r\n\r\nQM-RMC>\r\nQM-RMC>","flag":"","cpes":["h:crestron:qm-rmc"],"matchers":{"device":"media device","product":"Crestron QM-RMC text ui"}}
+{"pattern":"^TSW-[\\w._-]+ Console\r\n\r\n(TSW-[\\w._-]+)>","flag":"","cpes":["h:crestron:$1"],"matchers":{"device":"media device","product":"Crestron $1 touch screen text ui"}}
+{"pattern":"^Password\\? \r\n","flag":"","cpes":["h:crestron:mps-200"],"matchers":{"info":"Authentication required","device":"media device","product":"Crestron MPS-200 presentation system text ui"}}
+{"pattern":"^\r\n([-\\w]+) Control Console\r\nConnected to Host: ([-\\w_.]+)\r\n","flag":"","cpes":["h:crestron:$1"],"matchers":{"device":"specialized","product":"Crestron $1 automation system text ui","hostname":"$2"}}
+{"pattern":"^\r?\n?[-\\w]+ Control Console\r\n\r\n?([-\\w_.]+)>","flag":"","cpes":["h:crestron:$1"],"matchers":{"device":"specialized","product":"Crestron $1 automation system text ui"}}
+{"pattern":"^[-\\w]+ Console\r\n\r\n([-\\w]+)>\r\r\n","flag":"","cpes":["h:crestron:$1"],"matchers":{"device":"specialized","product":"Crestron $1 automation system text ui"}}
+{"pattern":"^[-\\w]+ Console\r\nWarning: Another console session is open \r\n\r\n([-\\w]+)>","flag":"","cpes":["h:crestron:$1"],"matchers":{"device":"specialized","product":"Crestron $1 automation system text ui"}}
+{"pattern":"\\*\\*\\*\\*\r\n\r\nHELP : Provides help menus\\.\r\nHELP \\[ALL ","flag":"","cpes":["h:crestron"],"matchers":{"info":"Authentication required","device":"specialized","product":"Crestron automation system text ui"}}
+{"pattern":"^\r\nPRO2 Control Console\r\n","flag":"","cpes":["h:crestron:pro2"],"matchers":{"device":"specialized","product":"Crestron PRO2 automation system text ui"}}
+{"pattern":"^\r\nMC2E Control Console\r\n","flag":"","cpes":["h:crestron:mc2e"],"matchers":{"device":"specialized","product":"Crestron MC2E automation system text ui"}}

@@ -1,0 +1,11 @@
+{"pattern":"^\\0\\x05\\0\\x02\\0The IP address is not in the range of allowable addresses\\.\\0","flag":"","cpes":["a:solarwinds:tftp_server","o:microsoft:windows"],"matchers":{"info":"IP disallowed","product":"SolarWinds tftpd","os":"Windows"}}
+{"pattern":"^\\0\\x05\\0\\0Invalid TFTP Opcode","flag":"","cpes":["a:cisco:tftp_server"],"matchers":{"product":"Cisco tftpd"}}
+{"pattern":"^\\0\\x05\\0\\x04Illegal TFTP operation\\0","flag":"","cpes":["o:belllabs:plan_9"],"matchers":{"product":"Plan 9 tftpd","os":"Plan 9"}}
+{"pattern":"^\\0\\x05\\0\\x04Error: Illegal TFTP Operation\\0\\0\\0\\0\\0","flag":"","cpes":["h:zoom:x5"],"matchers":{"device":"broadband router","product":"Zoom X5 ADSL modem tftpd"}}
+{"pattern":"^\\0\\x05\\0\\x04Illegal operation\\0$","flag":"","cpes":["a:cisco:tftp_server","o:cisco:ios"],"matchers":{"device":"router","product":"Cisco router tftpd","os":"IOS"}}
+{"pattern":"^\\0\\x05\\0\\x04Illegal operation error\\.\\0$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows Deployment Services tftpd","os":"Windows"}}
+{"pattern":"^\\0\\x05\\0\\x04Unknown operatation code: 0 received from [\\d.]+:\\d+\\0","flag":"","cpes":["a:solarwinds:tftp_server"],"matchers":{"product":"SolarWinds Free tftpd"}}
+{"pattern":"^\\0\\x05\\0\\x04illegal \\(unrecognized\\) tftp operation\\0$","flag":"","cpes":[],"matchers":{"device":"printer","product":"Brother printer tftpd"}}
+{"pattern":"^\\0\\x05\\0\\0Not defined, see error message\\(if any\\)\\.\\0","flag":"","cpes":["a:hp:intelligent_management_center"],"matchers":{"product":"HP Intelligent Management Center tftpd"}}
+{"pattern":"^\\0\\x05\\0\\x04Illegal TFTP operation\\0","flag":"","cpes":["o:microsoft:windows_server_2003"],"matchers":{"product":"Windows 2003 Server Deployment Service","os":"Windows"}}
+{"pattern":"^\\0\\x05\\0\\x01File not found\\.\\0$","flag":"","cpes":[],"matchers":{"product":"Enistic zone controller tftpd"}}

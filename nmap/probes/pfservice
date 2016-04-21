@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x0c\\x01\\0\\x01\\x06\\x04\\0\\0\\0$","flag":"","cpes":[],"matchers":{"product":"PuriFile DLP","version":"6.4.0"}}

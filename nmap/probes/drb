@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x03\\x04\\x08F\\0\\0\\x03.\\x04\\x08o:\\x16DRb::DRbConnError\\x07:\\x07bt\\[.\\\"\/(\/usr\/lib\/ruby\/([\\w._-]+)\/drb)\/drb\\.rb:573","flag":"","cpes":["a:ruby-lang:ruby:$2"],"matchers":{"info":"Ruby $2; path $1","product":"Ruby DRb RMI"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\x06\\x81\\x83\\0\\x01\\0\\0\\0\\0\\0\\0\\x07version\\x04bind\\0\\0\\x10\\0\\x03$","flag":"","cpes":[],"matchers":{"product":"HTTPS-DNS HTTPS-over-DNS tunnel"}}

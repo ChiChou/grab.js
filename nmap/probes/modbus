@@ -1,0 +1,5 @@
+{"pattern":"^GET \\0\\x03H\\xd4\\x02","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}
+{"pattern":"^\\0\\x1e\\0\\x06\\0\\x03\\0\\x01\\0","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}
+{"pattern":"^\\0\\x1e\\0\\x06\\0\\x03\\0\\x80\\x01","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}
+{"pattern":"^\\x16\\x03\\0\\0\\0\\x03\\0\\x80\\x01","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}
+{"pattern":"^l\\0\\0\\0\\0\\x03\\0\\x80\\x01","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}

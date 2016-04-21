@@ -1,0 +1,1 @@
+{"pattern":"^201- connected\r\n407- unknown command\r\n$","flag":"","cpes":[],"matchers":{"device":"game console","product":"Microsoft XBox Debugging Kit"}}

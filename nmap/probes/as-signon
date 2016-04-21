@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x18\\xffSMBr\\0\\0\\0\\0\\x08\\x01@\\0\\x04\\xf0\\0\\0\\x01\\0\\x03$","flag":"","cpes":[],"matchers":{"product":"IBM Client Tools signon"}}

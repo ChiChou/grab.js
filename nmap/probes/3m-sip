@@ -1,0 +1,1 @@
+{"pattern":"^Invalid request string: Request string is: \\\"\r\\\"$","flag":"","cpes":[],"matchers":{"info":"Integrated Library System authentication; Civica Spydus 7","product":"Standard Interchange Prototol 2.0"}}

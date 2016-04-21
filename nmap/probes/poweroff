@@ -1,0 +1,1 @@
+{"pattern":"^201 Welcome to Poweroff ([\\d.]+) created by Jorgen Bosman\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Poweroffd","version":"$1","os":"Windows"}}

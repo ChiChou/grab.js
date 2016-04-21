@@ -1,0 +1,1 @@
+{"pattern":"^250 backburner ([\\d.]+) Ready\\.\r\nbackburner>","flag":"","cpes":[],"matchers":{"product":"Discreet Backburner network renderer","version":"$1"}}

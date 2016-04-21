@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\x01[#,]$","flag":"","cpes":["a:symantec:enterprise_security_manager"],"matchers":{"product":"Symantec Enterprise Security Manager agent"}}

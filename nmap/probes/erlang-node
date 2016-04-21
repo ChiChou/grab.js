@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\x03sok\\0.n\\0\\0.{8}(.+).","flag":"s","cpes":[],"matchers":{"info":"Node name: $1","product":"Erlang Distribution Node"}}
+{"pattern":"^\\0[^\\x03]s(.+)","flag":"s","cpes":[],"matchers":{"info":"Status: $1","product":"Erlang Distribution Node"}}

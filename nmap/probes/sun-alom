@@ -1,0 +1,1 @@
+{"pattern":"^ {31}\\.,ad8{8}baa,\n {28},d8{19}ba\\.\n {25}\\.a8{26}a\n {24}a8{12}\\\"{6}8{12}a\n","flag":"","cpes":["a:sun:advanced_lights_out_manager"],"matchers":{"product":"Sun ALOM logo easter egg"}}

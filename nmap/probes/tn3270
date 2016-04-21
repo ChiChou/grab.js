@@ -1,0 +1,3 @@
+{"pattern":"^\\xff\\xfd\\x1d","flag":"","cpes":[],"matchers":{"info":"3270-REGIME","product":"IBM Telnet TN3270"}}
+{"pattern":"^\\xff\\xfd\\x28","flag":"","cpes":[],"matchers":{"info":"TN3270E","product":"IBM Telnet TN3270"}}
+{"pattern":"^\\xff\\xfd\\x18\\xff\\xfa\\x18\\x01\\xff\\xf0.*?\\xff\\xfd\\x19","flag":"","cpes":[],"matchers":{"info":"traditional tn3270","product":"IBM Telnet TN3270"}}

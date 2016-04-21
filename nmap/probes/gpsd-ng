@@ -1,0 +1,1 @@
+{"pattern":"^{\\\"class\\\":\\\"VERSION\\\",\\\"release\\\":\\\"([\\w._-]+)\\\",\\\"rev\\\":\\\"([\\w._:-]+)\\\",\\\"proto_major\\\":\\d+,\\\"proto_minor\\\":\\d+}\r\n$","flag":"","cpes":[],"matchers":{"product":"GPSD-NG","version":"$1 rev $2"}}

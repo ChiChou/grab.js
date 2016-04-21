@@ -1,0 +1,1 @@
+{"pattern":"^TEMP0 +: +[\\d.]+\nTEMP1 +: +[\\d.]+\nTEMP2 +: +[\\d.]+\nFAN0 +: +[\\d.]+\nFAN1 +: +[\\d.]+\nFAN2 +: +[\\d.]+\n","flag":"","cpes":[],"matchers":{"product":"Mother Board Monitor"}}

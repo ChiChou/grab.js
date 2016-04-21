@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\x01.R.\\x02\n.\\x08\\xa3\\x80\\x04\\x10.\\x18\\0 [\\0\\x01]\\*.(.*?)\\x10\\0\\x1a\\x90\\x02-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQ","flag":"s","cpes":["a:r1soft:cdp"],"matchers":{"info":"name: $P(1)","product":"R1Soft Continuous Data Protection Agent"}}

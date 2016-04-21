@@ -1,0 +1,1 @@
+{"pattern":"^UNKNOWN COMMAND\n$","flag":"","cpes":["a:clamav:clamav"],"matchers":{"product":"Clam AV"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\([\\w._-]+:\\d+\\) : updateShowMenu MayaWindow","flag":"","cpes":["a:autodesk:maya"],"matchers":{"product":"Autodesk Maya command port"}}

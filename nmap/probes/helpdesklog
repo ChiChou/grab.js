@@ -1,0 +1,1 @@
+{"pattern":"^Helpdesk Advanced ([\\d.]+) License Logging Service","flag":"","cpes":[],"matchers":{"product":"Helpdesk Advanced license server","version":"$1"}}

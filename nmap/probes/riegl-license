@@ -1,0 +1,1 @@
+{"pattern":"^RIEGL LicenseServer ([\\d.]+)\r$","flag":"","cpes":["a:riegl:license_server:$1"],"matchers":{"product":"RIEGL License Server","version":"$1"}}

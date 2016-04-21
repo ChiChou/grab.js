@@ -1,0 +1,3 @@
+{"pattern":"^\r\nHi, my name is : *(\\w.*)\r\nHere is what I know about myself:\r\nModel: *(\\w.*)\r\nSerial Number: *(\\w+)\r\nSoftware Version: *([\\d.]+)\r\nBuild Information: *\\d+\r\nTime In Last Call: *[\\d:]+\r\nTotal Time In Calls: *[\\d:]+\r\nTotal Calls: *\\d+\r\nSNTP Time Service: *\\w+ \r\nLocal Time is: .* ([-+]\\d\\d\\d\\d)\r\n","flag":"","cpes":["h:polycom:$2"],"matchers":{"info":"name: $1; model: $2; serial: $3; timezone: $5","product":"Polycom videoconferencing system control port","version":"$4"}}
+{"pattern":"^dubbo>$","flag":"","cpes":["a:alibaba:dubbo"],"matchers":{"product":"Alibaba Dubbo remoting telnetd"}}
+{"pattern":"^R:ERROR:6 \\\"Syntax Error\\\"\r\n","flag":"","cpes":[],"matchers":{"product":"Vantage InFusion home automation controller port"}}

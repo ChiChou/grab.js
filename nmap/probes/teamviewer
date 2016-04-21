@@ -1,0 +1,4 @@
+{"pattern":"^\\x17\\x24\\x0a\\x20\\x00....\\x08\\x13\\x80\\0\\0\\0\\0\\0\\x01\\0\\0\\0\\x11\\x80\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"","cpes":["a:teamviewer:teamviewer"],"matchers":{"product":"TeamViewer"}}
+{"pattern":"^\\x17\\x24\\x0a\\x20\\x00....\\x88\\x13\\x80\\0\\0\\0\\0\\0\\x01\\0\\0\\0\\x11\\x80\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"","cpes":["a:teamviewer:teamviewer:5"],"matchers":{"product":"TeamViewer","version":"5"}}
+{"pattern":"^\\x17\\x24\\x0a\\x20\\x00....\\xe8\\x42\\0\\0\\0\\0\\0\\0\\x01\\0\\0\\0\\x10\\x80\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"","cpes":["a:teamviewer:teamviewer"],"matchers":{"product":"TeamViewer"}}
+{"pattern":"^\\x17\\x24\\x0a\\x20\\x00....\\x68\\x42\\0\\0\\0\\0\\0\\0\\x01\\0\\0\\0\\x11\\x80\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"","cpes":["a:teamviewer:teamviewer"],"matchers":{"product":"TeamViewer"}}

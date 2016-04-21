@@ -1,0 +1,1 @@
+{"pattern":"^\\xde\\xad\\xad\\xde\\x0f\\x03\\0\\0\\xeed\\xab\\x99\\x01\\x05\\x06\\x05\\x07Content}\\x02\\0\\0\\x01\\0=Genetec\\.Net,","flag":"","cpes":["a:genetec:security_center"],"matchers":{"product":"Genetec Security Center directory connection service"}}

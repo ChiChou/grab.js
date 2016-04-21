@@ -1,0 +1,1 @@
+{"pattern":"^ncacn_http\/([\\d.]+)$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows RPC over HTTP","version":"$1","os":"Windows"}}

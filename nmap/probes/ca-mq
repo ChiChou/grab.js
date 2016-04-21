@@ -1,0 +1,2 @@
+{"pattern":"^ACK\\x01","flag":"","cpes":[],"matchers":{"product":"CA Message Queuing Server"}}
+{"pattern":"^\\xfa\\xfe\\0\\x10\\0\\0\\x01\\0\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"","cpes":["a:ca:messaging"],"matchers":{"product":"CA Message Queuing Server"}}

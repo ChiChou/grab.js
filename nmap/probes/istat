@@ -1,0 +1,1 @@
+{"pattern":"^<\\?xml version=\\\"1\\.0\\\" encoding=\\\"UTF-8\\\"\\?><isr athrej=\\\"1\\\"><\/isr>$","flag":"","cpes":[],"matchers":{"product":"istatd server for iStat iPhone app"}}

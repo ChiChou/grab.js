@@ -1,0 +1,1 @@
+{"pattern":"^\\xc7\\x00\\x01\\xa1\\x00\\x40\\x80.{192}$","flag":"s","cpes":[],"matchers":{"product":"Shaiya game server"}}

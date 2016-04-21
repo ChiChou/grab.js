@@ -1,0 +1,4 @@
+{"pattern":"^{?Syntax Error : GET \/ HTTP\/1\\.0}? error\r\n$","flag":"","cpes":[],"matchers":{"product":"amsn"}}
+{"pattern":"^{?Erreur de syntaxe : GET \/ HTTP\/1\\.0}? error\r\n$","flag":"","cpes":[],"matchers":{"info":"French","product":"amsn"}}
+{"pattern":"^{? ?Erro de sintaxe : GET \/ HTTP\/1\\.0}? error\r\n$","flag":"","cpes":[],"matchers":{"info":"Portugese","product":"amsn"}}
+{"pattern":"^{?Errore di sintassi : GET \/ HTTP\/1\\.0}? error\r\n$","flag":"","cpes":[],"matchers":{"info":"Italian","product":"amsn"}}

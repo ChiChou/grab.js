@@ -1,0 +1,1 @@
+{"pattern":"^result: Unknown command, 'GET \/ HTTP\/1\\.0'\n\n","flag":"","cpes":["a:mysql:mysql:5.1"],"matchers":{"product":"MySQL cluster management server","version":"5.1"}}

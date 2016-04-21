@@ -1,0 +1,1 @@
+{"pattern":"^welcome to the pioneers-meta-server version ([\\d.]+)\n","flag":"","cpes":[],"matchers":{"product":"Pioneers game meta server","version":"$1"}}

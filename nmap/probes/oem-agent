@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.1 \\d\\d\\d .*\r\nConnection: Close\r\nX-ORCL-EMSV: ([\\d.]+)\r\n","flag":"s","cpes":["a:oracle:enterprise_manager:$1"],"matchers":{"product":"Oracle Enterprise Manager Agent httpd","version":"$1"}}

@@ -1,0 +1,7 @@
+{"pattern":"^\\x03\\0\\0\\x0b\\x06\\xd0\\0\\0\\x12.\\0$","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Terminal Service","os":"Windows"}}
+{"pattern":"^\\x03\\0\\0\\x17\\x08\\x02\\0\\0Z~\\0\\x0b\\x05\\x05@\\x06\\0\\x08\\x91J\\0\\x02X$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"Used with Netmeeting, Remote Desktop, Remote Assistance","product":"Microsoft Terminal Service","os":"Windows"}}
+{"pattern":"^\\x03\\0\\0\\x11\\x08\\x02..}\\x08\\x03\\0\\0\\xdf\\x14\\x01\\x01$","flag":"s","cpes":["a:microsoft:netmeeting","o:microsoft:windows"],"matchers":{"product":"Microsoft NetMeeting Remote Desktop Service","os":"Windows"}}
+{"pattern":"^\\x03\\0\\0\\x0b\\x06\\xd0\\0\\0\\x03.\\0$","flag":"s","cpes":["a:microsoft:netmeeting","o:microsoft:windows"],"matchers":{"product":"Microsoft NetMeeting Remote Desktop Service","os":"Windows"}}
+{"pattern":"^\\x03\\0\\0\\x0b\\x06\\xd0\\0\\0\\0\\0\\0","flag":"","cpes":[],"matchers":{"product":"xrdp"}}
+{"pattern":"^\\x03\\0\\0\\x0e\t\\xd0\\0\\0\\0[\\x02\\xa1]\\0\\xc0\\x01\n$","flag":"","cpes":["a:ibm:sametime","o:microsoft:windows"],"matchers":{"product":"IBM Sametime Meeting Services","os":"Windows"}}
+{"pattern":"^\\x03\\0\\0\\x0b\\x06\\xd0\\0\\x004\\x12\\0","flag":"","cpes":["a:oracle:vm_virtualbox","o:microsoft:windows"],"matchers":{"product":"VirtualBox VM Remote Desktop Service","os":"Windows"}}

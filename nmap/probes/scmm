@@ -1,0 +1,1 @@
+{"pattern":"^MMcS\\xff\\xff\\xff\\xff\\0\\0\\0\\0","flag":"","cpes":[],"matchers":{"device":"broadband router","product":"SerComm manufacturer backdoor"}}

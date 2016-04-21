@@ -1,0 +1,1 @@
+{"pattern":"^1\\x0c5\\x0c9\\x0c\\x0b\\x03$","flag":"","cpes":["a:aastra:oip"],"matchers":{"device":"PBX","product":"Aastra Open Interfaces Platform PBX alarm server"}}

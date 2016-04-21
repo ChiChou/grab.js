@@ -1,0 +1,29 @@
+{"pattern":"^[0-3]\\d [A-Z][A-Z][A-Z] (?:19|20)\\d\\d \\d\\d:\\d\\d:\\d\\d \\S+\r\n","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^[A-Z][a-z]{2} [A-Z][a-z]{2} +\\d{1,2} +\\d\\d:\\d\\d:\\d\\d (?:19|20)\\d\\d\r\n","flag":"","cpes":[],"matchers":{"os":"Unix"}}
+{"pattern":"^[A-Z][a-z]{2} [A-Z][a-z]{2} +\\d{1,2} +\\d\\d:\\d\\d:\\d\\d (?:19|20)\\d\\d\n\r","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"Sun Solaris daytime","os":"Solaris"}}
+{"pattern":"^\\d+:\\d\\d:\\d\\d [AP]M \\d+\/\\d+\/(?:19|20)\\d\\d\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows USA daytime","os":"Windows"}}
+{"pattern":"^\\d\\d:\\d\\d:\\d\\d \\d\\d?.\\d\\d?.(?:19|20)\\d\\d\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows International daytime","os":"Windows"}}
+{"pattern":"^.... \\d{1,2}:\\d{1,2}:\\d{1,2} (?:19|20)\\d\\d-\\d{1,2}-\\d{1,2}\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows daytime","os":"Windows"}}
+{"pattern":"^[A-Z][a-z]+day, [A-Z][a-z]+ \\d{1,2}, (?:19|20)\\d\\d \\d{1,2}:\\d\\d:\\d\\d\n\\0$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows daytime","os":"Windows"}}
+{"pattern":"^[A-Z][a-z][a-z] [A-Z][a-z][a-z] \\d{1,2} \\d{1,2}:\\d{1,2}:\\d{1,2} (?:19|20)\\d\\d\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows daytime","os":"Windows"}}
+{"pattern":"^\\d{1,2}\\.\\d{1,2}\\.\\d{1,2} \\d\\d\/\\d\\d\/(?:19|20)\\d\\d\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows daytime","os":"Windows"}}
+{"pattern":"^\\d{1,2}:\\d\\d:\\d\\d \\d{1,2}[\/.]\\d{1,2}[\/.]\\d{4}\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows daytime","os":"Windows"}}
+{"pattern":"^\\d{1,2}:\\d\\d:\\d\\d [ap]m \\d{4}\/\\d\\d\/\\d\\d\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows daytime","os":"Windows"}}
+{"pattern":"^\\d{1,2}:\\d\\d:\\d\\d [ap]m \\d{1,2}\/\\d{1,2}\/\\d{4}\n$","flag":"","cpes":["o:microsoft:windows_server_2003"],"matchers":{"product":"Microsoft Windows 2003 daytime","os":"Windows"}}
+{"pattern":"^\\d\\d:\\d\\d:\\d\\d [AP]M \\d\\d\\d\\d\/\\d\\d\/\\d\\d\n$","flag":"","cpes":[],"matchers":{"product":"Microsoft Windows 7 daytime"}}
+{"pattern":"^\\d\\d:\\d\\d:\\d\\d \\d\\d.\\d\\d.20\\d\\d\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows International daytime","os":"Windows"}}
+{"pattern":"^[01]\\d:\\d\\d:\\d\\d [AP]M [0-3]\\d\/[01]\\d\/0\\d\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"New Zealand style","product":"Microsoft Windows daytime","os":"Windows"}}
+{"pattern":"^[A-Z][a-z]{2} [A-Z][a-z]{2} +\\d{1,2} \\d\\d:\\d\\d:\\d\\d [A-Z]+ 20\\d\\d\r\n$","flag":"","cpes":["o:hp:hp-ux"],"matchers":{"product":"HP-UX daytime","os":"HP-UX"}}
+{"pattern":"^[A-Z][a-z]{2} [A-Z][a-z]{2} +\\d{1,2} \\d\\d:\\d\\d:\\d\\d 20\\d\\d $","flag":"","cpes":[],"matchers":{"product":"Tardis 2000 daytime"}}
+{"pattern":"^\\d+ \\d\\d-\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d 50 0 4 \\d+\\.0 UTC\\(NIST\\) \\*\r\n","flag":"","cpes":[],"matchers":{"product":"Greyware Domain Time II daytime"}}
+{"pattern":"^[A-Z][a-z]{2}, [A-Z][a-z]{2} \\d{1,2}, 20\\d\\d, \\d\\d:\\d\\d:\\d\\d-UTC$","flag":"","cpes":[],"matchers":{"product":"TrueTime nts100"}}
+{"pattern":"^[A-Z][a-z]+day, [A-Z][a-z]+ \\d{1,2}, \\d{4} \\d\\d:\\d\\d:\\d\\d-\\w\\w\\w(?:-?DST)?\r\n","flag":"","cpes":["o:cisco:ios"],"matchers":{"product":"Cisco router daytime","os":"IOS"}}
+{"pattern":"^\\w+, +\\d+ +\\w+ +\\d+ +\\d+:\\d+:\\d+ [+-]\\d+\r\n([\\w:._ \/\\\\-]+\\\\ats\\.exe)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"$1","product":"Atomic Time Synchonizer daytime","os":"Windows"}}
+{"pattern":"^\\d\\d\\d\\d\/\\d\\d\/\\d\\d \\d\\d:\\d\\d:\\d\\d\r\n$","flag":"","cpes":[],"matchers":{"device":"webcam","product":"American Dynamics EDVR security camera daytime"}}
+{"pattern":"^[A-Z][a-z]{2} [A-Z][a-z]{2} +\\d{1,2} +\\d\\d:\\d\\d:\\d\\d (?:19|20)\\d\\d\n\r$","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"Sun Solaris daytime","os":"Solaris"}}
+{"pattern":"^[0-3]\\d [A-Z][A-Z][A-Z] 20\\d\\d \\d\\d:\\d\\d:\\d\\d \\S+\r\n","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^\\d{1,2}:\\d\\d:\\d\\d [AP]M \\d{1,2}\/\\d\\d\/\\d{4}\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Windows small service daytime","os":"Windows"}}
+{"pattern":"^\\d{1,2}:\\d\\d:\\d\\d \\d{1,2}\/\\d\\d\/\\d{4}\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Windows daytime","os":"Windows"}}
+{"pattern":"^\\d\\d:\\d\\d:\\d\\d \\d\\d.\\d\\d.20\\d\\d\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows International daytime","os":"Windows"}}
+{"pattern":"^\\w\\w\\w \\w\\w\\w \\d\\d \\d\\d:\\d\\d:\\d\\d \\d\\d\\d\\d\r\n$","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"AIX daytime","os":"AIX"}}
+{"pattern":"^(\\w\\w\\w \\w\\w\\w \\d\\d \\d\\d:\\d\\d:\\d\\d \\w+ \\d\\d\\d\\d)\r\n\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0 \\0\\0\\0\\x7f\\xff\\xec0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x04\\x01Q\\xa0\\0\\0\\0\\0\\0\\x01\\0\\x15\\x90-d\\0\\0\\0\\0\\0\\0\\0\\0\\x1c\\0\\0\\xff\\xfe\\xff\\xff\\xff\\xff\\xc5:H\\0\\0\\x16\\xc3\\xd8\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\xff\\xff\\xac\\x10\\x0b\\x05\\0\\xff\\0\\x06T\\xa3\\0\\0 !\\\"#\\$%&'\\(\\)\\*\\+,-\\.\/0123456789:;<=>\\?@ABCDEFGHIJKLMNO\\xd3\\$\\x12\\xccTUVWOy\\x94L\\0\r\\xd1z\\0\\0\\0\\0\\x04\\x02\\x1b`\\0\\0\\0\\0\\x04\\x02\\x1b`","flag":"i","cpes":[],"matchers":{}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\t\\0\\0\\0\\x80\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x042\\0\\0\\0\\x01\\0\\0\t_\\0\\0\\0h","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Galaxy Client Event Manager","os":"Windows"}}

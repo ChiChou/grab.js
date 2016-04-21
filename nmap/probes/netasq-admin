@@ -1,0 +1,1 @@
+{"pattern":"^200 code=00100200 msg=\\\"[^\"]+\\\"\r\n200 code=00100200 msg=\\\"[^\"]+\\\"\r\n$","flag":"","cpes":[],"matchers":{"device":"firewall","product":"Netasq firewall admin"}}

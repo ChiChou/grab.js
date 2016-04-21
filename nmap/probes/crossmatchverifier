@@ -1,0 +1,3 @@
+{"pattern":"^Idle\r\n$","flag":"","cpes":[],"matchers":{"product":"Cross Match Technologies Verifier fingerprint capture control port"}}
+{"pattern":"^(?:Idle|Notify)\r\n$","flag":"","cpes":[],"matchers":{"product":"Cross Match Verifier E fingerprint control"}}
+{"pattern":"^Settings\r\nGain\\x20(\\d+)\r\nContrast\\x20(\\d+)\r\nTime\\x20(\\d+)\r\nIllumination\\x20(\\d+)\r\nProcessed\r\n$","flag":"","cpes":[],"matchers":{"info":"Gain: $1; Contrast: $2; Time: $3; Illumination: $4","product":"Cross Match Verifier E fingerprint advanced control"}}

@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.0 501 Tor is not an HTTP Proxy\r\n","flag":"","cpes":["a:torproject:tor"],"matchers":{"product":"Tor SOCKS proxy"}}

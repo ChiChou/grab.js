@@ -1,0 +1,10 @@
+{"pattern":"^!\"#\\$%\\&'\\(\\)\\*\\+,-\\.\/0123456789:;<=>\\?\\@ABCDEFGHIJKLMNOPQRSTUVWXYZ\\[\\\\\\]\\^_`abcdefgh\r\n\"#\\$%\\&'\\(\\)\\*\\+,-\\.\/0123456789:;<=>\\?\\@ABCDEF","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"Linux chargen","os":"Linux"}}
+{"pattern":"^\\*\\+,-\\.\/0123456789:;<=>\\?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\\[\\\\\\]\\^_`abcdefghijklmnopq\r\n\\+,-\\.\/","flag":"","cpes":[],"matchers":{"product":"xinetd chargen","os":"Unix"}}
+{"pattern":"^\\ !\"#\\$%&'\\(\\)\\*\\+,-\\.\/0123456789:;<=>\\?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\\[\\\\\\]\\^_","flag":"","cpes":[],"matchers":{}}
+{"pattern":"NOPQRSTUVWXYZ\\[\\\\\\]\\^_`abcdefghijklm","flag":"","cpes":[],"matchers":{"product":"xinetd chargen","os":"Unix"}}
+{"pattern":"^\\*\\*\\* Port V([\\d.]+) !\\\"#\\$%&'\\(\\)\\*\\+,-\\.\/0123456789:","flag":"","cpes":[],"matchers":{"product":"Lantronix chargen","version":"$1"}}
+{"pattern":"^The quick brown fox jumps over the lazy dog\\. 1234567890\r\n","flag":"","cpes":[],"matchers":{"device":"printer","product":"Tektronix Phaser chargen"}}
+{"pattern":"NOPQRSTUVWXYZ\\[\\\\\\]\\^_`abcdefghijklm","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^ !\\\"#\\$%&'\\(\\)\\*\\+","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"SunOS chargen","os":"SunOS"}}
+{"pattern":"^ !\\\"#\\$%&'\\(\\)\\*\\+,-\\.\/0123456789:;<=>\\?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\\[\\\\\\]\\^_`abcdefg\r\n!\\\"#\\$%&'\\(\\)\\*\\+,-\\.\/0123456789","flag":"","cpes":["o:microsoft:windows_vista"],"matchers":{"product":"Windows Vista chargen","os":"Windows Vista"}}
+{"pattern":"@ABCDEFGHIJKLMNOPQRSTUVWXYZ","flag":"","cpes":[],"matchers":{}}

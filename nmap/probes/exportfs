@@ -1,0 +1,1 @@
+{"pattern":"^(?:p9sk1@[\\w._-]+ )*p9sk1@([\\w._-]+)\\0\/bin\/exportfs: auth_proxy: auth_proxy rpc write: : invalid argument\n","flag":"","cpes":["o:belllabs:plan_9"],"matchers":{"product":"Plan 9 exportfs","hostname":"$1","os":"Plan 9"}}

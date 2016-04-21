@@ -1,0 +1,1 @@
+{"pattern":"^>INFO:OpenVPN Management Interface Version ([\\d.]+) -- type 'help' for more info\r\n>","flag":"","cpes":["a:openvpn:openvpn:$1"],"matchers":{"product":"OpenVPN Management Interface","version":"$1"}}

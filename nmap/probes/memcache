@@ -1,0 +1,2 @@
+{"pattern":"^ERROR\r\nERROR\r\n$","flag":"","cpes":["a:memcached:memcached"],"matchers":{"product":"memcached"}}
+{"pattern":"^STAT pid (\\d+)\r\nSTAT uptime (\\d+)\r\n.*?STAT version ([\\w_.-]+)\r\n.*?STAT curr_items (\\d+)\r\nSTAT total_items (\\d+)\r\nSTAT bytes (\\d+)\r\n","flag":"s","cpes":["a:memcached:memcached:$3"],"matchers":{"info":"PID $1; uptime $2 seconds; curr items: $4; total items: $5; bytes cached: $6","product":"memcached","version":"$3"}}

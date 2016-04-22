@@ -108,7 +108,7 @@ describe('grabber', () => {
   });
 
   it('should reject when destination unavaliable', done => {
-    grabber.grab('169.254.1.1', 21, {timeout: 20})
+    grabber.grab('169.254.1.1', 21, { timeout: 20 })
       .run()
       .catch(err => {
         expect(err instanceof Error).to.be.true;
@@ -125,4 +125,24 @@ describe('buffer escape', () => {
 
     done();
   })
+});
+
+describe('banner parser', () => {
+  it('should parse cpe and version', done => {
+    let data = {
+      banner: new Buffer('SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u3\r\n')
+    };
+
+    let parse = grabber.parse('ssh');
+
+    parse(data)
+      .then(result => {
+        expect(result.cpes).to.includes('o:debian:debian_linux');
+        expect(result.info).to.equals('protocol 2.0');
+      })
+      // parse again
+      .then(() => parse(data))
+      .then(() => done());
+  });
+
 });

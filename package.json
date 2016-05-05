@@ -1,6 +1,6 @@
 {
   "name": "grab.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "zgrab in node.js",
   "main": "lib/",
   "scripts": {

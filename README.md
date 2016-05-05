@@ -67,4 +67,4 @@ Thanks to the marvellous [nmap project](https://nmap.org) who has collected so m
 
 ## License
 
-MIT & GPL
+GPLv2

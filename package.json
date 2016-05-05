@@ -1,7 +1,13 @@
 {
   "name": "grab.js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "zgrab in node.js",
+  "keywords": [
+    "banner",
+    "fingerprinting",
+    "scan",
+    "security"
+  ],
   "main": "lib/",
   "scripts": {
     "test": "mocha tests",
@@ -17,6 +23,14 @@
   },
   "author": "CodeColorist",
   "license": "MIT",
+  "files": [
+    "lib",
+    "nmap/parsers/",
+    "nmap/payloads",
+    "cli.js",
+    "LICENSE",
+    "README.md"
+  ],
   "bugs": {
     "url": "https://github.com/ChiChou/grab.js/issues"
   },

@@ -1,0 +1,4 @@
+GET /server-info HTTP/1.1
+Client-DPAP-Version: 1\.1
+User-Agent: iPhoto/9.1.1  (Macintosh; N; PPC)
+

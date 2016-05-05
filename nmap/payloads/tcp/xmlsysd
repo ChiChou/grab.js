@@ -1,0 +1,5 @@
+init
+off all
+on identity version
+send
+quit

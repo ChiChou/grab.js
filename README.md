@@ -49,15 +49,16 @@ This project provides a cli tool for quick banner grab like [zgrab](http://githu
 
 For example, scanning ftp banner on given CIDR:
 
-`sudo zmap -p 80 [cidr] | node cli.js -p 80 --payload=tcp/GetRequest --parse http` 
+`sudo zmap -p 80 [cidr] | node cli.js -p 80 --payload=tcp/GetRequest --parse http > http.json` 
 
 Leave cidr blank to scan `0.0.0.0/20`
+
+`find nmap` to checkout all avaliable parsers and paylaods.
 
 ### Options
 
 * `-p, --port` the port
 * `-s, --tls` use tis (https, imaps, etc)
-* `--skip-error` skip error messages
 * `--payload` send a payload upon connection. Extracted from nmap
 * `--parse` parse banner with nmap's rule
 

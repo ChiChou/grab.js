@@ -1,6 +1,6 @@
 {
   "name": "grab.js",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "zgrab in node.js",
   "keywords": [
     "banner",
@@ -22,7 +22,7 @@
     "url": "git+ssh://git@github.com/ChiChou/grab.js.git"
   },
   "author": "CodeColorist",
-  "license": "MIT",
+  "license": "GPL-2.0",
   "files": [
     "lib",
     "nmap/parsers/",

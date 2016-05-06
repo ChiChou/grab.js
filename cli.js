@@ -28,7 +28,7 @@ process.stdin.on('data', buf =>
     grabber.grab(ip, program.port, { tls: program.tls, payload: program.payload })
       .run()
       .then(parse)
-      .then(data => (data.banner = data.banner.toEscaped(), data))
+      .then(data => (data.ip = ip, data.banner = data.banner.toEscaped(), data))
       .then(JSON.stringify)
       .then(console.log)
       .catch(err => console.log({target: ip, port:port, msg: err.message})

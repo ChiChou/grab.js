@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-'use strict';
+'use strict'
 
-const grabber = require('./lib');
-const program = require('commander');
-const fs = require('fs');
-const path = require('path');
+const grabber = require('./lib')
+const program = require('commander')
+const fs = require('fs')
+const path = require('path')
 
 const read = filename => fs.readFileSync(
   path.join(__dirname, 'nmap', 'payloads', filename), 'utf8')

@@ -16,6 +16,7 @@ program
   .option('--payload <file>', 'payload file', read)
   .option('--parser <parser>', 'parse with nmap rule')
   .option('--encoding [encoding]', 'encode banner', /^(escape|base64|hex)$/)
+  .option('--timeout <timeout>', 'timeout', parseInt)
   .parse(process.argv)
 
 let parse = program.parser ? (() => {
@@ -26,7 +27,9 @@ let parse = program.parser ? (() => {
 
 process.stdin.on('data', buf =>
   buf.toString().split('\n').filter(ip => ip).forEach(ip => 
-    grabber.grab(ip, program.port, { tls: program.tls, payload: program.payload })
+    grabber.grab(ip, program.port, {
+        tls: program.tls, payload: program.payload, timeout: program.timeout
+      })
       .run()
       .then(parse)
       .then(data => {

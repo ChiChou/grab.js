@@ -24,14 +24,13 @@ let parse = program.parse ? (() => {
   })() : data => data
 
 process.stdin.on('data', buf =>
-  buf.toString().split('\n').forEach(ip => 
+  buf.toString().split('\n').filter(ip => ip).forEach(ip => 
     grabber.grab(ip, program.port, { tls: program.tls, payload: program.payload })
       .run()
       .then(parse)
       .then(data => (data.ip = ip, data.banner = data.banner.toEscaped(), data))
       .then(JSON.stringify)
       .then(console.log)
-      .catch(err => console.log({target: ip, port:port, msg: err.message})
-    )
+      .catch(err => console.log({ip: ip, msg: err.message}))
   )
 )

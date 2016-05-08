@@ -15,6 +15,7 @@ program
   .option('-s, --tls', 'with tls')
   .option('--payload <file>', 'payload file', read)
   .option('--parser <parser>', 'parse with nmap rule')
+  .option('--encoding [encoding]', 'encode banner', /^(escape|base64|hex)$/)
   .parse(process.argv)
 
 let parse = program.parser ? (() => {
@@ -28,7 +29,12 @@ process.stdin.on('data', buf =>
     grabber.grab(ip, program.port, { tls: program.tls, payload: program.payload })
       .run()
       .then(parse)
-      .then(data => (data.ip = ip, data.banner = data.banner.toEscaped(), data))
+      .then(data => {
+        data.ip = ip
+        data.banner = program.encoding === 'escape' ? 
+          data.banner.toEscaped() : data.banner.toString(program.encoding)
+        return data
+      })
       .then(JSON.stringify)
       .then(console.log)
       .catch(err => console.log({ip: ip, error: err.message}))

@@ -15,7 +15,7 @@ program
   .option('-s, --tls', 'with tls')
   .option('--payload <file>', 'payload file', read)
   .option('--parser <parser>', 'parse with nmap rule')
-  .option('--encoding [encoding]', 'encode banner', /^(escape|base64|hex)$/)
+  .option('--encoding [encoding]', 'encode banner', /^(base64|hex)$/)
   .option('--timeout <timeout>', 'timeout', parseInt)
   .parse(process.argv)
 
@@ -34,8 +34,9 @@ process.stdin.on('data', buf =>
       .then(parse)
       .then(data => {
         data.ip = ip
-        data.banner = program.encoding === 'escape' ? 
-          data.banner.toEscaped() : data.banner.toString(program.encoding)
+        data.banner = program.encoding ? 
+          data.banner.toString(program.encoding) :
+          data.banner.toEscaped()
         return data
       })
       .then(JSON.stringify)

@@ -14,11 +14,11 @@ program
   .option('-p, --port <n>', 'port number', parseInt)
   .option('-s, --tls', 'with tls')
   .option('--payload <file>', 'payload file', read)
-  .option('--parse <parser>', 'parse with nmap rule')
+  .option('--parser <parser>', 'parse with nmap rule')
   .parse(process.argv)
 
-let parse = program.parse ? (() => {
-    let bannerParser = grabber.parse(program.parse)
+let parse = program.parser ? (() => {
+    let bannerParser = grabber.parse(program.parser)
     return data => bannerParser(data).then(parsed => 
       (Object.keys(parsed).forEach(key => (data[key] = parsed[key])), data))
   })() : data => data

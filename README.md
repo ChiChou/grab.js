@@ -59,8 +59,8 @@ Leave cidr blank to scan `0.0.0.0/20`
 
 * `-p, --port` the port
 * `-s, --tls` use tis (https, imaps, etc)
-* `--payload` send a payload upon connection. Extracted from nmap
-* `--parse` parse banner with nmap's rule
+* `--payload` send a payload upon connection. `ls -R nmap/payloads` to see all supported parsers.
+* `--parser` parse banner with nmap's rule. `ls nmap/parsers` to see all supported parsers.
 
 ## Special thanks 
 

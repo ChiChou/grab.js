@@ -31,6 +31,6 @@ process.stdin.on('data', buf =>
       .then(data => (data.ip = ip, data.banner = data.banner.toEscaped(), data))
       .then(JSON.stringify)
       .then(console.log)
-      .catch(err => console.log({ip: ip, msg: err.message}))
+      .catch(err => console.log({ip: ip, error: err.message}))
   )
 )

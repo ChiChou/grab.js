@@ -45,6 +45,7 @@
     "node": ">=4.0"
   },
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "semaphore": "^1.0.5"
   }
 }

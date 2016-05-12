@@ -96,14 +96,25 @@ describe('grabber', () => {
   })
 
   it('should reject when timeout', done => {
-    let silentServer = net.createServer( /* listening but never send banner */ )
+    let silentServer = net.createServer(socket => setTimeout(socket.end.bind(socket), 30))
       .listen(() => {
         grabber.grab('127.0.0.1', silentServer.address().port, { timeout: 10 })
           .run()
+          .then(done)
           .catch(err => {
             expect(err instanceof Error).to.be.true
             done()
           })
+      })
+  })
+
+  it('should reject when error thrown', done => {
+    grabber.grab('127.0.0.1', 1)
+      .run()
+      .then(done)
+      .catch(err => {
+        expect(err instanceof Error).to.be.true
+        done()
       })
   })
 
@@ -143,6 +154,11 @@ describe('banner parser', () => {
       // parse again
       .then(() => parse(data))
       .then(() => done())
+  })
+
+  it('should only accept string parameter', done => {
+    expect(() => {grabber.parse(void 0)}).to.throw()
+    done()
   })
 
 })

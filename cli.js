@@ -40,9 +40,9 @@ const grab = ip => grabber.grab(ip, program.port, {
       data.banner.toEscaped()
     return data
   })
+  .catch(err => ({ip: ip, error: err.message}))
   .then(JSON.stringify)
   .then(console.log)
-  .catch(err => console.log({ip: ip, error: err.message}))
 
 if (program.after) {
   let list = ''

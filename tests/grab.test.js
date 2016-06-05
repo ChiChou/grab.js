@@ -138,6 +138,14 @@ describe('buffer escape', () => {
   })
 })
 
+describe('payload path', () => {
+  it('should resolve full payload path', done => {
+    let path = grabber.payload('tcp/GetRequest')
+    expect(path).to.match(/tcp\/GetRequest$/)
+    done()
+  })
+})
+
 describe('banner parser', () => {
   it('should parse cpe and version', done => {
     let data = {

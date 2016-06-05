@@ -6,8 +6,7 @@ const program = require('commander')
 const fs = require('fs')
 const path = require('path')
 
-const read = filename => fs.readFileSync(
-  path.join(__dirname, 'nmap', 'payloads', filename), 'utf8')
+const read = filename => fs.readFileSync(grabber.payload(filename), 'utf8')
 
 program
   .version(require('./package.json').version)

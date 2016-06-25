@@ -131,8 +131,10 @@ describe('grabber', () => {
 
 describe('buffer escape', () => {
   it('should escape unprintable chars', done => {
-    expect(new Buffer([0x62, 0x75, 0x66, 0x66, 0x65, 0x72]).toEscaped()).to.equals('buffer')
-    expect(new Buffer([0x00, 0x09, 0x20, 0x0A, 0xFF]).toEscaped()).to.equals('\\x00\\t \n\\xFF')
+    let esc = arr => grabber.escape(new Buffer(arr))
+
+    expect(esc([0x62, 0x75, 0x66, 0x66, 0x65, 0x72])).to.equals('buffer')
+    expect(esc([0x00, 0x09, 0x20, 0x0A, 0xFF])).to.equals('\\x00\\t \n\\xFF')
 
     done()
   })
@@ -152,20 +154,18 @@ describe('banner parser', () => {
       banner: new Buffer('SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u3\r\n')
     }
 
-    let parse = grabber.parse('ssh')
+    grabber.parser('ssh').then(parse => {
+      let result = parse(data)
+      expect(result.cpes).to.includes('o:debian:debian_linux')
+      expect(result.info).to.equals('protocol 2.0')
 
-    parse(data)
-      .then(result => {
-        expect(result.cpes).to.includes('o:debian:debian_linux')
-        expect(result.info).to.equals('protocol 2.0')
-      })
-      // parse again
-      .then(() => parse(data))
-      .then(() => done())
+      // cache
+      grabber.parser('ssh').then(parse => done())
+    })
   })
 
-  it('should only accept string parameter', done => {
-    expect(() => {grabber.parse(void 0)}).to.throw()
+  it('should only accept string parameter and existing parser', done => {
+    expect(() => {grabber.parser(void 0)}).to.throw()
     done()
   })
 

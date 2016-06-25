@@ -37,11 +37,26 @@ Enable TLS.
 
 The `Buffer` to send when connection established. Payload file can be found under `nmap/paylaods`.
 
-### grabber.parse(parser)
+### grabber.escape(buffer)
 
-Create a BannerParser with given parser rule name. Rule names can be found under `nmap/parsers`.
+Escape buffer to printable chars.
 
-### BannerParser#parse()
+### grabber.parser(service)
+
+Returns a promise that loads a parser function with given parser rule name. Rule names can be found under `nmap/parsers`.
+
+### Parser.parse(buffer)
+
+Parse buffer to fingerprints. Fingerprint could have following fields:
+
+* cpes: common platform enumeration
+* os: operating system
+* product: product name
+* device: device type
+* service: service name, same as the only arguments for `grabber.parser`
+* version: software version
+
+Notice that a `Parser` object instance can not be directly get from public API. This is by design.
 
 ## Command util
 

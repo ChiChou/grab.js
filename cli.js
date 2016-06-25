@@ -22,8 +22,11 @@ program
 function run(parser) {
   let parse = data => data
   if (parser) {
-    parse = data =>
-      (Object.keys(parsed).forEach(key => (data[key] = parsed[key])), data)
+    parse = data => {
+      let parsed = parser(data)
+      Object.keys(parsed).forEach(key => (data[key] = parsed[key]))
+      return data
+    }
   }
 
   const grab = ip => grabber.grab(ip, program.port, {

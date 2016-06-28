@@ -6,6 +6,7 @@ const grabber = require('./lib')
 const program = require('commander')
 const fs = require('fs')
 const path = require('path')
+const readline = require('readline')
 
 const read = filename => fs.readFileSync(grabber.payload(filename), 'utf8')
 
@@ -47,9 +48,9 @@ function run(parser) {
     .then(JSON.stringify)
     .then(console.log)
 
-  process.stdin
-    .on('data', buf => buf.toString().split('\n').filter(ip => ip).forEach(grab))
-
+  readline
+    .createInterface({ input: process.stdin })
+    .on('line', grab)
 }
 
 if (program.parser) {

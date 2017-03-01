@@ -56,7 +56,7 @@ Parse buffer to fingerprints. Fingerprint could have following fields:
 * service: service name, same as the only arguments for `grabber.parser`
 * version: software version
 
-Notice that a `Parser` object instance can not be directly get from public API. This is by design.
+Notice that a `Parser` object instance is not exported. This is by design.
 
 ## Command util
 
@@ -68,12 +68,12 @@ For example, scanning ftp banner on given CIDR:
 
 Leave cidr blank to scan `0.0.0.0/20`
 
-`find nmap` to checkout all avaliable parsers and paylaods.
+`find nmap` to checkout all avaliable parsers and payloads.
 
 ### Options
 
 * `-p, --port` the port
-* `-s, --tls` use tis (https, imaps, etc)
+* `-s, --tls` use tls (https, imaps, etc)
 * `--payload` send a payload upon connection. `ls -R nmap/payloads` to see all supported parsers.
 * `--parser` parse banner with nmap's rule. `ls nmap/parsers` to see all supported parsers.
 

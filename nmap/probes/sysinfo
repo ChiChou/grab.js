@@ -1,0 +1,1 @@
+{"pattern":"^\\* OK SSP MagniComp SysInfo Server ([\\w._-]+)\n$","flag":"","cpes":[],"matchers":{"product":"MagniComp SysInfo asset management","version":"$1"}}

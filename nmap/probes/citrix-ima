@@ -1,0 +1,1 @@
+{"pattern":"^.\\0\\0\\0\\x81\\0\\0\\0\\x01","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"Citrix Metaframe XP IMA","os":"Windows"}}

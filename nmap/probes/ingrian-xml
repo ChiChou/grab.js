@@ -1,0 +1,1 @@
+{"pattern":"^<GenericError><Success>false<\/Success><FatalError>101<\/FatalError><ErrorString>Could not parse client request<\/ErrorString><\/GenericError>","flag":"","cpes":[],"matchers":{"device":"security-misc","product":"Ingrian NAE XML daemon"}}

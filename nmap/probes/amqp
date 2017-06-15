@@ -1,0 +1,2 @@
+{"pattern":"^AMQP\\x00\\x00\\x09\\x01$","flag":"","cpes":[],"matchers":{"product":"Advanced Message Queue Protocol"}}
+{"pattern":"^AMQP\\x01\\x01\\x00\\x0a$","flag":"","cpes":[],"matchers":{"product":"Advanced Message Queue Protocol"}}

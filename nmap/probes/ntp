@@ -1,0 +1,10 @@
+{"pattern":"^\\x04\\x01\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0LOCL....\\0\\0\\0\\0AAAAA\\0\\0!....\\0\\0\\0\\0....\\0\\0\\0\\0","flag":"","cpes":[],"matchers":{"device":"broadband router","product":"Actiontec ntpd"}}
+{"pattern":"^[\\x24\\x64\\xa4]\\x01..............................................$","flag":"s","cpes":[],"matchers":{"info":"primary server","product":"NTP","version":"v4"}}
+{"pattern":"^[\\x24\\x64\\xa4][\\x02-\\x0f]..............................................$","flag":"s","cpes":[],"matchers":{"info":"secondary server","product":"NTP","version":"v4"}}
+{"pattern":"^\\xe4[\\0\\x10]..............................................$","flag":"s","cpes":[],"matchers":{"info":"unsynchronized","product":"NTP","version":"v4"}}
+{"pattern":"^\\xe4[\\x01]..............................................$","flag":"s","cpes":[],"matchers":{"info":"primary server; unsynchronized","product":"NTP","version":"v4"}}
+{"pattern":"^\\xe4[\\x01-\\x0f]..............................................$","flag":"s","cpes":[],"matchers":{"info":"secondary server; unsynchronized","product":"NTP","version":"v4"}}
+{"pattern":"^\\x1c[\\x01-\\x0f]..............................................$","flag":"s","cpes":[],"matchers":{"product":"NTP","version":"v3"}}
+{"pattern":"^\\xdc[\\x00-\\x0f]..............................................$","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft NTP","os":"Windows"}}
+{"pattern":"^\\x5c\\x03..............................................$","flag":"s","cpes":["o:microsoft:windows_server_2003"],"matchers":{"product":"Microsoft Windows Server 2003 NTP","version":"v3","os":"Windows 2003"}}
+{"pattern":"^\\x1e\\xc0\\x010\\x02\\0\\xa8\\xe3\\0\\0\\0\\0$","flag":"","cpes":[],"matchers":{"device":"PBX","product":"Digium Switchvox PBX ntpd"}}

@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.1 500 Internal Server Error: internal server error, see logs\r\n\r\n","flag":"","cpes":[],"matchers":{"product":"foolscap RPC"}}

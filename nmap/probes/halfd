@@ -1,0 +1,1 @@
+{"pattern":"^{type INIT} {up \\d+} {auth \\d+} {name {([^}]+)}} {ip [\\d.]+} {max \\d+} {port (\\d+)}\r\n","flag":"","cpes":[],"matchers":{"info":"Name $1; HL port $2","product":"halfd Half-Life admin"}}

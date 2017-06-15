@@ -1,0 +1,1 @@
+{"pattern":"^\\x06\\x07\\xd0\\0\\x01\\0\\0\\0\\x01\\0\\x02\\x07\\xd0\\0\\x01\\0\\0\\x01\\x0f\\x01\\xf4\\0\\0\\0\\0HP +LTO ULTRIUM","flag":"","cpes":[],"matchers":{"device":"storage-misc","product":"HP LTO Ultrium data port"}}

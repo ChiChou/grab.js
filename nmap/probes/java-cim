@@ -1,0 +1,1 @@
+{"pattern":"^JavaCIMAdapter: connection closed - remote access not allowed\\.\r\n","flag":"","cpes":[],"matchers":{"info":"remote access not allowed","product":"Wincor Nixdorf JavaCIMAdapter"}}

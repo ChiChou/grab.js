@@ -1,0 +1,1 @@
+{"pattern":"^\\xd1Q\\xf0'\\0\\0\\0;\\x01\\x05LOGIN\\0\\0\\0\\x30\\x01\\x01\\0\\0\\0\\x05NONCE\\x08 \\0\\0\\0[0-9A-F]{32}$","flag":"","cpes":["a:digifort:digifort:6.5.0_final","o:microsoft:windows"],"matchers":{"product":"Digifort Enterprise 6.5","os":"Windows"}}

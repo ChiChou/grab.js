@@ -1,0 +1,1 @@
+{"pattern":"^\\xf6\\xff\\xff\\xff\\x10\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"","cpes":["a:symantec:veritas_backup_exec"],"matchers":{"product":"Veritas Backup Exec Remote Agent"}}

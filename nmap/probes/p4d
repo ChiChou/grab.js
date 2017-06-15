@@ -1,0 +1,1 @@
+{"pattern":"^..\\0\\0\\0xfiles\\0\\x01\\0\\0\\x005\\0server\\0\\x01\\0\\0\\x003\\0server2\\0\\x02\\0\\0\\x00..\\0","flag":"s","cpes":[],"matchers":{"product":"Perforce configuration daemon"}}

@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\x11Invalid command\n\\0\\0\\0$","flag":"","cpes":[],"matchers":{"product":"apcupsd"}}
+{"pattern":"^\\0\\0\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x06\\0\\0\\0\\0@\\x0c\\0\\x9c\\x18\\0\\0X Consortium\\x01\n\\x01\\0\\x05\\0\\0\\0f\\x84\\x017\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"","cpes":[],"matchers":{"product":"apcupsd"}}

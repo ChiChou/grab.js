@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x17i\\x02\\x03..\\0\\x05\\x02\\0\\x04\\x02\\x04\\x03..\\0\\x03\\x04\\0\\0\\0","flag":"s","cpes":["a:bmc:patrol_agent"],"matchers":{"product":"BMC\/HP Software Patrol Agent"}}

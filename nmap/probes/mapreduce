@@ -1,0 +1,1 @@
+{"pattern":"name:\\x20mapreduce\r\nversion:\\x20(.+)\r\n\r\n","flag":"","cpes":["a:hadoop:mapreduce:$1"],"matchers":{"product":"Hadoop MapReduce","version":"$1"}}

@@ -1,0 +1,262 @@
+{"pattern":"^\\+OK GroupWise POP3 server ready\r\n$","flag":"","cpes":["a:novell:groupwise"],"matchers":{"product":"Novell GroupWise pop3d","os":"Unix"}}
+{"pattern":"^\\+OK Ready when you are <200\\d+\\.","flag":"","cpes":[],"matchers":{"product":"Hotmail Popper hotmail to pop3 gateway"}}
+{"pattern":"^\\+OK Internet Rex POP3 server ready <","flag":"","cpes":[],"matchers":{"product":"Internet Rex Pop3 server"}}
+{"pattern":"^\\+OK DBMAIL pop3 server ready to rock <","flag":"","cpes":["a:paul_j_stevens:dbmail"],"matchers":{"product":"DBMail pop3d"}}
+{"pattern":"^\\+OK POP3 POPFile \\(v(\\d[-.\\w]+)\\) server ready\r\n","flag":"","cpes":[],"matchers":{"product":"POPFile pop3d","version":"$1"}}
+{"pattern":"^\\+OK ([-.+\\w]+) NetMail POP3 Agent \\$Re..sion: ([\\d.]+) \\$\r\n","flag":"","cpes":["a:novell:netmail:$2"],"matchers":{"product":"Novell NetMail pop3d","version":"$2","os":"Unix","hostname":"$1"}}
+{"pattern":"^\\+OK ([-.+\\w]+) Merak (\\d[-.\\w]+) POP3 ","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Merak Mail server pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK \\]-:\\^:-\\[ \\]-:\\^:-\\[ POP3","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Merak Mail Server pop3d","os":"Windows"}}
+{"pattern":"^\\+OK ([-\\w_.]+) [-\\w_.]+ Mail Server ([\\d.]+) POP3 .*\\d:\\d\\d:\\d\\d \\+","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Merak Mail Server pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK <\\d{6,10}\\.\\d{4,6}@([-.+\\w]+)>, POP3 server ready\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Mercury\/32 pop3d","hostname":"$1","os":"Windows"}}
+{"pattern":"^\\+OK POP3 Ready <\\d{3,6}\\.1[012]\\d{8}@([-.\\w]+)>\r\n","flag":"","cpes":["a:gnu:mailutils"],"matchers":{"product":"GNU mailutils pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK Solid POP3 server ready\r\n","flag":"","cpes":[],"matchers":{"product":"Solid pop3d"}}
+{"pattern":"^\\+OK Solid POP3 server ready <[\\d.]+@([\\w._-]+)>\r\n","flag":"","cpes":[],"matchers":{"product":"Solid pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK ([-.\\w]+) Cyrus POP3 v(\\d[-.\\w\\+]+) server ready ?\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server:$2"],"matchers":{"product":"Cyrus POP3","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK  ?([-.\\w]+) Cyrus POP3 Murder v(\\d[-.\\w\\+]+) server ready ?\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server:$2"],"matchers":{"product":"Cyrus POP3 Murder","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 Ready <\\d{3,6}\\.1[012]\\d{8}@(\\w+)>\r\n","flag":"","cpes":["a:gnu:mailutils"],"matchers":{"product":"GNU Mailutils pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK ([\\w\\d_-]+\\.[\\w\\d_.-]+) POP3 <\\d{3,6}\\.1[012]\\d{8}@[-.\\w]+>\r\n","flag":"","cpes":[],"matchers":{"product":"Solid pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 Ready <\\d{3,6}\\.1[012]\\d{8}@\\w+>\r\n","flag":"","cpes":["a:gnu:mailutils"],"matchers":{"product":"GNU Mailutils pop3d"}}
+{"pattern":"^\\+OK [Dd]ovecot ready\\.\r\n","flag":"","cpes":["a:dovecot:dovecot"],"matchers":{"product":"Dovecot pop3d"}}
+{"pattern":"^\\+OK dovecot MUA ready\r\n","flag":"","cpes":["a:dovecot:dovecot"],"matchers":{"product":"Dovecot MUA pop3d"}}
+{"pattern":"^\\+OK [Dd]ovecot ready\\. ?<.*@([-\\w_.]+)>\r\n","flag":"","cpes":["a:dovecot:dovecot"],"matchers":{"product":"Dovecot pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK [Dd]ovecot on ([\\w._-]+) ready\\.\r\n","flag":"","cpes":["a:dovecot:dovecot"],"matchers":{"product":"Dovecot pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK Dovecot ready -","flag":"","cpes":["a:dovecot:dovecot"],"matchers":{"product":"Dovecot pop3d"}}
+{"pattern":"^\\+OK (.*) Dovecot ready\\.\r\n$","flag":"","cpes":["a:dovecot:dovecot"],"matchers":{"info":"$1","product":"Dovecot pop3d"}}
+{"pattern":"\\+OK E-mail server ready\\.\r\n","flag":"","cpes":["a:dovecot:dovecot"],"matchers":{"product":"Dovecot pop3d"}}
+{"pattern":"^\\+OK Dovecot at ([-\\w_.]+) ready\\.\r\n","flag":"","cpes":["a:dovecot:dovecot"],"matchers":{"product":"Dovecot pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK Teapop \\[v?(\\d[-.\\w ]+)\\] - Teaspoon stirs around again .*\r\n","flag":"","cpes":[],"matchers":{"product":"Teapop pop3d","version":"$1"}}
+{"pattern":"^\\+OK ready  \r\n$","flag":"","cpes":[],"matchers":{"product":"Qpopper pop3d"}}
+{"pattern":"^\\+OK POP3 server ready <Jana-Server>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Jana POP3 server","os":"Windows"}}
+{"pattern":"^\\+OK AppleMailServer (\\d[-.\\w]+) POP3 server at ([-.\\w]+) ready <\\d","flag":"","cpes":[],"matchers":{"product":"AppleMailServer pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"\\+OK <10\\d+\\.\\d+@([-.\\w]+)> \\[XMail (\\d[-.\\w]+) \\(([-.\/\\w]+)\\) POP3 Server\\] service ready; ","flag":"","cpes":["a:davide_libenzi:xmail:$2"],"matchers":{"product":"XMail pop3 server","version":"$2","os":"$3","hostname":"$1"}}
+{"pattern":"^\\+OK Welcome to MailEnable POP3 Server","flag":"","cpes":["a:mailenable:mailenable","o:microsoft:windows"],"matchers":{"product":"MailEnable POP3 Server","os":"Windows"}}
+{"pattern":"^\\+OK ([-.\\w]+) running Eudora Internet Mail Server (\\d[-.\\w]+) <.*>\r\n","flag":"","cpes":[],"matchers":{"product":"Eudora Internet Mail Server pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK ready  <\\d{1,5}\\.10\\d{8}@([-.\\w]+)>\r\n","flag":"","cpes":[],"matchers":{"product":"Qualcomm Qpopper pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 Welcome to GNU POP3 Server Version (\\d[-.\\w]+) <.*>\r\n","flag":"","cpes":[],"matchers":{"product":"GNU POP3 Server","version":"$1"}}
+{"pattern":"^\\+OK eXtremail V(\\d[-.\\w]+) release (\\d+) POP3 server ready <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":[],"matchers":{"product":"eXtremail pop3d","version":"$1 rel$2","hostname":"$3"}}
+{"pattern":"^\\+OK eXtremail V(\\d[-.\\w]+) release (\\d+) rev(\\d+) POP3 server ready <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":[],"matchers":{"product":"eXtremail pop3d","version":"$1 rel$2 rev$3","hostname":"$4"}}
+{"pattern":"^\\+OK POP3 Welcome to vm-pop3d (\\d[-.\\w]+)","flag":"","cpes":[],"matchers":{"info":"derived from gnu-pop3d","product":"vm-pop3d","version":"$1"}}
+{"pattern":"^\\+OK <[\\da-f]{32}@([-.\\w]+)>\r\n","flag":"","cpes":[],"matchers":{"product":"tpop3d","hostname":"$1"}}
+{"pattern":"^\\+OK UCB based pop server \\(version (\\d[-.\\w]+) at sionisten\\) starting\\.\r\n","flag":"","cpes":[],"matchers":{"info":"UCB-pop3 derived","product":"Heimdal kerberized pop3","version":"$1"}}
+{"pattern":"^\\+OK VPOP3 Server Ready <.*>\r\n","flag":"","cpes":[],"matchers":{"product":"PSCS VPop3"}}
+{"pattern":"^\\+OK Lotus Notes POP3 server version ([-.\\w]+) ready .* on ([^\/]+)\/([^\\.]+)\\.\r\n","flag":"","cpes":["a:ibm:lotus_domino:$1"],"matchers":{"info":"CN=$2;Org=$3","product":"Lotus Domino POP3 server","version":"$1"}}
+{"pattern":"^\\+OK Lotus Notes POP3 server version ([-.\\w]+) ready on ","flag":"","cpes":["a:ibm:lotus_domino:$1"],"matchers":{"product":"Lotus Domino POP3 server","version":"$1"}}
+{"pattern":"^\\+OK Lotus Notes POP3 server version Release ([-.\\w]+) ready on ","flag":"","cpes":["a:ibm:lotus_domino:$1"],"matchers":{"product":"Lotus Domino POP3 server","version":"$1"}}
+{"pattern":"^\\+OK Lotus Notes POP3 server version Release ([-.\\w]+) ([A-Z]+\\d+) ready on ","flag":"","cpes":["a:ibm:lotus_domino:$1"],"matchers":{"info":"$2","product":"Lotus Domino POP3 server","version":"$1"}}
+{"pattern":"^\\+OK POP3 hotwayd v(\\d[-.\\w]+) -> The POP3-HTTPMail Gateway\\.","flag":"","cpes":[],"matchers":{"product":"hotwayd pop3d","version":"$1"}}
+{"pattern":"^\\+OK ([-.\\w]+) POP3 service \\(Netscape Messaging Server (\\d[^(]+) \\(built ([\\w ]+)\\)\\)\r\n","flag":"","cpes":["a:netscape:messaging_server:$2"],"matchers":{"info":"built on $3","product":"Netscape Messenging Server pop3","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK ([-.\\w]+) Cyrus POP3 v(\\d[-.\\w]+) server ready <","flag":"","cpes":["a:cmu:cyrus_imap_server:$2"],"matchers":{"product":"Cyrus pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK ([-.\\w]+) Cyrus POP3 v(\\d[-.\\w]+)-Red Hat [-\\d.]+ server ready <","flag":"","cpes":["a:cmu:cyrus_imap_server:$2","o:linux:linux_kernel"],"matchers":{"info":"Red Hat","product":"Cyrus pop3d","version":"$2","os":"Linux","hostname":"$1"}}
+{"pattern":"^\\+OK ([-.\\w]+) Cyrus POP3 v(\\d[-.\\w]+)-OS X ([\\d.]+) server ready <","flag":"","cpes":["a:cmu:cyrus_imap_server:$2","o:apple:mac_os_x"],"matchers":{"info":"Mac OS X $3","product":"Cyrus pop3d","version":"$2","os":"Mac OS X","hostname":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) Cyrus POP3 v(\\S+Debian\\S+) server ready","flag":"","cpes":["a:cmu:cyrus_imap_server:$2","o:debian:debian_linux","o:linux:linux_kernel"],"matchers":{"info":"Debian","product":"Cyrus pop3d","version":"$2","os":"Linux","hostname":"$1"}}
+{"pattern":"^\\+OK <[\\d.]+@([\\w._-]+)> [\\w._-]+ Cyrus POP3 v([\\w._-]+) server ready\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server:$2"],"matchers":{"product":"Cyrus pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK X1 NT-POP3 Server ([-\\w.]+) \\(IMail ([^)]+)\\)\r\n","flag":"","cpes":["a:ipswitch:imail:$2"],"matchers":{"product":"IMail pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 \\[cppop (\\d[^]]+)\\] at \\[","flag":"","cpes":[],"matchers":{"product":"cppop pop3d","version":"$1"}}
+{"pattern":"^\\+OK POP3 ([-\\w_.]+) \\[cppop (\\d[^]]+)\\] at \\[","flag":"","cpes":[],"matchers":{"product":"cppop pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK Gpop ready for requests from [\\d\\.]+ ([\\w\\d]+)","flag":"","cpes":[],"matchers":{"info":"$1","product":"Google Gmail pop3d"}}
+{"pattern":"^\\+OK Microsoft Exchange Server 2003 POP3 server version ([\\d.]+) \\(([-\\w_.]+)\\) ready\\.\r\n","flag":"","cpes":["a:microsoft:exchange_server:2003","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange 2003 pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK Microsoft Exchange 2000 POP3 server version (\\S+).* ready\\.\r\n","flag":"","cpes":["a:microsoft:exchange_server:2000","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange 2000 pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK Microsoft Exchange POP3 server version (\\S+) ready\r\n","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK Microsoft Exchange POP3 server version ([\\d.]+) ready  <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK Der Microsoft Exchange POP3-Server \\(Version ([\\d\\.]+)\\) ist betriebsbereit\\.\r\n","flag":"","cpes":["a:microsoft:exchange_server::::de","o:microsoft:windows"],"matchers":{"info":"German","product":"Microsoft Exchange pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK Der Microsoft Exchange Server 2003 POP3-Server, Version ([\\d.]+) \\(([-\\w_.]+)\\), steht zur Verf\\xfcgung\\.\r\n","flag":"","cpes":["a:microsoft:exchange_server:2003:::de","o:microsoft:windows"],"matchers":{"info":"German","product":"Microsoft Exchange 2003 pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK Microsoft Exchange Server 2003 POP3 \\xb7\\xfe\\xce\\xf1\\xc6\\xf7\\xb0\\xe6\\xb1\\xbe ([\\d.]+) \\(([-\\w_.]+)\\)","flag":"","cpes":["a:microsoft:exchange_server:2003:::zh","o:microsoft:windows"],"matchers":{"info":"Chinese","product":"Microsoft Exchange 2003 pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK Microsoft Exchange Server 2003 POP3 \\xbc\\xad\\xb9\\xf6 \\xb9\\xf6\\xc0\\xfc ([\\d.]+) \\(([-\\w_.]+)\\)","flag":"","cpes":["a:microsoft:exchange_server:2003:::ko","o:microsoft:windows"],"matchers":{"info":"Korean","product":"Microsoft Exchange 2003 pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK Microsoft Exchange POP3-server versie ([\\d.]+) is gereed\\.\r\n","flag":"","cpes":["a:microsoft:exchange_server::::nl"],"matchers":{"info":"Dutch","product":"Microsoft Exchange pop3d","version":"$1"}}
+{"pattern":"^\\+OK \\xd1\\xe5\\xf0\\xe2\\xe5\\xf0 Microsoft Exchange POP3 \\xe2\\xe5\\xf0\\xf1\\xe8\\xe8 ([\\d.]+)  \\xe3\\xee\\xf2\\xee\\xe2\r\n","flag":"","cpes":["a:microsoft:exchange_server::::ru"],"matchers":{"info":"Russian","product":"Microsoft Exchange pop3d","version":"$1"}}
+{"pattern":"^\\+OK Microsoft Exchange POP3 kiszolg\\xe1l\\xf3 verzi\\xf3 ([\\d.]+) k\\xe9sz\r\n","flag":"","cpes":["a:microsoft:exchange_server::::hu"],"matchers":{"info":"Hungarian","product":"Microsoft Exchange pop3d","version":"$1"}}
+{"pattern":"^\\+OK Le serveur POP3 Microsoft Exchange Server 2003 version ([\\d.]+) \\(([-\\w_.]+)\\) est pr\\xeat\\.\r\n","flag":"","cpes":["a:microsoft:exchange_server:2003:::fr"],"matchers":{"info":"French","product":"Microsoft Exchange 2003 pop3d","version":"$1","hostname":"$2"}}
+{"pattern":"^\\+OK Le serveur POP3 Microsoft Exchange version ([\\d.]+) est pr\\xeat\r\n","flag":"","cpes":["a:microsoft:exchange_server::::fr"],"matchers":{"info":"French","product":"Microsoft Exchange pop3d","version":"$1"}}
+{"pattern":"^\\+OK Microsoft Exchange POP3 server verze ([\\d.]+) je p\\xf8ipraven\\.\r\n","flag":"","cpes":["a:microsoft:exchange_server::::cs","o:microsoft:windows"],"matchers":{"info":"Czech","product":"Microsoft Exchange pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK Microsoft Exchange Server 2003 POP3 \\xa6\\xf8\\xaaA\\xbe\\xb9\\xaa\\xa9\\xa5\\xbb ([\\d.]+) \\(([-\\w_.]+)\\) \\xa5i\\xa5H\\xa8\\xcf\\xa5\\xce\\xa1C\r\n","flag":"","cpes":["a:microsoft:exchange_server:2003:::zh_tw","o:microsoft:windows"],"matchers":{"info":"Chinese (Traditional)","product":"Microsoft Exchange 2003 pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK Servidor POP3 de Microsoft Exchange Server 2003 versi\\xf3n ([\\d.]+) \\(([\\w._-]+)\\) listo\\.\r\n","flag":"","cpes":["a:microsoft:exchange_server:2003:::es","o:microsoft:windows"],"matchers":{"info":"Spanish","product":"Microsoft Exchange 2003 pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK Server POP3 di Microsoft Exchange Server 2003 versione ([\\w._-]+) \\(([\\w._-]+)\\) pronto\\.\r\n","flag":"","cpes":["a:microsoft:exchange_server:2003:::it","o:microsoft:windows"],"matchers":{"info":"Italian","product":"Microsoft Exchange 2003 pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK Microsoft Exchange Server 2007 POP3 service ready\r\n","flag":"","cpes":["a:microsoft:exchange_server:2007","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange 2007 pop3d","os":"Windows"}}
+{"pattern":"^\\+OK Microsoft Exchange Server 2007 POP3 HIROC service ready\r\n","flag":"","cpes":["a:microsoft:exchange_server:2007","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange 2007 pop3d","os":"Windows"}}
+{"pattern":"^\\+OK The Microsoft Exchange POP3 service is ready\\.\r\n","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange 2007-2010 pop3d","os":"Windows"}}
+{"pattern":"^\\+OK QPOP \\(version ([^)]+)\\) at .*starting\\.","flag":"","cpes":[],"matchers":{"product":"Qpop pop3d","version":"$1"}}
+{"pattern":"^\\+OK QPOP Modified by Compaq \\(version ([^)]+)\\) at .*starting\\.","flag":"","cpes":[],"matchers":{"product":"QPop pop3d","version":"$1"}}
+{"pattern":"^\\+OK Qpopper .*\\(version ([^)]+)\\) at .*starting\\.","flag":"","cpes":[],"matchers":{"product":"Qpopper pop3d","version":"$1"}}
+{"pattern":"^\\+OK ([-.\\w]+) POP3 server \\(Netscape Mail Server v(\\d[-.\\w])\\) ready","flag":"","cpes":[],"matchers":{"product":"Netscape Mail Server pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK Cubic Circle's v(\\d[-.\\w]+) .* POP3 ready","flag":"","cpes":[],"matchers":{"product":"Cubic Circle Cucipop pop3d","version":"$1"}}
+{"pattern":"^\\+OK ArGoSoft Mail Server Freeware, Version \\S+ \\(([^)]+)\\)\r\n$","flag":"","cpes":[],"matchers":{"product":"ArGoSoft freeware pop3d","version":"$1"}}
+{"pattern":"^\\+OK ArGoSoft Mail Server, Version [-.\\w]+ \\(([-.\\w]+)\\)\r\n$","flag":"","cpes":[],"matchers":{"product":"ArGoSoft Mail Server pop3d","version":"$1"}}
+{"pattern":"^\\+OK ArGoSoft Mail Server POP3 Module v\\.([\\w._-]+) at ","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft Mail Server pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK ArGoSoft Mail Server Pro for WinNT\/2000\/XP, Version [-.\\w]+ \\(([-.\\w]+)\\)\r\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft Mail Server Pro pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK ([-\\w.]+) ArGoSoft Mail Server Pro for WinNT\/2000\/XP, Version [\\d.]+ \\(([\\d.]+)\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft Pro","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK ArGoSoft Mail Server Plus for WinNT\/2000, Version [\\d.]+ \\(([\\d.]+)\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft Plus","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK ([-.\\w]+) Execmail POP3 \\((\\d[^)]+)\\)","flag":"","cpes":[],"matchers":{"product":"Execmail pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK MailSite POP3 Server (\\S+) Ready <","flag":"","cpes":[],"matchers":{"product":"MailSite pop3d","version":"$1"}}
+{"pattern":"^\\+OK ([-.\\w]+) POP3? MDaemon (\\S+) ready <MDAEMON","flag":"","cpes":["a:altn:mdaemon:$2","o:microsoft:windows"],"matchers":{"product":"MDaemon pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK ([-.\\w]+) POP3? MDaemon ready using UNREGISTERED SOFTWARE ([\\d.]+) <MDAEMON","flag":"","cpes":["a:altn:mdaemon:$2","o:microsoft:windows"],"matchers":{"info":"unregistered","product":"MDaemon pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP MDaemon ([\\d.]+) listo <MDAEMON-[\\w.]+@[-\\w_.]+>\r\n","flag":"","cpes":["a:altn:mdaemon:$2:::es","o:microsoft:windows"],"matchers":{"info":"Spanish","product":"MDaemon pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP MDaemon ([\\d.]+) \\xd7\\xbc\\xb1\\xb8\\xba\\xc3 <MDAEMON-[\\w.]+@[-\\w_.]+>\r\n","flag":"","cpes":["a:altn:mdaemon:$2:::zh","o:microsoft:windows"],"matchers":{"info":"Chinese","product":"MDaemon pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP MDaemon ([\\d.]+) ready\r\n","flag":"","cpes":["a:altn:mdaemon:$2","o:microsoft:windows"],"matchers":{"product":"MDaemon pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK <\\d{1,5}\\.10\\d{8}@[-.\\w]+>\r\n$","flag":"","cpes":["a:djb:qmail"],"matchers":{"product":"qmail-pop3d","os":"Unix"}}
+{"pattern":"^\\+OK Hello there\\.\r\n$","flag":"","cpes":[],"matchers":{"product":"Courier pop3d"}}
+{"pattern":"^\\+OK Hello there\\. <[\\d.]+@([-\\w_.]+)>\r\n$","flag":"","cpes":[],"matchers":{"product":"Courier pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK ([-.\\w]+) VisNetic.MailServer.v([-.\\w]+) POP3 ","flag":"","cpes":[],"matchers":{"product":"VisNetic MailServer pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK ([-.\\w]+) POP3 server \\(Post\\.Office v([-.\\w]+) release ([-.\\w]+) with ZPOP version ([-.\\w]+)","flag":"","cpes":[],"matchers":{"info":"w\/ZPOP $4","product":"Post.Office pop3d","version":"$2 release $3","hostname":"$1"}}
+{"pattern":"^\\+OK CommuniGate Pro POP3 Server ([-.\\w]+) ready","flag":"","cpes":["a:stalker:communigate_pro:$1"],"matchers":{"product":"CommuniGate Pro","version":"$1"}}
+{"pattern":"^\\+OK CommuniGate Pro POP3 Server ready <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["a:stalker:communigate_pro"],"matchers":{"product":"CommuniGate Pro","hostname":"$1"}}
+{"pattern":"^\\+OK\r\n$","flag":"","cpes":[],"matchers":{"product":"Openwall popa3d"}}
+{"pattern":"^\\+OK ([-.\\w]+) MultiNet POP3 Server Process V(\\S+) at","flag":"","cpes":[],"matchers":{"product":"DEC OpenVMS MultiNet pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK <.*>, MercuryP\/NLM v(\\d[-.\\w]+) ready.\r\n$","flag":"","cpes":["o:novell:netware"],"matchers":{"product":"Mercury POP3 server","version":"$1","os":"NetWare"}}
+{"pattern":"^\\+OK Microsoft Windows POP3 Service Version 1.0 <","flag":"","cpes":["o:microsoft:windows_2000"],"matchers":{"product":"Microsoft Windows 2003 POP3 Service","version":"1.0","os":"Windows 2000"}}
+{"pattern":"^\\+OK POP3 ([-.\\w]+) v?(200\\d\\w?\\.[-.\\w]+) server ready\r\n","flag":"","cpes":["a:uw:imap_toolkit:$2"],"matchers":{"product":"UW Imap pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 v?([\\d.]+) server ready <[\\w.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["a:uw:imap_toolkit:$1"],"matchers":{"product":"UW Imap pop3d","version":"$1","hostname":"$2"}}
+{"pattern":"^\\+OK POP3 \\[([-\\w_.]+)\\] v([\\d.]+) server ready\r\n","flag":"","cpes":["a:uw:imap_toolkit:$2"],"matchers":{"product":"UW Imap pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 server ready <\\w{11}>\r\n$","flag":"","cpes":[],"matchers":{"product":"WebSTAR pop3 server"}}
+{"pattern":"^\\+OK Kerio MailServer (\\d[-.\\w]+) POP3 server ready <([-.\\w@:]+)>\r\n$","flag":"","cpes":[],"matchers":{"info":"$2","product":"Kerio MailServer POP3 Server","version":"$1"}}
+{"pattern":"^\\+OK Kerio MailServer (\\d[-.\\w]+) POP3 server ready <","flag":"","cpes":[],"matchers":{"product":"Kerio MailServer POP3 Server","version":"$1"}}
+{"pattern":"^\\+OK Kerio MailServer (\\d[-.\\w]+) patch ([\\d.]+) POP3 server ready <[\\d.]+@\\(null\\)>\r\n","flag":"","cpes":[],"matchers":{"product":"Kerio MailServer POP3 Server","version":"$1 patch $2"}}
+{"pattern":"^\\+OK Kerio MailServer (\\d[-.\\w]+) patch ([\\d.]+) POP3 server ready <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":[],"matchers":{"product":"Kerio MailServer POP3 Server","version":"$1 patch $2","hostname":"$3"}}
+{"pattern":"^\\+OK POP3-Server Classic Hamster (?:Vr\\.|Version) [\\d.]+ \\(Build ([\\d.]+)\\) greets you! <.*>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Classic Hamster pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK Stalker POP3 Server ([\\w.]+) at ([-\\w_.]+) ready <.*>\r\n","flag":"","cpes":["o:apple:mac_os"],"matchers":{"product":"Stalker pop3d","version":"$1","os":"Mac OS","hostname":"$2"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP3 service \\(iPlanet Messaging Server ([-\\w_.\\s]+) \\(built .*\\)\\)\r\n","flag":"","cpes":["a:sun:iplanet_messaging_server:$2"],"matchers":{"product":"iPlanet pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK Messaging Multiplexor \\(iPlanet Messaging Server ([-\\w_.\\s]+) \\(built .*\\)\\)\r\n","flag":"","cpes":["a:sun:iplanet_messaging_server:$1"],"matchers":{"product":"iPlanet messaging multiplexor","version":"$1"}}
+{"pattern":"^\\+OK WinGate Engine POP3 Gateway ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"WinGate pop3d","os":"Windows"}}
+{"pattern":"^\\+OK ([-\\w_.]+) Oracle Email Server espop3\t([\\d.]+) \t  is ready\r\n","flag":"","cpes":[],"matchers":{"product":"Oracle pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK InterMail POP3 server ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"InterMail pop3d"}}
+{"pattern":"^\\+OK WinRoute Pro ([\\d.]+) POP3 server ready <[-\\w_.]+@unspecified.host>\r\n","flag":"","cpes":[],"matchers":{"product":"WinRoute Pro pop3","version":"$1"}}
+{"pattern":"^\\+OK WinRoute Pro ([\\d.]+) POP3 server ready <[-\\w_.]+@([-\\w_.]+)>\r\n","flag":"","cpes":[],"matchers":{"product":"WinRoute Pro pop3","version":"$1","hostname":"$2"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP3 server \\(Netscape Messaging Server - Version ([\\d.]+)\\) ready .*\r\n","flag":"","cpes":["a:netscape:messaging_server:$2"],"matchers":{"product":"Netscape Messaginging Server pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK [-\\w_.]+ PopMax version ([\\d. ]+) POP3 Mail Server Ready, Willing, and Waiting\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"MailMax PopMax pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK POP3 Welcome to GNU POP3 ([-\\d.]+) <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":[],"matchers":{"product":"GNU POP3","version":"$1","hostname":"$2"}}
+{"pattern":"^\\+OK popserver ([\\d.]+) pop3 server ready\r\n","flag":"","cpes":[],"matchers":{"product":"LiberoPops pop3d","version":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP3 server \\(JAMES POP3 Server ([\\w.]+)\\) ready \r\n","flag":"","cpes":[],"matchers":{"product":"JAMES pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) NetMail POP3 Agent \\$R...sion:   ([\\d.]+)  \\$\r\n","flag":"","cpes":["a:novell:netmail:$2"],"matchers":{"product":"NetMail pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 server ready \\(Worldmail ([\\d.]+)\\) <[\\w.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Eudora Worldmail pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP3 WorkgroupMail ([\\d.]+) .*\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"WorkgroupMail pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 server ready \\(LSMTP v([\\w.]+)\\) <[\\w.]+@([-\\w_.]+)>\r\n","flag":"","cpes":[],"matchers":{"product":"LSMTP pop3d","version":"$1","hostname":"$2"}}
+{"pattern":"^\\+OK ([-\\w_.]+) Mirapoint POP3 ([\\d.]+) server ready\r\n","flag":"","cpes":[],"matchers":{"product":"Mirapoint RazorGate pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK K9 - ([\\d.]+) - http:\/\/keir\\.net ready <[\\w.]+>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"K9 pop3d from keir.net","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK POP3 server ready QuickMail Pro Server for MacOS ([\\d.]+) <[\\w.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["o:apple:mac_os"],"matchers":{"product":"QuickMail Pro pop3d","version":"$1","os":"Mac OS","hostname":"$2"}}
+{"pattern":"^\\+OK ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"602LAN Suite pop3","os":"Windows"}}
+{"pattern":"^\\+OK DvISE Mail Access Server Server ready \\(Tobit Software, Germany\\)\r\n","flag":"","cpes":[],"matchers":{"product":"Tobit DvISE pop3d"}}
+{"pattern":"^\\+OK David\\.fx Mail Access Server ready \\(Tobit\\.Software, Germany\\)\r\n","flag":"","cpes":[],"matchers":{"product":"Tobit David.fx pop3d"}}
+{"pattern":"^\\+OK POP3 ([-\\w_.]+) \\(Version ([-\\w.]+)\\) http:\/\/surgemail\\.com\r\n","flag":"","cpes":[],"matchers":{"product":"SurgeMail pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) running Eudora Internet Mail Server X ([\\d.]+) <","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"product":"Eudora Internet Mail Server X pop3d","version":"$2","os":"Mac OS X","hostname":"$1"}}
+{"pattern":"^\\+OK <[\\d.]+@([-\\w_.]+)> \\[XMail ([\\d.]+) POP3 Server\\] service ready; ","flag":"","cpes":["a:davide_libenzi:xmail:$2"],"matchers":{"product":"XMail pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK <[\\d.]+@([-\\w_.]+)> \\[XMail ([\\d.]+) \\(Linux\/Ix86\\) POP3 Server\\] service ready; ","flag":"","cpes":["a:davide_libenzi:xmail:$2","o:linux:linux_kernel"],"matchers":{"product":"XMail pop3d","version":"$2","os":"Linux","hostname":"$1"}}
+{"pattern":"^\\+OK Samsung Contact POP3 interface ready on: ([-\\w_.]+)\r\n","flag":"","cpes":[],"matchers":{"product":"Samsung Contact pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP3 service \\(Sun Java\\(tm\\) System Messaging Server ([-\\d.]+) \\(built .*\\)","flag":"","cpes":["a:sun:java_system_messaging_server:$2"],"matchers":{"product":"Sun Java System Messaging Server pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK Messaging Multiplexor \\(Sun Java\\(tm\\) System Messaging Server (\\d[-\\w_.]+) \\(built .*\\)\\)\r\n","flag":"","cpes":["a:sun:java_system_messaging_server:$1"],"matchers":{"product":"Sun Java System Messaging Multiplexor pop3d","version":"$1"}}
+{"pattern":"^\\+OK POP3 Greetings from minipop ([\\d.]+) <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":[],"matchers":{"product":"minipop pop3d","version":"$1","hostname":"$2"}}
+{"pattern":"^\\+OK Hermes ([\\w. ]+) POP3 Ready\\. <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Hermes pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK (?:modusMail|ModusMail) POP3 Server ([\\w._-]+) Ready <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ModusMail pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP3 server \\(DeskNow POP3 Server ([\\d.]+)\\) ready \r\n","flag":"","cpes":[],"matchers":{"product":"DeskNow pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 SINA \\(([-\\d.]+)\\) Server Ready\r\n","flag":"","cpes":[],"matchers":{"product":"SINA pop3d","version":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) SpearMail POP3 server ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Spearmail pop3d","hostname":"$1","os":"Windows"}}
+{"pattern":"^\\+OK SCO POP3 server \\(version ([-\\w.]+)\\) at ([-\\w_.]+) starting\\.\r\n","flag":"","cpes":["o:sco:sco_unix"],"matchers":{"product":"SCO pop3d","version":"$1","os":"SCO UNIX","hostname":"$2"}}
+{"pattern":"^\\+OK QPOP modified by SCO \\(version ([-\\w.]+)\\) at ([-\\w_.]+) starting\\.  \r\n","flag":"","cpes":["o:sco:sco_unix"],"matchers":{"product":"SCO-modified QPOP pop3d","version":"$1","os":"SCO UNIX","hostname":"$2"}}
+{"pattern":"^\\+OK POP3 on WebEasyMail \\[([\\d.]+)\\] ready\\.  http:\/\/www\\.51webmail\\.com\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"WebEasyMail pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK \\(POP3\\) hMailServer ([-\\w.]+)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"hMailServer pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK Hi\r\n","flag":"","cpes":[],"matchers":{"product":"Zoe Java pop3d"}}
+{"pattern":"^\\+OK Pop server at ([-\\w_.]+) starting\\.\r\n","flag":"","cpes":[],"matchers":{"device":"firewall","product":"BorderWare firewall pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK ([\\w._-]+) Winmail Mail Server POP3 ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Winmail pop3d","hostname":"$1","os":"Windows"}}
+{"pattern":"^\\+OK Welcome to ([-\\w_.]+), with Ability Mail Server ([\\w._-]+) by Code-Crafters\\.\r\n","flag":"","cpes":["a:code-crafters:ability_mail_server:$2","o:microsoft:windows"],"matchers":{"product":"Code-Crafters Ability Mail Server pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK Welcome to ([\\w._-]+), with Code-Crafters Ability Mail Server ([\\w._-]+) <[\\d.]+@[\\w._-]+>\r\n","flag":"","cpes":["a:code-crafters:ability_mail_server:$2","o:microsoft:windows"],"matchers":{"product":"Code-Crafters Ability Mail Server pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK DAWKCo POP3 Server v([-\\w_.]+) ready <","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"DAWKCo pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK Welcome to ([-\\w_.]+), powered by Ocean Mail Server ([\\d.]+) <[\\d.]+@[-\\w_.]+>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Ocean Mail Server pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK <[\\w.]+@([-\\w_.]+)> ready for action \\(Mailtraq ([\\d.]+)\/POP3\\)\r\n","flag":"","cpes":["a:mailtraq:mailtraq:$2","o:microsoft:windows"],"matchers":{"product":"Mailtraq pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) Solstice \\(tm\\) Internet Mail Server \\(tm\\) POP3 ([\\d.]+)","flag":"","cpes":[],"matchers":{"product":"Sun Solstice Internet Mail Server pop3d","version":"$2","os":"Unix","hostname":"$1"}}
+{"pattern":"^\\+OK Welcome to RaidenMAILD POP3 service v([\\d.]+),","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"RaidenMAILD pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK POP3 FTGate4 server ready","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Floosietek FTGate4 pop3d","os":"Windows"}}
+{"pattern":"^\\+OK POP3 FTGate6 server ready <[\\d.]+@([\\w._-]+)>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Floosietek FTGate6 pop3d","hostname":"$1","os":"Windows"}}
+{"pattern":"^\\+OK DBOX POP3 Server ([\\d.]+) ready\r\n","flag":"","cpes":[],"matchers":{"product":"DBOX TCL pop3d","version":"$1"}}
+{"pattern":"^\\+OK POP3 on WinWebMail \\[([\\d.]+)\\] ready\\.  http:\/\/www\\.winwebmail\\.com\r\n","flag":"","cpes":["h:winwebmail:winwebmail_server:$1","o:microsoft:windows"],"matchers":{"product":"WinWebMail pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP3 Server Version ([\\d.]+) Copyright \\d{4} International Messaging Associates\r\n","flag":"","cpes":[],"matchers":{"product":"IMA pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK MERCUR POP3-Server \\(v([\\w._-]+) [\\w=]+\\) for Windows(?: NT)? ready <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["a:atrium:mercur:$1","o:microsoft:windows"],"matchers":{"product":"Mercur pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK 4D Mail ([-\\w_.]+) ready <","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"product":"WebSTAR 4D pop3d","version":"$1","os":"Mac OS X"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP3 ([-\\w_.()]+) w\/IMAP client at","flag":"","cpes":["o:sco:sco_unix"],"matchers":{"product":"SCO pop3d","version":"$2","os":"SCO UNIX","hostname":"$1"}}
+{"pattern":"^\\+OK Server Ready\r\n","flag":"","cpes":["o:cisco:vpn_3000_concentrator_series_software"],"matchers":{"device":"security-misc","product":"Cisco VPN 3000 Concentrator pop3d"}}
+{"pattern":"^\\+OK Citadel POP3 server <\\d+@([-\\w_.]+)>\r\n","flag":"","cpes":["a:citadel:ux"],"matchers":{"product":"Citadel pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK <-?[\\d.]+@([-\\w_.]+)>, POP3 server ready\\.\r\n","flag":"","cpes":["a:pmail:mercury_mail_transport_system"],"matchers":{"product":"Mercury Mail Transport System pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 server ready <[-0-9a-f]+@([-\\w_.]+)>\r\n","flag":"","cpes":["a:smartertools:smartermail","o:microsoft:windows"],"matchers":{"product":"SmarterMail pop3d","hostname":"$1","os":"Windows"}}
+{"pattern":"^\\+OK mdpop3 ([\\w.]+ \\([\\w ]+\\)) ready\r\n","flag":"","cpes":[],"matchers":{"product":"mdpop3","version":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+)\\s+IdeaPop3Server ([^\\s]+) ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"IdeaPop3Server pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK Welcome to Arvixe POP3 server\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Arvixe pop3d"}}
+{"pattern":"^\\+OK POP3 Server ready\r\n$","flag":"","cpes":[],"matchers":{"product":"zpop3d"}}
+{"pattern":"^\\+OK POP3 server ready\r\n$","flag":"","cpes":[],"matchers":{"product":"qpopper pop3d"}}
+{"pattern":"^\\+OK POP3 server ([-\\w_.]+) ready <[\\d.]+@[-\\w_.]+>\r\n","flag":"","cpes":[],"matchers":{"product":"BVRP Software SLMAIL pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) POP3 Server \\(Version ([\\w.]+)\\) ready at <.*>\r\n","flag":"","cpes":[],"matchers":{"product":"BSD-based in.pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK popd-([\\d.]+) ready \r\n","flag":"","cpes":[],"matchers":{"product":"FreeBSD popd","version":"$1"}}
+{"pattern":"^\\+OK POP3 server at ([-\\w_.]+) ready <[\\d.]+@","flag":"","cpes":["a:opentext:firstclass"],"matchers":{"product":"FirstClass pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 Server OK <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["a:stalker:communigate_pro"],"matchers":{"product":"CommuniGate Pro pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK ([\\w._-]+) CommuniGate Pro POP3 Server (\\d[\\w._-]+) ready <[\\d.]+@\\1>\r\n","flag":"","cpes":["a:stalker:communigate_pro:$2"],"matchers":{"product":"CommuniGate Pro pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^-ERR Permission denied - closing connection\\.\r\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"Permission denied","product":"Classic Hamster pop3d","os":"Windows"}}
+{"pattern":"^\\+OK ([-\\w_.]+) <[\\d.]+@[-\\w_.]+>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"IA MailServer pop3d","hostname":"$1","os":"Windows"}}
+{"pattern":"^\\+OK <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["a:djb:qmail"],"matchers":{"product":"qmail pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 server ready <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"MailMax pop3d","hostname":"$1","os":"Windows"}}
+{"pattern":"^\\+OK ready  <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":[],"matchers":{"product":"qpopper","hostname":"$1"}}
+{"pattern":"^\\+OK Scalix POP3 interface ready on: ([-\\w_.]+)\r\n","flag":"","cpes":[],"matchers":{"product":"Scalix pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) .* GoMail V([\\d.]+) POP3","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"GoMail mass mailing plugin pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 Welcome to ([-\\w_.]+) using the Internet Anywhere Mail Server Version: ([\\d.]+)\\. Build: (\\d+) by True North Software, Inc\\.","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"True North Internet Anywhere pop3d","version":"$2 build $3","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK Authorized Users Only! \\(([-\\w_.]+)\\)\r\n","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange pop3d","hostname":"$1","os":"Windows"}}
+{"pattern":"^\\+OK Welcome to mpopd V([\\d.]+)\\.\\.\\.\\. :\\)\r\n","flag":"","cpes":[],"matchers":{"product":"mpopd perl pop3d","version":"$1"}}
+{"pattern":"^\\+OK POP3 thats cool man\r\n","flag":"","cpes":["a:mozilla:thunderbird"],"matchers":{"product":"Mozilla Thunderbird webmail plugin pop3d"}}
+{"pattern":"^\\+OK [-\\w_.]+ Welcome to the mail server\\.\r\n","flag":"","cpes":["a:ipswitch:imail","o:microsoft:windows"],"matchers":{"product":"Ipswitch IMail pop3d","os":"Windows"}}
+{"pattern":"^\\+OK CMailServer ([\\d.]+) POP3 Service Ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"CMailServer pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK ([-\\w_.]+) running EIMS X ([\\w.]+) <","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"product":"Eudora Internet Mail Server X pop3d","version":"$2","os":"Mac OS X","hostname":"$1"}}
+{"pattern":"^\\+OK ([-\\w_.]+) DynFX POP3 Server ([-\\w_.]+) <","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"DynFX pop3d","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 on WinWebMail \\[([-\\w_.]+)\\] ready\\.  http:\/\/www\\.winwebmail\\.net\r\n","flag":"","cpes":["h:winwebmail:winwebmail_server:$1","o:microsoft:windows"],"matchers":{"product":"WinWebMail pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK POP3 server \\(Neon Mail Server System Advance ([-\\w_.]+), [^)]*\\) ready ([-\\w_.]+)\\. <","flag":"","cpes":[],"matchers":{"product":"Neon Mail Server pop3d","version":"$1","hostname":"$2"}}
+{"pattern":"^\\+OK WorldMail POP3 Server ([-\\w_.]+) Ready <[\\d.]+@([-\\w_.]+)>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Eudora Worldmail pop3d","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^\\+OK Welcome to the Atmail POP3 server - Login with user@domain\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Atmail pop3d"}}
+{"pattern":"^\\+OK Atmail IMAP\/POP3 server ready\r\n","flag":"","cpes":[],"matchers":{"product":"Atmail pop3d"}}
+{"pattern":"^\\+OK Dovecot DA ready\\. <[\\w._=-]+@([\\w._-]+)>\r\n","flag":"","cpes":["a:directadmin:directadmin","a:dovecot:dovecot"],"matchers":{"product":"Dovecot DirectAdmin pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK Dovecot DA ready\\.\r\n","flag":"","cpes":["a:directadmin:directadmin","a:dovecot:dovecot"],"matchers":{"product":"Dovecot DirectAdmin pop3d"}}
+{"pattern":"^Unable to open trace file \\\"\/var\/spool\/popper\/","flag":"","cpes":[],"matchers":{"info":"Misconfigured","product":"popper pop3d"}}
+{"pattern":"^\\+OK SocketMail v ([-\\w_.]+) SocketMail POP3 Server Ready\r\n","flag":"","cpes":[],"matchers":{"product":"SocketMail pop3d","version":"$1"}}
+{"pattern":"^\\+OK ([\\w._-]+) (?:POP3 Service )?Zimbra POP3 server ready\r\n","flag":"","cpes":["a:zimbra:zimbra_collaboration_suite"],"matchers":{"product":"Zimbra pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK TMSOFT POP3 Server v([\\w._-]+) ready <\\w+>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"TMSOFT pop3d","version":"$1","os":"Windows"}}
+{"pattern":"^\\+OK POP3D\\(\\*\\) Server PMDFV([\\w._-]+) at .* <\\w+@([\\w._-]+)>\r\n","flag":"","cpes":["o:hp:openvms"],"matchers":{"product":"PMDF pop3d","version":"$1","os":"OpenVMS","hostname":"$2"}}
+{"pattern":"^\\+OK POP3D\\(\\*\\) Server PMDFV([\\w._-]+) at .* \\(APOP disabled\\)\r\n","flag":"","cpes":["o:hp:openvms"],"matchers":{"product":"PMDF pop3d","version":"$1","os":"OpenVMS"}}
+{"pattern":"^\\+OK Dovecot POP3 at ([\\w._-]+) ready\\.\r\n","flag":"","cpes":["a:dovecot:dovecot"],"matchers":{"product":"Dovecot pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK Pop3 ready\\.\r\n","flag":"","cpes":["a:dovecot:dovecot"],"matchers":{"product":"Dovecot pop3d"}}
+{"pattern":"^\\+OK E-POST POP3 Server \\(([^\\)]+)","flag":"","cpes":[],"matchers":{"product":"E-Post POP3 Server","version":"$1"}}
+{"pattern":"^\\+OK ([\\w._-]+) Cyrus POP3 v([\\w._-]+)-OS X Server ([\\w._-]+):\t9L1 server ready <[\\d.]+@[\\w._-]+>\r\n$","flag":"","cpes":["a:cmu:cyrus_imap_server:$2","o:apple:mac_os_x"],"matchers":{"info":"OS X Server $3","product":"Cyrus pop3d","version":"$2","os":"Mac OS X","hostname":"$1"}}
+{"pattern":"^\\+OK Kerio Connect ([\\w._ -]+) POP3 server ready <[\\d.]+@([\\w._-]+)>\r\n$","flag":"","cpes":["a:kerio:connect:$1"],"matchers":{"product":"Kerio Connect pop3d","version":"$1","hostname":"$2"}}
+{"pattern":"^\\+OK Welcome NewsGator Online Services POP3 Server version ([\\w._-]+)\r\n$","flag":"","cpes":[],"matchers":{"product":"NewsGator Enterprise Server pop3d","version":"$1"}}
+{"pattern":"^-ERR \\[SYS\/PERM\\] Fatal error: tls_init\\(\\) failed\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server"],"matchers":{"product":"Cyrus pop3d"}}
+{"pattern":"^\\+OK Quick 'n Easy Mail Server ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Quick 'n Easy pop3d","os":"Windows"}}
+{"pattern":"^\\+OK ([\\w._-]+) IceWarp ([\\w._-]+) POP3 \\w+, \\d+ \\w+ \\d+ \\d+:\\d+:\\d+ [+-]\\d+ <[\\w._-]+@[\\w._-]+>\r\n","flag":"","cpes":["a:icewarp:mail_server:$2"],"matchers":{"product":"IceWarp pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK ([\\w._-]+) IceWarp ([\\w._-]+) x64 POP3 \\w+, \\d+ \\w+ \\d+ \\d+:\\d+:\\d+ [+-]\\d+ <[\\w._-]+@[\\w._-]+>\r\n","flag":"","cpes":["a:icewarp:mail_server:$2"],"matchers":{"info":"x64","product":"IceWarp pop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK DavMail ([\\w._-]+) POP ready at ","flag":"","cpes":[],"matchers":{"product":"DavMail pop3d","version":"$1"}}
+{"pattern":"^\\+OK Welcome AltiPop3 POP3 Server\r\n","flag":"","cpes":["a:altigen:altiserv"],"matchers":{"device":"PBX","product":"AltiGen AltiServ pop3d"}}
+{"pattern":"^\\+OK Welcome to coremail Mail Pop3 Server \\(gzidcs\\[[0-9a-f]{32}s\\]\\)\r\n$","flag":"","cpes":[],"matchers":{"product":"coremail pop3d"}}
+{"pattern":"^\\+OK POP3 Server ([\\w._-]+) \\(InSciTek OIS\\) ready <[\\w._-]+@[\\w._-]+>\r\n","flag":"","cpes":[],"matchers":{"device":"VoIP adapter","product":"Allworx VoIP server pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK Citadel POP3 server ready\\.\r\n$","flag":"","cpes":["a:citadel:ux"],"matchers":{"product":"Citadel pop3d"}}
+{"pattern":"^\\+OK POP3 Mail server\r\n","flag":"","cpes":["a:mailenable:mailenable","o:microsoft:windows"],"matchers":{"product":"MailEnable pop3d","os":"Windows"}}
+{"pattern":"^\\+OK 200\r\n","flag":"","cpes":[],"matchers":{"device":"printer","product":"Brother MFC-7360N pop3d"}}
+{"pattern":"^\\+OK Welcome to the SLnet POP3 Service\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"SeattleLab SLMail pop3d","os":"Windows"}}
+{"pattern":"^\\+OK ([\\w.-]+) POP3 server \\(DeskNow\\) ready \r\n","flag":"","cpes":[],"matchers":{"product":"DeskNow pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK ([\\w.-]+) Service ready <\\d+\\.\\d+@[\\w.-]+>\r\n","flag":"","cpes":[],"matchers":{"product":"Gattaca pop3d","hostname":"$1"}}
+{"pattern":"^-ERR access from your network is denied\r\n$","flag":"","cpes":["a:stalker:communigate_pro"],"matchers":{"info":"access denied","product":"CommuniGate Pro pop3d"}}
+{"pattern":"^\\+OK Synametrics POP3 server ready \\d\\d\/\\d\\d\/\\d\\d \\d\\d:\\d\\d [AP]M\r\n","flag":"","cpes":["a:synametrics:xeams"],"matchers":{"product":"Synametrics Xeams pop3d"}}
+{"pattern":"^\\+OK The Microsoft Exchange POP3 service is ready\\. \\[\\w+=*\\]\r\n","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange Online pop3d","os":"Windows"}}
+{"pattern":"^-ERR access from your network is temporarily disabled\r\n","flag":"","cpes":["a:stalker:communigate_pro"],"matchers":{"info":"access disabled","product":"CommuniGate Pro pop3d"}}
+{"pattern":"^\\+OK AXIGEN POP3 server on ([\\w._-]+) ready <[\\d.-]+@\\1>\r\n","flag":"","cpes":["a:gecad:axigen_mail_server"],"matchers":{"product":"Axigen pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK mySHN server v([\\d.]+) ready\r\n","flag":"","cpes":[],"matchers":{"product":"mySHN pop3d","version":"$1"}}
+{"pattern":"^\\+OK POP3 ([-.+\\w]+) v(\\d[-.\\w]+) server ready\r\n","flag":"","cpes":[],"matchers":{"product":"ipop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 \\[([-.+\\w]+)\\] (\\d[-.\\w]+) server ready\r\n","flag":"","cpes":[],"matchers":{"product":"ipop3d","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK POP3 \\[([-.\\w]+)\\] v(200[-.\\w]+) server ready\r\n-ERR Null command\r\n-ERR Null command\r\n","flag":"","cpes":[],"matchers":{"product":"ipopd","version":"$2","hostname":"$1"}}
+{"pattern":"^\\+OK Solid POP3 server ready\r\n-ERR unknown command\r\n-ERR unknown command\r\n$","flag":"","cpes":[],"matchers":{"product":"Solid POP3d"}}
+{"pattern":"^\\+OK POP3 server ready\r\n-ERR invalid command\r\n$","flag":"","cpes":["o:ibm:os_400"],"matchers":{"product":"IBM OS 400 pop3d","os":"OS\/400"}}
+{"pattern":"^\\+OK pop server ready\r\n$","flag":"","cpes":["a:mailgate:mailgate","o:microsoft:windows"],"matchers":{"product":"MailGate pop3d","os":"Windows"}}
+{"pattern":"^\\+OK POP3 server ready <[-\\w]+>\r\n-ERR Invalid command\r\n$","flag":"","cpes":["a:smartertools:smartermail","o:microsoft:windows"],"matchers":{"product":"SmarterMail pop3d","os":"Windows"}}
+{"pattern":"^\\+OK POP3\r\n-ERR Invalid command in current state\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"hMailServer pop3d","os":"Windows"}}
+{"pattern":"^\\+OK XXX Private Mail server\r\n-ERR Invalid command in current state\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"hMailServer pop3d","os":"Windows"}}
+{"pattern":"^\\+OK ([\\w._-]+)\r\n-ERR Invalid command in current state\\.\r\n-ERR Invalid command in current state\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"hMailServer pop3d","hostname":"$1","os":"Windows"}}
+{"pattern":"^\\+OK .*\r\n-ERR Invalid command in current state\\.\r\n-ERR Invalid command in current state\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"hMailServer pop3d","os":"Windows"}}
+{"pattern":"^\\+OK ([\\w._-]+) Welcome\r\n-ERR Invalid command \\(\\) \\(\\) p1=\\(\\)\r\n-ERR Invalid command \\(\\) \\(\\) p1=\\(\\)\r\n","flag":"","cpes":[],"matchers":{"product":"SurgeMail pop3d","hostname":"$1"}}
+{"pattern":"^-ERR Invalid command\\.\r\n-ERR Invalid command\\.\r\n","flag":"","cpes":[],"matchers":{"product":"cPanel Courier pop3d"}}
+{"pattern":"^\\+OK POP3 ready\r\n-ERR invalid command\r\n","flag":"","cpes":["a:zimbra:zimbra_collaboration_suite"],"matchers":{"product":"Zimbra Collabration Suite pop3d"}}
+{"pattern":"^\\+OK DavMail POP ready at [^\r\n]*\r\n-ERR unknown command\r\n-ERR unknown command\r\n","flag":"","cpes":[],"matchers":{"product":"DavMail pop3d"}}
+{"pattern":"^\\+OK ([\\w.-]+) POP3 ready\r\n-ERR Unkown command\r\n-ERR Unkown command\r\n","flag":"","cpes":["a:cbdev:cmail"],"matchers":{"product":"cbdev cmail pop3d","hostname":"$1"}}
+{"pattern":"^\\+OK IBM Notes POP3 server version Release ([\\d.]+)FP(\\d+) HF(\\d+) ready on ([^\/]+)\/(.+)\\.\r\n","flag":"","cpes":["a:ibm:notes:$1:fp$2"],"matchers":{"info":"domain: $5","product":"IBM Notes pop3d","version":"$1 FP$2 HF$3","hostname":"$4"}}
+{"pattern":"^\\+OK IBM Notes POP3 server version Release ([\\d.]+)FP(\\d+) ready on ([^\/]+)\/(.+)\\.\r\n","flag":"","cpes":["a:ibm:notes:$1:fp$2"],"matchers":{"info":"domain: $4","product":"IBM Notes pop3d","version":"$1 FP$2","hostname":"$3"}}
+{"pattern":"^\\+OK IBM Notes POP3 server version Release ([\\d.]+) ready on ([^\/]+)\/(.+)\\.\r\n","flag":"","cpes":["a:ibm:notes:$1"],"matchers":{"info":"domain: $3","product":"IBM Notes pop3d","version":"$1","hostname":"$2"}}
+{"pattern":"^\\+OK [^\r\n]*\r\n-ERR Unknown command\\.\r\n-ERR Unknown command\\.\r\n","flag":"","cpes":["a:dovecot:dovecot"],"matchers":{"product":"Dovecot pop3d"}}
+{"pattern":"^\\+OK Citadel POP3 server <\\d+@([-\\w_.]+)>\r\n-ERR Not logged in\\.\r\n-ERR Not logged in\\.\r\n","flag":"","cpes":["a:citadel:ux"],"matchers":{"product":"Citadel pop3d","hostname":"$1"}}

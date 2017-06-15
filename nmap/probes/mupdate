@@ -1,0 +1,2 @@
+{"pattern":"^(?:\\* [^\r\n]+\r\n)*?\\* OK MUPDATE \\\"([-.\\w]+)\\\" \\\"Cyrus Murder\\\" \\\"v([-.\\w]+)\\\" \\\"\\(master\\)\\\"\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server:$2"],"matchers":{"product":"Cyrus Murder Master","version":"$2","hostname":"$1"}}
+{"pattern":"^(?:\\* [^\r\n]+\r\n)*?\\* OK MUPDATE \\\"([-.\\w]+)\\\" \\\"Cyrus Murder\\\" \\\"v([-.\\w]+)\\\" \\\"mupdate:\/\/([-.\\w]+)\\\"\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server:$2"],"matchers":{"info":"Master: $3","product":"Cyrus Murder Slave","version":"$2","hostname":"$1"}}

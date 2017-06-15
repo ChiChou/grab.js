@@ -1,0 +1,1 @@
+{"pattern":"^.\\0\\0\\x000:23:([\\d.]+)\n$","flag":"s","cpes":[],"matchers":{"product":"Mini SQL","version":"$1"}}

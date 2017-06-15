@@ -1,0 +1,1 @@
+{"pattern":"^\\x80\\x00..\\x83([^\\x00]*)\\x00([^\\x00]*)\\x00","flag":"","cpes":[],"matchers":{"info":"address: $1, name: $2","product":"Quake 1 server"}}

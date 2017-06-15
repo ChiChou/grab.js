@@ -1,0 +1,1 @@
+{"pattern":"^DeltaUPS:NET01,00,0008 1\t\\d+\t\tDeltaUPS:SOD00,00,0000 DeltaUPS:STS00,00,0231 0\tMinuteman\tE 3200\t([\\w._-]+)\t([\\w._-]+)\t\\d+\t\\d+\t","flag":"","cpes":[],"matchers":{"device":"power-misc","product":"Para Systems Sentry Plus UPS server daemon","version":"$1","hostname":"$2"}}

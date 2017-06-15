@@ -1,0 +1,3 @@
+{"pattern":"^<\/stream:stream>$","flag":"","cpes":[],"matchers":{"product":"Wildfire XMPP Client"}}
+{"pattern":"^Use XMPP$","flag":"","cpes":["a:fonality:hud"],"matchers":{"product":"Trixbox HUD xmpp"}}
+{"pattern":"^<stream:error><bad-format xmlns='urn:ietf:params:xml:ns:xmpp-streams'\/><\/stream:error><\/stream:stream>$","flag":"","cpes":["a:isode:m-link"],"matchers":{"product":"Isode M-Link XMPP"}}

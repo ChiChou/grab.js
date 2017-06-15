@@ -1,0 +1,1 @@
+{"pattern":"^\\x80\\0\\0\\x24\\0\\0\\0\\x01\\x4c\\xb4\\x21\\xd2\\0\\0\\0\\0\\0\\0\\x05\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x04\\0\\0\\0\\0$","flag":"","cpes":["a:netapp:data_ontap","o:netapp:data_ontap"],"matchers":{"device":"storage-misc","product":"SnapMirror replication","os":"Data ONTAP"}}

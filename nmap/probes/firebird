@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x03\\0\\0\\0\\x0a\\0\\0\\0\\x01","flag":"","cpes":["a:firebirdsql:firebird"],"matchers":{"product":"Firebird RDBMS","version":"Protocol version 10"}}

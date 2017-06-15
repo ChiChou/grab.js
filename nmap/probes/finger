@@ -1,0 +1,55 @@
+{"pattern":"\r\n {4}Line {5,8}User {6,8}Host\\(s\\) {13,18}Idle +Location\r\n","flag":"","cpes":["o:cisco:ios"],"matchers":{"device":"router","product":"Cisco fingerd","os":"IOS"}}
+{"pattern":"^OpenLDAP Finger Service\\.\\.\\.\r\n","flag":"","cpes":["a:openldap:openldap"],"matchers":{"product":"OpenLDAP fingerd"}}
+{"pattern":"^No cfingerd\\.conf file present\\.  Check your setup\\.\n$","flag":"","cpes":[],"matchers":{"info":"Broken","product":"cfingerd"}}
+{"pattern":"^Windows NT Version ([\\d.]+) build (\\d+), \\d+ processors? \\(.*\\)\r\nFingerDW V([\\d.]+) - Hummingbird Ltd\\.\n","flag":"","cpes":["o:microsoft:windows_nt:$1"],"matchers":{"info":"WinNT $1 build $2","product":"Hummingbird fingerd","version":"$3","os":"Windows NT"}}
+{"pattern":"^\r\nIntegrated port\r\nPrinter Type: Lexmark T642\r\nPrint Job Status:","flag":"","cpes":["h:lexmark:t642"],"matchers":{"device":"printer","product":"Lexmark T642 printer fingerd"}}
+{"pattern":"^Gathering system data\\.\\.\\.\nUsername Real name                      Idletime TTY Remote console location\n","flag":"","cpes":[],"matchers":{"product":"Cfingerd"}}
+{"pattern":"^Punix version ([\\d.\/()]+) - Current Time \\(since boot\\) \\d+:\\d\\d:\\d\\d\r\nName        pid    stat   pc       cpusec    stack    pr\/sy   idle    tty\r\n","flag":"","cpes":["o:christopher_williams:punix:$1"],"matchers":{"info":"Punix $1","device":"terminal server","product":"Lantronix ETS16 fingerd","os":"Punix"}}
+{"pattern":"^Finger online user list request denied\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"SLMail fingerd","os":"Windows"}}
+{"pattern":"^Username Real name                      Idletime TTY Remote console location\n","flag":"","cpes":[],"matchers":{"product":"Configurable Finger-Query Daemon","os":"Unix"}}
+{"pattern":"^Login     Name       Tty      Idle  Login Time   Office     Office Phone\r\n","flag":"","cpes":["o:debian:debian_linux","o:linux:linux_kernel"],"matchers":{"product":"Debian fingerd","os":"Linux"}}
+{"pattern":"^\r\nIntegrated port\r\nPrinter Type: Dell Laser Printer ([-\\w+.]+)\r\nPrint Job Status: (.*)\r\n","flag":"","cpes":[],"matchers":{"info":"Status: $2","device":"printer","product":"Dell $1 laser printer fingerd"}}
+{"pattern":"^\r\nIntegrated port\r\nPrinter Type: Dell ([-\\w+.]+) Laser Printer\r\nPrint Job Status: (.*)\r\n","flag":"","cpes":[],"matchers":{"info":"Status: $2","device":"printer","product":"Dell $1 laser printer fingerd"}}
+{"pattern":"^This is finger server\r\n\r\nPlease use username@domain format\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft Mail fingerd","os":"Windows"}}
+{"pattern":"^This is ([-\\w_.]+) finger server\\.\r\n\r\nPlease use username@domain format\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft Mail fingerd","hostname":"$1","os":"Windows"}}
+{"pattern":"^\r\nIntegrated port\r\nPrinter Type: Lexmark ([^\r\n]+)\r\n","flag":"","cpes":["h:lexmark:$1"],"matchers":{"device":"printer","product":"Lexmark $1 printer fingerd"}}
+{"pattern":"^finger: \/var\/adm\/lastlog open error\nNo one logged on\r\n","flag":"","cpes":["o:sun:sunos:5.10"],"matchers":{"info":"Nobody logged in","product":"Solaris 10 fingerd","os":"Solaris"}}
+{"pattern":"^finger: \/var\/adm\/lastlog open error\nLogin       Name","flag":"","cpes":["o:sun:sunos:5.10"],"matchers":{"info":"Somebody logged in","product":"Solaris 10 fingerd","os":"Solaris"}}
+{"pattern":"^\r\nUSB port \\d+\r\nPrinter Type:  Photo AIO Printer (\\w+)\r\nPrint Job Status: ([^\r\n]+)\r\n","flag":"","cpes":["h:dell:photo_aio_$1"],"matchers":{"info":"Status $2","device":"printer","product":"Dell Photo AIO $1 printer fingerd"}}
+{"pattern":"^\nDebian GNU\/Linux      Copyright \\(c\\) 1993-1999 Software in the Public Interest\n\n                 Your site has been rejected for some reason\\.\n\n         This may be caused by a missing RFC 1413 identd on your site\\.\n\n","flag":"","cpes":["a:debian:cfingerd","o:debian:debian_linux","o:linux:linux_kernel"],"matchers":{"product":"Debian Cfingerd","os":"Linux"}}
+{"pattern":"^Debian GNU\/Linux      Copyright \\(C\\) 1993-1999 Software in the Public Interest\n.*You haven't specified a user\\.\n\n               A general listing is not provided to the public\\.","flag":"s","cpes":["a:debian:cfingerd","o:debian:debian_linux","o:linux:linux_kernel"],"matchers":{"product":"Debian Cfingerd","os":"Linux"}}
+{"pattern":"^\r\nPrinter Type: Lexmark Optra LaserPrinter\r\n","flag":"","cpes":[],"matchers":{"device":"printer","product":"Lexmark Optra LaserPrinter fingerd"}}
+{"pattern":"^MSS485 Version V([\\w._\/-]+)\\(([\\w._-]+)\\) - Time Since Boot:","flag":"","cpes":[],"matchers":{"device":"bridge","product":"Lantronix MSS485 serial to ethernet bridge fingerd","version":"$1 $2"}}
+{"pattern":"^Login     Name                Tty      Idle  Login Time   Office     Office Phone\n","flag":"","cpes":[],"matchers":{"product":"xfingerd"}}
+{"pattern":"^Please supply a username\r\n$","flag":"","cpes":["a:bsd:fingerd"],"matchers":{"product":"BSD fingerd"}}
+{"pattern":"^\nHello [\\w.@-]*,\nusers currently logged in are:\n\nNAME       LINE         TIME             IDLE          PID COMMENT\n\n\r\n","flag":"","cpes":["a:radovan_garabik:efingerd"],"matchers":{"info":"who -uHw","product":"efingerd"}}
+{"pattern":"^\nHello [\\w.@-]*,\nusers currently logged in are:\n\n","flag":"","cpes":["a:radovan_garabik:efingerd"],"matchers":{"product":"efingerd"}}
+{"pattern":"^Site: (.+)\n\nLogin     Name\n","flag":"","cpes":[],"matchers":{"info":"site: $1","product":"MiamiDx fingerd","os":"AmigaOS"}}
+{"pattern":"^Login name: \/         \t\t\tIn real life: \\?\\?\\?\r\n\r\nLogin name: GET       \t\t\tIn real life: \\?\\?\\?\r\n\r\nLogin name: HTTP\/1\\.0  \t\t\tIn real life: \\?\\?\\?\r\n$","flag":"","cpes":["o:dec:digital_unix"],"matchers":{"product":"Digital UNIX fingerd","os":"Digital UNIX"}}
+{"pattern":"^No such user No such user N\n$","flag":"","cpes":[],"matchers":{"product":"Internet Rex finger server"}}
+{"pattern":"^\n Nodename:\\s+(\\w+)\r\n","flag":"","cpes":[],"matchers":{"info":"Camera","device":"webcam","product":"IQinVision fingerd","hostname":"$1"}}
+{"pattern":"^finger: \/: no such user\r?\nfinger: GET: no such user\r?\nfinger: HTTP\/1\\.0: no such user\r?\n$","flag":"","cpes":["o:freebsd:freebsd"],"matchers":{"product":"FreeBSD fingerd","os":"FreeBSD"}}
+{"pattern":"^No such activity\\.\r\n$","flag":"","cpes":[],"matchers":{"device":"terminal server","product":"Bay Networks Micro Annex terminal server fingerd"}}
+{"pattern":"^GET \/ HTTP\/1\\.0 is not known at this site\\.\r\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Mercury\/32 fingerd","os":"Windows"}}
+{"pattern":"^That user does not want to be fingered\\.\n$","flag":"","cpes":[],"matchers":{"product":"ffingerd"}}
+{"pattern":"^finger: GET: no such user\\.\nfinger: \/: no such user\\.\nfinger: HTTP\/1\\.0: no such user\\.\n$","flag":"","cpes":[],"matchers":{"product":"BSD\/Linux fingerd","os":"Unix"}}
+{"pattern":"^\r\nWelcome to Linux version (\\d[-.\\w]+) at ([-.\\w]+) !\r\n\n.*\n\r\nfinger: GET: no such user\\.","flag":"s","cpes":["o:linux:linux_kernel:$1"],"matchers":{"info":"ported to Linux","product":"OpenBSD fingerd","hostname":"$2","os":"Linux $1"}}
+{"pattern":"^finger: GET: no such user.\r\nfinger: \/: no such user.\r\nfinger: HTTP\/1.0: no such user.\r\n$","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"Linux fingerd","os":"Linux"}}
+{"pattern":"^finger: GET: no such user\nfinger: \/: no such user\nfinger: HTTP\/1\\.0: no such user\n$","flag":"","cpes":["o:netbsd:netbsd"],"matchers":{"product":"NetBSD fingerd"}}
+{"pattern":"^Login       Name               TTY         Idle    When    Where\r\nGET                   \\?\\?\\?\r\n\/                     \\?\\?\\?\r\nHTTP\/1\\.0              \\?\\?\\?\r\n$","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"Sun Solaris fingerd","os":"Solaris"}}
+{"pattern":"^Information for user 'GET\\+20\\+2F\\+20HTTP\\+2F1\\.0':\r\nUnknown user\\.\r\n$","flag":"","cpes":[],"matchers":{"product":"mlfingerd"}}
+{"pattern":"^Login name: GET       \t\t\tIn real life: \\?\\?\\?\r\n$","flag":"","cpes":[],"matchers":{"product":"SGI IRIX or NeXTSTEP fingerd"}}
+{"pattern":"^No such user\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Windows fingerd","os":"Windows"}}
+{"pattern":"^MSS100 Version V([\\d\/.]+)\\(\\d+\\) - Time Since Boot: \\d+:\\d\\d:\\d\\d\r\nName        pid     stat  pc       cpusec    stack    pr\/sy   idle    tty\r\n","flag":"","cpes":[],"matchers":{"device":"specialized","product":"Lantronix MSS100 serial interface fingerd","version":"$1"}}
+{"pattern":"^finger: GET \/ HTTP\/1\\.0: no such user\n","flag":"","cpes":["a:radovan_garabik:efingerd"],"matchers":{"product":"efingerd","os":"Unix"}}
+{"pattern":"^ +-;;=\n +\\.;M####\\+\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"mIRC with ircN script fingerd","os":"Windows"}}
+{"pattern":"^User not found\r\n","flag":"","cpes":["a:davide_libenzi:xmail"],"matchers":{"product":"XMail fingerd"}}
+{"pattern":"^EMail       : [-\\w_.]+@([-\\w_.]+)\r\n  Real Name : \\?\\?\r\n  Home Page : \\?\\?\r\n","flag":"","cpes":["a:davide_libenzi:xmail"],"matchers":{"product":"XMail fingerd","hostname":"$1"}}
+{"pattern":"^\r\nIntegrated port\r\nPrinter Type: IBM Infoprint (.*)\r\n","flag":"","cpes":["a:ibm:infoprint_$SUBST(1,\" \",\"_\")"],"matchers":{"device":"print server","product":"IBM Infoprint $1 fingerd"}}
+{"pattern":"^Login name: HTTP\/1\\.0       In real life: \\?\\?\\?\r\n","flag":"","cpes":["o:hp:openvms"],"matchers":{"product":"OpenVMS fingerd","os":"OpenVMS"}}
+{"pattern":"^No information available\r\n$","flag":"","cpes":[],"matchers":{"product":"Post.Office fingerd"}}
+{"pattern":"^finger: sorry, no such user\\.\n$","flag":"","cpes":[],"matchers":{"product":"xfingerd"}}
+{"pattern":"^finger: HTTP\/1\\.0: no such user\\.\r\n","flag":"","cpes":["a:bsd:fingerd"],"matchers":{"product":"BSD fingerd"}}
+{"pattern":"^no such user here\n$","flag":"","cpes":[],"matchers":{"product":"MiamiDx fingerd","os":"AmigaOS"}}
+{"pattern":"^iFinger v(\\d[-.\\w]+)\n\n","flag":"","cpes":[],"matchers":{"product":"IcculusFinger","version":"$1"}}
+{"pattern":"^\n    ----------------------------------------------------------------------\n                        Sorry, that user doesn't exist\\.\n","flag":"","cpes":[],"matchers":{"product":"Stock and Trade Finger Server fingerd"}}

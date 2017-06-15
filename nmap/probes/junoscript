@@ -1,0 +1,1 @@
+{"pattern":"^<\\?xml version=\\\"1\\.0\\\"[^<]+<junoscript.*release=\\\"([^\\\"]+)\\\" hostname=\\\"([^\\\"]+)\\\"","flag":"","cpes":["o:juniper:junos"],"matchers":{"device":"router","product":"Junoscript XML Interface","version":"$1","os":"JUNOS","hostname":"$2"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\r\n%connection refused by remote host\\.$","flag":"","cpes":[],"matchers":{"info":"connection refused","product":"Cisco or HP network device sshd or telnetd"}}

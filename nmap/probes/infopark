@@ -1,0 +1,1 @@
+{"pattern":"^\\d+{infopark tcl-Interface-Server} {CM ([\\w._-]+)","flag":"","cpes":[],"matchers":{"product":"Infopark Fiona TCL interface","version":"$1"}}

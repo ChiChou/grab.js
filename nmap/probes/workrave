@@ -1,0 +1,2 @@
+{"pattern":"^\\x002\\x02\\0\\0\\x06\\0[ \\da-f]+\\0.*\\x0bmicro_pause\\0.*\nrest_break\\0.*\\x0bdaily_limit\\0","flag":"s","cpes":[],"matchers":{"product":"Workrave"}}
+{"pattern":"^\\0\\x26\\x02\\0\\0\\x06\\0.[\\d.]+:\\d+\\0\\x01\\0\\x11\\0\\x04\\0\\x01\\0\\x03\\0\\xaa\\x02\\0\\0\\x06\\0.[\\d.]+:\\d+\\0\\x01\\0\\x10\\0\\x88\\0\\x03\\0\\x0bmicro_pause\\0\\x20\\x4c\\xa4\\x86\\x8e\\0\\0\\0\\xb4\\0\\0\\0\\x01\\0\\0\\0\\0\\0\\0\\0\\0L\\xa4\\x86\\x8d\\0\\0\\0\\xb4\\0\\0\\0\\x0arest_break\\0","flag":"s","cpes":[],"matchers":{"product":"Workrave"}}

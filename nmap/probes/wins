@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x1e\\xffS\\xad\\x80\\0\\0\\0\\x01\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0...\\0\\0\\x01\\0\\0\\x81\\0\\x02","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft Windows Wins","os":"Windows"}}

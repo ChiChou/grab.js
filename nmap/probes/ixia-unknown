@@ -1,0 +1,3 @@
+{"pattern":"^Enter port cpu supported card port number and hit Enter\\. For example \\\"3 4\\\"\r\n","flag":"","cpes":[],"matchers":{"product":"Ixia 400T traffic QA"}}
+{"pattern":"^.*\\0\\x18Ixia Hardware I\/O Server\\x13Ixia Communications\\x18Ixia Hardware I\/O Server\\x0b([\\d.]+)","flag":"s","cpes":[],"matchers":{"product":"Ixia 400T traffic QA","version":"$1"}}
+{"pattern":"^\r\nWelcome to the Ixia Socket\/Serial TCL Server\r\nPress Ctrl-C to reset Tcl Session\r\nIxia>","flag":"","cpes":[],"matchers":{"product":"Ixia TCL server"}}

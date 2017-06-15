@@ -1,0 +1,1 @@
+{"pattern":"^\/bin\/ip\/rexexec: auth_proxy: auth_proxy rpc: negotiation failed, no common protocols or keys\n","flag":"","cpes":["o:belllabs:plan_9"],"matchers":{"product":"Plan 9 rexexec","os":"Plan 9"}}

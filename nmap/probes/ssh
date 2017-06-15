@@ -1,0 +1,210 @@
+{"pattern":"^SSH-([\\d.]+)-([\\d.]+) F-Secure SSH Windows NT Server\r?\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"F-Secure WinNT sshd","version":"$2","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-([\\d.]+) dss F-SECURE SSH\r?\n","flag":"","cpes":[],"matchers":{"info":"dss-only; protocol $1","product":"F-Secure sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-([\\d.]+) F-SECURE SSH.*\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"F-Secure sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-ReflectionForSecureIT_([-\\w_.]+) - Process Software MultiNet\r\n","flag":"","cpes":["o:hp:openvms"],"matchers":{"info":"OpenVMS MultiNet; protocol $1","product":"WRQ Reflection for Secure IT sshd","version":"$2","os":"OpenVMS"}}
+{"pattern":"^SSH-([\\d.]+)-ReflectionForSecureIT_([-\\w_.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"WRQ Reflection for Secure IT sshd","version":"$2"}}
+{"pattern":"^SSH-(\\d[\\d.]+)-SSH Protocol Compatible Server SCS (\\d[-.\\w]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"SCS NetScreen sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-SSH Compatible Server\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"SCS NetScreen sshd"}}
+{"pattern":"^SSH-([\\d.]+)-([\\d.]+) SSH Secure Shell Tru64 UNIX\r?\n","flag":"","cpes":["o:compaq:tru64"],"matchers":{"info":"protocol $1","product":"SCS sshd","version":"$2","os":"Tru64 UNIX"}}
+{"pattern":"^SSH-([\\d.]+)-(\\d+\\.\\d+\\.\\d+) SSH Secure Shell","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"SCS sshd","version":"$2"}}
+{"pattern":"^sshd: SSH Secure Shell (\\d[-.\\w]+) on ([-.\\w]+)\nSSH-(\\d[\\d.]+)-","flag":"","cpes":[],"matchers":{"info":"on $2; protocol $3","product":"SCS SSH Secure Shell","version":"$1"}}
+{"pattern":"^sshd: SSH Secure Shell (\\d[-.\\w]+) \\(([^\r\n\\)]+)\\) on ([-.\\w]+)\nSSH-(\\d[\\d.]+)-","flag":"","cpes":[],"matchers":{"info":"$2; on $3; protocol $4","product":"SCS sshd","version":"$1"}}
+{"pattern":"^sshd2\\[\\d+\\]: .*\r\nSSH-([\\d.]+)-(\\d[-.\\w]+) SSH Secure Shell \\(([^\r\n\\)]+)\\)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1; $3","product":"SCS sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-(\\d+\\.\\d+\\.[-.\\w]+)","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"SCS sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) Debian-(\\S*maemo\\S*)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2","o:debian:debian_linux","o:linux:linux_kernel"],"matchers":{"info":"Nokia Maemo tablet; protocol $1","product":"OpenSSH","version":"$2 Debian $3","os":"Linux"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+)[ -]{1,2}Debian[ -_](.*ubuntu.*)\r\n","flag":"","cpes":["a:openbsd:openssh:$2","o:canonical:ubuntu_linux","o:linux:linux_kernel"],"matchers":{"info":"Ubuntu Linux; protocol $1","product":"OpenSSH","version":"$2 Debian $3","os":"Linux"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+)[ -]{1,2}Ubuntu[ -_]([^\r\n]+)\r\n","flag":"","cpes":["a:openbsd:openssh:$2","o:canonical:ubuntu_linux","o:linux:linux_kernel"],"matchers":{"info":"Ubuntu Linux; protocol $1","product":"OpenSSH","version":"$2 Ubuntu $3","os":"Linux"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+)[ -]{1,2}Debian[ -_]([^\r\n]+)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2","o:debian:debian_linux","o:linux:linux_kernel"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2 Debian $3","os":"Linux"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_[\\w.]+-FC-([\\w.-]+)\\.fc(\\d+)\r\n","flag":"","cpes":["a:openbsd:openssh:$2","o:fedoraproject:fedora_core:$3"],"matchers":{"info":"Fedora Core $3; protocol $1","product":"OpenSSH","version":"$2 Fedora","os":"Linux"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) FreeBSD-([\\d]+)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2","o:freebsd:freebsd"],"matchers":{"info":"FreeBSD $3; protocol $1","product":"OpenSSH","version":"$2","os":"FreeBSD"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) FreeBSD localisations (\\d+)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2","o:freebsd:freebsd"],"matchers":{"info":"FreeBSD $3; protocol $1","product":"OpenSSH","version":"$2","os":"FreeBSD"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) FreeBSD-openssh-portable-(?:base-|amd64-)?[\\w.,]+\r?\n","flag":"","cpes":["a:openbsd:openssh:$2","o:freebsd:freebsd"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2","os":"FreeBSD"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) FreeBSD-openssh-portable-overwrite-base","flag":"","cpes":["a:openbsd:openssh:$2","o:freebsd:freebsd"],"matchers":{"info":"protocol $1; overwrite base SSH","product":"OpenSSH","version":"$2","os":"FreeBSD"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) FreeBSD-openssh-gssapi-","flag":"","cpes":["a:openbsd:openssh:$2","o:freebsd:freebsd"],"matchers":{"info":"gssapi; protocol $1","product":"OpenSSH","version":"$2","os":"FreeBSD"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) FreeBSD\n","flag":"","cpes":["a:openbsd:openssh:$2","o:freebsd:freebsd"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2","os":"FreeBSD"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) miniBSD-([\\d]+)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"MiniBSD $3; protocol $1","product":"OpenSSH","version":"$2","os":"MiniBSD"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) NetBSD_Secure_Shell-([\\w._+-]+)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2","o:netbsd:netbsd"],"matchers":{"info":"NetBSD $3; protocol $1","product":"OpenSSH","version":"$2","os":"NetBSD"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+)_Mikrotik_v([\\d.]+)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1","device":"router","product":"OpenSSH","version":"$2 mikrotik $3"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) in RemotelyAnywhere ([\\d.]+)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2","o:microsoft:windows"],"matchers":{"info":"RemotelyAnywhere $3; protocol $1","product":"OpenSSH","version":"$2","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+)\\+CAN-2004-0175\r?\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2+CAN-2004-0175"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) NCSA_GSSAPI_20040818 KRB5\r?\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2 NCSA_GSSAPI_20040818 KRB5"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+)[-_]hpn(\\w+) *(?:\\\"\\\")?\r?\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1; HPN-SSH patch $3","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+\\+sftpfilecontrol-v[\\d.]+-hpn\\w+)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+-hpn) NCSA_GSSAPI_\\d+ KRB5\r?\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1; kerberos support","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_3\\.4\\+p1\\+gssapi\\+OpenSSH_3\\.7\\.1buf_fix\\+2006100301\r?\n","flag":"","cpes":["a:openbsd:openssh:3.4p1"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"3.4p1 with CMU Andrew patches"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+\\.RL)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1","device":"switch","product":"OpenSSH","version":"$2 Allied Telesis"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+-CERN\\d+)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+\\.cern-hpn)","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+-hpn)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+-pwexp\\d+)\r?\n","flag":"","cpes":["a:openbsd:openssh:$2","o:ibm:aix"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2","os":"AIX"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+)-chrootssh\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-Nortel\r?\n","flag":"","cpes":["a:openbsd:openssh"],"matchers":{"info":"protocol $1","device":"switch","product":"Nortel SSH"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w.]+)[-_]hpn(\\w+) DragonFly-","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1; HPN-SSH patch $3","product":"OpenSSH","version":"$2","os":"DragonFlyBSD"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w.]+) DragonFly-","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2","os":"DragonFlyBSD"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w_.-]+) FIPS\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1; Imperva SecureSphere firewall","device":"firewall","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w_.-]+) FIPS\r\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1; Cisco NX-OS","device":"switch","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w_.-]+) NCSA_GSSAPI_GPT_([-\\w_.]+) GSI\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1; NCSA GSSAPI authentication patch $3","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) \\.\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) PKIX\r\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1; X.509 v3 certificate support","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+)-FIPS\\(capable\\)\r\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1; FIPS capable","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+)-sshjail\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1; sshjail patch","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) Raspbian-([^\r\n]+)\r\n","flag":"","cpes":["a:openbsd:openssh:$2","o:linux:linux_kernel"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2 Raspbian $3","os":"Linux"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) OVH-rescue\r\n","flag":"","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1; OVH hosting rescue","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) Trisquel_GNU\/linux_([\\d.]+)(?:-\\d+)?\r\n","flag":"","cpes":["a:openbsd:openssh:$2","o:linux:linux_kernel","o:trisquel_project:trisquel_gnu%2flinux:$3"],"matchers":{"info":"protocol $1; Trisquel $3","product":"OpenSSH","version":"$2","os":"Linux"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+) \\+ILOM\\.2015-5600\r\n","flag":"","cpes":["a:openbsd:openssh:$2","h:oracle:integrated_lights-out"],"matchers":{"info":"protocol $1; ILOM patched CVE-2015-5600","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH[_-]([\\w.]+)\\s*\r?\n","flag":"i","cpes":["a:openbsd:openssh:$2"],"matchers":{"info":"protocol $1","product":"OpenSSH","version":"$2"}}
+{"pattern":"^SSH-2\\.0-OpenSSH\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol 2.0","device":"router","product":"Linksys WRT45G modified dropbear sshd"}}
+{"pattern":"^SSH-2\\.0-OpenSSH_3\\.6p1\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol 2.0","device":"router","product":"D-Link\/Netgear DSL router modified dropbear sshd"}}
+{"pattern":"^\\0\\0\\0\\$\\0\\0\\0\\0\\x01\\0\\0\\0\\x1bNo host key is configured!\n\r!\\\"v","flag":"","cpes":[],"matchers":{"info":"broken: No host key configured","product":"Foundry Networks switch sshd"}}
+{"pattern":"^SSH-(\\d[\\d.]+)-SSF-(\\d[-.\\w]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"SSF French SSH","version":"$2"}}
+{"pattern":"^SSH-(\\d[\\d.]+)-lshd_(\\d[-.\\w]+) lsh - a free ssh\r\n\\0\\0","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"lshd secure shell","version":"$2"}}
+{"pattern":"^SSH-(\\d[\\d.]+)-lshd-(\\d[-.\\w]+) lsh - a GNU ssh\r\n\\0\\0","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"lshd secure shell","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-Sun_SSH_(\\S+)","flag":"","cpes":["a:sun:sunssh:$2"],"matchers":{"info":"protocol $1","product":"SunSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-meow roototkt by rebel","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"meow SSH ROOTKIT"}}
+{"pattern":"^SSH-(\\d[\\d.]*)-(AKAMAI-I*)\r?\n$","flag":"","cpes":["a:akamai:ssh:$2"],"matchers":{"info":"protocol $1","product":"Akamai SSH","version":"$2"}}
+{"pattern":"^SSH-(\\d[\\d.]*)-AKAMAI-([\\d.]+)\r?\n$","flag":"","cpes":["a:akamai:ssh:$2"],"matchers":{"info":"protocol $1","product":"Akamai SSH","version":"$2"}}
+{"pattern":"^SSH-(\\d[\\d.]*)-(Server-V)\r?\n$","flag":"","cpes":["a:akamai:ssh:$2"],"matchers":{"info":"protocol $1","product":"Akamai SSH","version":"$2"}}
+{"pattern":"^SSH-(\\d[\\d.]*)-(Server-VI)\r?\n$","flag":"","cpes":["a:akamai:ssh:$2"],"matchers":{"info":"protocol $1","product":"Akamai SSH","version":"$2"}}
+{"pattern":"^SSH-(\\d[\\d.]*)-(Server-VII)\r?\n","flag":"","cpes":["a:akamai:ssh:$2"],"matchers":{"info":"protocol $1","product":"Akamai SSH","version":"$2"}}
+{"pattern":"^SSH-(\\d[\\d.]+)-Cisco-(\\d[\\d.]+)\r?\n$","flag":"","cpes":["a:cisco:ssh:$2","o:cisco:ios"],"matchers":{"info":"protocol $1","product":"Cisco SSH","version":"$2","os":"IOS"}}
+{"pattern":"^SSH-(\\d[\\d.]+)-CiscoIOS_([\\d.]+)XA\r?\n","flag":"","cpes":["a:cisco:ssh:$2","o:cisco:ios"],"matchers":{"info":"protocol $1; IOS XA","product":"Cisco SSH","version":"$2","os":"IOS"}}
+{"pattern":"^\r\nDestination server does not have Ssh activated\\.\r\nContact Cisco Systems, Inc to purchase a\r\nlicense key to activate Ssh\\.\r\n","flag":"","cpes":["a:cisco:ssh"],"matchers":{"info":"Unlicensed","product":"Cisco CSS SSH"}}
+{"pattern":"^SSH-(\\d[\\d.]+)-VShell_(\\d[_\\d.]+) VShell\r?\n$","flag":"","cpes":["a:vandyke:vshell:$SUBST(2,\"_\",\".\")"],"matchers":{"info":"protocol $1","product":"VanDyke VShell sshd","version":"$SUBST(2,\"_\",\".\")"}}
+{"pattern":"^SSH-2\\.0-0\\.0 \r?\n","flag":"","cpes":["a:vandyke:vshell"],"matchers":{"info":"version info hidden; protocol 2.0","product":"VanDyke VShell sshd"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w.]+) VShell\r?\n","flag":"","cpes":["a:vandyke:vshell:$2"],"matchers":{"info":"protocol $1","product":"VanDyke VShell","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w.]+) \\(beta\\) VShell\r?\n","flag":"","cpes":["a:vandyke:vshell:$2:beta"],"matchers":{"info":"protocol $1","product":"VanDyke VShell","version":"$2 beta"}}
+{"pattern":"^SSH-([\\d.]+)-(\\d[-.\\w]+) sshlib: WinSSHD (\\d[-.\\w]+)\r?\n","flag":"","cpes":["a:bitvise:winsshd:$3","o:microsoft:windows"],"matchers":{"info":"sshlib $2; protocol $1","product":"Bitvise WinSSHD","version":"$3","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-(\\d[-.\\w]+) sshlib: WinSSHD\r?\n","flag":"","cpes":["a:bitvise:winsshd","o:microsoft:windows"],"matchers":{"info":"sshlib $2; protocol $1; server version hidden","product":"Bitvise WinSSHD","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w._-]+) sshlib: sshlibSrSshServer ([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"info":"sshlib $2; protocol $1","product":"SrSshServer","version":"$3"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w._-]+) sshlib: GlobalScape\r?\n","flag":"","cpes":["a:globalscape:cuteftp","o:microsoft:windows"],"matchers":{"info":"sshlib $2; protocol $1","product":"GlobalScape CuteFTP sshd","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w.-]+)_sshlib GlobalSCAPE\r\n","flag":"","cpes":["a:globalscape:cuteftp","o:microsoft:windows"],"matchers":{"info":"sshlib $2; protocol $1","product":"GlobalScape CuteFTP sshd","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w.-]+)_sshlib Globalscape\r\n","flag":"","cpes":["a:globalscape:eft_server","o:microsoft:windows"],"matchers":{"info":"sshlib $2; protocol $1","product":"GlobalScape EFT sshd","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w._-]+) sshlib: EdmzSshDaemon ([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"info":"sshlib $2; protocol $1","product":"EdmzSshDaemon","version":"$3"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w._-]+) FlowSsh: WinSSHD ([\\w._-]+)\r\n","flag":"","cpes":["a:bitvise:winsshd:$3","o:microsoft:windows"],"matchers":{"info":"FlowSsh $2; protocol $1","product":"Bitvise WinSSHD","version":"$3","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w._-]+) FlowSsh: WinSSHD ([\\w._-]+): free only for personal non-commercial use\r\n","flag":"","cpes":["a:bitvise:winsshd:$3","o:microsoft:windows"],"matchers":{"info":"FlowSsh $2; protocol $1; non-commercial use","product":"Bitvise WinSSHD","version":"$3","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w._-]+) FlowSsh: WinSSHD: free only for personal non-commercial use\r\n","flag":"","cpes":["a:bitvise:winsshd","o:microsoft:windows"],"matchers":{"info":"FlowSsh $2; protocol $1; non-commercial use","product":"Bitvise WinSSHD","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w._-]+) FlowSsh: Bitvise SSH Server \\(WinSSHD\\) ([\\w._-]+): free only for personal non-commercial use\r\n","flag":"","cpes":["a:bitvise:winsshd:$3","o:microsoft:windows"],"matchers":{"info":"FlowSsh $2; protocol $1; non-commercial use","product":"Bitvise WinSSHD","version":"$3","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w._-]+) FlowSsh: Bitvise SSH Server \\(WinSSHD\\) ([\\w._-]+)\r\n","flag":"","cpes":["a:bitvise:winsshd:$3","o:microsoft:windows"],"matchers":{"info":"FlowSsh $2; protocol $1","product":"Bitvise WinSSHD","version":"$3","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w._-]+) FlowSsh: Bitvise SSH Server \\(WinSSHD\\) \r\n","flag":"","cpes":["a:bitvise:winsshd","o:microsoft:windows"],"matchers":{"info":"FlowSsh $2; protocol $1","product":"Bitvise WinSSHD","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH\r?\n$","flag":"","cpes":["a:openbsd:openssh"],"matchers":{"info":"protocol $1","device":"terminal server","product":"OpenSSH"}}
+{"pattern":"^SSH-1\\.5-X\r?\n","flag":"","cpes":["o:cisco:vpn_3000_concentrator_series_software"],"matchers":{"info":"protocol 1.5","device":"terminal server","product":"Cisco VPN Concentrator SSHd"}}
+{"pattern":"^SSH-([\\d.]+)-NetScreen\r?\n","flag":"","cpes":["o:juniper:netscreen_screenos"],"matchers":{"info":"protocol $1","device":"firewall","product":"NetScreen sshd"}}
+{"pattern":"^SSH-1\\.5-FucKiT RootKit by Cyrax\r?\n","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"info":"**BACKDOOR** protocol 1.5","product":"FucKiT RootKit sshd","os":"Linux"}}
+{"pattern":"^SSH-2\\.0-dropbear_([-\\w.]+)\r?\n","flag":"","cpes":["a:matt_johnston:dropbear_ssh_server:$1","o:linux:linux_kernel"],"matchers":{"info":"protocol 2.0","product":"Dropbear sshd","version":"$1","os":"Linux"}}
+{"pattern":"^SSH-2\\.0-dropbear\r\n","flag":"","cpes":["a:matt_johnston:dropbear_ssh_server","o:linux:linux_kernel"],"matchers":{"info":"protocol 2.0","product":"Dropbear sshd","os":"Linux"}}
+{"pattern":"^Access to service sshd from [-\\w_.]+@[-\\w_.]+ has been denied\\.\r\n","flag":"","cpes":["a:openbsd:openssh"],"matchers":{"info":"Access denied","product":"libwrap'd OpenSSH"}}
+{"pattern":"^SSH-([\\d.]+)-FortiSSH_([\\d.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"FortiSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-cryptlib\r?\n","flag":"","cpes":["o:apc:aos"],"matchers":{"info":"protocol $1","product":"APC AOS cryptlib sshd","os":"AOS"}}
+{"pattern":"^SSH-([\\d.]+)-([\\d.]+) Radware\r?\n$","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"terminal server","product":"Radware Linkproof SSH","version":"$2"}}
+{"pattern":"^SSH-2\\.0-1\\.0 Radware SSH \r?\n","flag":"","cpes":[],"matchers":{"info":"protocol 2.0","device":"firewall","product":"Radware sshd"}}
+{"pattern":"^SSH-([\\d.]+)-Radware_([\\d.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"firewall","product":"Radware sshd","version":"$2"}}
+{"pattern":"^SSH-1\\.5-By-ICE_4_All \\( Hackers Not Allowed! \\)\r?\n","flag":"","cpes":[],"matchers":{"info":"**BACKDOOR** protocol 1.5","product":"ICE_4_All backdoor sshd"}}
+{"pattern":"^SSH-2\\.0-mpSSH_([\\d.]+)\r?\n","flag":"","cpes":["h:hp:integrated_lights-out"],"matchers":{"info":"protocol 2.0","product":"HP Integrated Lights-Out mpSSH","version":"$1"}}
+{"pattern":"^SSH-2\\.0-Unknown\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol 2.0","product":"Allot Netenforcer OpenSSH"}}
+{"pattern":"^SSH-2\\.0-FrSAR ([\\d.]+) TRUEX COMPT 32\/64\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol 2.0","product":"FrSAR truex compt sshd","version":"$1"}}
+{"pattern":"^SSH-2\\.0-(\\d{8,12})\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol 2.0","product":"Netpilot config access","version":"$1"}}
+{"pattern":"^SSH-([\\d.]+)-RomCliSecure_([\\d.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"Adtran Netvanta RomCliSecure sshd","version":"$2"}}
+{"pattern":"^SSH-2\\.0-APSSH_([\\w.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol 2.0","product":"APSSHd","version":"$1"}}
+{"pattern":"^SSH-2\\.0-Twisted\r?\n","flag":"","cpes":["a:twistedmatrix:twisted"],"matchers":{"info":"protocol 2.0","product":"Kojoney SSH honeypot"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w.]+)\r?\n.*aes256","flag":"s","cpes":[],"matchers":{"info":"Pretending to be $2; protocol $1","product":"Kojoney SSH honeypot"}}
+{"pattern":"^SSH-2\\.0-Mocana SSH\r\n","flag":"","cpes":[],"matchers":{"info":"protocol 2.0","product":"Mocana embedded SSH"}}
+{"pattern":"^SSH-2\\.0-Mocana SSH \r?\n","flag":"","cpes":[],"matchers":{"info":"protocol 2.0","product":"Mocana embedded SSH"}}
+{"pattern":"^SSH-2\\.0-Mocana SSH ([\\d.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol 2.0","product":"Mocana NanoSSH","version":"$1"}}
+{"pattern":"^SSH-1\\.99-InteropSecShell_([\\d.]+)\r?\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"protocol 1.99","product":"InteropSystems SSH","version":"$1","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-WeOnlyDo(?:-wodFTPD)? ([\\d.]+)\r?\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"WeOnlyDo sshd","version":"$2","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-WeOnlyDo-([\\d.]+)\r?\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"WeOnlyDo sshd","version":"$2","os":"Windows"}}
+{"pattern":"^SSH-2\\.0-PGP\r?\n","flag":"","cpes":["a:pgp:universal_server"],"matchers":{"info":"protocol 2.0","product":"PGP Universal sshd"}}
+{"pattern":"^SSH-([\\d.]+)-libssh-([-\\w.]+)\r?\n","flag":"","cpes":["a:libssh:libssh:$2"],"matchers":{"info":"protocol $1","product":"libssh","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-HUAWEI-VRP([\\d.]+)\r?\n","flag":"","cpes":["o:huawei:vrp"],"matchers":{"info":"protocol $1","device":"router","product":"Huawei VRP sshd","version":"$2","os":"VRP"}}
+{"pattern":"^SSH-([\\d.]+)-VRP-([\\d.]+)\r?\n","flag":"","cpes":["o:huawei:vrp"],"matchers":{"info":"protocol $1","device":"router","product":"Huawei VRP sshd","version":"$2","os":"VRP"}}
+{"pattern":"^SSH-([\\d.]+)-lancom\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"lancom sshd"}}
+{"pattern":"^SSH-([\\d.]+)-xxxxxxx\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"firewall","product":"Fortinet VPN\/firewall sshd"}}
+{"pattern":"^SSH-([\\d.]+)-AOS_SSH\r?\n","flag":"","cpes":["o:apc:aos"],"matchers":{"info":"protocol $1","product":"AOS sshd","os":"AOS"}}
+{"pattern":"^SSH-([\\d.]+)-RedlineNetworksSSH_([\\d.]+) Derived_From_OpenSSH-([\\d.])+\r?\n","flag":"","cpes":[],"matchers":{"info":"Derived from OpenSSH $3; protocol $1","product":"RedLineNetworks sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-DLink Corp\\. SSH server ver ([\\d.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"router","product":"D-Link sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-FreSSH\\.([\\d.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"FreSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-Neteyes-C-Series_([\\d.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"load balancer","product":"Neteyes C Series load balancer sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-IPSSH-([\\d.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"Cisco\/3com IPSSHd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-DigiSSH_([\\d.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"Digi CM sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-0 Tasman Networks Inc\\.\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"router","product":"Tasman router sshd"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w.]+)rad\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"Rad Java SFTPd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\d.]+) in DesktopAuthority ([\\d.]+)\r?\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"DesktopAuthority $3; protocol $1","product":"DesktopAuthority OpenSSH","version":"$2","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-NOS-SSH_([\\d.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"WAP","product":"3Com WX2200 or WX4400 NOS sshd","version":"$2"}}
+{"pattern":"^SSH-1\\.5-SSH\\.0\\.1\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol 1.5","device":"power-device","product":"Dell PowerConnect sshd"}}
+{"pattern":"^SSH-([\\d.]+)-Ingrian_SSH\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"security-misc","product":"Ingrian SSH"}}
+{"pattern":"^SSH-([\\d.]+)-PSFTPd PE\\. Secure FTP Server ready\r?\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"PSFTPd sshd","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-BlueArcSSH_([\\d.]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"storage-misc","product":"BlueArc sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-Zyxel SSH server\r?\n","flag":"","cpes":["o:zyxel:zynos"],"matchers":{"info":"protocol $1","device":"security-misc","product":"ZyXEL ZyWALL sshd","os":"ZyNOS"}}
+{"pattern":"^SSH-([\\d.]+)-paramiko_([\\w._-]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"Paramiko Python sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-USHA SSHv([\\w._-]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"power-device","product":"USHA SSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-SSH_0\\.2\r?\n$","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"3com sshd","version":"0.2"}}
+{"pattern":"^SSH-([\\d.]+)-CoreFTP-([\\w._-]+)\r?\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"CoreFTP sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-RomSShell_([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"AllegroSoft RomSShell sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-IFT SSH server BUILD_VER\n","flag":"","cpes":[],"matchers":{"info":"protocol $1; IFT SSH","device":"storage-misc","product":"Sun StorEdge 3511 sshd"}}
+{"pattern":"^Could not load hosy key\\. Closing connection\\.\\.\\.$","flag":"","cpes":["a:cisco:ssh","o:cisco:ios"],"matchers":{"info":"misconfigured","device":"switch","product":"Cisco switch sshd","os":"IOS"}}
+{"pattern":"^Could not load host key\\. Closing connection\\.\\.\\.$","flag":"","cpes":["a:cisco:ssh","o:cisco:ios"],"matchers":{"info":"misconfigured","device":"switch","product":"Cisco switch sshd","os":"IOS"}}
+{"pattern":"^SSH-([\\d.]+)-WS_FTP-SSH_([\\w._-]+)(?: FIPS)?\r\n","flag":"","cpes":["a:ipswitch:ws_ftp:$2","o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"WS_FTP sshd","version":"$2","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-http:\/\/www\\.sshtools\\.com J2SSH \\[SERVER\\]\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"SSHTools J2SSH"}}
+{"pattern":"^SSH-([\\d.]+)-DraySSH_([\\w._-]+)\n\n\rNo connection is available now\\. Try again later!$","flag":"","cpes":["h:draytek:vigor_2820"],"matchers":{"info":"protocol $1","device":"broadband router","product":"DrayTek Vigor 2820 ADSL router sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-DraySSH_([\\w._-]+)\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"broadband router","product":"DrayTek Vigor ADSL router sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-Pragma FortressSSH ([\\d.]+)\n","flag":"","cpes":["a:pragmasys:fortress_ssh_server:$2","o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"Pragma Fortress SSH Server","version":"$2","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-SysaxSSH_([\\d.]+)\r\n","flag":"","cpes":["a:sysax:multi_server:$2","o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"Sysax Multi Server sshd","version":"$2","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-1\\.00\r\n$","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"VoIP phone","product":"Cisco IP Phone sshd"}}
+{"pattern":"^SSH-([\\d.]+)-Foxit-WAC-Server-([\\d.]+ Build \\d+)\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"Foxit WAC Server sshd","version":"$2","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-ROSSSH\r\n","flag":"","cpes":["o:linux:linux_kernel","o:mikrotik:routeros"],"matchers":{"info":"protocol $1","device":"router","product":"MikroTik RouterOS sshd","os":"Linux"}}
+{"pattern":"^SSH-([\\d.]+)-3Com OS-([\\w._-]+ Release \\w+)\n","flag":"","cpes":["o:3com:comware"],"matchers":{"info":"protocol $1","device":"switch","product":"3Com switch sshd","version":"$2","os":"Comware"}}
+{"pattern":"^SSH-([\\d.]+)-3Com OS-3Com OS V([\\w._-]+)\n","flag":"","cpes":["o:3com:comware"],"matchers":{"info":"protocol $1","device":"switch","product":"3Com switch sshd","version":"$2","os":"Comware"}}
+{"pattern":"^SSH-([\\d.]+)-XXXX\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"firewall","product":"Cyberoam firewall sshd"}}
+{"pattern":"^SSH-([\\d.]+)-xxx\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"firewall","product":"Cyberoam UTM firewall sshd"}}
+{"pattern":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+)-HipServ\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"storage-misc","product":"Seagate GoFlex NAS device sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-xlightftpd_release_([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"Xlight FTP Server sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-Serv-U_([\\w._-]+)\r\n","flag":"","cpes":["a:serv-u:serv-u:$2"],"matchers":{"info":"protocol $1","product":"Serv-U SSH Server","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-CerberusFTPServer_([\\w._-]+)\r\n","flag":"","cpes":["a:cerberusftp:ftp_server:$2"],"matchers":{"info":"protocol $1","product":"Cerberus FTP Server sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-CerberusFTPServer_([\\w._-]+) FIPS\r\n","flag":"","cpes":["a:cerberusftp:ftp_server:$2"],"matchers":{"info":"protocol $1; FIPS","product":"Cerberus FTP Server sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-SSH_v2\\.0@force10networks\\.com\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"Force10 switch sshd"}}
+{"pattern":"^SSH-([\\d.]+)-Data ONTAP SSH ([\\w._-]+)\n","flag":"","cpes":["a:netapp:data_ontap"],"matchers":{"info":"protocol $1","product":"NetApp Data ONTAP sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-SSHTroll","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"SSHTroll ssh honeypot"}}
+{"pattern":"^SSH-([\\d.]+)-AudioCodes\n","flag":"","cpes":["h:audiocodes:mp-124"],"matchers":{"info":"protocol $1","device":"VoIP adapter","product":"AudioCodes MP-124 SIP gateway sshd"}}
+{"pattern":"^SSH-([\\d.]+)-WRQReflectionForSecureIT_([\\w._-]+) Build ([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"WRQ Reflection for Secure IT sshd","version":"$2 build $3"}}
+{"pattern":"^SSH-([\\d.]+)-Nand([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"Nand sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-SSHD-CORE-([\\w._-]+)-ATLASSIAN([\\w._-]*)\r\n","flag":"","cpes":["a:apache:sshd:$2"],"matchers":{"info":"Atlassian Stash; protocol $1","product":"Apache Mina sshd","version":"$2-ATLASSIAN$3"}}
+{"pattern":"^SSH-([\\d.]+)-GerritCodeReview_([\\w._-]+) \\(SSHD-CORE-([\\w._-]+)\\)\r\n","flag":"","cpes":["a:apache:sshd:$3"],"matchers":{"info":"Gerrit Code Review $2; protocol $1","product":"Apache Mina sshd","version":"$3"}}
+{"pattern":"^SSH-([\\d.]+)-SSHD-CORE-([\\w._-]+)\r\n","flag":"","cpes":["a:apache:sshd:$2"],"matchers":{"info":"protocol $1","product":"Apache Mina sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-Plan9\r?\n","flag":"","cpes":["o:belllabs:plan_9"],"matchers":{"info":"protocol $1","product":"Plan 9 sshd","os":"Plan 9"}}
+{"pattern":"^SSH-2\\.0-CISCO_WLC\n","flag":"","cpes":[],"matchers":{"device":"remote management","product":"Cisco WLC sshd"}}
+{"pattern":"^SSH-([\\d.]+)-([\\w._-]+) sshlib: ([78]\\.\\d+\\.\\d+\\.\\d+)\r\n","flag":"","cpes":[],"matchers":{"info":"sshlib $2; protocol $1","product":"MoveIT DMZ sshd","version":"$3"}}
+{"pattern":"^SSH-([\\d.]+)-Adtran_([\\w._-]+)\r\n","flag":"","cpes":["o:adtran:aos"],"matchers":{"info":"protocol $1","product":"Adtran sshd","version":"$2","os":"AOS"}}
+{"pattern":"^SSH-([\\d.]+)-SSHD\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"Axway SecureTransport sshd"}}
+{"pattern":"^SSH-([\\d.]+)-DOPRA-([\\w._-]+)\n","flag":"","cpes":["o:huawei:dopra_linux"],"matchers":{"info":"protocol $1","product":"Dopra Linux sshd","version":"$2","os":"Dopra Linux"}}
+{"pattern":"^SSH-([\\d.]+)-AtiSSH_([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"Allied Telesis sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-CrushFTPSSHD\r\n","flag":"","cpes":["a:crushftp:crushftp"],"matchers":{"info":"protocol $1","product":"CrushFTP sftpd"}}
+{"pattern":"^SSH-([\\d.]+)-CrushFTPSSHD_5\r\n","flag":"","cpes":["a:crushftp:crushftp"],"matchers":{"info":"protocol $1","product":"CrushFTP sftpd"}}
+{"pattern":"^SSH-([\\d.]+)-srtSSHServer_([\\w._-]+)\r\n","flag":"","cpes":["a:southrivertech:titan_ftp_server:$2","o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"South River Titan sftpd","version":"$2","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-WRQReflectionforSecureIT_([\\w._-]+) Build (\\d+)\r\n","flag":"","cpes":["a:attachmate:reflection_for_secure_it:$2"],"matchers":{"info":"Build $3; protocol $1","product":"Attachmate Reflection for Secure IT sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-Maverick_SSHD\r\n","flag":"","cpes":["a:sshtools:maverick_sshd"],"matchers":{"info":"protocol $1","product":"Maverick sshd"}}
+{"pattern":"^SSH-([\\d.]+)-WingFTPserver\r\n","flag":"","cpes":["a:wingftp:wing_ftp_server"],"matchers":{"info":"protocol $1","product":"Wing FTP Server sftpd"}}
+{"pattern":"^SSH-([\\d.]+)-mod_sftp\/([\\w._-]+)\r\n","flag":"","cpes":["a:proftpd:proftpd:$2"],"matchers":{"info":"protocol $1","product":"ProFTPD mod_sftp","version":"$2"}}
+{"pattern":"^SSH-1\\.99--\n","flag":"","cpes":["o:huawei:vrp"],"matchers":{"info":"protocol 1.99","product":"Huawei VRP sshd","os":"VRP"}}
+{"pattern":"^SSH-([\\d.]+)-SSH Server - ([^\r\n]+)\r\n\\0\\0...\\x14","flag":"s","cpes":["a:ice_cold_apps:ssh_server","o:google:android","o:linux:linux_kernel"],"matchers":{"info":"protocol $1; name: $2","product":"Ice Cold Apps SSH Server (com.icecoldapps.sshserver)","os":"Android"}}
+{"pattern":"^SSH-([\\d.]+)-SSH Server - sshd\r\n","flag":"","cpes":["a:arachnoid:sshelper","o:google:android","o:linux:linux_kernel"],"matchers":{"info":"protocol $1","product":"SSHelper sshd (com.arachnoid.sshelper)","os":"Android"}}
+{"pattern":"^SSH-([\\d.]+)-ConfD-([\\w._-]+)\r\n","flag":"","cpes":["a:tail-f:confd:$2"],"matchers":{"info":"protocol $1","product":"ConfD sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-SERVER_([\\d.]+)\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"FoxGate switch sshd","version":"$2"}}
+{"pattern":"^SSH-2\\.0-Server\r\n","flag":"","cpes":[],"matchers":{"info":"protocol 2.0","product":"AirTight WIPS sensor sshd"}}
+{"pattern":"^SSH-([\\d.]+)-EchoSystem_Server_([\\w._-]+)\r\n","flag":"","cpes":["a:echo360:echosystem:$2"],"matchers":{"info":"protocol $1","product":"EchoSystem sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-FileCOPA\r\n","flag":"","cpes":["a:intervations:filecopa","o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"FileCOPA sftpd","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-PSFTPd\\. Secure FTP Server ready\r\n","flag":"","cpes":["a:pleis:psftpd","o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"PSFTPd","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-NA_([\\d.]+)\r\n","flag":"","cpes":["a:hp:network_automation:$2"],"matchers":{"info":"protocol $1","product":"HP Network Automation","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-Comware-([\\d.]+)\r?\n","flag":"","cpes":["o:hp:comware:$2"],"matchers":{"info":"protocol $1","product":"HP Comware switch sshd","version":"$2","os":"Comware"}}
+{"pattern":"^SSH-([\\d.]+)-SecureLink SSH Server \\(Version ([\\d.]+)\\)\r\n","flag":"","cpes":["a:securelink:securelink:$2"],"matchers":{"info":"protocol $1","product":"SecureLink sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-WeOnlyDo-WingFTP\r\n","flag":"","cpes":["a:wftpserver:wing_ftp_server"],"matchers":{"info":"protocol $1","product":"WingFTP sftpd"}}
+{"pattern":"^SSH-([\\d.]+)-MS_(\\d+\\.\\d\\d\\d)\r\n","flag":"","cpes":["o:microsoft:windows_10:::iot_core"],"matchers":{"info":"protocol $1","product":"Microsoft Windows IoT sshd","version":"$2","os":"Windows 10 IoT Core"}}
+{"pattern":"^SSH-([\\d.]+)-elastic-sshd\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"Elastic Hosts emergency SSH console"}}
+{"pattern":"^SSH-([\\d.]+)-ZTE_SSH\\.([\\d.]+)\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"ZTE router\/switch sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-SilverSHielD\r\n","flag":"","cpes":["a:extenua:silvershield","o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"SilverSHielD sshd","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-XFB\\.Gateway ([UW]\\w+)\n","flag":"","cpes":["a:axway:file_broker"],"matchers":{"info":"protocol $1","product":"Axway File Broker (XFB) sshd","os":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-CompleteFTP-([\\d.]+)\r\n","flag":"","cpes":["a:enterprisedt:completeftp:$2","o:microsoft:windows"],"matchers":{"info":"protocol $1","product":"CompleteFTP sftpd","version":"$2","os":"Windows"}}
+{"pattern":"^SSH-([\\d.]+)-moxa_([\\d.]+)\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","device":"specialized","product":"Moxa sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-OneSSH_([\\w.]+)\n","flag":"","cpes":["a:oneaccess:onessh:$1"],"matchers":{"info":"protocol $1","product":"OneAccess OneSSH","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-AsyncSSH_(\\d[\\w.-]+)\r\n","flag":"","cpes":["a:ron_frederick:asyncssh:$2"],"matchers":{"info":"protocol $1","product":"AsyncSSH sshd","version":"$2"}}
+{"pattern":"^SSH-([\\d.]+)-ipage FTP Server Ready\r\n","flag":"","cpes":[],"matchers":{"info":"protocol $1","product":"iPage Hosting sftpd"}}
+{"pattern":"^SSH-([\\d.]+)-(?=[\\w._-]{5,15}\n$).*(?:[a-z](?:[A-Z]\\d|\\d[A-Z])|[A-Z](?:[a-z]\\d|\\d[a-z])|\\d(?:[a-z][A-Z]|[A-Z][a-z]))","flag":"","cpes":["o:fortinet:fortios"],"matchers":{"info":"protocol $1","product":"FortiSSH"}}

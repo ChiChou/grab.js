@@ -1,0 +1,1 @@
+{"pattern":"^roku: ready\r\n","flag":"","cpes":[],"matchers":{"device":"media device","product":"Roku SoundBridge"}}

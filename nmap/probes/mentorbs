@@ -1,0 +1,1 @@
+{"pattern":"^OCCLIENTDATA##MBSDELIM##{\\\"DATATYPE\\\":\\\"424538\\\",\\\"CHECKSUM\\\":\\\"[\\dA-F]+\\\",\\\"DATA\\\":{\\\"MAJOR\\\":\\\"318DC8D9\\\",\\\"MINOR\\\":\\\"[\\dA-F]+\\\",\\\"RELEASE\\\":\\\"[\\dA-F]+\\\",\\\"BUILD\\\":\\\"[\\dA-F]+\\\"}}##MBSENDDELIM##\r\n","flag":"","cpes":["a:mentorbs:on-call"],"matchers":{"product":"Mentor BS On-Call"}}

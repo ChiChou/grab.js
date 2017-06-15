@@ -1,0 +1,1 @@
+{"pattern":"^PCS-[\\w._-]+,V([\\w._-]+),OK\nERROR:102: ENERROR:102: EN","flag":"","cpes":[],"matchers":{"device":"specialized","product":"Paromed milling machine","version":"$1"}}

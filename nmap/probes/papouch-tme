@@ -1,0 +1,1 @@
+{"pattern":"^\\*B1E1([\\+-]\\d\\d\\d\\.\\d)\r$","flag":"","cpes":[],"matchers":{"info":"temperature: $1 C","product":"Papouch TME Ethernet thermometer"}}

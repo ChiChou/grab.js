@@ -1,0 +1,3 @@
+{"pattern":"^\\+ read portFile\n\\+ head -1\n\\+ find \/var\/websm\/","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"AIX wsmserver","os":"AIX"}}
+{"pattern":"^\\+ read portFile\n\\+ find \/var\/websm\/data\/wservers\/","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"AIX wsmserver","os":"AIX"}}
+{"pattern":"^\\+ find \/var\/websm\/data\/wservers\/ -type f -print -name \\[0-9\\]\\*\\[0-9\\]\n\\+ 2> \/dev\/null\n\\+ head -1\n\\+ read portFile\n\\+","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"AIX wsmserver","os":"AIX"}}

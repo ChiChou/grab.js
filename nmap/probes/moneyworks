@@ -1,0 +1,1 @@
+{"pattern":"^This is MoneyWorks; Server is on Windows\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"MoneyWorks accounting software","os":"Windows"}}

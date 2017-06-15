@@ -1,0 +1,1 @@
+{"pattern":"^OpenTable Listener Version ([\\w._-]+)\r\n\r\nerror=Bad request\r\n\r\nOTRequestHandler ([\\w._-]+) WebRequest\r\n\r\n\\0$","flag":"","cpes":[],"matchers":{"info":"request handler version $2","product":"OpenTable restaurant reservation listener","version":"$1"}}

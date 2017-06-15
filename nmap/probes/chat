@@ -1,0 +1,3 @@
+{"pattern":"^WebStart Chat Service Established\\.\\.\\.\r\n\\(C\\) 2000-\\d+ R Gabriel all Rights Reserved\r\n","flag":"","cpes":[],"matchers":{"product":"WebStart Chat Service"}}
+{"pattern":"^\\*\\x01..\\0\\x04\\0\\0\\0\\x01$","flag":"s","cpes":[],"matchers":{"product":"AIM or ICQ server"}}
+{"pattern":"^\r\n>STATUS\tset status\r\nINVISIBLE\tset invisible mode\r\nMAINWINDOW\tshow\/hide main window\r\n","flag":"","cpes":[],"matchers":{"product":"Simple Instant Messenger control plugin"}}

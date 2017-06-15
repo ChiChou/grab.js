@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0$","flag":"","cpes":["o:sgi:irix"],"matchers":{"product":"AudioWorks sound server","os":"IRIX"}}

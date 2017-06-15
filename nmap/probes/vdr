@@ -1,0 +1,2 @@
+{"pattern":"^220 (\\S+) SVDRP VideoDiskRecorder (\\d[^\\;]+);","flag":"","cpes":[],"matchers":{"device":"media device","product":"VDR","version":"$2","hostname":"$1"}}
+{"pattern":"^Access denied!\n$","flag":"","cpes":[],"matchers":{"device":"media device","product":"VDR"}}

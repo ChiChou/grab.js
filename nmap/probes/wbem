@@ -1,0 +1,2 @@
+{"pattern":"^HTTP\/1\\.1 400 Bad Request\r\nServer: sfcHttpd\r\nContent-Length: 0\r\n\r\n","flag":"","cpes":["a:standards_based_linux_instrumentation_project:sfcb"],"matchers":{"product":"SBLIM Small Footprint CIM Broker"}}
+{"pattern":"^HTTP\/1\\.0 405 Method not allowed: Method not allowed by server: GET\r\nDate: .*\r\nCache-Control: no-cache\r\nServer: \/ \\(CIMOM\\)\r\nContent-Length: 0\r\n\r\n","flag":"","cpes":[],"matchers":{"product":"OpenWBEM"}}

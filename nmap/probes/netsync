@@ -1,0 +1,2 @@
+{"pattern":"^\\x06\\x02...([\\w._@-]+)..","flag":"s","cpes":[],"matchers":{"info":"Monotone VCS; key name $1","product":"Netsync","version":"6"}}
+{"pattern":"^\\x00\\x64\\x01\\x00$","flag":"","cpes":[],"matchers":{"info":"Monotone VCS","product":"Netsync"}}

@@ -1,0 +1,39 @@
+{"pattern":"^lpd \\[@([-.\\w]+)\\]: Print-services are not available to your host \\([-.\\w]+\\)\\.\n","flag":"","cpes":[],"matchers":{"info":"Unauthorized host","product":"BSD lpd","hostname":"$1"}}
+{"pattern":"^([-.\\w]+): lpd: Your host does not have line printer access\n","flag":"","cpes":[],"matchers":{"info":"hostname denied","product":"BSD\/Linux lpd","hostname":"$1"}}
+{"pattern":"^lpd \\[@([-\\w_.]+)\\]: connected from invalid port \\(\\d+\\)\n","flag":"","cpes":[],"matchers":{"info":"source port denied","product":"BSD\/Linux lpd","hostname":"$1"}}
+{"pattern":"^lpd: Host name for your address \\(\\d+\\.\\d+\\.\\d+\\.\\d+\\) unknown\n$","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"info":"client IP must resolve","product":"Linux lpd","os":"Linux"}}
+{"pattern":"^lpd: (.*)\n","flag":"","cpes":[],"matchers":{"info":"error: $1","product":"lpd"}}
+{"pattern":"^([\\w._\/-]+\/lpd): (.*)\n","flag":"","cpes":[],"matchers":{"info":"path: $1; error: $2","product":"lpd"}}
+{"pattern":"^([-\\w_.]+): lpd: hostname for your address \\([\\d.]+\\) unknown\n","flag":"","cpes":[],"matchers":{"product":"lpd","hostname":"$1"}}
+{"pattern":"^([-\\w_.]+): lpd: address for your hostname \\([\\d.]+\\) not matched\n","flag":"","cpes":[],"matchers":{"product":"lpd","hostname":"$1"}}
+{"pattern":"^\\x01no connect permissions\n$","flag":"","cpes":[],"matchers":{"info":"Not authorized","product":"LPRng"}}
+{"pattern":"^([-\\w_.]+): lpsched: Malformed from address\n","flag":"","cpes":[],"matchers":{"product":"lpsched","hostname":"$1"}}
+{"pattern":"^([-\\w_.]+): lpsched: Your host does not have line printer access\n","flag":"","cpes":[],"matchers":{"info":"host denied","product":"lpsched","hostname":"$1"}}
+{"pattern":"^([-\\w_.]+): lpsched: Host name for your address \\([\\d.]+\\) unknown\n","flag":"","cpes":[],"matchers":{"info":"Unauthorized","product":"lpsched","hostname":"$1"}}
+{"pattern":"^([-\\w_.]+): \/usr\/lib\/lpd: Malformed from address\n","flag":"","cpes":[],"matchers":{"product":"lpd","hostname":"$1"}}
+{"pattern":"^Printer Status ---> (.*)                    \nno entries\n","flag":"","cpes":[],"matchers":{"info":"Status $1","device":"printer","product":"QMC DeskLaser printer"}}
+{"pattern":"^\\d+-202 your host does not have line printer access\\.","flag":"","cpes":["o:ibm:aix"],"matchers":{"info":"Unauthorized","product":"AIX lpd","os":"AIX"}}
+{"pattern":"^\\d+-201 ill-formed FROM address\\.$","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"AIX lpd","os":"AIX"}}
+{"pattern":"^\\xff$","flag":"","cpes":[],"matchers":{"product":"Panasonic mfpscdl.exe service"}}
+{"pattern":"^An lpd test connection was completed successfully\r\n","flag":"s","cpes":[],"matchers":{"device":"printer","product":"Lexmark lpd service"}}
+{"pattern":"^Invalid protocol request \\(71\\): GGET \/ HTTP\/1\\.0\r\n\n$","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"Sun Solaris lpd","os":"Solaris"}}
+{"pattern":"^([-\\w_.]+): lpd: Illegal service request\n$","flag":"","cpes":[],"matchers":{"product":"lpd","hostname":"$1"}}
+{"pattern":"^\\x01Socket \\d+ received unknown command 0x48 with arguments ELP$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"RPM Print Manager lpd","os":"Windows"}}
+{"pattern":"^Command 48 is not supported\n","flag":"","cpes":["a:busybox:busybox"],"matchers":{"product":"BusyBox lpd"}}
+{"pattern":"^\\0$","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^default: unknown printer\n$","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"Solaris lpd","os":"Solaris"}}
+{"pattern":"^\\x01\\x01$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft lpd","os":"Windows"}}
+{"pattern":"^[\\x01\\x02]$","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^[-.\\w]+: lpsched: unknown printer\n$","flag":"","cpes":["o:sgi:irix"],"matchers":{"product":"SGI IRIX lprsrv","os":"IRIX"}}
+{"pattern":"^Printer default not found \\([\\w_]+\\)\\.\n","flag":"","cpes":[],"matchers":{"device":"print server","product":"print server"}}
+{"pattern":"^VSE Line Printer Daemon has rejected this request\\.\\0\\0","flag":"","cpes":["o:ibm:z%2fvse"],"matchers":{"device":"print server","product":"VSE lpd","os":"z\/VSE"}}
+{"pattern":"^no queue to check\n\\0$","flag":"","cpes":[],"matchers":{"device":"terminal","product":"Wyse Winterm 1200 LE terminal lpd"}}
+{"pattern":"^\/usr\/local\/helios\/sbin\/lpd Printer default doesn't exist! \n$","flag":"","cpes":[],"matchers":{"product":"Helios lpd"}}
+{"pattern":"^\\0\\x01\r\n                     Century LPD Service\r\nUnknown printer 'default'\n$","flag":"","cpes":[],"matchers":{"product":"Century TinyTERM lpd"}}
+{"pattern":"^Cirrato printing service \\(with PayEx support\\)\\0","flag":"","cpes":["a:cirrato:cirrato"],"matchers":{"info":"with PayEx support","product":"Cirrato lpd"}}
+{"pattern":"^no entries\n$","flag":"","cpes":[],"matchers":{"device":"printer","product":"Xerox lpd"}}
+{"pattern":"^SB06D2F0: \\xe5\\x9f\\xf0\\x18\\xe5\\x9f\\xf0\\x18\\xe5\\x9f\\xf0\\x18\\xe5\\x9f\\xf0\\x18\\xe5\\x9f\\xf0\\x18\\xe1\\xa0 no entries\n$","flag":"","cpes":[],"matchers":{"device":"printer","product":"Kyocera Mita KM-1530 lpd"}}
+{"pattern":"^ActiveFax Server: There are \\d+ entries in the Faxlist\r\n","flag":"","cpes":[],"matchers":{"product":"ActiveFax lpd"}}
+{"pattern":"^Host Name: ([-\\w_.]+)\nPrinter Device: hp LaserJet (\\w+)\nPrinter Status: ([^\r\n]+)\n\\0\\0","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"HP LaserJet $2; Status $3","product":"NetSarang Xlpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^Fictive printer queue short information\n$","flag":"","cpes":[],"matchers":{"device":"printer","product":"Canon MF4360-4390 lpd"}}
+{"pattern":"^414A_Citizen_CLP(\\d+): \\xe5\\x9f\\xf0\\x18\\xe5\\x9f\\xf0\\x18\\xe5\\x9f\\xf0\\x18\\xe5\\x9f\\xf0\\x18\\xe5\\x9f\\xf0\\x18\\xe1\\xa0 no entries\n$","flag":"","cpes":[],"matchers":{"device":"printer","product":"Citizen CLP-$1 lpd"}}

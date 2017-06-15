@@ -1,0 +1,1 @@
+{"pattern":"^\\x05\\0\\0\\x01.\\0\\0\\0\\0....\\xff\\xff\\xff.\\0\\0\\0\\0\\0\\0\\0.\\0\\0\\0\\0\\0\\x0fB@\\0\\0\\0.\\x80\\0\\0\\0\\xff\\xff\\xff\\xff\\xff\\xff","flag":"s","cpes":["a:aircrack-ng:airserv-ng"],"matchers":{"product":"airserv-ng"}}

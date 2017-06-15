@@ -1,0 +1,1 @@
+{"pattern":"^MudNames ([\\d.]+) - \\(C\\) 1997-2001 Ragnar Hojland Espinosa <ragnar@ragnar-hojland\\.com>\n\r","flag":"","cpes":[],"matchers":{"product":"MudNames","version":"$1"}}

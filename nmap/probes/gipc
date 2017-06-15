@@ -1,0 +1,1 @@
+{"pattern":"^gipc....................HTTP\/1\\.0 503 Service Unavailable\r\nHost: ([^\r\n]+)\r\nServer: GPnPD\/([\\d.]+)\r\n\r\n","flag":"","cpes":[],"matchers":{"product":"Oracle Grid Plug and Play daemon","version":"$2","hostname":"$1"}}

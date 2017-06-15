@@ -1,0 +1,1 @@
+{"pattern":"^\\x15uBMC TM ART Version ([\\w._-]+, Build \\d+ from [\\d-]+), Copyright \\? [\\d-]+ BMC Software, Inc\\. \\| All Rights Reserved\\.","flag":"","cpes":[],"matchers":{"product":"BMC Transaction Management Application Response Time","version":"$1"}}

@@ -1,0 +1,3 @@
+{"pattern":"^.\\0\\0\\0\n(\\d\\.[\\w._-]+) \\((?:rel\\d+-)?r\\d+\\)\\0\\x01\\0\\0\\0\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\0\\x08\\x82.\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\t\n\\x0b\\x0c\r","flag":"","cpes":[],"matchers":{"product":"Sphinx Search daemon","version":"$1"}}
+{"pattern":"^\\x01\\0\\0\\0\\0\\x01\\0\\0\\0\\0\\0 \\0\\0\\0\\x1cunknown command \\(code=\\d+\\)","flag":"","cpes":[],"matchers":{"product":"Sphinx Search daemon"}}
+{"pattern":"^\\0\\0\\0\\x01\\0\\x01\\0\\0\\0\\0\\0\\x1c\\0\\0\\0\\x18unknown command \\(code=0\\)","flag":"","cpes":[],"matchers":{"product":"Sphinx Search daemon"}}

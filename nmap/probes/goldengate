@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\+  ERROR\tMGR did not recognize the command\\.\\0","flag":"","cpes":["a:oracle:goldengate"],"matchers":{"product":"Oracle GoldenGate"}}
+{"pattern":"^\\0&  ERROR\tMGR Did Not Recognize Command\\0","flag":"","cpes":["a:oracle:goldengate"],"matchers":{"product":"Oracle GoldenGate"}}

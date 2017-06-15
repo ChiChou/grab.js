@@ -1,0 +1,1 @@
+{"pattern":"^\\x04\\0\\0\\0....$","flag":"","cpes":[],"matchers":{"device":"security-misc","product":"Galaxy Control Systems Client GW"}}

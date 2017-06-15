@@ -1,0 +1,1 @@
+{"pattern":"^nrpep - ([\\d.]+)\n$","flag":"","cpes":[],"matchers":{"product":"NetSaint Remote Plugin Executor\/Perl","version":"$1"}}

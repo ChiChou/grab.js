@@ -1,0 +1,3 @@
+{"pattern":"^Agent Ready\\.\\.\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"MicroWorld mwagent.exe","os":"Windows"}}
+{"pattern":"^Agent Ready\\.\\.\\.\r\nGET \/ HTTP\/1\\.0\r\n\r\nGET 501 command not implemented ERROR\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"MicroWorld mwagent.exe","os":"Windows"}}
+{"pattern":"^Agent Ready v([\\w._]+)+\\.\\.\\.(?:\\[[\\w._-]+\\])\r\nGET \/ HTTP\/1\\.0 501 command not implemented ERROR\r\n 501 command not implemented ERROR\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"eScan antivirus management console","product":"MicroWorld mwagent.exe","version":"$1","os":"Windows"}}

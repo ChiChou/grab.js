@@ -1,0 +1,2 @@
+{"pattern":"^<monopd><server host=\"\" version=\"([\\d.]+)\"\/><\/monopd>\n","flag":"","cpes":["a:gtkatlantic:monopd:$1"],"matchers":{"product":"GtkAtlantic monopd","version":"$1"}}
+{"pattern":"^<monopd><server host=\"([\\w._-]+)\" version=\"([\\d.]+)\"\/><\/monopd>\n","flag":"","cpes":["a:gtkatlantic:monopd:$2"],"matchers":{"info":"id: $1","product":"GtkAtlantic monopd","version":"$2"}}

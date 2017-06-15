@@ -1,0 +1,1 @@
+{"pattern":"^OK\\x1d\\0\\x0e\\x18.\\x08\\x02\\x10\\xd5q..([\\w.]+)\\0\\0\\0\\0\\0\\0","flag":"s","cpes":[],"matchers":{"info":"production version: $1","product":"Siemens X-Trace"}}

@@ -1,0 +1,2 @@
+{"pattern":"^0 PROTOCOL 2 [23] AGENT,CONSOLE,INSTALL","flag":"","cpes":[],"matchers":{"product":"DrWeb"}}
+{"pattern":"^\\x7csrv_realm=([^\\x7c]+)\\x7csrv_Uuid=[-\\da-f]{36}\\x7cdws9=\\d+\\x7cMajorVer=(\\d+)\\x7cMinorVer=(\\d+)\\x7c","flag":"","cpes":["a:drweb:drweb:$2.$3"],"matchers":{"info":"realm: $1","product":"DrWeb","version":"$2.$3"}}

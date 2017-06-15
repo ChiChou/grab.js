@@ -1,0 +1,1 @@
+{"pattern":"^usage: [\/\\w]*\/etc\/pksd\\.conf conf_file\n$","flag":"","cpes":["a:mit:pgp_public_key_server"],"matchers":{"info":"broken","product":"PGP Public Key Server"}}

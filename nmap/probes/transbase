@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\+\\x04\\0\\0\\0@TransBase Multiplexer error report:\nIllegal request","flag":"","cpes":[],"matchers":{"product":"Transbase Database"}}

@@ -1,0 +1,2 @@
+{"pattern":"^.\\0[^:]+:merovingian:(\\d+):[^:]+:BIG:","flag":"","cpes":["a:monetdb:monetdb"],"matchers":{"info":"protocol $1; big-endian","product":"MonetDB"}}
+{"pattern":"^.\\0[^:]+:merovingian:(\\d+):[^:]+:LIT:","flag":"","cpes":["a:monetdb:monetdb"],"matchers":{"info":"protocol $1; little-endian","product":"MonetDB"}}

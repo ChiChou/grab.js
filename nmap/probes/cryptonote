@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.0 200 OK\nContent-Type: text\/plain\nContent-Length: 20\n\nmining server online","flag":"","cpes":["a:nodejs:node.js"],"matchers":{"info":"Node.js","product":"node-cryptonote-pool CryptoNote miner"}}

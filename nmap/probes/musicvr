@@ -1,0 +1,1 @@
+{"pattern":"^W\\xff..\\0\\0A.[\\x01-\\x20][\\w.]{1,32}[\\x01-\\x20][\\w.]{1,32}","flag":"s","cpes":[],"matchers":{"product":"MusicVR"}}

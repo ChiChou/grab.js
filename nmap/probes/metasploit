@@ -1,0 +1,1 @@
+{"pattern":"^\n.*=\\[ msf v([^\r\n]+)\r?\n.*\\d+ exploits.*\\d+ payloads.*\\d+ encoders.*\\d+ nops.*msf > $","flag":"s","cpes":[],"matchers":{"product":"Metasploit Framework msfd","version":"$1"}}

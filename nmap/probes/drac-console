@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x0c\\0\\0\\0\\?\\0\\0\\0\\x02$","flag":"","cpes":["h:dell:remote_access_card:4"],"matchers":{"product":"Dell Remote Access Controller 4 console"}}

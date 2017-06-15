@@ -1,0 +1,1 @@
+{"pattern":"^PGAS..\\0\\0$","flag":"s","cpes":["a:qpr:qpr_suite"],"matchers":{"product":"QPR PGApplication Server"}}

@@ -1,0 +1,1 @@
+{"pattern":"^error\\x01Generic bzr smart protocol error: bad request '\\\r'\n$","flag":"","cpes":[],"matchers":{"product":"Bazaar VCS bzr serve"}}

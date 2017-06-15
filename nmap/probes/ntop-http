@@ -1,0 +1,7 @@
+{"pattern":"^HTTP\/1\\.0 \\d\\d\\d .*\nServer: ntop\/(\\d[-.\\w]+) [^\r\n]*\\([\\w\\d-]*linux[\\w\\d-]*\\)\r?\n","flag":"s","cpes":["a:ntop:ntop:$1","o:linux:linux_kernel"],"matchers":{"product":"Ntop web interface","version":"$1","os":"Linux"}}
+{"pattern":"^HTTP\/1\\.0 \\d\\d\\d .*\nServer: ntop\/(\\d[-.\\w]+) \\([\\w\\d.-]*freebsd[\\w\\d.-]*\\)\r?\n","flag":"s","cpes":["a:ntop:ntop:$1","o:freebsd:freebsd"],"matchers":{"product":"Ntop web interface","version":"$1","os":"FreeBSD"}}
+{"pattern":"^HTTP\/1\\.0 \\d\\d\\d .*\nServer: ntop\/(\\d[-.\\w]+) \\(([-.\\w]+)\\)\n","flag":"s","cpes":["a:ntop:ntop:$1"],"matchers":{"info":"$2","product":"Ntop web interface","version":"$1"}}
+{"pattern":"^HTTP\/1\\.0 \\d\\d\\d .*\nServer: ntop\/(\\d[-.\\w]+) \\([^\\)\r]+\\)\r\n","flag":"s","cpes":["a:ntop:ntop:$1"],"matchers":{"product":"Ntop web interface","version":"$1"}}
+{"pattern":"^HTTP\/1\\.0 \\d\\d\\d .*Server: ntop\/([-\\w_.]+)","flag":"s","cpes":["a:ntop:ntop:$1"],"matchers":{"product":"Ntop web interface","version":"$1"}}
+{"pattern":"^HTTP\/1\\.0 401 Unauthorized to access the document\nWWW-Authenticate: Basic realm=\\\"ntop HTTP server\\\"\n","flag":"","cpes":["a:ntop:ntop"],"matchers":{"product":"Ntop web interface"}}
+{"pattern":"^HTTP\/1\\.0 \\d\\d\\d .*Server: ntop\/([\\d.]+) SourceForge \\.tgz \\(([-\\w_.]+)\\)\r\n","flag":"s","cpes":["a:ntop:ntop:$1"],"matchers":{"info":"platform $2","product":"Ntop web interface","version":"$1 SourceForge .tgz"}}

@@ -1,0 +1,1 @@
+{"pattern":"^fox a 0 -1 fox hello\n\\{\nfox\\.version=s:([\\d.]+)\nid=i:\\d+.*\napp\\.name=s:Station\napp\\.version=s:([\\d.]+)\n","flag":"s","cpes":[],"matchers":{"info":"fox version $1","product":"Tridium Niagara","version":"$2"}}

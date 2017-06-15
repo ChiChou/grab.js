@@ -1,0 +1,2 @@
+{"pattern":"^\\[ANGLESTATUS.*\\[XYZSTATUS.*\\[ZOOMSTATUS.*\\[INSTRUMENTSTATUS.*XRAYSON=1","flag":"s","cpes":[],"matchers":{"info":"X-rays: On","device":"specialized","product":"Bruker AXS X-ray controller status"}}
+{"pattern":"^\\[ANGLESTATUS.*\\[XYZSTATUS.*\\[ZOOMSTATUS.*\\[INSTRUMENTSTATUS.*XRAYSON=0","flag":"s","cpes":[],"matchers":{"info":"X-rays: Off","device":"specialized","product":"Bruker AXS X-ray controller status"}}

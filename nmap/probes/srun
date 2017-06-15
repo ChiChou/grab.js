@@ -1,0 +1,1 @@
+{"pattern":"^X\\0\\0\\0$","flag":"","cpes":["a:caucho:resin"],"matchers":{"product":"Caucho Resin JSP Engine srun"}}

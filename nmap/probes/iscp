@@ -1,0 +1,1 @@
+{"pattern":"^ISCP\\0\\0\\0\\x10\\0\\0\\0.\\x01\\0\\0\\0!1[A-Z]","flag":"s","cpes":[],"matchers":{"device":"media device","product":"Onkyo A\/V receiver ISCP"}}

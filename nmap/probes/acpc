@@ -1,0 +1,1 @@
+{"pattern":"^Usage: Valid commands are\nLIST\nCLEAR\nSTATUS\nKILL\nNEW\nCONFIG\nAUTONCONNECT\nGETINFO\nHELP\nFor specific help on each command, type HELP:COMMAND\r\r\n\n","flag":"","cpes":[],"matchers":{"product":"Glassfrog computer poker server"}}

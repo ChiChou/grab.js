@@ -1,0 +1,1 @@
+{"pattern":"^Asterisk Call Manager\/([\\d.]+)\r\n","flag":"","cpes":["a:digium:asterisk:$1"],"matchers":{"product":"Asterisk Call Manager","version":"$1"}}

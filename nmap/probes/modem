@@ -1,0 +1,1 @@
+{"pattern":"^(?:ATZ\r)?(?:\\+\\+\\+ATZ\r)","flag":"","cpes":[],"matchers":{"product":"Lantronix raw serial port"}}

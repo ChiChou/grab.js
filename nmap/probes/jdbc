@@ -1,0 +1,1 @@
+{"pattern":"^HSQLDB JDBC Network Listener\\.\nUse JDBC driver with Network Compatibility Version([\\d.]+) and a JDBC URL like jdbc:hsqldb:hsql:\/\/hostname\\.\\.\\.\n","flag":"","cpes":["a:hsql:hsqldb"],"matchers":{"info":"Network Compatibility Version $1","product":"HSQLDB JDBC"}}

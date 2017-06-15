@@ -1,0 +1,1 @@
+{"pattern":"^.\/multistream\/([\\d.]+)\n","flag":"s","cpes":[],"matchers":{"product":"libp2p multistream protocol","version":"$1"}}

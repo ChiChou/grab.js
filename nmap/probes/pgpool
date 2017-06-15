@@ -1,0 +1,1 @@
+{"pattern":"^E\\0\\0\\0.S[^\\0]+\\0CXX000\\0M[^\\0]*\\0D[^\\0]*\\0Fpcp_worker\\.c\\0L176\\0\\0","flag":"","cpes":["a:pgpool:pgpool-ii"],"matchers":{"product":"pgpool-II"}}

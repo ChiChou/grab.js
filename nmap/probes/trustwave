@@ -1,0 +1,1 @@
+{"pattern":"^control\n   ping\n   endping\nendcontrol\n","flag":"","cpes":["a:trustwave:siem_oe"],"matchers":{"product":"Trustwave SIEM OE"}}

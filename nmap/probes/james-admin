@@ -1,0 +1,1 @@
+{"pattern":"^JAMES Remote Administration Tool ([\\d.]+)\nPlease enter your login and password\nLogin id:\n","flag":"","cpes":[],"matchers":{"product":"JAMES Remote Admin","version":"$1"}}

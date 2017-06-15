@@ -1,0 +1,1 @@
+{"pattern":"^\\d+SESSIONDENIED&REASON=Protocol violation\n$","flag":"","cpes":["a:bea:tuxedo"],"matchers":{"product":"BEA Tuxedo WorkStation Listener"}}

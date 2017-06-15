@@ -1,0 +1,2 @@
+{"pattern":"^409 Invalid Protocol PVXAS\/1\\.0\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"MAS200 Financial System","os":"Windows"}}
+{"pattern":"^The Host cannot run the specified program\\.$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"MAS200 Financial System","os":"Windows"}}

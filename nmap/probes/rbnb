@@ -1,0 +1,1 @@
+{"pattern":"^EXM {EXC \\0\\x1fcom\\.rbnb\\.api\\.SerializeExceptionMSG \\0JUnrecognizable parameter read from input stream\\.\nElement read was \\x01default}\r\nPNG {}\r\n","flag":"","cpes":[],"matchers":{"info":"http:\/\/outlet.creare.com\/rbnb\/","product":"Ring Buffered Network Bus"}}

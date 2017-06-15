@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.1 301 Moved Permanently\r\nLocation: \/login\\.html\r\nContent-Length: 157\r\nContent-Type: text\/html\r\n\r\n<html><head><title>301 Moved Permanently<\/title><\/head><body>\n<h1>Moved Permanently<\/h1>\nMoved to: <a href=\\\"\/login\\.html\\\">\/login\\.html<\/a>\n<hr>\n<\/body><\/html>\n$","flag":"","cpes":[],"matchers":{"product":"Hillstone SSL VPN"}}

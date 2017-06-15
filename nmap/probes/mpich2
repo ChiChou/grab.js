@@ -1,0 +1,1 @@
+{"pattern":"^([\\d.]+) \\d+\\0{240,250}$","flag":"","cpes":[],"matchers":{"product":"MPICH2","version":"$1"}}

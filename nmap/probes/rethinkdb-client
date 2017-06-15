@@ -1,0 +1,1 @@
+{"pattern":"^ERROR: This is the rdb protocol port! \\(bad magic number\\)\n$","flag":"","cpes":[],"matchers":{"product":"RethinkDB client driver"}}

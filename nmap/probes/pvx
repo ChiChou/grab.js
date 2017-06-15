@@ -1,0 +1,1 @@
+{"pattern":"^Invalid shortcut parameter$","flag":"","cpes":["a:pvx:providex"],"matchers":{"product":"ProvideX client interface"}}

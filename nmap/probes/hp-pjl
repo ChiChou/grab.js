@@ -1,0 +1,3 @@
+{"pattern":"^@PJL INFO ID\r?\n\\\"([^\"]+)\\\"\r?\n","flag":"","cpes":[],"matchers":{"device":"printer","product":"$1"}}
+{"pattern":"^@PJL INFO ID ?\r?\n([\\w\\d _-]+)\r?\n","flag":"","cpes":[],"matchers":{"device":"printer","product":"$1"}}
+{"pattern":"@PJL\\x20INFO\\x20ID\r?\n\r?\n","flag":"","cpes":[],"matchers":{"device":"printer"}}

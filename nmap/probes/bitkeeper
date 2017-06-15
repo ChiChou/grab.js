@@ -1,0 +1,2 @@
+{"pattern":"^ERROR-Try help\nERROR-Try help\n$","flag":"","cpes":[],"matchers":{"product":"Bitkeeper"}}
+{"pattern":"^@SERVER INFO@\nPROTOCOL=([\\d.]+)\nVERSION=bk-([\\w._-]+)\nUTC=\\d+\nTIME_T=\\d+\nROOT=([^\n]+)\nUSER=(?:[^\n]+)\nHOST=(?:[^\n]+)\nREALUSER=(?:[^\n]+)\nREALHOST=([^\n]+)\nPLATFORM=([^\n]+)\n","flag":"","cpes":["a:bitmover:bitkeeper:$2"],"matchers":{"info":"protocol $1; root $3; $5","product":"BitKeeper distributed VCS","version":"$2","hostname":"$4"}}

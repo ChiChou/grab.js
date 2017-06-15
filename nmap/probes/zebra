@@ -1,0 +1,4 @@
+{"pattern":"^\r\nHello, this is zebra \\(version (\\d[-.\\w]+)\\)\\.\r\nCopyright 1996-20","flag":"","cpes":["a:gnu:zebra:$1"],"matchers":{"product":"GNU Zebra routing software","version":"$1"}}
+{"pattern":"^\r\nHello, this is zebra \\(version (\\d[-.\\w]+)\\)\\.\r\nCopyright 200\\d","flag":"","cpes":["a:gnu:zebra:$1"],"matchers":{"product":"GNU Zebra routing software","version":"$1"}}
+{"pattern":"^Vty password is not set\\.\r\n$","flag":"","cpes":["a:quagga:quagga"],"matchers":{"product":"Quagga routing software"}}
+{"pattern":"^\r\nUser Access Verification\r\n\r\n\\xff\\xfb\\x01\\xff\\xfb\\x03\\xff\\xfe\\\"\\xff\\xfd\\x1fPassword: ","flag":"","cpes":["a:gnu:zebra"],"matchers":{"product":"GNU Zebra routing software"}}

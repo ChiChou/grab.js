@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\x01\\0\\x03\\0\\0\\0\/Incompatible version number: message discarded\\.$","flag":"","cpes":["a:winpcap:winpcap","o:microsoft:windows"],"matchers":{"product":"WinPcap remote packet capture daemon","os":"Windows"}}

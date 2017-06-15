@@ -1,0 +1,1 @@
+{"pattern":"^ACMP Server Version ([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"product":"Aagon ACMP Inventory","version":"$1"}}

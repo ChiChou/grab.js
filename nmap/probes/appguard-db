@@ -1,0 +1,1 @@
+{"pattern":"^200 Welkom bij de Appguard UserDatabase Server v([\\d.]+)\r\nWhatsUP\\? .{10}\r\n","flag":"","cpes":["a:app_bv:appguard_userdatabase:$1"],"matchers":{"product":"App Appguard UserDatabase","version":"$1"}}

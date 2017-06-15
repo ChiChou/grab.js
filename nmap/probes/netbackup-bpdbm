@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0.DONE \\d+$","flag":"","cpes":["a:symantec:veritas_netbackup"],"matchers":{"product":"Veritas Netbackup database manager"}}

@@ -1,0 +1,2 @@
+{"pattern":"^200\r\nProtocol-Version:(\\d[\\d.]+)\r\nMessage-ID:\\d+\r\nDatabase .*\r\nContent-Length:\\d+\r\n\r\n(\\w:\\\\.*ini)\r\n\r\n","flag":"","cpes":[],"matchers":{"info":"Protocol $1; INI file: $2","product":"Sourcegear SourceOffSite"}}
+{"pattern":"^250\r\nProtocol-Version:(\\d[\\d.]+)\r\nMessage-ID:\\d+\r\nDatabase .*\r\nContent-Length:\\d+\r\nKey Length:(\\d+)\r\n\r\n.*(\\w:\\\\.*ini)\r\n\r\n","flag":"s","cpes":[],"matchers":{"info":"Protocol $1; Key len: $2; INI file: $3","product":"Sourcegear SourceOffSite"}}

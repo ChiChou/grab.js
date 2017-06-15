@@ -1,0 +1,1 @@
+{"pattern":"^<HTML>\r\n<HEAD>\r\n<TITLE>CSTA-Mono Server Home Page <\/TITLE>\r\n","flag":"","cpes":["a:alcatel-lucent:omnipcx"],"matchers":{"device":"PBX","product":"Alcatel OmniPCX Enterprise"}}

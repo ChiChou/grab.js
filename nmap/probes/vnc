@@ -1,0 +1,21 @@
+{"pattern":"^RFB 003\\.00(\\d)\n$","flag":"","cpes":[],"matchers":{"info":"protocol 3.$1","product":"VNC"}}
+{"pattern":"^RFB 003\\.00(\\d)\n\\0\\0\\0\\0\\0\\0\\0\\x1aToo many security failures$","flag":"","cpes":[],"matchers":{"info":"protocol 3.$1; Locked out","product":"VNC"}}
+{"pattern":"^RFB 003.130\n$","flag":"","cpes":[],"matchers":{"info":"unofficial protocol 3.130","product":"VNC"}}
+{"pattern":"^RFB 003\\.88[89]\n$","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"product":"Apple remote desktop vnc","os":"Mac OS X"}}
+{"pattern":"^RFB 000\\.000\n$","flag":"","cpes":["a:ultravnc:repeater"],"matchers":{"product":"Ultr@VNC Repeater"}}
+{"pattern":"^RFB 003\\.00(\\d)\n\\0\\0\\0\\0\\0\\0\\0jServer license key is missing, invalid or has expired\\.\nVisit http:\/\/www\\.realvnc\\.com to purchase a licence\\.","flag":"","cpes":["a:realvnc:realvnc"],"matchers":{"info":"Unlicensed; protocol 3.$1","product":"RealVNC"}}
+{"pattern":"^RFB 003\\.00(\\d)\n\\0\\0\\0\\0\\0\\0\\0nVNC Server license key is missing, invalid or has expired\\.\nVisit http:\/\/www\\.realvnc\\.com to purchase a license\\.","flag":"","cpes":["a:realvnc:realvnc"],"matchers":{"info":"Unlicensed; protocol 3.$1","product":"RealVNC"}}
+{"pattern":"^RFB 003\\.00(\\d)\n\\0\\0\\0\\0\\0\\0\\0\\x8cLa licencia de VNC Server no se ha activado correctamente\\.\n\nNo se permitir\\xc3\\xa1n conexiones hasta que se aplique una clave de licencia v\\xc3\\xa1lida\\.","flag":"","cpes":["a:realvnc:realvnc::::es"],"matchers":{"info":"Unlicensed; protocol 3.$1; Spanish","product":"RealVNC"}}
+{"pattern":"^RFB 003\\.00(\\d)\n\\0\\0\\0\\0\\0\\0\\0MTrial period has expired\\.\nVisit http:\/\/www\\.realvnc\\.com to purchase a license\\.","flag":"","cpes":["a:realvnc:realvnc"],"matchers":{"info":"Trial expired; protocol 3.$1","product":"RealVNC"}}
+{"pattern":"^RFB 004\\.000\n","flag":"","cpes":["a:realvnc:realvnc:::personal"],"matchers":{"info":"protocol 4.0","product":"RealVNC Personal"}}
+{"pattern":"^RFB 004\\.001\n","flag":"","cpes":["a:realvnc:realvnc:::enterprise"],"matchers":{"info":"protocol 4.1","product":"RealVNC Enterprise"}}
+{"pattern":"^RFB 005\\.000\n","flag":"","cpes":["a:realvnc:realvnc:::enterprise"],"matchers":{"info":"protocol 5.0","product":"RealVNC Enterprise","version":"5.3 or later"}}
+{"pattern":"^RFB 003\\.00(\\d)\n\\0\\0\\0\\0\\0\\0\\0:Unable to open license file: No such file or directory \\(2\\)","flag":"","cpes":["a:realvnc:realvnc:::enterprise"],"matchers":{"info":"protocol 3.$1","product":"RealVNC Enterprise Edition"}}
+{"pattern":"^RFB 003\\.00(\\d)\n\\0\\0\\0\\0\\0\\0\\0jServer license key is missing, invalid or has expired\\.\nVisit http:\/\/www\\.realvnc\\.com to purchase a license\\.","flag":"","cpes":["a:realvnc:realvnc:::enterprise"],"matchers":{"info":"protocol 3.$1","product":"RealVNC Enterprise"}}
+{"pattern":"^RFB 103\\.006\n","flag":"","cpes":["a:microsoft:virtual_server","o:microsoft:windows"],"matchers":{"product":"Microsoft Virtual Server remote control","os":"Windows"}}
+{"pattern":"^ISD 001\\.000\n$","flag":"","cpes":[],"matchers":{"product":"iTALC"}}
+{"pattern":"^.{27}\\x16\\x20\\xe4\\xb0\\x95\\x63\\x29\\x78\\xdb\\x6e\\x35\\x92$","flag":"s","cpes":["a:ultravnc:ultravnc"],"matchers":{"product":"Ultr@VNC"}}
+{"pattern":"^RFB 240\\.6\n\\0\\x02$","flag":"","cpes":[],"matchers":{"product":"BRemote VNC"}}
+{"pattern":"^RFB 009\\.123\n","flag":"","cpes":[],"matchers":{"device":"remote management","product":"ATEN KVM-over-IP VNC"}}
+{"pattern":"^RFB 003\\.00(\\d)\n\\0\\0\\0\\0\\0\\0\\0kVNC Server is not licensed correctly\\.\n\nConnections will be prohibited until a valid license key is applied\\.","flag":"","cpes":["a:realvnc:realvnc"],"matchers":{"info":"unlicensed; protocol 3.$1","product":"RealVNC"}}
+{"pattern":"^0\\x82\\x01\n\\x02\\x82\\x01\\x01\\0","flag":"","cpes":["a:ultravnc:ultravnc:1.0.8.0","o:microsoft:windows"],"matchers":{"product":"Ultr@VNC","version":"1.0.8.0","os":"Windows"}}

@@ -1,0 +1,1 @@
+{"pattern":"^nduid: \\x00([0-9a-f]{40})$","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"info":"nduid $1","device":"phone","product":"WebOS precomd","os":"Linux"}}

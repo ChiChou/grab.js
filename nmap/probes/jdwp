@@ -1,0 +1,1 @@
+{"pattern":"^JDWP-Handshake$","flag":"","cpes":[],"matchers":{"product":"Java Debug Wire Protocol"}}

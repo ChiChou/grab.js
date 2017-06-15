@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x04\\0\\0\\0\\0\\0\\0\\0\\x04\\0\\0\\0\\x04\\0\\0\\0\\x01","flag":"","cpes":["o:cisco:ios"],"matchers":{"device":"switch","product":"Cisco Switch Smart Install","os":"IOS"}}

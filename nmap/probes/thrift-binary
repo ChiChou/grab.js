@@ -1,0 +1,2 @@
+{"pattern":"^\\x04\\0\\0\\0\\x11Invalid status 58$","flag":"","cpes":["a:apache:hive"],"matchers":{"product":"Hadoop Hive 2"}}
+{"pattern":"^\\x80\\x01\\0\\x03\\0\\0\\0\\0B2DA\\x0b\\0\\x01\\0\\0\\0\\0\\x08\\0\\x02\\0\\0\\0\\x02\\0","flag":"","cpes":[],"matchers":{"product":"Apache Thrift TBinary"}}

@@ -1,0 +1,4 @@
+{"pattern":"^200 CCProxy NNTP Service\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"CCProxy NNTP proxy","os":"Windows"}}
+{"pattern":"^200 avast! NNTP proxy ready\\.\r\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Avast! anti-virus NNTP proxy","os":"Windows"}}
+{"pattern":"^5?02 concurrent connection limit in avast! exceeded\\(pass:\\d+, processes:([\\w._-]+)\\[\\d+\\]\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"connection limit exceeded by $1","product":"Avast! anti-virus NNTP proxy","os":"Windows"}}
+{"pattern":"^400 Cannot connect to NNTP server ([\\w.-]+) \\([^)]*\\), connect error \\d+\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"cannot connect to $1","product":"Avast! anti-virus NNTP proxy","os":"Windows"}}

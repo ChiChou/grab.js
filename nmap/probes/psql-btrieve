@@ -1,0 +1,1 @@
+{"pattern":"^A\\0K\\0\\0\\0....\\0\\0\\0\\0\\0\\0\\xff\\xff\\xff\\xff\\0\\0\n\\x04\\xa0","flag":"s","cpes":[],"matchers":{"product":"Pervasive.SQL Server - Btrieve Engine"}}

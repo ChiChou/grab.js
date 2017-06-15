@@ -1,0 +1,2 @@
+{"pattern":"^\\x96\\xfeS\\xab$","flag":"","cpes":[],"matchers":{"product":"Websense EIM"}}
+{"pattern":"^\\0\\x0c\r\n\\0\\x01\\0\\x01\\0\\0\\0\\0$","flag":"","cpes":["a:websense:websense"],"matchers":{"product":"Websense EIM"}}

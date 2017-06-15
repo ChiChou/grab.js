@@ -1,0 +1,1 @@
+{"pattern":"^CH_STATUS (\\d{4}(?: \\d{4})?) [REMOTLCADING]+\r","flag":"","cpes":[],"matchers":{"info":"channel: $1","device":"media device","product":"TiVo TCP Remote"}}

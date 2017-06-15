@@ -1,0 +1,1 @@
+{"pattern":"^\\x81\n\\0\t\\x01\\0`\\x01\t$","flag":"","cpes":[],"matchers":{"product":"BACnet building automation"}}

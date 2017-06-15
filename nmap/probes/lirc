@@ -1,0 +1,1 @@
+{"pattern":"^BEGIN\n\r\nERROR\nDATA\n1\nbad send packet\nEND\nBEGIN\n\r\nERROR\nDATA\n1\nbad send packet\nEND\n","flag":"","cpes":[],"matchers":{"product":"LIRC infrared receiver daemon"}}

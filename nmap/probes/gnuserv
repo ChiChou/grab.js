@@ -1,0 +1,1 @@
+{"pattern":"^gnudoit: Connection refused\ngnudoit: unable to connect to remote$","flag":"","cpes":[],"matchers":{"product":"Gnuserv"}}

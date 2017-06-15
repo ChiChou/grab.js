@@ -1,0 +1,1 @@
+{"pattern":"^Conference, V([\\d.]+)\r\n$","flag":"","cpes":[],"matchers":{"product":"Forum Communcations conferenced","version":"$1"}}

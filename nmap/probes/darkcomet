@@ -1,0 +1,1 @@
+{"pattern":"^[0-9A-F]{12}$","flag":"","cpes":[],"matchers":{"info":"**BACKDOOR**","product":"DarkComet RAT"}}

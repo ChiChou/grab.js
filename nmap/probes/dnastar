@@ -1,0 +1,1 @@
+{"pattern":"^....\\0{7}.,PSH,[\\x21-\\x7e]{55}\\0{800}","flag":"s","cpes":["a:dnastar:lasergene"],"matchers":{"product":"Dnastar Lasergene"}}

@@ -1,0 +1,2 @@
+{"pattern":"^E04\r\nR\r\n","flag":"","cpes":[],"matchers":{"device":"media device","product":"Pioneer iControlAV2 control port"}}
+{"pattern":"^E04\r\n$","flag":"","cpes":[],"matchers":{"device":"media device","product":"Pioneer iControlAV2 control port"}}

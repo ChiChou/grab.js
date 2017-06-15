@@ -1,0 +1,1 @@
+{"pattern":"^pbmasterd(\\d[-.\\w]+)@[-.+\\w]+: ","flag":"","cpes":[],"matchers":{"info":"privilege separation software","product":"Symark Power Broker pbmasterd","version":"$1"}}

@@ -1,0 +1,2 @@
+{"pattern":"^220-AVG7 Anti-Virus daemon mode scanner\r\n220-Program version ([\\d.]+), engine (\\d+)\r\n220-Virus Database: Version ([\\d\/.]+)  [-\\d]+\r\n","flag":"","cpes":["a:avg:anti-virus:$1"],"matchers":{"info":"Virus DB $3","product":"AVG daemon mode","version":"$1 engine $2"}}
+{"pattern":"^220-AVG daemon mode scanner \\((?:AVG|SMTP)\\)\r\n220-Program version ([\\w._-]+)\r\n220-Virus Database: Version ([\\w._\/ -]+)\r\n220 Ready\r\n","flag":"","cpes":["a:avg:anti-virus:$1"],"matchers":{"info":"Virus DB $2","product":"AVG daemon mode","version":"$1"}}

@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\0\\0.\\0\\0\\0\\x01\\xf8\\x04\\x96\\0\\0'com\\.sun\\.star\\.bridge\\.XProtocolProperties\\x15UrpProtocolProperties\\0\\0\\x14..\\0\\0................\\0\\0....$","flag":"s","cpes":[],"matchers":{"product":"UNO Remote Protocol (URP)"}}
+{"pattern":"^\\0\\0\\0.\\0\\0\\0\\x01\\xf8\\x04\\x96\\0\\0'com\\.sun\\.star\\.bridge\\.XProtocolProperties\\x15UrpProtocolProperties\\0\\0\\x19\\.UrpProtocolPropertiesTid\\0\\0....","flag":"s","cpes":[],"matchers":{"info":"LibreOffice","product":"UNO Remote Protocol"}}

@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.0 200 OK\r\n.*Server: BaseHTTP\/([\\d.]+) Python\/([\\w.]+)\r\n.*<title>Python: OVSAgentServer Document<\/title>","flag":"s","cpes":["a:python:basehttpserver:$1","a:python:python:$2"],"matchers":{"info":"BaseHTTPServer $1; Python SimpleXMLRPCServer; Python $2","product":"Oracle OVSAgentServer","version":"22"}}

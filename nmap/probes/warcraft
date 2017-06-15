@@ -1,0 +1,6 @@
+{"pattern":"^\\0\\x30WORLD OF WARCRAFT CONNECTION - SERVER TO CLIENT\\0\\0'BE\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0.....","flag":"","cpes":["a:getmangos:mangos"],"matchers":{"product":"MaNGOS worldserver"}}
+{"pattern":"^\\x00\\x06\\xec\\x01....$","flag":"s","cpes":[],"matchers":{"product":"World of Warcraft world server"}}
+{"pattern":"^\\x00\\x2a\\xec\\x01....","flag":"s","cpes":[],"matchers":{"product":"World of Warcraft world server"}}
+{"pattern":"^\\x00\\x27\\x00\\x34.....................................$","flag":"s","cpes":[],"matchers":{"product":"World of Warcraft world server"}}
+{"pattern":"^\\0\\0\\x09$","flag":"","cpes":[],"matchers":{"product":"World of Warcraft game server"}}
+{"pattern":"^\\0\\0\\x09$","flag":"","cpes":[],"matchers":{"product":"World of Warcraft game server"}}

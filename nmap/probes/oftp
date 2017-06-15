@@ -1,0 +1,1 @@
+{"pattern":"^\\x10\\0\\0\\x17IODETTE FTP READY \r$","flag":"","cpes":[],"matchers":{"product":"ODETTE File Transfer Protocol"}}

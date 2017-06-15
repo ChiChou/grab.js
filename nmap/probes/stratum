@@ -1,0 +1,1 @@
+{"pattern":"^{\\\"id\\\":null,\\\"method\\\":\\\"mining\\.notify\\\",\\\"params\\\":\\[","flag":"","cpes":[],"matchers":{"product":"Stratum bitcoin mining protocol"}}

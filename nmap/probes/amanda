@@ -1,0 +1,4 @@
+{"pattern":"^220 ([-.\\w]+) AMANDA index server \\((\\d[-.\\w ]+)\\) ready\\.\r\n","flag":"","cpes":["a:amanda:amanda:$2"],"matchers":{"product":"Amanda backup system index server","version":"$2","os":"Unix","hostname":"$1"}}
+{"pattern":"^501 Could not read config file [^!\r\n]+!\r\n220 ([-.\\w]+) AMANDA index server \\(([-\\w_.]+)\\) ready\\.\r\n","flag":"","cpes":["a:amanda:amanda:$2"],"matchers":{"info":"broken: config file not found","product":"Amanda backup system index server","version":"$2","hostname":"$1"}}
+{"pattern":"^ld\\.so\\.1: amandad: fatal: (libsunmath\\.so\\.1): open failed: No such file or directory\n$","flag":"","cpes":["a:amanda:amanda"],"matchers":{"info":"broken: $1 not found","product":"Amanda backup system index server"}}
+{"pattern":"^Amanda ([\\d.]+) NAK HANDLE  SEQ 0\nERROR expected \\\"Amanda\\\", got \\\"r\\xfe\\x1d\\x13\\\"\n","flag":"","cpes":[],"matchers":{"product":"Amanda backup service","version":"$1","os":"Unix"}}

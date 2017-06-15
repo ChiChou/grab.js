@@ -1,0 +1,4 @@
+{"pattern":"^\\x03\\0\\0.*@","flag":"s","cpes":[],"matchers":{"product":"CompTek AquaGateKeeper"}}
+{"pattern":"^\\xff\\xfd\\x03\\xff\\xfb\\x05.*Version:\r\nGatekeeper\\(GNU\\) Version\\(([\\d.]+)\\) Ext\\(.*\\) Build\\(.*\\) Sys\\(Linux .*\\)\r\n","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"OpenH323 Gatekeeper","version":"$1","os":"Linux"}}
+{"pattern":"^\\xff\\xfd\\x03\\xff\\xfb\\x05\\xff\\xfe\\x01\r\nAccess forbidden!\r\n$","flag":"","cpes":["a:gnugk:gnu_gatekeeper"],"matchers":{"product":"GNU Gatekeeper"}}
+{"pattern":"^\\x03\\0\\0\\.\\x08\\x02\\0\\0Z~\\0\\\"\\x05%\\xc0\\x06\\0\\x08\\x91J\\0\\x02X\\x08\\x11\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x02\\x80\\x01\\0$","flag":"","cpes":["a:gnugk:gnu_gatekeeper"],"matchers":{"product":"GNU Gatekeeper"}}

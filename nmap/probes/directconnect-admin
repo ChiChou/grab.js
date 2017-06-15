@@ -1,0 +1,1 @@
+{"pattern":"^\r\nOpen DC Hub, version ([\\d.]+), administrators port\\.\r\nAll commands begin with '\\$' and end with '\\|'\\.\r\nPlease supply administrators passord\\.\r\n","flag":"","cpes":[],"matchers":{"product":"OpenDCHub directconenct hub admin port","version":"$1","os":"Unix"}}

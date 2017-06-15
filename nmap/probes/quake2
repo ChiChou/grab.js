@@ -1,0 +1,1 @@
+{"pattern":"^\\xff\\xff\\xff\\xffprint\n.*\\\\version\\\\([^\\\\]* Linux)(?=\\\\).*\\\\gamename\\\\data1(?=\\\\)","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"Alien Arena game server","version":"$1","os":"Linux"}}

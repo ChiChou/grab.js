@@ -1,0 +1,1 @@
+{"pattern":"^\\{\"Result\":false,\"Reason\":\"Busying\"\\}\n","flag":"","cpes":[],"matchers":{"device":"printer","product":"Dell MFP JSON service"}}

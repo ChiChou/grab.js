@@ -1,0 +1,1 @@
+{"pattern":"^\\x15\\x01\\0\\0\\x08\\0\\0\\0\\0\\x80\t\\x03\\x08$","flag":"","cpes":["a:microsoft:exchange_server:2010"],"matchers":{"product":"Microsoft Exchange 2010 log copier"}}

@@ -1,0 +1,3 @@
+{"pattern":"^Crestron Terminal Protocol Console opened\r\n","flag":"","cpes":["h:crestron"],"matchers":{"info":"Crestron automation system","product":"Crestron Terminal Console"}}
+{"pattern":"^\r\nCrestron Terminal Protocol Console Opened\r\n\r\n","flag":"","cpes":["h:crestron"],"matchers":{"info":"Crestron automation system","product":"Crestron Terminal Console"}}
+{"pattern":"^INVALID_COMMAND\r","flag":"","cpes":[],"matchers":{"device":"media device","product":"TiVo DVR Crestron control server"}}

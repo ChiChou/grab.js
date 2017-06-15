@@ -1,0 +1,1 @@
+{"pattern":"^ACKNOWLEDGE","flag":"","cpes":["a:ibm:zos_explorer","o:ibm:z%2fos"],"matchers":{"product":"JMON for zOS (FMID HALG300)","os":"z\/OS"}}

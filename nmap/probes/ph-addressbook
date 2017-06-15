@@ -1,0 +1,1 @@
+{"pattern":"^598::Command not recognized\\.\r\n598::Command not recognized\\.\r\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Mercury\/32 PH addressbook server","os":"Windows"}}

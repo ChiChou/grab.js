@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.0 404 Not Found\r\nDate: .*\r\nServer: ByllSoftware Gurda\/([\\d.]+)\r\n","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"ASPI server","version":"$1","os":"Solaris"}}

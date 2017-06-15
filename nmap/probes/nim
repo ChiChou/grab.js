@@ -1,0 +1,1 @@
+{"pattern":"^\\0$","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"IBM AIX Network Installation Management","os":"AIX"}}

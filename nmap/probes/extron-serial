@@ -1,0 +1,1 @@
+{"pattern":"^\r\n\\(c\\) Copyright 2\\d\\d\\d, Extron Electronics, ([^,]+), V([\\d.]+)\r\n","flag":"","cpes":["h:extron:$1"],"matchers":{"product":"Extron $1 serial port","version":"$2"}}

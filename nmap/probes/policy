@@ -1,0 +1,1 @@
+{"pattern":"^action=defer_if_permit Policy Rejection: Invalid data\n\n$","flag":"","cpes":[],"matchers":{"product":"Postfix mail policyd"}}

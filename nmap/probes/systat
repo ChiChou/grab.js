@@ -1,0 +1,2 @@
+{"pattern":"^USER       PID %CPU %MEM   VSZ  RSS TTY      STAT START   TIME COMMAND\n","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"Linux systat","os":"Linux"}}
+{"pattern":"^  PID  PGRP SID PRI STATE   BLK  SIZE COMMAND\n","flag":"","cpes":["o:qnx:qnx"],"matchers":{"product":"QNX systat","os":"QNX"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x080\\x06\\x02\\x01\\0\\x02\\x01i","flag":"","cpes":["a:emc:documentum_content_server"],"matchers":{"product":"Documentum Content Server"}}

@@ -1,0 +1,1 @@
+{"pattern":"^FB\/([\\d.]+) PUSH: SERVER_READY ([\\w._-]+) (\\w+)\n","flag":"","cpes":[],"matchers":{"info":"language: $3","product":"Frozen Bubble game server","version":"$1","hostname":"$2"}}

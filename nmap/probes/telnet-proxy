@@ -1,0 +1,7 @@
+{"pattern":"^nodnsquery\/[\\d.]+ is not authorized to use the telnet proxy\r\n","flag":"","cpes":[],"matchers":{"product":"Gauntlet telnet proxy"}}
+{"pattern":"^Eingabe Servername\\[:Port\\] : ","flag":"","cpes":[],"matchers":{"info":"German","product":"JanaServer telnet proxy"}}
+{"pattern":"^\\xff\\xfb\\x01\\xff\\xfb\\x03Telnet Gateway ready=enter computer name to connect to\\.\\\\x0d\\\\x0a\\\\xd\\\\xahost\\[:port\\]: \r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"602LAN Suite telnet proxy","os":"Windows"}}
+{"pattern":"^\r\n\r\nEnter computer name to connect to\\.\r\ne\\.g\\. \\\"NetCom\\.com\\\"<CR>","flag":"","cpes":["a:bluecoat:winproxy","o:microsoft:windows"],"matchers":{"product":"WinProxy telnet proxy","os":"Windows"}}
+{"pattern":"^\\xff\\xfc\\x01\\xff\\xfd\\\"ixProxy V([\\d.]+), Copyright \\(C\\) \\d+ Ixia Communications\r\nEnter target port ip address as login name \\(example: 10\\.0\\.1\\.1\\)\r\nlogin:","flag":"","cpes":[],"matchers":{"product":"Ixia ixProxy telnet proxy","version":"$1"}}
+{"pattern":"^\\xff\\xfb\\x01\\xff\\xfb\\x03Blue Coat Shell proxy\r\nShell-proxy>","flag":"","cpes":["o:bluecoat:sgos"],"matchers":{"product":"Blue Coat Shell proxy","os":"SGOS"}}
+{"pattern":"^Welcome to kingate ([\\w._-]+)-win32 telnet proxy\\.\r\nPlease enter host and port\r\nexample: abc\\.com 23\r\nkingate >","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"kingate telnet proxy","version":"$1","os":"Windows"}}

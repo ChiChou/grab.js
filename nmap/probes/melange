@@ -1,0 +1,1 @@
+{"pattern":"^\\+\\+\\+Online\r\n>> Melange Chat Server \\(Version (\\d[-.\\w]+)\\), Apr-25-1999\r\n\nWelcome ","flag":"","cpes":[],"matchers":{"product":"Melange Chat Server","version":"$1"}}

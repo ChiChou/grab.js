@@ -1,0 +1,2 @@
+{"pattern":"^\\x01\\0\\0\\0\\x02\\0\\0","flag":"","cpes":[],"matchers":{"product":"MikroTik WinBox management console"}}
+{"pattern":"^.\\x01\\0.M2\\x01\\0\\xff\\x88\\0\\0\\x02\\0\\xff\\x88[\\x01\\x02]\\0","flag":"s","cpes":["a:mikrotik:winbox"],"matchers":{"product":"MikroTik WinBox"}}

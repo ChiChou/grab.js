@@ -1,0 +1,1 @@
+{"pattern":"^Zookeeper version: ([\\w.-]+), built on ([\\w.\/]+)","flag":"","cpes":["a:zookeeper:zookeeper:$1"],"matchers":{"info":"Built on $2","product":"Zookeeper","version":"$1"}}

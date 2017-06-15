@@ -1,0 +1,1 @@
+{"pattern":"^last pid: \\d+  <linux><special> rgpsp poller ! ! !\n","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"Remote GPS Poller","os":"Linux"}}

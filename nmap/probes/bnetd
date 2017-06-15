@@ -1,0 +1,4 @@
+{"pattern":"^BOT or Telnet Connection from \\[[\\d.]+\\]\r\n\r\nEnter your account name and password\\.\r\nSorry, there is no guest account\\.\r\n\r\nUsername: ","flag":"","cpes":[],"matchers":{"product":"PvPGN BnetD Mod","version":"1.5.0"}}
+{"pattern":"^Connection from \\[[\\d.]+\\]\r\n\r\nEnter your account name and password\\.\r\nSorry, there is no guest account\\.\r\n\r\nUsername: ","flag":"","cpes":[],"matchers":{"product":"bnetd"}}
+{"pattern":"^Username: $","flag":"","cpes":[],"matchers":{"product":"bnetd open source Blizzard Battlenet server"}}
+{"pattern":"^\r\nEnter your account name and password\\.\r\n\r\nUsername:","flag":"","cpes":[],"matchers":{"product":"bnetd open source Blizzard Battlenet server"}}

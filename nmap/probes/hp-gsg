@@ -1,0 +1,5 @@
+{"pattern":"^220 JetDirect GGW server \\(version (\\d[\\d.]+)\\) ready\r\n","flag":"","cpes":[],"matchers":{"device":"printer","product":"HP JetDirect Generic Scan Gateway","version":"$1"}}
+{"pattern":"^220 HP GGW server \\(version ([\\w._-]+)\\) ready\r\n\\0","flag":"","cpes":[],"matchers":{"device":"printer","product":"HP Generic Scan Gateway","version":"$1"}}
+{"pattern":"^00$","flag":"","cpes":[],"matchers":{"device":"printer","product":"IEEE 1284.4 scan peripheral gateway"}}
+{"pattern":"^01$","flag":"","cpes":[],"matchers":{"info":"in use","device":"printer","product":"IEEE 1284.4 scan peripheral gateway"}}
+{"pattern":"^02$","flag":"","cpes":[],"matchers":{"info":"connection error","device":"printer","product":"IEEE 1284.4 scan peripheral gateway"}}

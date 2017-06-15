@@ -1,0 +1,1 @@
+{"pattern":"^I\/O error : Permission denied\n$","flag":"","cpes":["a:sun:service_tags"],"matchers":{"product":"Sun service tags"}}

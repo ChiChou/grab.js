@@ -1,0 +1,1 @@
+{"pattern":"^\r\n\r\n\\0\\0\\0\\0\\x26\\x84\\0\\x04\\0\\0\\0\\0$","flag":"","cpes":[],"matchers":{"device":"storage-misc","product":"eTRAYz NAS device setup port"}}

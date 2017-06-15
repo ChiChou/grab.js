@@ -1,0 +1,6 @@
+{"pattern":"^\\xff\\0\\x17Took too long to log in$","flag":"","cpes":[],"matchers":{"product":"Minecraft game server"}}
+{"pattern":"^\\x0eYou need to log in!                                             $","flag":"","cpes":[],"matchers":{"product":"Minecraft game server"}}
+{"pattern":"^\\xff\\0\\x0e\\0P\\0r\\0o\\0t\\0o\\0c\\0o\\0l\\0 \\0e\\0r\\0r\\0o\\0r$","flag":"","cpes":[],"matchers":{"product":"Spigot Minecraft game server"}}
+{"pattern":"^\\xff\\0\\x0eProtocol error","flag":"","cpes":[],"matchers":{"product":"Minecraft game server"}}
+{"pattern":"^\\xff\\0\\x0e\\0P\\0r\\0o\\0t\\0o\\0c\\0o\\0l\\0 \\0e\\0r\\0r\\0o\\0r$","flag":"","cpes":[],"matchers":{"product":"Minecraft game server"}}
+{"pattern":"^\\xff\\x00.\\x00\\xa7\\x00\\x31\\x00\\x00(.+?)\\x00\\x00(.+?)\\x00\\x00(.+?)\\x00\\x00(.+?)\\x00\\x00(.+)","flag":"s","cpes":[],"matchers":{"info":"Protocol: $P(1), Message: $P(3), Users: $P(4)\/$P(5)","product":"Minecraft","version":"$P(2)"}}

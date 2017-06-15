@@ -1,0 +1,1 @@
+{"pattern":"^OPTI$","flag":"","cpes":["o:sgi:irix"],"matchers":{"product":"IRIX Distributed GL Daemon","os":"IRIX"}}

@@ -1,0 +1,1 @@
+{"pattern":"^ceph (v[\\w._-]+)\\0\\0\\0\\0....\\0\\x02......\\0{120}\\0\\0\\0\\0....\\0\\x02......\\0{120}","flag":"s","cpes":[],"matchers":{"info":"ipv4","product":"Ceph distributed filesystem","version":"protocol $1"}}

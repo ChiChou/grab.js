@@ -1,0 +1,9 @@
+{"pattern":"^Process query: ''\nQuery recognized as IP(?:v4)?\\.\nQuerying ([\\w\\d_.-]+):(\\d+) with whois\\.\n\n","flag":"","cpes":[],"matchers":{"info":"Uses $1:$2","product":"gwhois"}}
+{"pattern":"^Process query: ''\nQuery recognized as IP\\.\n","flag":"","cpes":[],"matchers":{"product":"gwhois"}}
+{"pattern":"^%rwhois V-[\\w:.-]+ ([-\\w_.]+) \\(by Network Solutions, Inc\\. V-([\\d.]+)\\)\n","flag":"","cpes":[],"matchers":{"product":"rwhois","version":"$2","hostname":"$1"}}
+{"pattern":"^Query may not be an empty string\n","flag":"","cpes":[],"matchers":{"product":"Public Interest Registry whois server"}}
+{"pattern":"^WHOIS LIMIT EXCEEDED - SEE WWW\\.PIR\\.ORG\/WHOIS FOR DETAILS\n","flag":"","cpes":[],"matchers":{"product":"Public Interest Registry whois server"}}
+{"pattern":"^ -{62}\n \\| UNINET WHOIS Server {40}\\|\n \\| Created by i-DNS\\.net\t\t\t\t\t      \\|\n.* INFO: This domain name has not been registered\\.\n","flag":"s","cpes":[],"matchers":{"product":"Uninet whois"}}
+{"pattern":"^Process query: 'GET  HTTP1\\.0'\n\n\nNo lookup service available for your query 'GET  HTTP1\\.0'\\.\ngwhois remarks: If this is a valid domainname or handle, please file a bug report\\.\n\n\n\n\n-- \n  To resolve one of the above handles:   OTOH offical handles should be recognised directly\\.\n  Please report errors or misfits via the debian bug tracking system\\.\n$","flag":"","cpes":[],"matchers":{"product":"gwhois"}}
+{"pattern":"^\n\r\nJava Whois Server ([\\w._-]+)    \\(c\\) \\d+ - \\d+ Klaus Zerwes zero-sys\\.net\r\n\n","flag":"","cpes":[],"matchers":{"product":"Java Whois Server","version":"$1"}}
+{"pattern":"^This is JWhoisServer serving ccTLD ([\\w._-]+)\r\nJava Whois Server ([\\w._-]+)    \\(c\\) \\d+ - \\d+ Klaus Zerwes zero-sys\\.net\r\n","flag":"","cpes":[],"matchers":{"info":"serving ccTLD $1","product":"Java Whois Server","version":"$2"}}

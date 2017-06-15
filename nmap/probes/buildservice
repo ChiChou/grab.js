@@ -1,0 +1,2 @@
+{"pattern":"^200 HELLO - BuildForge Agent v([\\w._-]+)\n","flag":"","cpes":[],"matchers":{"product":"BuildForge Agent","version":"$1"}}
+{"pattern":"^\\$\\0\\0\\0\\$\\0\\0\\x000RAR\\0 \\0\\0.\\xe2\\x02\\0\\xc4G\\x0f\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"Xoreax IncrediBuild","os":"Windows"}}

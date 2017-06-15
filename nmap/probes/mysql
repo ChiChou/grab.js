@@ -1,0 +1,21 @@
+{"pattern":"^.\\0\\0\\0\\xff..Host .* is not allowed to connect to this MySQL server$","flag":"s","cpes":["a:mysql:mysql"],"matchers":{"info":"unauthorized","product":"MySQL"}}
+{"pattern":"^.\\0\\0\\0\\xff..Host .* is not allowed to connect to this MariaDB server$","flag":"s","cpes":["a:mariadb:mariadb"],"matchers":{"info":"unauthorized","product":"MariaDB"}}
+{"pattern":"^.\\0\\0\\0\\xff..Too many connections","flag":"s","cpes":["a:mysql:mysql"],"matchers":{"info":"Too many connections","product":"MySQL"}}
+{"pattern":"^.\\0\\0\\0\\xff..Host .* is blocked because of many connection errors","flag":"s","cpes":["a:mysql:mysql"],"matchers":{"info":"blocked - too many connection errors","product":"MySQL"}}
+{"pattern":"^.\\0\\0\\0\\xff..Le h\\xf4te '[-.\\w]+' n'est pas authoris\\xe9 \\xe0 se connecter \\xe0 ce serveur MySQL$","flag":"","cpes":["a:mysql:mysql::::fr"],"matchers":{"info":"unauthorized; French","product":"MySQL"}}
+{"pattern":"^.\\0\\0\\0\\xff..Host hat keine Berechtigung, eine Verbindung zu diesem MySQL Server herzustellen\\.","flag":"s","cpes":["a:mysql:mysql::::de"],"matchers":{"info":"unauthorized; German","product":"MySQL"}}
+{"pattern":"^.\\0\\0\\0\\xff..Host '[-\\w_.]+' hat keine Berechtigung, sich mit diesem MySQL-Server zu verbinden","flag":"s","cpes":["a:mysql:mysql::::de"],"matchers":{"info":"unauthorized; German","product":"MySQL"}}
+{"pattern":"^.\\0\\0\\0\\xff..Al sistema '[-.\\w]+' non e` consentita la connessione a questo server MySQL$","flag":"s","cpes":["a:mysql:mysql::::it"],"matchers":{"info":"unauthorized; Italian","product":"MySQL"}}
+{"pattern":"^.\\0\\0\\0...Servidor '[-.\\w]+' est\\xe1 bloqueado por muchos errores de conexi\\xf3n\\.  Desbloquear con 'mysqladmin flush-hosts'","flag":"s","cpes":["a:mysql:mysql::::es"],"matchers":{"info":"blocked - too many connection errors; Spanish","product":"MySQL"}}
+{"pattern":"^.\\0\\0\\0...'Host' '[-.\\w]+' n\\xe3o tem permiss\\xe3o para se conectar com este servidor MySQL","flag":"","cpes":["a:mysql:mysql::::es"],"matchers":{"info":"unauthorized; Spanish","product":"MySQL"}}
+{"pattern":"^.\\0\\0\\0\\x0a([\\w._-]+)\\0............\\0\\x5f\\xd3\\x2d\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0............\\0$","flag":"s","cpes":[],"matchers":{"product":"Drizzle","version":"$1"}}
+{"pattern":"^.\\0\\0\\0\\x0a([\\w._-]+)\\0............\\0\\x5f\\xd1\\x2d\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0............\\0$","flag":"s","cpes":[],"matchers":{"product":"Drizzle","version":"$1"}}
+{"pattern":"^.\\0\\0\\0.(3\\.[-_~.+\\w]+)\\0.*\\x08\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"s","cpes":["a:mysql:mysql:$1"],"matchers":{"product":"MySQL","version":"$1"}}
+{"pattern":"^.\\0\\0\\0\\x0a(3\\.[-_~.+\\w]+)\\0...\\0","flag":"s","cpes":["a:mysql:mysql:$1"],"matchers":{"product":"MySQL","version":"$1"}}
+{"pattern":"^.\\0\\0\\0\\x0a(4\\.[-_~.+\\w]+)\\0","flag":"s","cpes":["a:mysql:mysql:$1"],"matchers":{"product":"MySQL","version":"$1"}}
+{"pattern":"^.\\0\\0\\0\\x0a(5\\.[-_~.+\\w]+)\\0","flag":"s","cpes":["a:mysql:mysql:$1"],"matchers":{"product":"MySQL","version":"$1"}}
+{"pattern":"^.\\0\\0\\0\\x0a(6\\.[-_~.+\\w]+)\\0...\\0","flag":"s","cpes":["a:mysql:mysql:$1"],"matchers":{"product":"MySQL","version":"$1"}}
+{"pattern":"^.\\0\\0\\0\\xffj\\x04'[\\d.]+' .* MySQL","flag":"s","cpes":["a:mysql:mysql"],"matchers":{"product":"MySQL"}}
+{"pattern":"^.\\0\\0\\0.([012]\\.[\\w.-]+)(?: \\([0-9a-f]+\\))?\\0","flag":"s","cpes":["a:sphinx:sphinx_search:$1"],"matchers":{"product":"Sphinx Search SphinxQL","version":"$1"}}
+{"pattern":"^.\\0\\0\\0\\x0a(0[\\w._-]+)\\0","flag":"","cpes":["a:mysql:mysql:$1"],"matchers":{"product":"MySQL instance manager","version":"$1"}}
+{"pattern":"^\\x10\\0\\0\\x01\\xff\\x13\\x04Bad handshake$","flag":"","cpes":["a:mysql:mysql"],"matchers":{"product":"MySQL"}}

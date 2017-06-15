@@ -1,0 +1,1 @@
+{"pattern":"^ERR\/InvalidCommand\n$","flag":"","cpes":["a:sun:ray_server_software"],"matchers":{"product":"Sun Ray utsessiond"}}

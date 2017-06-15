@@ -1,0 +1,13 @@
+{"pattern":"^\r\n\r\n\\0\\x03[\\0\\x01]\\x80[\\x01-\\x03]","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}
+{"pattern":"^\r\n\r\n\\0\\x03[\\0\\x01]\\x80[\\x0a\\x0b]","flag":"","cpes":[],"matchers":{"info":"gateway","product":"Modbus TCP"}}
+{"pattern":"^GET [\\0\/]\\x03H\\xd4[\\x01-\\x03]","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}
+{"pattern":"^GET [\\0\/]\\x03H\\xd4[\\x0a-\\x0b]","flag":"","cpes":[],"matchers":{"info":"gateway","product":"Modbus TCP"}}
+{"pattern":"^GE\\0\\0\\0\\x03H\\xd4[\\x01-\\x03]","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}
+{"pattern":"^GE\\0\\0\\0\\x03H\\xd4[\\x0a-\\x0b]","flag":"","cpes":[],"matchers":{"info":"gateway","product":"Modbus TCP"}}
+{"pattern":"^\\0\\x1e\\0\\x06\\0\\x03\\0\\x01\\0","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}
+{"pattern":"^\\0\\x1e\\0\\x06\\0\\x03\\0\\x80\\x01","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}
+{"pattern":"^\\x16\\x03\\0\\0[\\0S]\\x03[\\0\\x01]\\x80[\\x01-\\x03]","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}
+{"pattern":"^\\x16\\x03\\0\\0[\\0S]\\x03[\\0\\x01]\\x80[\\x0a-\\x0b]","flag":"","cpes":[],"matchers":{"info":"gateway","product":"Modbus TCP"}}
+{"pattern":"^\\x16\\x03\\0\\0\\0\\xfd[\\0\\x01]\\x80[\\x01-\\x03]\\0+$","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}
+{"pattern":"^\\x16\\x03\\0\\0S\\x03\\0\\x93\\x01","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}
+{"pattern":"^l\\0\\0\\0\\0\\x03\\0\\x80\\x01","flag":"","cpes":[],"matchers":{"product":"Modbus TCP"}}

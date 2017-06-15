@@ -1,0 +1,1 @@
+{"pattern":"^Adabas D Remote Control Server Version ([\\d.]+) Date [\\d-]+ \\(key is [0-9a-f]+\\)\r\nOK> ","flag":"","cpes":[],"matchers":{"product":"Adabas D database remote control","version":"$1"}}

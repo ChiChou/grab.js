@@ -1,0 +1,1 @@
+{"pattern":"^\\xfb\\xff\\xfe\\xff\\xfb\\xff\\xfe\\xff\\xfb\\xff\\xfe\\xff$","flag":"","cpes":["o:novell:netware"],"matchers":{"product":"Novell NetWare\/IP","os":"NetWare"}}

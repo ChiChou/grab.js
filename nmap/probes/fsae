@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\\\\\x80\\x06\\0\\0\\0\n\\x01\\x03\\0...\\0\\0\\0\n\\x10\\x03\\0\\0\\0.\\0\\0\\0\\x15\\x11\\x05FSAE server ([\\w._-]+)\\0\\0\\0\\x16\\x12\\x01................\\0\\0\\0\\x17\\x13\\x01FSAE_SERVER_\\d+$","flag":"s","cpes":[],"matchers":{"product":"Fortinet Server Authentication Extension","version":"$1"}}

@@ -1,0 +1,1 @@
+{"pattern":"^HTTP 400 Bad request\n\nError Nr: 12\n$","flag":"","cpes":[],"matchers":{"product":"Nvidia Update Service Daemon","version":"1.8.15.0"}}

@@ -1,0 +1,2 @@
+{"pattern":"^\\0{255}","flag":"","cpes":[],"matchers":{"product":"Pervasive.SQL Server - Relational Engine"}}
+{"pattern":"^\\0Server string for PARC version 1 Wire Encryption version 1\\0","flag":"","cpes":[],"matchers":{"info":"encrypted","product":"Pervasive.SQL Server - Relational Engine"}}

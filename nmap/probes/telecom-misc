@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\x1e\\x02\\x06\\x01\\0\\0\\0\\0\\0\\0\\xf1\\0","flag":"","cpes":[],"matchers":{"device":"telecom-misc","product":"Radio IP MTG gateway"}}

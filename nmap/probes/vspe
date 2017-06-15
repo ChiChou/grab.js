@@ -1,0 +1,1 @@
+{"pattern":"^\nADA38072\r\nAD_80099\r\nABA39071\r\nAB_07096\r\nACA40064\r\nAC_00090\r\nADA41066\r\nAD_81100\r\nABA42065\r\nAB_08097\r\nACA43067\r\nACA44068\r\nAC_01091\r\nADA45070\r\nAD_81100\r\nADA45070\r\nADA45070\r\nADA45070\r\nABA46069\r\nAB_09098\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Eterlogic Virtual Serial Posts Emulator","os":"Windows"}}

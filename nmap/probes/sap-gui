@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\x0e\\*\\*DPTMMSG\\*\\*\\0\\0\\xf8","flag":"","cpes":["a:sap:gui"],"matchers":{"product":"SAP Gui Dispatcher"}}

@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\0\t.{32}\\x01.*?\\0\\x10..\\0\\0\\0\\0......([^\\0]+)\\x00([\\d.]{7,15}:\\d+)\\0","flag":"","cpes":[],"matchers":{"info":"realm: $1 on $2","product":"World of Warcraft authserver"}}
+{"pattern":"^\\0\\0\t.{32}\\x01..{32}","flag":"","cpes":[],"matchers":{"product":"World of Warcraft authserver"}}

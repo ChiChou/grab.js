@@ -1,0 +1,1 @@
+{"pattern":"^action=dunno\n\n$","flag":"","cpes":[],"matchers":{"product":"Postfix Greylist Daemon"}}

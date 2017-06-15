@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\x20\\0\\0\\x02\\0\\0\\0\\x016\\0\\0\\x08\\0\\x7f\\xff\\x01\\0\\0\\0\\0\\x20","flag":"s","cpes":["a:oracle:database_server"],"matchers":{"product":"Oracle Database"}}
+{"pattern":"^\\+\\0\\0\\0$","flag":"","cpes":["a:oracle:database_server"],"matchers":{"product":"Oracle Database"}}

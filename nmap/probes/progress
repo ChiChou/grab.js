@@ -1,0 +1,3 @@
+{"pattern":"^\\0\\0\\0\\x01\\0\\x17\\0\\x14\\0\\x06\\0\\0\\0.\\0\\0\\0\\0\\0\\0","flag":"s","cpes":["a:progress:database"],"matchers":{"product":"Progress Database"}}
+{"pattern":"^\\0\\0\\0\\x01\\0\\x17\\0\\x14\\0\\x06\\0\\0\\0.\\0\\0\\0\\0\\0\\0","flag":"s","cpes":["a:progress:database"],"matchers":{"product":"Progress Database"}}
+{"pattern":"^\\0\\0\\0\\x01\\0\\x17\\0\\x14\\0\\x06\\0\\0\\0.\\0\\0\\0\\0\\0\\0","flag":"s","cpes":["a:progress:database"],"matchers":{"product":"Progress Database"}}

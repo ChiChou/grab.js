@@ -1,0 +1,1 @@
+{"pattern":"^VOTIFIER (\\d[\\w._-]+)(?: \\w{26})?\r?\n$","flag":"","cpes":[],"matchers":{"product":"Votifier plugin for Minecraft game","version":"$1"}}

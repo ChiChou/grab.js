@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0.\\x1b\\0\\0\\0\\x1fA\\0\\0\\0\\x04\\0\\0\\0\\0......\\0\\0\\0\\x0bauth\/munge\\0\\0\\0\\0\n\\0\\0..MUNGE:[\\w\/+=]+:\\0\\0\\0\\x03\\xf0","flag":"s","cpes":[],"matchers":{"info":"auth\/munge","product":"SLURM","version":"API 2.7"}}

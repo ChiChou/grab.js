@@ -1,0 +1,3 @@
+{"pattern":"^pof16 \\(FillUp\\) v\\.([\\d.]+)\n\\{cftftc\\}\r","flag":"","cpes":[],"matchers":{"device":"specialized","product":"Wincor Nixdorf ATM service","version":"$1"}}
+{"pattern":"^p16in\n","flag":"","cpes":[],"matchers":{"device":"specialized","product":"Wincor Nixdorf ATM service"}}
+{"pattern":"^{cftftc}\r","flag":"","cpes":[],"matchers":{"device":"specialized","product":"Wincor Nixdorf ATM service"}}

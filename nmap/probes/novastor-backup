@@ -1,0 +1,1 @@
+{"pattern":"^\\x02\\0\\0\\0\\0\\0\\0#\\x01\\x80\\x01.([\\w._-]+)\\x02\\x13(\\d\\d\/\\d\\d\/\\d\\d\\d\\d \\d\\d:\\d\\d:\\d\\d)\\0\\0","flag":"s","cpes":[],"matchers":{"info":"$2","product":"NovaNET-WEB backup","version":"$1"}}

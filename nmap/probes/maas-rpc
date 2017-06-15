@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\x04_ask\\0\\x011\\0\\x08_command\\0\\x08Identify\\0\\0","flag":"","cpes":["a:canonical:maas"],"matchers":{"product":"maas-regiond RPC"}}

@@ -1,0 +1,1 @@
+{"pattern":"^GET %2[Ff] HTTP%2[Ff]1\\.0\n$","flag":"","cpes":[],"matchers":{"info":"http:\/\/www.slimdevices.com","product":"SliMP3 MP3 player"}}

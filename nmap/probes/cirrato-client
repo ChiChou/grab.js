@@ -1,0 +1,1 @@
+{"pattern":"^Cirrato Client ([\\w._-]+)\\0$","flag":"","cpes":[],"matchers":{"product":"Cirrato print server client","version":"$1"}}

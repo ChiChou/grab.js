@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.1 404 Not Found\r\nServer: Cleo LexiCom\/([\\w._-]+) \\(([^)]+)\\)\r\n","flag":"","cpes":[],"matchers":{"product":"Cleo LexiCom AS2","version":"$1","os":"$2"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\x17\\0\\0\\0\\0\t\\0\\0\\0Heartbeat \\0\\0\\0\\x046\\0\\0\\0\\0\n\\0\\0\\0Compressed \\0\\0\\0\\x04\\x1a","flag":"","cpes":[],"matchers":{"product":"Guild Wars 2 game heartbeat"}}

@@ -1,0 +1,1 @@
+{"pattern":"^KEY UNAUTHORIZED\r\nKEY UNAUTHORIZED\r\n","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"product":"Rowmote remote media controller","os":"Mac OS X"}}

@@ -1,0 +1,3 @@
+{"pattern":"^4dc\r\n$","flag":"","cpes":[],"matchers":{"product":"Blackberry Administration Service - Native Code Container"}}
+{"pattern":"^4fd\r\n$","flag":"","cpes":[],"matchers":{"product":"Blackberry Administration Service - Native Code Generator"}}
+{"pattern":"^507\r\n$","flag":"","cpes":[],"matchers":{"product":"Blackberry Administration Service"}}

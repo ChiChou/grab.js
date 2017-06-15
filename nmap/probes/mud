@@ -1,0 +1,2 @@
+{"pattern":"^\n\r\\xff\\xfbUDo you want ANSI color\\? \\(Y\/n\\) $","flag":"","cpes":[],"matchers":{"info":"http:\/\/rrp.rom.org\/","product":"ROM-based MUD"}}
+{"pattern":"^Welcome to Dungeon\\.\t\t\tThis version created ([\\w-]+)\\.\nYou are in an open field west of a big white house","flag":"","cpes":[],"matchers":{"info":"$1","product":"Zork Dungeon MUD"}}

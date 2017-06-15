@@ -1,0 +1,2 @@
+{"pattern":"^\\+\\d+ <[\\d.]+@[\\d.]+> XMail ([\\d.]+) \\(Linux\/Ix86\\) CTRL Server; .*\r\n","flag":"","cpes":["a:davide_libenzi:xmail:$1","o:linux:linux_kernel"],"matchers":{"product":"XMail CTRL Server","version":"$1","os":"Linux"}}
+{"pattern":"^\\+\\d+ <[\\d.]+@[\\d.]+> XMail ([\\d.]+) CTRL Server; .*\r\n","flag":"","cpes":["a:davide_libenzi:xmail:$1"],"matchers":{"product":"XMail CTRL Server","version":"$1"}}

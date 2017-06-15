@@ -1,0 +1,4 @@
+{"pattern":"^\\0.\\0\\0[\\x02\\x04]\\0\\0\\0.*TNSLSNR for ([-.+\/ \\w]{2,24}): Version ([-\\d.]+) - Production","flag":"s","cpes":[],"matchers":{"info":"for $1","product":"Oracle TNS Listener","version":"$2"}}
+{"pattern":"^..\\0\\0\\x04\\0\\0\\0\\\"\\0..\\(DESCRIPTION=\\(TMP=\\)\\(VSNNUM=\\d+\\)\\(ERR=1189\\)\\(ERROR_STACK=\\(ERROR=\\(CODE=1189\\)\\(EMFI=4\\)\\)","flag":"","cpes":[],"matchers":{"info":"unauthorized","product":"Oracle TNS Listener"}}
+{"pattern":"^..\\0\\0\\x04\\0\\0\\0\\\"\\0..\\(DESCRIPTION=\\(TMP=\\)\\(VSNNUM=\\d+\\)\\(ERR=1194\\)\\(ERROR_STACK=\\(ERROR=\\(CODE=1194\\)\\(EMFI=4\\)\\)\\)\\)","flag":"","cpes":[],"matchers":{"info":"insecure transport","product":"Oracle TNS Listener"}}
+{"pattern":"^..\\0\\0\\x04\\0\\0\\0\\\"\\0..\\(DESCRIPTION=\\(ERR=12504\\)\\)\\0","flag":"","cpes":[],"matchers":{"info":"requires service name","product":"Oracle TNS listener"}}

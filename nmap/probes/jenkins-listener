@@ -1,0 +1,1 @@
+{"pattern":"^Unrecognized protocol: .*\r\n$","flag":"","cpes":["a:cloudbees:jenkins"],"matchers":{"product":"Jenkins TcpSlaveAgentListener"}}

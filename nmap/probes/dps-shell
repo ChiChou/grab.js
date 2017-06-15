@@ -1,0 +1,1 @@
+{"pattern":"^\\+-{26}\\+\r\n\\x7c {6}Welcome to use {6}\\x7c\r\n\\x7c >Destiny DPS Mini shell< \\x7c\r\n\\+-{9}\\+-{16}\\+\r\n\\x7c Author  \\x7c TimesWu {8}\\x7c\r\n\\+-{9}\\+-{16}\\+\r\n\\x7c Version \\x7c V([\\d.]+) {10}\\x7c\r\n\\+-{9}\\+-{16}\\+\r\n","flag":"","cpes":[],"matchers":{"info":"Ricoh printer","device":"printer","product":"Destiny DPS Mini shell","version":"$1"}}

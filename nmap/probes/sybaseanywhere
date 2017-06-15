@@ -1,0 +1,1 @@
+{"pattern":"^\\x1b\\0\\0.\\0\\0\\0\\0\\x12CONNECTIONLESS_TDS\\0\\0\\0\\x01\\x01\\0\\x04\\0\\x05\\0\\x05\\0.(.*)\\0\\x01\\x02..\\x03\\x01\\x02\\x04\\x08\\0\\0\\0\\0\\0\\0\\0\\0\\x07\\x02\\x04\\xb1","flag":"s","cpes":["a:sybase:sql_anywhere"],"matchers":{"info":"Instance name: $1","product":"Sybase SQL Anywhere"}}

@@ -1,0 +1,1 @@
+{"pattern":"^.........(.*)\\0","flag":"s","cpes":[],"matchers":{"info":"Servername: $1","product":"Vector PC-Duo Gateway Server"}}

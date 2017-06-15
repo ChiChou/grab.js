@@ -1,0 +1,5 @@
+{"pattern":"^help\r\n\r\n\\xff\\xbf\\xf8\\xb0\\xff7\\0\\x18\\0\\0\\0\\x01\\0\\0\\0\\0","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"Solaris Internet Name Server","os":"Solaris"}}
+{"pattern":"^help\r\n\r\n\\0\\0\\0\\0\\x20CKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\\0\\0!\\0\\x01","flag":"","cpes":["o:sun:sunos"],"matchers":{"info":"IEN 116","product":"Solaris Internet Name Server","os":"Solaris"}}
+{"pattern":"^\\x03\\x03\\x02$","flag":"","cpes":["o:sun:sunos"],"matchers":{"info":"IEN 116","product":"Solaris Internet Name Server","os":"Solaris"}}
+{"pattern":"^\\0\\x06\\x01\\0\\0\\x01\\0\\0\\x03\\x03\\x02$","flag":"","cpes":["o:sun:sunos"],"matchers":{"info":"IEN 116","product":"Solaris Internet Name Server","os":"Solaris"}}
+{"pattern":"^help\r\n\r\n\\0\\0\\0\\0\\x20CKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\\0\\0!\\0\\x01","flag":"","cpes":["o:sun:sunos"],"matchers":{"info":"IEN 116","product":"Solaris Internet Name Server","os":"Solaris"}}

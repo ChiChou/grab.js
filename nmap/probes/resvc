@@ -1,0 +1,1 @@
+{"pattern":"^\\{\\w+\\} NODEINFO \\(\\d+\\) \\{\\d+\\}Version: (\\d[-.\\w ]+) Microsoft Routing Server ready\r\n  ","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange routing server","version":"$1","os":"Windows"}}

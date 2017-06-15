@@ -1,0 +1,1 @@
+{"pattern":"^PSCOM[\\xb4\\xb6\\$]\\0\\0.*AUTHENTICATE","flag":"s","cpes":[],"matchers":{"info":"printing client","product":"Pharos Notify"}}

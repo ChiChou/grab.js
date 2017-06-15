@@ -1,0 +1,1 @@
+{"pattern":"^\\x06\\x03\\x04\\0\\0\\x002","flag":"","cpes":[],"matchers":{"device":"specialized","product":"Siemens LOGO! PLC"}}

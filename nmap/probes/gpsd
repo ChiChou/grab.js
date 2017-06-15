@@ -1,0 +1,2 @@
+{"pattern":"^GPSD,G=\\?,E=\\?,T=\\?,T=\\?,T=\\?,P=\\?\r\n","flag":"","cpes":["a:gpsd_project:gpsd"],"matchers":{"product":"gpsd"}}
+{"pattern":"^GPSD,D=\\?,E=\\?,F=([-\\w_.\/]+),A=\\?,U=\\?,L=\\d ([-\\w_.]+) abcdefgiklmnopqrstuvwxyz,T=\\?\r\n","flag":"","cpes":["a:gpsd_project:gpsd:$2"],"matchers":{"info":"Serial port $1","product":"gpsd","version":"$2"}}

@@ -1,0 +1,1 @@
+{"pattern":"^220 Welcome to Video Disk Recorder \\(VTP\\)\r\n","flag":"","cpes":[],"matchers":{"device":"media device","product":"VTP control for VDR"}}

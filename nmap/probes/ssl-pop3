@@ -1,0 +1,2 @@
+{"pattern":"^-ERR \\[SYS\/PERM\\] Fatal error: tls_start_servertls\\(\\) failed\r\n$","flag":"","cpes":["a:cmu:cyrus_imap_server"],"matchers":{"product":"Cyrus pop3sd"}}
+{"pattern":"^-ERR Fatal error: pop3s: required OpenSSL options not present\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server"],"matchers":{"product":"Cyrus pop3sd"}}

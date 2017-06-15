@@ -1,0 +1,1 @@
+{"pattern":"^2;http:\/\/[\\d.]+:\\d+\/;[\\d.]+;\\d+:\\d+;\\w+,[\\d.]+,PLUGIN_LOADED","flag":"","cpes":[],"matchers":{"product":"HP Jetadmin"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\x01\\0\\x04\\0Z\\x06\\0\\0","flag":"","cpes":[],"matchers":{"device":"power-misc","product":"SMA Sunny WebBox"}}

@@ -1,0 +1,1 @@
+{"pattern":"^Your connection to this server has been blocked in this server's firewall\\.\r\nYou need to contact the server owner for further information\\.\r\nYour blocked IP address is .*\r\nThis server's hostname is ([\\w._-]+)\r\n$","flag":"","cpes":[],"matchers":{"info":"blocked","product":"ConfigServer Security & Firewall","hostname":"$1"}}

@@ -1,0 +1,2 @@
+{"pattern":"^IPremote - w([\\d.]+)\r\n\\0\\0\\0\\0","flag":"","cpes":["a:ipsoft:ipremote:$1"],"matchers":{"product":"IPsoft IPremote","version":"$1"}}
+{"pattern":"^IPremote - ([\\d.]+)\n\\0\\0\\0\\0\\0\\0\\0","flag":"","cpes":["a:ipsoft:ipremote:$1"],"matchers":{"product":"IPsoft IPremote","version":"$1"}}

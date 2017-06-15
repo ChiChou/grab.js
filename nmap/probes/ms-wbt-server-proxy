@@ -1,0 +1,1 @@
+{"pattern":"^nmproxy: Procotol byte is not 8\n$","flag":"","cpes":[],"matchers":{"product":"nmproxy NetMeeting proxy"}}

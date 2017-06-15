@@ -1,0 +1,1 @@
+{"pattern":"^{\n\\\"links\\\": \\[[^]]*\\]\n,\n\t\\\"neighbors\\\": \\[[^]]*\\]\n,\n\t","flag":"","cpes":[],"matchers":{"product":"olsrd jsoninfo plugin"}}

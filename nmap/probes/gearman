@@ -1,0 +1,1 @@
+{"pattern":"^ERR UNKNOWN_COMMAND Unknown\\+server\\+command\r\nERR UNKNOWN_COMMAND Unknown\\+server\\+command\r\n$","flag":"","cpes":[],"matchers":{"product":"Gearman Job Queue System"}}

@@ -1,0 +1,2 @@
+{"pattern":"^@RSYNCD: (\\d+)","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^@ERROR: protocol startup error\n","flag":"","cpes":[],"matchers":{}}

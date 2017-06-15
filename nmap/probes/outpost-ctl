@@ -1,0 +1,1 @@
+{"pattern":"^\\[\\xb0`\\x81\\x91\\xd3\\x9eI\\xa2\\*\\x0f\\x99\\xff\\x8a_\\x12................\\x01\\0$","flag":"s","cpes":["a:agnitum:outpost_security_suite"],"matchers":{"product":"Agnitum Outpost Firewall control"}}

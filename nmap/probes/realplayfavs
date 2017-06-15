@@ -1,0 +1,2 @@
+{"pattern":"^_realplayfavs_::([\\w\\s]+)::connected\\0$","flag":"","cpes":["a:real:realplayer"],"matchers":{"info":"name: $1","product":"RealPlayer Shared Favorites"}}
+{"pattern":"^_realplayfavs_::","flag":"","cpes":["a:real:realplayer"],"matchers":{"product":"RealPlayer Shared Favorites"}}

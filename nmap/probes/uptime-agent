@@ -1,0 +1,2 @@
+{"pattern":"^ERR\n$","flag":"","cpes":[],"matchers":{"product":"up.time server monitor"}}
+{"pattern":"^ERR - Command '\\xe0\\xb6VU\\xd8\\xbaVU' not found\n","flag":"","cpes":[],"matchers":{"product":"up.time server monitor"}}

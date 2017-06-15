@@ -1,0 +1,1 @@
+{"pattern":"^OFPC READY\n$","flag":"","cpes":[],"matchers":{"product":"OpenFPC packet capture"}}

@@ -1,0 +1,1 @@
+{"pattern":"^<AgentInfo><Version>([^<]+)<\/Version><\/AgentInfo>\\0?","flag":"","cpes":["a:novell:zenworks_patch_management_server:$1","o:microsoft:windows"],"matchers":{"product":"ZENworks Patch Management","version":"$1","os":"Windows"}}

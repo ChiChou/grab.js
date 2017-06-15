@@ -1,0 +1,2 @@
+{"pattern":"^\\0\\x01\\0\\x08\\0\\0\\x01\\0$","flag":"","cpes":["a:sybase:monitor_server","o:microsoft:windows"],"matchers":{"product":"Sybase Monitor Server","os":"Windows"}}
+{"pattern":"^\\x04\\x01\\0\\x1a\\0\\0\\0\\0\\xaa\\x01\\x0eLogin failed\\.\n\\xfd$","flag":"","cpes":["a:sybase:monitor_server","o:microsoft:windows"],"matchers":{"product":"Sybase Monitor Server","os":"Windows"}}

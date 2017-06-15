@@ -1,0 +1,2 @@
+{"pattern":"^.\\0\\x01\\0[^\\0]\\0[^\\0]\\0[^\\0]\\0[^\\0]\\0[^\\0]\\0.*\\0\\0\\0$","flag":"s","cpes":["a:microsoft:activesync","o:microsoft:windows"],"matchers":{"product":"Microsoft ActiveSync","os":"Windows"}}
+{"pattern":"^\\(\\0\\0\\0\\x02\\0\\0\\0\\x03\\0\\0\\0\\+\\0\\0\\x003\\0\\0\\0\\0\\0\\0\\0\\x04\\0\\0`\\x01\\0\\0\\xff\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"Citrix ActiveSync","os":"Windows"}}

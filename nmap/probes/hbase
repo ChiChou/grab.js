@@ -1,0 +1,1 @@
+{"pattern":"FatalConnectionException\\x12.Expected\\x20HEADER=HBas","flag":"","cpes":["a:apache:hbase"],"matchers":{"product":"Apache HBase"}}

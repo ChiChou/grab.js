@@ -1,0 +1,1 @@
+{"pattern":"^<omp_response status=\\\"400\\\" status_text=\\\"First command must be AUTHENTICATE, COMMANDS or GET_VERSION\\\"\/>","flag":"","cpes":["a:openvas:openvas_manager"],"matchers":{"product":"OpenVAS Management Protocol"}}

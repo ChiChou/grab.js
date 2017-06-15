@@ -1,0 +1,1 @@
+{"pattern":"^<status><code>9999<\/code><result>App\\.Version is out of date please update your version of InTow Mobile<\/result>","flag":"","cpes":["o:apple:iphone_os"],"matchers":{"info":"out of date","product":"InTow Mobile","os":"iOS"}}

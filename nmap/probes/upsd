@@ -1,0 +1,1 @@
+{"pattern":"^ERR UNKNOWN-COMMAND\nERR UNKNOWN-COMMAND\n$","flag":"","cpes":["h:synology:ds209"],"matchers":{"info":"Synology DS209 NAS device","device":"storage-misc","product":"Network UPS Tools upsd","version":"2.6.1"}}

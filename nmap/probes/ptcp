@@ -1,0 +1,1 @@
+{"pattern":"^\\0.\\x02\\0\\0\\x02\\0CClient \/[\\d.]+:\\d+ has requested unsupported pTCP version 0\\x02\\0\\0\\0\\0","flag":"","cpes":["a:axway:securetransport"],"matchers":{"product":"Axway SecureTransport PeSIT over pTCP"}}

@@ -1,0 +1,2 @@
+{"pattern":"^\\x08\\0\\0\\0\\x01\\0\\x02\\x04\\0\\0\\0\\0$","flag":"","cpes":[],"matchers":{"product":"DEC Notes","os":"VMS"}}
+{"pattern":"^\\x7c\\0\\0\\0\\x01\\0\\x1f\\x83\\x01\\x80\\x1f\\x86\\x013%NOTES-E-SRV_INVSEQ, invalid sequence of operations\\0\\0\\x1f\\x83\\x01\\x80\\x1f\\x86\\x013%NOTES-E-SRV_INVSEQ, invalid sequence of operations\\0\\0","flag":"","cpes":[],"matchers":{"product":"DEC Notes","os":"VMS"}}

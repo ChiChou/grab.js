@@ -1,0 +1,1 @@
+{"pattern":"^\\x01\\*Nsure Audit Novell NetWare \\[\\w+:\\w+\\]\r\n","flag":"","cpes":["a:novell:nsure_audit","o:novell:netware"],"matchers":{"product":"Nsure Audit logeventd","os":"NetWare"}}

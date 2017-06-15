@@ -1,0 +1,6 @@
+{"pattern":"^DONE00000001STAT00000000SERR00000000SOUT00000000DOTO.*?GCC: ([^\\0]+)","flag":"","cpes":[],"matchers":{"info":"$1","product":"distccd","version":"v1"}}
+{"pattern":"^DONE00000001STAT00000100SERR000000\\w+\/tmp\/distccd_.*:\\d+: internal compiler error: Segmentation fault","flag":"","cpes":[],"matchers":{"info":"broken","product":"distccd"}}
+{"pattern":"^DONE00000001.*?DOTO00","flag":"","cpes":[],"matchers":{"info":"unknown compiler","product":"distccd","version":"v1"}}
+{"pattern":"^DONE00000001.*ccache: failed to create \/usr\/share\/distcc\/\\.ccache \\(Permission denied\\)\n","flag":"","cpes":[],"matchers":{"info":"broken","product":"distccd"}}
+{"pattern":"^DONE00000001.*CRITICAL! distcc seems to have invoked itself recursively!\n","flag":"s","cpes":[],"matchers":{"info":"broken","product":"distccd"}}
+{"pattern":"^[\\w._-]+DONE[\\w._-]+ .*ERROR: attempt to use unknown compiler aborted: ([\\w._-]+)\n","flag":"s","cpes":[],"matchers":{"info":"broken: compiler $1 doesn't exist","product":"distccd"}}

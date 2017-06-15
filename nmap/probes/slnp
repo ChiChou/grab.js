@@ -1,0 +1,2 @@
+{"pattern":"^220 SLNP (\\w+)@[vV]ersion:\\s?V?([^@]+)@pid:\\d+\n$","flag":"","cpes":[],"matchers":{"product":"Sisis $1","version":"$2","os":"Unix"}}
+{"pattern":"^220 SLNP (\\w+)@[vV]ersion:\\s?V?([^@]+)@user:([^@]+)@pid:\\d+\n$","flag":"","cpes":[],"matchers":{"info":"User: $3","product":"Sisis $1","version":"$2","os":"Unix"}}

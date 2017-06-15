@@ -1,0 +1,1 @@
+{"pattern":"^<LSX>\n\t<Event sender=\\\"EALS\\\">\n\t\t<Challenge version=\\\"([\\d,]+)\\\" key=\\\"[\\da-f]{32}\\\" \/>\n\t<\/Event>\n<\/LSX>\n\\0","flag":"","cpes":["a:ea:origin:$SUBST(1,\",\",\".\")"],"matchers":{"product":"EA Origin","version":"$SUBST(1,\",\",\".\")"}}

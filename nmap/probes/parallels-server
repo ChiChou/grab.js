@@ -1,0 +1,1 @@
+{"pattern":"^PRLT\\x06\\0.\\0([\\w._-]+) \\((\\w\\w\\w, \\d\\d \\w\\w\\w \\d\\d\\d\\d \\d\\d:\\d\\d:\\d\\d)\\)\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0*$","flag":"","cpes":[],"matchers":{"info":"build date: $2","product":"Parallels dispatcher service","version":"$1"}}

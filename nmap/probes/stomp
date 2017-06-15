@@ -1,0 +1,2 @@
+{"pattern":"^ERROR\nmessage:Unknown STOMP action:.+ org\\.apache\\.activemq\\.","flag":"s","cpes":["a:apache:activemq"],"matchers":{"product":"Apache ActiveMQ"}}
+{"pattern":"^ERROR\nmessage:Illegal command\ncontent-type:text\/plain\nversion:([\\d.,]+)\ncontent-length:\\d+\n\nYou must log in using CONNECT first\\0\n","flag":"","cpes":["a:pivotal_software:rabbitmq"],"matchers":{"info":"versions: $1","product":"RabbitMQ"}}

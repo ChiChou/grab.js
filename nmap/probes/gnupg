@@ -1,0 +1,1 @@
+{"pattern":"^OK GNU Privacy Guard's OpenPGP server ([\\w._-]+) ready\n","flag":"","cpes":["a:gnupg:gnupg:$1"],"matchers":{"product":"GnuPG server mode","version":"$1"}}

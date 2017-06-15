@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\x0f\\0\/([\\w._-]+)\\0","flag":"","cpes":[],"matchers":{"device":"PBX","product":"Avaya $1 IPSI version"}}

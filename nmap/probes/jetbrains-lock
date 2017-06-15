@@ -1,0 +1,2 @@
+{"pattern":"^\\0.\/home\/([^\/]+)\/\\.IntelliJIdea([\\d.]+)\/config\\0.\/.*\/system\\0\\x03---","flag":"","cpes":["a:jetbrains:intellij_idea:$2"],"matchers":{"info":"user: $1","product":"IntelliJ IDEA socket lock","version":"$2"}}
+{"pattern":"^\\0.\/home\/([^\/]+)\/\\.PyCharm([\\d.]+)\/config\\0.\/.*\/system\\0\\x03---","flag":"","cpes":["a:jetbrains:pycharm:$2"],"matchers":{"info":"user: $1","product":"PyCharm socket lock","version":"$2"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\0dFE Hello! This is the monotone usher at localhost\\. What would you like\\?","flag":"","cpes":["a:monotone:monotone"],"matchers":{"product":"Monotone Usher plugin"}}

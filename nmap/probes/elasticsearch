@@ -1,0 +1,1 @@
+{"pattern":"^This is not a HTTP port$","flag":"","cpes":["a:elasticsearch:elasticsearch"],"matchers":{"product":"Elasticsearch binary API"}}

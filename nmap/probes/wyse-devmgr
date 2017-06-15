@@ -1,0 +1,1 @@
+{"pattern":"^Invalid Command Sent:GET \/ HTTP\/1\\.0\r\n\r\n$","flag":"","cpes":["a:dell:wyse_device_manager"],"matchers":{"product":"Wyse Device Manager"}}

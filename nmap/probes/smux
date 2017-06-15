@@ -1,0 +1,2 @@
+{"pattern":"^A\\x01\\x02$","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"Linux SNMP multiplexer","os":"Linux"}}
+{"pattern":"^A\\x01\\x02$","flag":"","cpes":["o:hp:hp-ux"],"matchers":{"info":"SNMP Unix Multiplexer","product":"HP-UX smux","os":"HP-UX"}}

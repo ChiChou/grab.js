@@ -1,0 +1,1 @@
+{"pattern":"^ \\0\\0\\0\\*\\x03\\x01\\x80\\x10\\0.\\xc9....................","flag":"s","cpes":[],"matchers":{"product":"PrisonTale game server"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\0Check Point FireWall-1 authenticated RLogin server running on ([-.\\w]+)\r\n\r","flag":"","cpes":["a:checkpoint:firewall-1"],"matchers":{"info":"$1","product":"Check Point FireWall-1 authenticated RLogin server"}}

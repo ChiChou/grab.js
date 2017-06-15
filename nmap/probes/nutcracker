@@ -1,0 +1,1 @@
+{"pattern":"^\\{\"service\":\"nutcracker\", \"source\":\"([^\"]+)\", \"version\":\"([\\d.]+)\",","flag":"","cpes":["a:twitter:twemproxy:$2"],"matchers":{"info":"source: $1","product":"twemproxy stats","version":"$2"}}

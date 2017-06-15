@@ -1,0 +1,1 @@
+{"pattern":"^TTSCP spoken here\r\nprotocol: 0\r\nextensions:\r\nserver: Epos\r\nrelease: ([\\w._-]+)\r\nhandle: [\\w-]+\r\n$","flag":"","cpes":[],"matchers":{"product":"Epos text-to-speech control protocol","version":"$1"}}

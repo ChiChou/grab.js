@@ -1,0 +1,1 @@
+{"pattern":"^\\x02\\x02\\0\\0\\x12\\0\\0\\0\\0\\0\\0\\0\\0\\x02en\\0\\x02$","flag":"","cpes":["o:apple:mac_os"],"matchers":{"product":"Apple slpd","os":"Mac OS"}}

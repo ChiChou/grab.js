@@ -1,0 +1,4 @@
+{"pattern":"^Active Internet connections \\(.*\\)\nProto Recv-Q Send-Q Local Address           Foreign Address         State      \n","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"os":"Linux"}}
+{"pattern":"^Active Internet connections\nProto Recv-Q Send-Q  Local Address          Foreign Address        \\(state\\)\n","flag":"","cpes":["o:qnx:qnx"],"matchers":{"os":"QNX"}}
+{"pattern":"^netstat: invalid option -- f\nusage: netstat \\[-veenNcCF\\]","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"info":"broken","product":"Linux netstat","os":"Linux"}}
+{"pattern":"^Process Software MultiNet V([\\d.]+) Rev A-X, AlphaServer ([\\d\/ ]+), OpenVMS AXP V([\\d.]+)\r\n\r\nProduct                      License    Authorization        Expiration Date\r\n","flag":"","cpes":["o:hp:openvms"],"matchers":{"info":"PSM $1; AlphaServer $2; OpenVMS AXP $3","product":"OpenVMS netstatd","os":"OpenVMS"}}

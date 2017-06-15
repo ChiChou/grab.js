@@ -1,0 +1,1 @@
+{"pattern":"^\\xbc\\xef\\x16\\0\\xb5\\xfe\\x14\\0\\0\\0\\0 \\xb5x3\\x06a\\x05\\0\\0\\x16\\0\\xbc\\xef\\x1a\\0\\xb5\\xfe\\x18\\0\\0\\0\\0 d\\xcf2\n\\0\\0\\0\\0\\0\\0\\0\\0\\x1a\\0\\xbc\\xef\\x14\\0\\xb5\\xfe\\x0e\\0\\x02\\0\\x02!\\x03\\x16\\x7f\\$r\\xe7\\x14\\0$","flag":"","cpes":["a:novell:groupwise"],"matchers":{"product":"Novell GroupWise"}}

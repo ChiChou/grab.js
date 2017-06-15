@@ -1,0 +1,1 @@
+{"pattern":"^language:\nlanguage:[a-z][a-z]_[A-Z][A-Z]\\.[\\w-]+\n","flag":"","cpes":[],"matchers":{"product":"ldminfod login session daemon"}}

@@ -1,0 +1,1 @@
+{"pattern":"^Unauthorized \\.\\.\\.\r\nIP Address: [\\d.]+\r\nMAC Address: \r\nServer Time: \\d\\d\\d\\d-\\d\\d-\\d\\d \\d{1,2}:\\d\\d:\\d\\d\r\nAuth Result: Invalid user\\.$","flag":"","cpes":[],"matchers":{"info":"unauthorized","product":"CCProxy socks proxy"}}

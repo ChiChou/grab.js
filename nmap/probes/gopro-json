@@ -1,0 +1,2 @@
+{"pattern":"^\\{\"rval\": -7, \"param_size\": 0 \\}\\0","flag":"","cpes":[],"matchers":{"device":"webcam","product":"GoPro or similar camera json service"}}
+{"pattern":"^\\{\"rval\": -7, \"param_size\": 0 \\}\\0","flag":"","cpes":[],"matchers":{"device":"webcam","product":"GoPro or similar camera json service"}}

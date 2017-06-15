@@ -1,0 +1,2 @@
+{"pattern":"^FZS\\0\\x04..\t\\0\\0\\x04\\0\\x0d\\x01\\0\\0\\x14\\0\\0\\0\\0\\x08.{18}","flag":"","cpes":["a:filezilla-project:filezilla_server:0.9"],"matchers":{"info":"protocol version 1.13","product":"FileZilla Server admin service","version":"0.9.X"}}
+{"pattern":"^FZS\\0\\x04..\t\\0\\0\\x04\\0\\x0b\\x01\\0\\0\\x14\\0\\0\\0\\0\\x08.{18}","flag":"","cpes":["a:filezilla-project:filezilla_server:0.9"],"matchers":{"info":"protocol version 1.11","product":"FileZilla Server admin service","version":"0.9.X"}}

@@ -1,0 +1,1 @@
+{"pattern":"^..\\0\\0\\xff\\xff\\xff\\xff$","flag":"s","cpes":[],"matchers":{"device":"webcam","product":"Geovision webcam control"}}

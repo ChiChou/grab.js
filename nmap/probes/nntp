@@ -1,0 +1,53 @@
+{"pattern":"^nnrpd: invalid option -- S\nUsage error\\.\n","flag":"","cpes":["a:isc:inn"],"matchers":{"info":"broken","product":"INN NNTPd"}}
+{"pattern":"^502 You have no permission to talk\\.  Goodbye.\r\n$","flag":"","cpes":["a:isc:inn"],"matchers":{"info":"unauthorized","product":"INN NNTPd"}}
+{"pattern":"^200 ([-.\\w]+) NNTP Service Ready - ([-.\\w]+@[-.\\w]+) \\(DIABLO (\\d[-.\\w ]+)\\)\r\n","flag":"","cpes":[],"matchers":{"info":"Admin: $2","product":"Diablo NNTP service","version":"$3","hostname":"$1"}}
+{"pattern":"^200 NNTP Service ([\\w._-]+) Version: [\\w._-]+ Posting Allowed \r\n","flag":"","cpes":["o:microsoft:windows_2000"],"matchers":{"product":"Microsoft NNTP Service","version":"$1","os":"Windows 2000"}}
+{"pattern":"^200 NNTP-service ([\\w._-]+) Version: [\\w._-]+ Posting Allowed \r\n","flag":"","cpes":["o:microsoft:windows_2000"],"matchers":{"product":"Microsoft NNTP Service","version":"$1","os":"Windows 2000"}}
+{"pattern":"^200 Service NNTP ([\\w._-]+) Version: [\\w._-]+ Posting Allowed \r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft NNTP Service","version":"$1","os":"Windows"}}
+{"pattern":"^200 Servicio NNTP ([\\w._-]+) Version: [\\w._-]+ Posting Allowed \r\n","flag":"","cpes":["o:microsoft:windows::::es"],"matchers":{"info":"Spanish","product":"Microsoft NNTP Service","version":"$1","os":"Windows"}}
+{"pattern":"^200 Servi\\xe7o NNTP ([\\w._-]+) Version: [\\w._-]+ Posting Allowed \r\n","flag":"","cpes":["o:microsoft:windows::::pt"],"matchers":{"info":"Portuguese","product":"Microsoft NNTP Service","version":"$1","os":"Windows"}}
+{"pattern":"^200 NNTP Service Microsoft\\xae Internet Services (\\d[-.\\w]+) Version: \\d+\\.\\d+\\.\\d+\\.\\d+ Posting Allowed \r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft NNTP Service","version":"$1","os":"Windows"}}
+{"pattern":"^502 Connection refused\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"refused","product":"Microsoft NNTP Service","os":"Windows"}}
+{"pattern":"^200 ([-.\\w]+) DNEWS Version *(\\d[-.\\w]+).*posting OK \r\n","flag":"","cpes":[],"matchers":{"info":"posting OK","product":"Netwinsite DNEWS","version":"$2","hostname":"$1"}}
+{"pattern":"^200 Leafnode NNTP Daemon, version (\\d[-.\\w]+) running at","flag":"","cpes":[],"matchers":{"product":"Leafnode NNTPd","version":"$1"}}
+{"pattern":"^200 Lotus Domino NNTP Server for ([-.\/\\w]+) \\(Release (\\d[-.\\w]+), .*\\) - Not OK to post\r\n$","flag":"","cpes":["a:ibm:lotus_domino:$2"],"matchers":{"info":"posting denied","product":"Lotus Domino nntpd","version":"$2","os":"$1"}}
+{"pattern":"^200 Lotus Domino NNTP Server for ([-.\/\\w]+) \\(Release (\\d[-.\\w]+), .*\\) - OK to post\r\n$","flag":"","cpes":["a:ibm:lotus_domino:$2"],"matchers":{"info":"posting ok","product":"Lotus Domino nntpd","version":"$2","os":"$1"}}
+{"pattern":"^20[01] Microsoft Exchange Internet News Service Version (\\d\\.\\d\\.[\\d.]+) \\((.*)\\)\r\n","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"info":"$2","product":"Microsoft Exchange Internet News Service","version":"$1","os":"Windows"}}
+{"pattern":"^20. ([\\w._-]+) InterNetNews NNRP server INN ([\\w._-]+) ready \\((?:posting ok|no posting)\\)\\.?\r\n","flag":"","cpes":["a:isc:inn:$2"],"matchers":{"product":"InterNetNews (INN)","version":"$2","hostname":"$1"}}
+{"pattern":"^200 ArGoSoft News Server for WinNT\/2000\/XP v ([\\d.]+) ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft nntpd","version":"$1","os":"Windows"}}
+{"pattern":"^400 No space left on device writing SMstore file -- throttling\r\n","flag":"","cpes":["a:isc:inn"],"matchers":{"info":"HDD full","product":"InterNetNews (INN)"}}
+{"pattern":"^200 NNTP-Server Classic Hamster (?:Vr\\.|Version) \\d[-.\\w ]+ \\(Build (\\d[-.\\w ]+)\\) \\(post ok\\) says: Hi!\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"posting ok","product":"Classic Hamster NNTPd","version":"$1","os":"Windows"}}
+{"pattern":"^200 ([\\w.-_]+) NetWare-News-Server\/([\\d.]+) 'LDNUM' NNRP ready \\(posting ok\\)\\.\r\n","flag":"","cpes":[],"matchers":{"product":"NetWare nntpd","version":"$2","hostname":"$1"}}
+{"pattern":"^200 Leafnode NNTP daemon, version ([\\w.]+) at ([-\\w_.]+) \r\n","flag":"","cpes":[],"matchers":{"product":"Leafnode nntpd","version":"$1","hostname":"$2"}}
+{"pattern":"^\nLeafnode must have a fully-qualified and globally unique domain name,\nnot just \\\"([-\\w_.]+)\\\"\\.\n","flag":"","cpes":[],"matchers":{"info":"misconfigured","product":"Leafnode nntpd","hostname":"$1"}}
+{"pattern":"^20\\d ([\\w.-_]+) NNTPCache server V([\\d.]+) \\[see www\\.nntpcache\\.org\\]","flag":"","cpes":[],"matchers":{"product":"NNTPCache","version":"$2","hostname":"$1"}}
+{"pattern":"^502 access denied <[-\\w_.]+@[-\\w_.]+>, you do not have connect permissions in the nntpcache\\.access file\\.\r\n","flag":"","cpes":[],"matchers":{"info":"Access denied","product":"NNTPCache"}}
+{"pattern":"^200 ([-\\w_.]+) InterNetNews NNRP server INN ([\\d.]+) .* \\(Debian\\) ready \\(posting ok\\)\\.\r\n","flag":"","cpes":["a:isc:inn:$2","o:debian:debian_linux","o:linux:linux_kernel"],"matchers":{"info":"on Debian; posting ok","product":"INN nntpd","version":"$2","os":"Linux","hostname":"$1"}}
+{"pattern":"^200 ([-\\w_.]+) InterNetNews (?:NNRP )?server INN ([\\d.]+) .* ready \\(posting ok\\)\\.\r\n","flag":"","cpes":["a:isc:inn:$2"],"matchers":{"info":"posting ok","product":"INN nntpd","version":"$2","hostname":"$1"}}
+{"pattern":"^201 ([-\\w_.]+) InterNetNews (?:NNRP )?server INN ([\\d.]+) .* ready \\(no posting\\)\\.\r\n","flag":"","cpes":["a:isc:inn:$2"],"matchers":{"info":"no posting","product":"INN nntpd","version":"$2","hostname":"$1"}}
+{"pattern":"^200 ([-\\w_.]+) InterNetNews (?:NNRP )?server INN ([\\d.]+) .* ready\r\n","flag":"","cpes":["a:isc:inn:$2"],"matchers":{"product":"INN nntpd","version":"$2","hostname":"$1"}}
+{"pattern":"^200 ([-\\w_.]+) NNRP Service Ready - [-\\w_.]+@[-\\w_.]+ \\(posting ok\\)\\.\r\n","flag":"","cpes":["a:isc:inn"],"matchers":{"info":"posting ok","product":"INN nntpd","hostname":"$1"}}
+{"pattern":"^200 ([-\\w_.]+) InterNetNews server INN ([\\d.]+) ready\r\n","flag":"","cpes":["a:isc:inn:$2"],"matchers":{"product":"INN nntpd","version":"$2","hostname":"$1"}}
+{"pattern":"^200 nntp\/\/rss v([\\d.]+) news server ready\r\n","flag":"","cpes":[],"matchers":{"product":"nntp\/\/rss nntpd","version":"$1"}}
+{"pattern":"^200 Hi, you can post \\(sn version ([\\w.]+)\\)\r\n","flag":"","cpes":[],"matchers":{"info":"posting ok","product":"sn nntpd","version":"$1"}}
+{"pattern":"^200 ([-\\w_.]+) NNTP Service Ready, posting permitted\r\n","flag":"","cpes":[],"matchers":{"info":"posting ok","product":"JAMES nntpd","hostname":"$1"}}
+{"pattern":"^200 Jana news server ready - posting allowed\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"posting ok","product":"Jana nntpd","os":"Windows"}}
+{"pattern":"^200 NNTP server NOFFLE ([\\w.]+)\r\n","flag":"","cpes":[],"matchers":{"product":"NOFFLE nntpd","version":"$1"}}
+{"pattern":"^200 Servizio NNTP [\\d.]+ Version: ([\\d.]+) Posting Allowed \r\n","flag":"","cpes":[],"matchers":{"info":"posting ok","product":"Servizio nntpd","version":"$1"}}
+{"pattern":"^502 Could not get your access name\\.  Goodbye\\.\r\n","flag":"","cpes":[],"matchers":{"info":"unauthorized","product":"inn2 nntpd"}}
+{"pattern":"^201 NNTP server ready \\(no posting\\)\r\n502 No permission\r\n","flag":"","cpes":["a:symantec:enterprise_firewall"],"matchers":{"info":"unauthorized","device":"firewall","product":"Symantec Enterprise Firewall nntpd"}}
+{"pattern":"^502 ([-\\w_.]+): Transfer permission denied to [\\d.]+ - [-\\w_.@]+ \\(DIABLO ([-\\w_.]+)\\)\r\n","flag":"","cpes":[],"matchers":{"product":"Diablo nntpd","version":"$2","os":"Unix","hostname":"$1"}}
+{"pattern":"^200 ([-\\w_.]+) - colobus ([\\d.]+) ready - \\(posting ok\\)\\.\r\n","flag":"","cpes":[],"matchers":{"info":"posting ok","product":"Colobus nntpd","version":"$2","hostname":"$1"}}
+{"pattern":"^200 Welcome to .* \\(Typhoon v([\\d.]+)\\)\r\n","flag":"","cpes":[],"matchers":{"product":"Typhoon nntpd","version":"$1"}}
+{"pattern":"^200 +Kerio MailServer ([\\w._-]+) +NNTP server ready\r\n","flag":"","cpes":[],"matchers":{"product":"Kerio MailServer nntpd","version":"$1"}}
+{"pattern":"^200 Kerio Connect ([\\w._-]+) NNTP server ready\r\n","flag":"","cpes":["a:kerio:connect:$1"],"matchers":{"product":"Kerio Connect nntpd","version":"$1"}}
+{"pattern":"^200 NewsCache ([-\\w_.]+), accepting NNRP commands\r\n","flag":"","cpes":[],"matchers":{"product":"Newscache nntp cache","version":"$1"}}
+{"pattern":"^200 ([\\w._-]+) Cyrus NNTP v([\\w._-]+) server ready, posting allowed\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server:$2"],"matchers":{"info":"posting ok","product":"Cyrus nntpd","version":"$2","hostname":"$1"}}
+{"pattern":"^200 ([-\\w_.]+) ready for action \\(Mailtraq ([\\d.]+)\/NNTP\\)\r\n","flag":"","cpes":["a:mailtraq:mailtraq:$2","o:microsoft:windows"],"matchers":{"product":"Mailtraq nntpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^200 Service available, posting allowed\r\n","flag":"","cpes":[],"matchers":{"product":"Freenet Message System nntpd"}}
+{"pattern":"^200 ([-\\w._]+) InterNetNews NNRP server INN (.*) ready \\(posting ok\\)\r\n","flag":"","cpes":["a:isc:inn:$2"],"matchers":{"product":"InterNetNews NNRP server","version":"$2","hostname":"$1"}}
+{"pattern":"^200 WendzelNNTPd-OSE \\(Open Source Edition\\) ([\\w._-]+) '\\w+'  - \\([^)]+\\) ready \\(posting ok\\)\\.\r\n","flag":"","cpes":[],"matchers":{"product":"WendzelNNTPd","version":"$1"}}
+{"pattern":"^200 ([-\\w.]+) Lyris ListManager NNTP Service ready \\(posting ok\\)\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Lyris ListManager nntpd","hostname":"$1"}}
+{"pattern":"^200 Coruscant BBS News \\(Synchronet NNTP Service v(\\d[-.\\w ]+)\\)\r\n","flag":"","cpes":["a:rob_swindell:synchronet:$1"],"matchers":{"product":"Synchronet NNTP Service","version":"$1"}}
+{"pattern":"^200 NNTP server ready\r\n100 Avaliable commands:\r\nARTICLE\r\nAUTHINFO\r\nBODY\r\nGROUP\r\nHEAD\r\nHELP\r\nIHAVE\r\nLAST\r\nLIST\r\nNEWGROUPS\r\nNEWNEWS\r\nNEXT\r\nPOST\r\nQUIT\r\nSLAVE\r\nSTAT\r\nXHDR\r\n\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Hamster Playground\/Kerio nntpd"}}
+{"pattern":"^200 ([\\w._-]+) news server ready - posting ok\r\n100 Help text follows\r\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Intersquish nntpd","hostname":"$1","os":"Windows"}}

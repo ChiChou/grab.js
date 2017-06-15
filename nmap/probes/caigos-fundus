@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\0\\0\\0\\0;r\\0\\0\\0\\0\\0\\0\\0h\\xd52\t\\x10\\0\\0\\0FUNDUS_PG([\\w._-]+)\\x1b\\0\\0\\0unbekannter Code: 154326376$","flag":"","cpes":[],"matchers":{"info":"Caigos GIS","product":"Fundus","version":"$1"}}

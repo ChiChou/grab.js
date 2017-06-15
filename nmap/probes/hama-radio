@@ -1,0 +1,1 @@
+{"pattern":"^\\(Thread\\d+\\): \\[ *\\d+\\.\\d+\\] [A-Z]+ *\\(\\d+\\): .*\r\n","flag":"","cpes":[],"matchers":{"device":"media device","product":"HAMA Wifi-Radio status"}}

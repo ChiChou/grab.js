@@ -1,0 +1,1 @@
+{"pattern":"^GET: command not found\n\r   acog,          AutobootConfigOptionGet\n\r","flag":"","cpes":[],"matchers":{"device":"broadband router","product":"dsl_cpe_control"}}

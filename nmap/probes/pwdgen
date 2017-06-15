@@ -1,0 +1,1 @@
+{"pattern":"^\\w+ \\([\\w-]+\\)\r\n$","flag":"","cpes":[],"matchers":{"product":"pwdgen"}}

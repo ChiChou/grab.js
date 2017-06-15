@@ -1,0 +1,3 @@
+{"pattern":"^Can't exec \\\"\/usr\/sbin\/pure-ftpd\\\": No such file or directory","flag":"","cpes":["a:pureftpd:pure-ftpd"],"matchers":{"info":"Broken","product":"Pure-FTPd under inetd","os":"Unix"}}
+{"pattern":"^Can't exec \\\"([\\w._\/-]+)\\\": (.*) at ([\\w._\/-]+) line \\d+\\.\n","flag":"","cpes":[],"matchers":{"info":"failed to exec $1: $2 at $3","product":"inetd"}}
+{"pattern":"^<\\d+>[A-Z][a-z][a-z] +\\d+ \\d+:\\d+:\\d+ inetd\\[\\d+\\]: execv (\/[-.\\\\\/\\w]+): (\\w[\\s\\w.,-]+)$","flag":"","cpes":[],"matchers":{"info":"failed to exec $1: $2","product":"inetd"}}

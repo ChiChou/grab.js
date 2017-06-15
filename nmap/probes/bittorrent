@@ -1,0 +1,2 @@
+{"pattern":"^\\x13BitTorrent protocol\\0\\0\\0\\0\\0\\0\\0\\0","flag":"","cpes":[],"matchers":{"product":"Bittorrent P2P client"}}
+{"pattern":"^Nice try\\.\\.\\.\r\n$","flag":"","cpes":["a:transmissionbt:transmission"],"matchers":{"product":"Transmission Bittorrent client"}}

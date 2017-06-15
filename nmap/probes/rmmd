@@ -1,0 +1,1 @@
+{"pattern":"^100 Rmmd version ([\\w._ -]+?)\\. *\r\n101 [\\da-f]{32}\r\n","flag":"","cpes":[],"matchers":{"product":"Rmmd trojan","version":"$1"}}

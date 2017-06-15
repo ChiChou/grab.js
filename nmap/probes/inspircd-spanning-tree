@@ -1,0 +1,2 @@
+{"pattern":"^CAPAB START\r\nCAPAB MODULES [\\w_-]+\\.so,","flag":"","cpes":["a:inspire_ircd:inspircd"],"matchers":{"product":"InspIRCd spanning tree"}}
+{"pattern":"^CAPAB START 1202\r\n$","flag":"","cpes":["a:inspire_ircd:inspircd"],"matchers":{"product":"InspIRCd spanning tree"}}

@@ -1,0 +1,1 @@
+{"pattern":"^00000011SendSignon\n","flag":"","cpes":["a:pht:logpad"],"matchers":{"product":"PHT LogPad"}}

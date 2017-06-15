@@ -1,0 +1,1 @@
+{"pattern":"^JXTAHELLO tcp:\/\/[\\d.]+:\\d+ tcp:\/\/[\\d.]+:\\d+ ","flag":"","cpes":[],"matchers":{"product":"JXTA P2P Collaboration daemon"}}

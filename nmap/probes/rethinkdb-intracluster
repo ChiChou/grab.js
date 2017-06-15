@@ -1,0 +1,1 @@
+{"pattern":"^RethinkDB ([\\w._~-]+ubuntu[\\w._~-]+) cluster\n\\xab\\xa6\\x04\\^\\x11!M\\xd6\\x99\\xb6\\xb5\\xbe\\x1cxR\\xdd\\x02\\0\\0\\0\\0\\0\\0\\0\\x7f\\0\\0\\x01\\x7f\\0\\x01\\x01Wq\\0\\0$","flag":"","cpes":["o:canonical:ubuntu_linux","o:linux:linux_kernel"],"matchers":{"product":"RethinkDB intracluster listener","version":"$1","os":"Linux"}}

@@ -1,0 +1,1 @@
+{"pattern":"(?<=.)IOS\\x20\\(tm\\)\\x20([-\\d\\w.]+).{20,30}\\x20Version\\x20([-\\d\\w.()]+),\\x20","flag":"s","cpes":["o:cisco:ios"],"matchers":{"info":"IOS $2","device":"router","product":"Cisco $1 Router","os":"IOS"}}

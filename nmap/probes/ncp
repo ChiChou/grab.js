@@ -1,0 +1,1 @@
+{"pattern":"^\\x74\\x4e\\x63\\x50\\0\\0\\0\\x10\\x33\\x33","flag":"","cpes":["o:novell:netware"],"matchers":{"product":"Novell NetWare NCP"}}

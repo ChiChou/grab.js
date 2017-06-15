@@ -1,0 +1,1 @@
+{"pattern":"How was your weekend\\?;[0-9A-F]*\\0","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"product":"Mac OS X Server Password Server","os":"Mac OS X"}}

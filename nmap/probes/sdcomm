@@ -1,0 +1,1 @@
+{"pattern":"^ERR 27$","flag":"","cpes":["h:rsa:securid"],"matchers":{"product":"RSA SecureID Ace Server"}}

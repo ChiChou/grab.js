@@ -1,0 +1,1 @@
+{"pattern":"^\\x16\\x03\\x03\\0.\\x02\\0\\0.\\x03\\x03.*\\x16\\x03\\x03\\0\\x0b\\x0c\\0\\0\\x07\\0\\x05steam","flag":"s","cpes":[],"matchers":{"info":"TLSv1.2 PSK","product":"Valve Steam In-Home Streaming service"}}

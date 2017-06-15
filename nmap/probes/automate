@@ -1,0 +1,1 @@
+{"pattern":"^\\x031[\\w+\/]{54}nXAvc01KqG\\x03\r\n$","flag":"","cpes":[],"matchers":{"product":"AutoMate Task Service","version":"9"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\xa9\\0\\x01\\0L\\0\\0\\0b\\0\\0\\0\\x01\\0\\x03@\\0\\x01\\0\\0\\0\\xc6\\x01\\0\\x007\\0\\0\\0\\x03\\0\\0\\0\\x06\\0\\0\\0handle\\x03\\0\\0\\x00454\\x08\\0\\0\\0pversion\\x02\\0\\0\\x0098\\x07\\0\\0\\0trusted\\x01\\0\\0\\x000","flag":"","cpes":["a:emc:rsa_security_analytics"],"matchers":{"product":"RSA Security Analytics Appliance service"}}

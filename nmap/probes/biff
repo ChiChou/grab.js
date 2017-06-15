@@ -1,0 +1,2 @@
+{"pattern":"^Message received\n$","flag":"","cpes":[],"matchers":{"product":"NotifyMail biffd"}}
+{"pattern":"^Use of uninitialized value in transliteration \\(tr\/\/\/\\) at \/var\/jchkmail\/user-filter","flag":"","cpes":[],"matchers":{"product":"Joe's j-chkmail biffd"}}

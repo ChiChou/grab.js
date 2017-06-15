@@ -1,0 +1,6 @@
+{"pattern":"^\\$MyNick ([-.\\w]+)|\\$Lock","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"User: $1","product":"Direct Connect P2P","os":"Windows"}}
+{"pattern":"^\r\nDConnect Daemon v([\\d.]+)\r\nlogin: ","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Direct Connect P2P","version":"$1","os":"Windows"}}
+{"pattern":"<Hub-Security> Your IP is temporarily banned for (\\d+) minutes\\.\\|","flag":"","cpes":[],"matchers":{"info":"Banned for $1 minutes","product":"Shadows DirectConnect hub"}}
+{"pattern":"<Hub-Security> You are being banned for (\\d+) minutes \\(by SDCH Anti Hammering\\)\\.\\|","flag":"","cpes":[],"matchers":{"info":"Banned for $1 minutes","product":"Shadows DirectConnect hub"}}
+{"pattern":"<Hub-Security> You are being redirected to ([\\d.]+)\\|\\$ForceMove [\\d.]+\\|","flag":"","cpes":[],"matchers":{"info":"Redirected to $1","product":"PtokaX directconnect hub"}}
+{"pattern":"^server-version\\$([\\w._-]+)\\|init-completion\\$200\\|port\\$\\d+\\|","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"product":"Shakespeer Direct Connect GUI","version":"$1","os":"Mac OS X"}}

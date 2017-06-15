@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\0\\0\\0\\0;r\\0\\0\\0\\0\\0\\0\\0XL\\)\\x01\\x11\\0\\0\\0PARATUS_PG([\\w._-]+)\\x1a\\0\\0\\0unbekannter Code: 19483736$","flag":"","cpes":[],"matchers":{"info":"Caigos GIS","product":"Paratus","version":"$1"}}

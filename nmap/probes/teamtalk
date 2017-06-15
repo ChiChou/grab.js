@@ -1,0 +1,2 @@
+{"pattern":"^welcome userid=\\d+ servername=\\\"([^\"]+)\\\" motd=\\\"\\\" forwarding=\\d+ channels=\\d+ operators=\\d+ maxusers=\\d+ protocol=\\\"([\\w._-]+)\\\"\r\n","flag":"","cpes":[],"matchers":{"info":"Server Name $1; protocol $2","product":"Bearware TeamTalk"}}
+{"pattern":"^welcome userid=\\d+ servername=\\\"([^\"]+)\\\" userrights=\\d+ maxusers=\\d+ usertimeout=\\d+ protocol=\\\"([\\w._-]+)\\\"\r\n","flag":"","cpes":[],"matchers":{"info":"Server Name $1; protocol $2","product":"Bearware TeamTalk"}}

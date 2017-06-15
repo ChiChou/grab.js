@@ -1,0 +1,1 @@
+{"pattern":"^<\\?xml version=\"1\\.0\"\\?><Xml><Header><\/Header><Body><XmlRpcServer><Greeting>EgoSecure XmlRpc Server<\/Greeting><HostName>([^<]+)<\/HostName><Version>([^<]+)<\/Version><ProductVersion>([^<]+)<\/ProductVersion>","flag":"","cpes":[],"matchers":{"info":"protocol version $2","product":"EgoSecure Agent xmlrpc","version":"$3","hostname":"$1"}}

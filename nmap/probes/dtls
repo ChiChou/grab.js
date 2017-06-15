@@ -1,0 +1,4 @@
+{"pattern":"^\\x15\\xfe\\xff\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x07\\x02\\x16\\0\\0\\0\\0\\0$","flag":"","cpes":["a:openssl:openssl"],"matchers":{"product":"OpenSSL DTLS 1.0"}}
+{"pattern":"^\\x16\\xfe\\xff\\0\\0\\0\\0\\0\\0\\0\\0..\\x03...\\0\\0\\0\\0\\0...\\xfe\\xff.","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^\\x16\\xfe[\\xfd\\xff]\\0\\0\\0\\0\\0\\0\\0\\0..\\x02...\\0\\0\\0\\0\\0...\\xfe[\\xfd\\xff].","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^\\x15\\xfe\\xff\\0\\0\\0\\0\\0\\0\\0\\0..\\x02\\(\\0\\0\\0\\0\\0","flag":"","cpes":[],"matchers":{}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\x94\\x01\\xcd\\xef\\xd1\\xc0\\xda\\0.([^\\s]+)","flag":"s","cpes":[],"matchers":{"product":"Kumofs","version":"$1"}}

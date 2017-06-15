@@ -1,0 +1,1 @@
+{"pattern":"^\\+host=cashew version=([\\d.]+) uptime=[\\d+:]+ audio-bits=\\d+ audio-byte-order=\\w+-endian","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"Remote Play Daemon","version":"$1","os":"Linux"}}

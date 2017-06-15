@@ -1,0 +1,2 @@
+{"pattern":"^com\\.sqribe\\.null\\0java\\.lang\\.String\\0com\\.sqribe\\.transformer\\.TransformerException\\0java\\.lang\\.String\\0TRCP version mismatch: Current version: (\\d+) Client version: unknown\\0$","flag":"","cpes":[],"matchers":{"product":"Brio 8 business intelligence tool","version":"$1"}}
+{"pattern":"^\\0\\0\\x01\\(\\x16\\x85..$","flag":"s","cpes":[],"matchers":{"product":"Brio 8 business intelligence"}}

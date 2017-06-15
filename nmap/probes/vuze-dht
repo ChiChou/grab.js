@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\x04\\x01\\0U\\xab\\xec\\xff\\xf0\\x97\r\\.`\\xd1o..........","flag":"s","cpes":["a:azureus:vuze"],"matchers":{"product":"Vuze"}}

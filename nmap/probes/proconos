@@ -1,0 +1,1 @@
+{"pattern":"^\\xcc\\x01...\\x02\\x92\\0V\\d+\\.\\d+ProConOS V([\\d.]+) \\w\\w\\w +\\d+ \\d+\\0+\\0([^\\0]+)\\0+([^\\0]+)\\0+([^\\0]+)\\0+([^\\0]+)\\0","flag":"s","cpes":[],"matchers":{"info":"PLC: $2; project: $3\/$4; source: $5","product":"ProConOS","version":"$1"}}

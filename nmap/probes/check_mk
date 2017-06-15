@@ -1,0 +1,1 @@
+{"pattern":"^<<<check_mk>>>\nVersion: ([\\w._-]+)\n","flag":"","cpes":[],"matchers":{"product":"check_mk extension for Nagios","version":"$1"}}

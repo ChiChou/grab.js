@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0:R\\0\\0\\0\\0\\x01\\0\\0\\x0016791614489711164477\\x7cRhapsody Engine ([\\w._-]+)\\x7c4$","flag":"","cpes":[],"matchers":{"product":"McKesson Rhapsody Engine","version":"$1"}}

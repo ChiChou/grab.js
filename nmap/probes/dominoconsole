@@ -1,0 +1,1 @@
+{"pattern":"^([^\/]+)\/([\\w._-]+):([^:]*):([^:]*):","flag":"","cpes":["a:ibm:lotus_domino"],"matchers":{"info":"domain: $1; description: \"$4\"","product":"Lotus Domino Console","hostname":"$2","os":"$3"}}

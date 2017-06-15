@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\x01\\0\\x08\\0\\0\\x01\\0$","flag":"","cpes":["a:sybase:backup_server","o:microsoft:windows"],"matchers":{"product":"Sybase Backup Server","os":"Windows"}}

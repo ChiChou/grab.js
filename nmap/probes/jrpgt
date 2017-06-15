@@ -1,0 +1,1 @@
+{"pattern":"^<<jrpgt!>>\\x7c$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"JRPGT game server","os":"Windows"}}

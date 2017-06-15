@@ -1,0 +1,7 @@
+{"pattern":"^login: Please enter user name: Password: $","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"Solaris uucpd","os":"Solaris"}}
+{"pattern":"^login: Password: Login incorrect\\.$","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"SunOS uucpd","os":"SunOS"}}
+{"pattern":"^login: login: login: $","flag":"","cpes":["o:netbsd:netbsd"],"matchers":{"product":"NetBSD uucpd","os":"NetBSD"}}
+{"pattern":"^login: uucpd: \\d+-\\d+ The user is not known\\.\n","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"AIX uucpd","os":"AIX"}}
+{"pattern":"^login: Password:$","flag":"","cpes":[],"matchers":{"product":"Taylor uucpd"}}
+{"pattern":"^login: Password: $","flag":"","cpes":["o:debian:debian_linux","o:linux:linux_kernel"],"matchers":{"info":"PAM auth","product":"Debian in.uucpd, probably Taylor uucpd","os":"Linux"}}
+{"pattern":"^login: Login incorrect\\.$","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"Solaris uucpd","os":"Solaris"}}

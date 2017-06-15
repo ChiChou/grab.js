@@ -1,0 +1,39 @@
+{"pattern":"^flock\\(\\) on closed filehandle .*midentd","flag":"","cpes":[],"matchers":{"info":"broken","product":"midentd"}}
+{"pattern":"^nullidentd -- version (\\d[-.\\w]+)\nCopyright ","flag":"","cpes":[],"matchers":{"info":"broken","product":"Nullidentd","version":"$1"}}
+{"pattern":"^\\d+, \\d+ : USERID : FreeBSD : \\[x\\]-\\d+\r\n","flag":"","cpes":["o:freebsd:freebsd"],"matchers":{"product":"FreeBSD authd","os":"FreeBSD"}}
+{"pattern":"^0, 0: ERROR: UNKNOWN-ERROR\n$","flag":"","cpes":[],"matchers":{"product":"slident"}}
+{"pattern":"^0,0:ERROR:UNKNOWN-ERROR\r\n$","flag":"","cpes":[],"matchers":{"product":"mlidentd or bqidentd"}}
+{"pattern":"^2 , 0 : ERROR : UNKNOWN-ERROR\r\n$","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^0 , 0 : ERROR : UNKNOWN-ERROR\r\n$","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^0 , 0 : ERROR : INVALID-PORT\r\n$","flag":"","cpes":["o:freebsd:freebsd"],"matchers":{"product":"FreeBSD identd","os":"FreeBSD"}}
+{"pattern":"^ : ERROR : UNKNOWN-ERROR\r\n$","flag":"","cpes":[],"matchers":{"product":"pidentd"}}
+{"pattern":"^0, 0 : ERROR : X-INVALID-REQUEST\r\n$","flag":"","cpes":[],"matchers":{"product":"Minidentd or fakeidentd"}}
+{"pattern":"^0 , 0 : ERROR : INVALID-PORT\r\n0 , 0 : ERROR : INVALID-PORT\r\n$","flag":"","cpes":[],"matchers":{"product":"Ident2"}}
+{"pattern":"^0, 0 : ERROR : INVALID-PORT\r\n","flag":"","cpes":[],"matchers":{"product":"midentd"}}
+{"pattern":"^0,0 : ERROR : INVALID-PORT\r\n","flag":"","cpes":[],"matchers":{"product":"midentd"}}
+{"pattern":"^0 , 0 : ERROR :INVALID-PORT\r\n","flag":"","cpes":[],"matchers":{"product":"authd"}}
+{"pattern":"^: USERID : UNIX : CacheFlow Server\r\n","flag":"","cpes":["o:bluecoat:cacheos"],"matchers":{"product":"CacheFlow identd","os":"CacheOS"}}
+{"pattern":"^:USERID:OTHER:\\d+-ident-is-a-completely-pointless-protocol-that-offers-no-security-or-traceability-at-all-so-take-this-and-log-it!\r\n","flag":"","cpes":[],"matchers":{"product":"Fake identd"}}
+{"pattern":"^ : USERID : UNIX : ([-\\w_]+)$","flag":"","cpes":[],"matchers":{"info":"IRC Nick $1","product":"Klient identd"}}
+{"pattern":"^\r\n: ERROR : HIDDEN-USER\r\n$","flag":"","cpes":[],"matchers":{"device":"firewall","product":"Borderware Firewall identd"}}
+{"pattern":"^ : USERID : UNIX : [a-z]{4,8}\r\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"os":"Windows"}}
+{"pattern":"^1 , 1 : USERID : OTHER : chuck-the-bsd-deamon\r\n$","flag":"","cpes":[],"matchers":{"product":"widentd"}}
+{"pattern":"^,  : USERID : UNIX : [^\r\n]+\r\n$","flag":"","cpes":["a:ftprush:ftprush","o:microsoft:windows"],"matchers":{"product":"FTPRush FTP client identd","os":"Windows"}}
+{"pattern":"^0 , 0 : ERROR : FORMAT-ERROR\r\n$","flag":"","cpes":[],"matchers":{"device":"firewall","product":"GTA GB-Ware firewall identd"}}
+{"pattern":"^,  : USERID : UNIX : ([-\\w_]+)\r\n,  : USERID : UNIX : (?:[-\\w_]+)\r\n$","flag":"","cpes":[],"matchers":{"info":"username: $1","product":"Snak IRC client identd"}}
+{"pattern":"^rc \\(tcp113\\): null list in concatenation\n","flag":"","cpes":["o:belllabs:plan_9"],"matchers":{"product":"Plan 9 identd","os":"Plan 9"}}
+{"pattern":"^0, 0 : ERROR : INVALID-PORT\r\n$","flag":"","cpes":[],"matchers":{"product":"gidentd"}}
+{"pattern":"^GET \/ HTTP\/1\\.0 : USERID : UNIX : ([-.\\w]+)\r\n : USERID : UNIX : [-.\\w]+\r\n","flag":"","cpes":[],"matchers":{"info":"Claimed user: $1","product":"Nullidentd"}}
+{"pattern":"^GET \/ HTTP\/1\\.0 : USERID : UNIX : ([-.\\w]+)\r\n$","flag":"","cpes":[],"matchers":{"info":"Claimed user: $1","product":"Liedentd"}}
+{"pattern":"^0 , 0 : ERROR : X-INVALID-REQUEST\r\n$","flag":"","cpes":[],"matchers":{"product":"pidentd"}}
+{"pattern":"^GET : ERROR : UNKNOWN-ERROR\r\n$","flag":"","cpes":[],"matchers":{"product":"pidentd"}}
+{"pattern":"^0, 0 : ERROR : INVALID-AUTH-REQ-INFO : CAPABILITY=USER-INTERACTION : AUTH-MECH=KEBEROS_V4\r\n$","flag":"","cpes":[],"matchers":{"product":"Stanford PC-leland identd"}}
+{"pattern":"^0 , 0 : ERROR : UNKNOWN-ERROR\r\n$","flag":"","cpes":[],"matchers":{"info":"could be fair-identd","product":"pidentd"}}
+{"pattern":"^GET \/ HTTP\/1\\.0 : ERROR : INVALID-PORT\r\n : ERROR : INVALID-PORT\r\n$","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"Linux-identd","os":"Linux"}}
+{"pattern":"^0 , 0 : ERROR : INVALID-PORT\r\n","flag":"","cpes":["o:hp:hp-ux"],"matchers":{"product":"HP-UX identd","os":"HP-UX"}}
+{"pattern":"^GET \/ HTTP\/1\\.0 : USERID : UNIX : [^\r\n]+\r\n","flag":"","cpes":[],"matchers":{"product":"KVIrc fake identd"}}
+{"pattern":"^0 , 0 : ERROR : UNKNOWN-ERROR\r\n$","flag":"","cpes":[],"matchers":{"device":"firewall","product":"WatchGuard Firebox firewall identd"}}
+{"pattern":"^HELP : USERID : UNIX : trilluser\r\n$","flag":"","cpes":["a:trillian:trillian"],"matchers":{"product":"Trillian identd"}}
+{"pattern":"^HELP : USERID : UNIX : ([-\\w_.]+)\r\n$","flag":"","cpes":["a:trillian:trillian"],"matchers":{"info":"Name $1","product":"Trillian identd"}}
+{"pattern":"^\\d+, \\d+ : USERID : UNIX : [-.@\\w]+\r\n","flag":"","cpes":[],"matchers":{"product":"Internet Rex identd"}}
+{"pattern":"^0, 0 : ERROR : UNKNOWN-ERROR$","flag":"","cpes":["o:microsoft:windows_nt"],"matchers":{"product":"Windows NT identd","os":"Windows"}}

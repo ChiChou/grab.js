@@ -1,0 +1,1 @@
+{"pattern":"^DYNAST server v(.*) \\(Win32\\) - Copyright\\(c\\) DYN","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"DYNAST solver","version":"$1","os":"Windows"}}

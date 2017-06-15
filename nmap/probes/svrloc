@@ -1,0 +1,1 @@
+{"pattern":"^\\x02\\x0b","flag":"","cpes":[],"matchers":{"product":"Service Location Protocol","version":"2"}}

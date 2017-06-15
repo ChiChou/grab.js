@@ -1,0 +1,1 @@
+{"pattern":"^\ndie\\(\\) {\n    echo \\\"epoptes-client ERROR: \\$@\\\" >&2\n    exit 1\n}\n\ninfo\\(\\) {\n    local server_ip def_iface\n\n    if \\[ -z \\\"\\$cached_info\\\" \\]; then\n        VERSION=\\${VERSION:-([\\d.]+)}","flag":"","cpes":["a:epoptes:epoptes"],"matchers":{"info":"compat version $1","product":"Epoptes LTSPd"}}

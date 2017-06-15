@@ -1,0 +1,11 @@
+{"pattern":"^220 DSPAM DLMTP ([\\w._-]+) Authentication Required\r\n","flag":"","cpes":["a:dspam:dspam:$1"],"matchers":{"product":"DSPAM lmtpd","version":"$1"}}
+{"pattern":"^220 ([-.\\w]+) LMTP Cyrus v(\\d[-.\\w]+) ready\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server:$2"],"matchers":{"product":"Cyrus Imap Daemon lmtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) Cyrus LMTP Murder v([\\w._-]+) server ready\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server:$2"],"matchers":{"product":"Cyrus lmtpd Murder","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) Cyrus LMTP v([\\w._+-]+) server ready\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server:$2"],"matchers":{"product":"Cyrus Imap Daemon lmtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) LMTP Cyrus v([\\d.]+)-Red Hat [\\d.-]+ ready\r\n","flag":"","cpes":["a:cmu:cyrus_imap_server:$2","o:linux:linux_kernel"],"matchers":{"info":"on Red Hat","product":"Cyrus Imap Daemon lmtpd","version":"$2","os":"Linux","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) DBMail LMTP service ready to rock\r\n","flag":"","cpes":["a:paul_j_stevens:dbmail"],"matchers":{"product":"DBMail lmtpd","hostname":"$1"}}
+{"pattern":"^220 DSPAM LMTP ([-\\w_.]+) Ready\r\n","flag":"","cpes":[],"matchers":{"product":"DSPAM lmtpd","version":"$1"}}
+{"pattern":"^220 ([\\w._-]+) Zimbra LMTP ready\r\n","flag":"","cpes":["a:zimbra:zimbra_collaboration_suite"],"matchers":{"product":"Zimbra lmtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) Zimbra LMTP (?:server )?ready\r\n","flag":"","cpes":["a:zimbra:zimbra_collaboration_suite"],"matchers":{"product":"Zimbra lmtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w.-]+) Dovecot \\(Ubuntu\\) ready\\.\r\n","flag":"","cpes":["a:dovecot:dovecot","o:canonical:ubuntu_linux","o:linux:linux_kernel"],"matchers":{"info":"Ubuntu","product":"Dovecot lmtpd","hostname":"$1","os":"Linux"}}
+{"pattern":"^220 ([\\w.-]+) LMTP\r\n214-This is DBMail-LMTP\\.\r\n214-The following commands are supported:\r\n214-LHLO, RSET, NOOP, QUIT, HELP\\.\r\n214-VRFY, EXPN, MAIL, RCPT, DATA\\.\r\n214-For more information about a command:\r\n214 Use HELP <command>\\.\r\n","flag":"","cpes":["a:paul_j_stevens:dbmail"],"matchers":{"product":"DBMail lmtpd","hostname":"$1"}}

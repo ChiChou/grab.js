@@ -1,0 +1,1 @@
+{"pattern":"^LO_SERVER_VALIDATING_PIN\n$","flag":"","cpes":["a:libreoffice:libreoffice"],"matchers":{"product":"LibreOffice Impress remote"}}

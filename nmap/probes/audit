@@ -1,0 +1,1 @@
+{"pattern":"^Visionsoft Audit on Demand Service\r\nVersion: ([\\d.]+)\r\n\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Visionsoft Audit on Demand Service","version":"$1","os":"Windows"}}

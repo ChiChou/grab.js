@@ -1,0 +1,1 @@
+{"pattern":"^error wrproxy: Error parsing command line\\0","flag":"","cpes":["a:windriver:workbench"],"matchers":{"product":"Wind River wrproxy"}}

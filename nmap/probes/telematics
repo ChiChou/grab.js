@@ -1,0 +1,1 @@
+{"pattern":"^<auth-request rca-id=\\\"1\\\" version=\\\"([\\d.]+)\\\" car-line=\\\"([^\"]+)\\\" telematics=\\\"([^\"]+)\\\" phase=\\\"NEGOTIATE_PARAMS\\\"\/>\\0<auth-ack result=\\\"FALSE\\\" reason=\\\"APP_NOT_SUPPORTED\\\"\/>\\0","flag":"","cpes":[],"matchers":{"info":"model: $2; telematics: $3","product":"Mercedes telematics","version":"$1"}}

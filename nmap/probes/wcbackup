@@ -1,0 +1,1 @@
+{"pattern":"^~\\x80\\x04\\x80\\x04$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Windows Client Backup service","os":"Windows"}}

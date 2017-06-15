@@ -1,0 +1,2 @@
+{"pattern":"^(?:\\$GP[A-Z]{3},[\\w.,]+\\*[A-F\\d]{2}\r\n)*\\$GPGGA,(\\d\\d)(\\d\\d)(\\d\\d),([-\\d.]+,[NS]),([-\\d.]+,[EW]),\\d,","flag":"","cpes":[],"matchers":{"info":"coordinates: $4, $5 as of $1:$2:$3 UTC","product":"NMEA 0183 GPS data"}}
+{"pattern":"^\\$GP[A-Z]{3},[\\w.,]+\\*[A-F\\d]{2}\r\n","flag":"","cpes":[],"matchers":{"product":"NMEA 0183 GPS data"}}

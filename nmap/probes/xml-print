@@ -1,0 +1,2 @@
+{"pattern":"^.\\0\\0\\0\\0(IBM Infoprint \\w+)\\0$","flag":"s","cpes":[],"matchers":{"device":"printer","product":"$1 printer XML printing"}}
+{"pattern":"^.\\x2f\\0\\0\\0(Lexmark \\w+)\\0","flag":"s","cpes":[],"matchers":{"device":"printer","product":"$1 printer XML printing"}}

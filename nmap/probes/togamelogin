@@ -1,0 +1,1 @@
+{"pattern":"^D\\0\\0\n\\0\\0\\0\\x0b\\0n\\0\\0\\0....$","flag":"s","cpes":["a:mira_game:talisman_online"],"matchers":{"product":"Talisman Online game login"}}

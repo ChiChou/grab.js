@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.0 505 HTTP Version not supported\r\n\r\n$","flag":"","cpes":[],"matchers":{"product":"OpinionSquare application"}}

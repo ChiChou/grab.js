@@ -1,0 +1,1 @@
+{"pattern":"^\\xc0\\0\\x01\\0....\\0\\0\\0\\x03","flag":"s","cpes":["o:cisco:ios"],"matchers":{"device":"firewall","product":"Cisco PIX Secure Database Manager","os":"IOS"}}

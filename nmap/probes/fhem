@@ -1,0 +1,1 @@
+{"pattern":"^\n\\[LaCrosseITPlusReader\\.(\\d[\\w.]+) \\w\\w\\w \\d\\d \\d\\d\\d\\d \\(RFM\\d+ f:\\d+ t:[\\d~]+\\) \\+ DHT\\d+\\]\r\n","flag":"","cpes":[],"matchers":{"device":"specialized","product":"LaCrosse IT+ Reader","version":"$1"}}

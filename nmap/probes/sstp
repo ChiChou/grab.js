@@ -1,0 +1,1 @@
+{"pattern":"^SSTP\/([\\d.]+) 400 Bad Request\r\n\r\n\\0$","flag":"","cpes":[],"matchers":{"info":"Protocol $1","product":"Sakura Script Transfer Protocol"}}

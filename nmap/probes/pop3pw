@@ -1,0 +1,20 @@
+{"pattern":"^200 poppassd v?([-._\\w]+) ","flag":"","cpes":[],"matchers":{"product":"poppassd","version":"$1"}}
+{"pattern":"^200 ([-._\\w]+) poppassd v?([-._\\w]+) ","flag":"","cpes":[],"matchers":{"product":"poppassd","version":"$2","hostname":"$1"}}
+{"pattern":"^200 poppassd hello, who are you\\?\r\n","flag":"","cpes":[],"matchers":{"product":"poppassd"}}
+{"pattern":"^200 hello there, who are you\\?\r\n","flag":"","cpes":[],"matchers":{"product":"poppassd"}}
+{"pattern":"^200 hello there, please tell me who you are\r\n","flag":"","cpes":[],"matchers":{"product":"poppassd"}}
+{"pattern":"^200 poppassd v([\\w.]+) for Digital Unix with C2 security Hello, who are you\\?\r\n","flag":"","cpes":["o:dec:digital_unix"],"matchers":{"info":"Digital Unix with C2 security","product":"poppassd","version":"$1","os":"Digital UNIX"}}
+{"pattern":"^200 courierpassd v(\\d[-.\\w]+) hello, who are you\\?\r\n","flag":"","cpes":[],"matchers":{"product":"Courierpassd pop3 password change daemon","version":"$1"}}
+{"pattern":"^200 ([-.+\\w]+) MercuryW PopPass server ready\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Mercury\/32 poppass service","hostname":"$1","os":"Windows"}}
+{"pattern":"^200 X1 NT-PWD Server ([-.+\\w]+) \\(IMail (\\d[-.\\w]+)\\)\r\n","flag":"","cpes":["a:ipswitch:imail:$2","o:microsoft:windows"],"matchers":{"product":"Ipswitch IMail pop3 password change daemon","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^200 CommuniGate Pro PWD Server (\\d[-.\\w]+) ready <","flag":"","cpes":["a:stalker:communigate_pro:$1"],"matchers":{"product":"CommuniGate Pro pop3 password change daemon","version":"$1"}}
+{"pattern":"^\\+OK ApplePasswordServer (\\d[-.\\w]+) password server at ","flag":"","cpes":[],"matchers":{"product":"ApplePasswordServer pop3 password change daemon","version":"$1"}}
+{"pattern":"^200 Stalker Internet Password Server ready\\. V\\.([\\w.]+)\r\n","flag":"","cpes":["o:apple:mac_os"],"matchers":{"product":"Stalker Mail Server password change daemon","version":"$1","os":"Mac OS"}}
+{"pattern":"^550 Login failed - already \\d+\/\\d+ users connected sorry \\(use G_CON_PERIP_EXCEPT to bypass\\) \\(IP=[\\d.]+\\)\r\n","flag":"","cpes":[],"matchers":{"info":"Maximum users connected","product":"Qualcomm poppassd"}}
+{"pattern":"^200 hello and welcome to SchoolsNET SINA poppassd \\[([-\\d.]+)\\]\r\n","flag":"","cpes":[],"matchers":{"product":"SINA pop3pw","version":"$1"}}
+{"pattern":"^200 Post\\.Office v([\\d.]+) password server ready\r\n","flag":"","cpes":[],"matchers":{"product":"Post.Office pop3pw","version":"$1"}}
+{"pattern":"^200 MERCUR Password service for Windows NT ready\r\n","flag":"","cpes":["a:atrium:mercur","o:microsoft:windows"],"matchers":{"product":"Mercur pop3pw","os":"Windows"}}
+{"pattern":"^200 hello\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"SLMail pop3pw","os":"Windows"}}
+{"pattern":"^200 Ok, \\\"modusMail Mail Management Server ready\\\" <[\\d.]+@\\(null\\)>\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ModusMail poppassd","os":"Windows"}}
+{"pattern":"^500 access from your network is denied\r\n$","flag":"","cpes":["a:stalker:communigate_pro"],"matchers":{"info":"access denied","product":"CommuniGate Pro pop3pw"}}
+{"pattern":"^200 Welcome to ([\\w.-]+) password daemon\\.\r\n214-Commands:\r\n214-\tUSER\tPASS\tNEWPASS\tQUIT\tHELP\r\n214-\r\n214-For more info use \\\"HELP <topic>\\\"\r\n214 End of HELP info\r\n$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Gattaca PASS Server","hostname":"$1","os":"Windows"}}

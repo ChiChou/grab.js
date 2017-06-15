@@ -1,0 +1,1 @@
+{"pattern":"^401 TOPdesk Authentication Required\r\n$","flag":"","cpes":[],"matchers":{"product":"TOPdesk"}}

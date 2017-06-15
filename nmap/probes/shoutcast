@@ -1,0 +1,1 @@
+{"pattern":"^invalid password\r\n$","flag":"","cpes":["a:shoutcast:dnas"],"matchers":{"product":"SHOUTcast server"}}

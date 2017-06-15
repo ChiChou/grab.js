@@ -1,0 +1,1 @@
+{"pattern":"^\\d+\\|\\d+\\|TrackerLINK Ver\\. ([\\d.]+)","flag":"","cpes":[],"matchers":{"product":"TrackerLINK","version":"$1"}}

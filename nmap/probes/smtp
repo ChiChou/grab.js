@@ -1,0 +1,473 @@
+{"pattern":"^220 ([-\/.+\\w]+) MailGate ready for ESMTP on ","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"MailGate smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\/.+\\w]+) SMTP ready to roll\r\n","flag":"","cpes":[],"matchers":{"product":"Hotmail Popper hotmail to smtp gateway","hostname":"$1"}}
+{"pattern":"^220 ([-\/.+\\w]+) AvMailGate-(\\d[-.\\w]+)\r\n","flag":"","cpes":[],"matchers":{"product":"AvMailGate smtp anti-virus mail gateway","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\/.+\\w]+) Internet Rex ESMTP daemon at your service\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Internet Rex smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) ESMTP NetIQ MailMarshal \\(v(\\d[-.\\w]+)\\) Ready\r\n","flag":"","cpes":[],"matchers":{"product":"MailMarshal","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) ESMTP NetIQ MailMarshal \\d[-.\\w]+ Service Pack (\\w+) \\(v(\\d[-.\\w]+)\\) Ready\r\n","flag":"","cpes":[],"matchers":{"product":"MailMarshal","version":"$3 Service Pack $2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP MailMarshal \\(v([\\d.]+)\\) Ready\r\n","flag":"","cpes":[],"matchers":{"product":"MailMarshal","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) Novonyx SMTP ready \\$Re..sion: *([\\d.]+) *\\$\r\n","flag":"","cpes":["a:novell:netmail:$2"],"matchers":{"product":"Novonyx Novell NetMail smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^554-([-.+\\w]+)\\.us\r\n554 Access denied\r\n$","flag":"","cpes":[],"matchers":{"product":"IronPort appliance mail rejector","hostname":"$1"}}
+{"pattern":"^220 eSafe@([-.+\\w]+) Service ready\r\n","flag":"","cpes":[],"matchers":{"product":"eSafe mail gateway","hostname":"$1"}}
+{"pattern":"^220[ -](\\S+) ESMTP Merak (\\d[^;]+);","flag":"i","cpes":["o:microsoft:windows"],"matchers":{"product":"Merak Mail Server smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220[ -]\\]-:\\^:-\\[ ESMTP \\]-:\\^:-\\[; .*\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Merak Mail Server smtpd","os":"Windows"}}
+{"pattern":"^220.*?MERCUR SMTP[\\s-]Server \\(v([^)]+)\\) for ([-.\\w ]+) ready at ","flag":"","cpes":[],"matchers":{"product":"LAN-ACES MERCUR smtp server","version":"$1","os":"$2"}}
+{"pattern":"^220 ([-.+\\w]+) MasqMail (\\d[-.\\w]+) ESMTP\r\n","flag":"","cpes":[],"matchers":{"product":"MasqMail smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w\\d]+) ESMTP \\([a-fA-F0-9]{32}\\)\r\n","flag":"","cpes":["h:barracudanetworks:spam_%26_virus_firewall_600:-"],"matchers":{"product":"Barracuda Networks Spam Firewall smtpd","hostname":"$1"}}
+{"pattern":"^554 Service unavailable; Client host \\[[\\w._-]+\\] blocked using Barracuda Reputation;","flag":"","cpes":["h:barracudanetworks:spam_%26_virus_firewall_600:-"],"matchers":{"info":"client blocked by Barracuda Reputation","product":"Barracuda Networks Spam Firewall smtpd"}}
+{"pattern":"^220 ([-.+\\w]+) Cisco NetWorks ESMTP server\r\n","flag":"","cpes":["o:cisco:ios"],"matchers":{"device":"terminal server","product":"Cisco IOS NetWorks smtp server","hostname":"$1","os":"IOS"}}
+{"pattern":"^220 ([-.+\\w]+) Mercury\/32 v(\\d[-.\\w]+) ESMTP server ready\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Mercury\/32 smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 Canon[-.\\w]+ ESMTP Ready\r\n","flag":"","cpes":[],"matchers":{"device":"printer","product":"Canon printer smtp server"}}
+{"pattern":"^220 .*?eSafe E?SMTP Service (\\d\\S+) ready","flag":"","cpes":[],"matchers":{"product":"eSafe mail gateway","version":"$1"}}
+{"pattern":"^220 .*?eSafe E?SMTP Service ready","flag":"","cpes":[],"matchers":{"product":"eSafe mail gateway"}}
+{"pattern":"^520 Connection not authorised from this address\\.\r\n","flag":"","cpes":[],"matchers":{"info":"Connection not authorised","product":"Mercury smtpd"}}
+{"pattern":"^554 SMTP service not available\r\n$","flag":"","cpes":["a:exim:exim"],"matchers":{"info":"Serviced refused (IP block)","product":"Exim smtpd"}}
+{"pattern":"^220 Jana-Server Simple Mail Transfer Service ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"JanaServer mail server","os":"Windows"}}
+{"pattern":"^220 <1\\d+\\.\\d+@([-.\\w]+)> \\[XMail (\\d[-.\\w]+) ESMTP Server\\] service ready; ","flag":"","cpes":["a:davide_libenzi:xmail:$2"],"matchers":{"product":"XMail SMTP server","version":"$2","hostname":"$1"}}
+{"pattern":"^220 <1\\d+\\.\\d+@([-.\\w]+)> \\[XMail (\\d[-.\\w]+) \\(([-.\/\\w]+)\\) ESMTP Server\\] service ready; ","flag":"","cpes":["a:davide_libenzi:xmail:$2"],"matchers":{"info":"on $3","product":"XMail SMTP server","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) <1\\d+\\.\\d+@[-\\w_.]+> \\[XMail (\\d[-.\\w]+) ESMTP Server\\] service ready","flag":"","cpes":["a:davide_libenzi:xmail:$2"],"matchers":{"product":"XMail SMTP server","version":"$2","hostname":"$1"}}
+{"pattern":"^421 \\[XMail ([\\d.]+) \\(Linux\/Ix86\\) ESMTP Server\\] - Server does not like Your IP\r\n","flag":"","cpes":["a:davide_libenzi:xmail:$1","o:linux:linux_kernel"],"matchers":{"info":"Linux\/x86","product":"XMail SMTP server","version":"$1","os":"Linux"}}
+{"pattern":"^220 ([-.\\w]+) FirstClass ESMTP Mail Server v(\\d[-.\\w]+) ready\r\n","flag":"","cpes":["a:opentext:firstclass:$2"],"matchers":{"product":"FirstClass SMTP server","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) AppleMailServer (\\d[-.\\w]+) SMTP Server Ready\r\n","flag":"","cpes":[],"matchers":{"product":"AppleMailServer","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) ESMTP CommuniGate Pro (\\d[-.\\w]+)\r\n","flag":"","cpes":["a:stalker:communigate_pro:$2"],"matchers":{"product":"CommuniGate Pro SMTP","version":"$2","hostname":"$1"}}
+{"pattern":"^220[- ]([-.\\w]+) MailSite ESMTP Receiver Version (\\d[-.\\w]+) Ready\r\n","flag":"","cpes":[],"matchers":{"product":"Rockliffe MailSite","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) eXtremail V(\\d[-.\\w]+) release (\\d+) ESMTP server ready \\.\\.\\.\r\n","flag":"","cpes":[],"matchers":{"product":"eXtremail smtpd","version":"$2.$3","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) eXtremail V(\\d[-.\\w]+) release (\\d+) rev(\\d+) ESMTP server ready \\.\\.\\.\r\n","flag":"","cpes":[],"matchers":{"product":"eXtremail smtpd","version":"$2.$3.$4","hostname":"$1"}}
+{"pattern":"^220 Welcome to ([-.\\w]+) - VisNetic MailScan ESMTP Server BUILD (\\d[-.\\w]+)\r\n","flag":"","cpes":[],"matchers":{"product":"VisNetic MailScan ESMTP server","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) service desk (\\d[-.\\w]+) SMTP Service Ready for input\\.\r\n","flag":"","cpes":[],"matchers":{"product":"HP Service Desk SMTP server","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) VPOP3 SMTP Server Ready\r\n","flag":"","cpes":[],"matchers":{"product":"PSCS VPOP3 mail server","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) ESMTP CommuniGate Pro (\\d[-.\\w]+) is glad to see you!\r\n","flag":"","cpes":["a:stalker:communigate_pro:$2"],"matchers":{"product":"CommuniGate Pro mail server","version":"$2","hostname":"$1"}}
+{"pattern":"^220 .* SMTP Server ([\\w._-]+) is glad to see you!\r\n","flag":"","cpes":["a:stalker:communigate_pro:$1"],"matchers":{"product":"CommuniGate Pro mail server","version":"$1"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP is glad to see you!\r\n","flag":"","cpes":["a:stalker:communigate_pro"],"matchers":{"product":"CommuniGate Pro mail server","hostname":"$1"}}
+{"pattern":"^220[ -]([-.\\w]+) ESMTP MDaemon (\\d[-.\\w]+); ","flag":"","cpes":["a:altn:mdaemon:$2","o:microsoft:windows"],"matchers":{"product":"Alt-N MDaemon mail server","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) \\(IMail ([^)]+)\\) NT-ESMTP Server","flag":"","cpes":["a:ipswitch:imail:$2","o:microsoft:windows"],"matchers":{"product":"IMail NT-ESMTP","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 X1 NT-ESMTP Server ([-.+\\w]+) \\(IMail ([^)]+)\\)\r\n","flag":"","cpes":["a:ipswitch:imail:$2","o:microsoft:windows"],"matchers":{"product":"IMail NT-ESMTP","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^421  Insufficient System Storage\\.\\(IMail ([\\d.]+)\\)\r\n","flag":"","cpes":["a:ipswitch:imail:$1","o:microsoft:windows"],"matchers":{"info":"Storage full","product":"IMail smtpd","version":"$1","os":"Windows"}}
+{"pattern":"^220-([-.+\\w]+) Microsoft SMTP MAIL ready at.*Version: ([-\\w.]+)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft SMTP","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 \\[?([-.+\\w]+)\\]? Microsoft ESMTP MAIL Service, Version: ([-\\w.]+) ready","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Microsoft ESMTP","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) Microsoft ESMTP MAIL Service ready at","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([\\w._-]+) Microsoft ESMTP MAIL Service Version: ([\\w._-]+)\r\n","flag":"","cpes":["a:microsoft:exchange_server:2010"],"matchers":{"product":"Microsoft Exchange 2010 smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 Microsoft ESMTP MAIL Service, Version: ([\\w._-]+)\r\n","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange smtpd","version":"$1","os":"Windows"}}
+{"pattern":"^220 ([-.+\\w]+) ESMTP Server \\(Microsoft Exchange Internet Mail Service ([-\\w.]+)\\) ready","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) Microsoft Exchange Internet Mail Service ([-\\w_.]+) ready\r\n","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 \\+OK Microsoft Exchange SMTP server version ([\\d.]+)","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"product":"Microsoft Exchange smtpd","version":"$1","os":"Windows"}}
+{"pattern":"^421 [\\d.]+ Service not available, closing transmission channel\r\n","flag":"","cpes":["a:microsoft:exchange_server","o:microsoft:windows"],"matchers":{"info":"disabled","product":"Microsoft Exchange smtpd","os":"Windows"}}
+{"pattern":"^220[\\s-](\\S+) E?SMTP Sendmail (\\d[^; ]+)","flag":"","cpes":["a:sendmail:sendmail:$2"],"matchers":{"product":"Sendmail","version":"$2","os":"Unix","hostname":"$1"}}
+{"pattern":"^220[\\s-](\\S+) E?SMTP Sendmail ready ","flag":"","cpes":["a:sendmail:sendmail"],"matchers":{"product":"Sendmail","hostname":"$1","os":"Unix"}}
+{"pattern":"^220[\\s-](\\S+) E?SMTP Sendmail AIX([\\d.]+)\/(\\d[^; ]+)","flag":"","cpes":["a:sendmail:sendmail:$3","o:ibm:aix"],"matchers":{"info":"AIX $2","product":"Sendmail","version":"$3","os":"AIX","hostname":"$1"}}
+{"pattern":"^220[\\s-](\\S+) E?SMTP Sendmail AIX([\\d.]+)\/UCB (\\d[^; ]+);","flag":"","cpes":["a:sendmail:sendmail:$3","o:ibm:aix"],"matchers":{"info":"AIX $2","product":"Sendmail","version":"$3","os":"AIX","hostname":"$1"}}
+{"pattern":"^220[\\s-](\\S+) E?SMTP Sendmail @\\(#\\)Sendmail version (\\d[^; ]+) - Revision ([\\d.]+) ","flag":"","cpes":["a:sendmail:sendmail:$2r$3","o:hp:hp-ux"],"matchers":{"product":"Sendmail","version":"$2 rev $3","os":"HP-UX","hostname":"$1"}}
+{"pattern":"^220[\\s-](\\S+) E?SMTP Sendmail @\\(#\\)Sendmail version (\\d[^; ]+) - Revision ([\\d.]+):: HP-UX([\\d.]+)","flag":"","cpes":["a:sendmail:sendmail:$2r$3"],"matchers":{"product":"Sendmail","version":"$2 rev $3","os":"HP-UX $4","hostname":"$1"}}
+{"pattern":"^220[\\s-](\\S+) Sendmail (SMI-\\S+) ready at .*\r\n$","flag":"","cpes":["a:sendmail:sendmail:$2"],"matchers":{"product":"Sendmail","version":"$2","os":"Unix","hostname":"$1"}}
+{"pattern":"^220[\\s-]([-\\w_.]+) Sendmail (\\S+) ready at .*\r\n","flag":"","cpes":["a:sendmail:sendmail:$2"],"matchers":{"product":"Sendmail","version":"$2","os":"Unix","hostname":"$1"}}
+{"pattern":"^220[\\s-]([-\\w_.]+) ESMTP Sendmail SGI-(\\d[^; ]+)","flag":"","cpes":["a:sendmail:sendmail:$2","o:sgi:irix"],"matchers":{"product":"Sendmail","version":"$2","os":"IRIX","hostname":"$1"}}
+{"pattern":"^220  E?SMTP ([\\w._-]+) Sendmail ([\\w._-]+)\/[\\w._-]+ ready at ","flag":"","cpes":["a:sendmail:sendmail:$2","o:sgi:irix"],"matchers":{"product":"Sendmail","version":"$2","os":"IRIX","hostname":"$1"}}
+{"pattern":"^421 4\\.3\\.2 Connection rate limit exceeded\\.\r\n$","flag":"","cpes":["a:sendmail:sendmail"],"matchers":{"product":"Sendmail"}}
+{"pattern":"^220[- ]([^\r\n]+) ESMTP Exim (V?\\d\\S+)","flag":"","cpes":["a:exim:exim:$2"],"matchers":{"product":"Exim smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220[- ].*\r\n220[- ]([^\r\n]+) ESMTP Exim ","flag":"s","cpes":["a:exim:exim"],"matchers":{"product":"Exim smtpd","hostname":"$1"}}
+{"pattern":"^220 CheckPoint FireWall-1 secure ESMTP server\r\n$","flag":"","cpes":["a:checkpoint:firewall-1"],"matchers":{"device":"firewall","product":"Check Point FireWall-1 smtpd"}}
+{"pattern":"^220 CheckPoint FireWall-1 secure SMTP server\r\n$","flag":"","cpes":["a:checkpoint:firewall-1"],"matchers":{"device":"firewall","product":"Check Point FireWall-1 smtpd"}}
+{"pattern":"^220 ([-.+\\w]+) running IBM AS\/400 SMTP V([\\w]+)","flag":"","cpes":[],"matchers":{"product":"IBM AS\/400 smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) ESMTP MailEnable Service, Version: (\\d[\\w.]+)- ready at ","flag":"","cpes":["a:mailenable:mailenable:$2","o:microsoft:windows"],"matchers":{"product":"MailEnable smptd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) ESMTP Mail Enable SMTP Service, Version: (\\d[\\w.]+)-- ready at","flag":"","cpes":["a:mailenable:mailenable:$2","o:microsoft:windows"],"matchers":{"product":"MailEnable smptd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) ESMTP MailEnable Service, Version: \\d+--([\\d.]+) ready at","flag":"","cpes":["a:mailenable:mailenable:$2:-:enterprise","o:microsoft:windows"],"matchers":{"product":"MailEnable Enterprise smptd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) ESMTP MailEnable Service, Version: ([\\w._-]+) ready at","flag":"","cpes":["a:mailenable:mailenable:$2","o:microsoft:windows"],"matchers":{"product":"MailEnable smptd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^530 ([-.+\\w]+) ESMTP MailEnable Service, Version: ([\\w._-]+) denied access at","flag":"","cpes":["a:mailenable:mailenable:$2","o:microsoft:windows"],"matchers":{"info":"Denied access","product":"MailEnable smptd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) ESMTP CPMTA-([-.+\\w]+) - NO UCE\r\n","flag":"","cpes":[],"matchers":{"info":"qmail-derived","product":"CPMTA","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) SMTP\/smap Ready\\.\r\n","flag":"","cpes":[],"matchers":{"info":"from firewall toolkit","product":"Smap","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) ESMTP service \\(Netscape Messaging Server ([-.+ \\w]+) \\(built","flag":"","cpes":["a:netscape:messaging_server:$2"],"matchers":{"product":"Netscape Messaging Server","version":"$2","hostname":"$1"}}
+{"pattern":"^220-InterScan Version (\\S+) .*Ready\r\n220 ([-.+\\w]+) NTMail \\(v([-.+\\w]+)\/.* ready","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"on NTMail $3","product":"Trend Micro InterScan","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^220-InterScan Version (\\S+) .*Ready\r\n220 ([-.+\\w]+) ESMTP Postfix\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"info":"on Postfix","product":"Trend Micro InterScan","version":"$1","os":"Unix","hostname":"$2"}}
+{"pattern":"^220-InterScan Version (\\S+) .*Ready\r\n220 ([-.+\\w]+) Microsoft ESMTP MAIL Service, Version: ([\\d.]+) ready at","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"on Microsoft ESMTP $3","product":"Trend Micro InterScan","version":"$1","os":"Windows","hostname":"$2"}}
+{"pattern":"^220-InterScan Version (\\S+) .*Ready\r\n","flag":"","cpes":[],"matchers":{"product":"Trend Micro InterScan","version":"$1"}}
+{"pattern":"^220 ([-.\\w]+) InterScan VirusWall NT ESMTP (\\d[-.\\w]+) \\(build (\\d+)\\) ready at ","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Trend Micro InterScan VirusWall SMTP","version":"$2 build $3","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) GroupWise Internet Agent (\\S+) .*Novell, Inc\\..*\r\n","flag":"","cpes":["a:novell:groupwise:$2"],"matchers":{"product":"Novell GroupWise","version":"$2","hostname":"$1"}}
+{"pattern":"^220 \\S+ \\S+ ESMTP receiver fssmtpd(\\d+) ready","flag":"","cpes":[],"matchers":{"product":"fssmtpd","version":"$1"}}
+{"pattern":"Failed to open configuration file.*exim","flag":"","cpes":["a:exim:exim"],"matchers":{"info":"broken","product":"Exim smtpd"}}
+{"pattern":"^220 SMTP Server RoiMailServer ready\\.\r\n","flag":"","cpes":["a:exim:exim"],"matchers":{"product":"Exim smtpd"}}
+{"pattern":"^220 Trend Micro ESMTP ([-.+\\w]+) ready\\.\r\n$","flag":"","cpes":[],"matchers":{"product":"Trend Micro ESMTP","version":"$1"}}
+{"pattern":"^220 Matrix SMTP Mail Server v([\\w.]+) on <MATRIX_([\\w]+)> Simple Mail Transfer Service Ready\r\n","flag":"","cpes":[],"matchers":{"info":"on Matrix $2","product":"Matrix SMTP Mail Server","version":"$1"}}
+{"pattern":"^220(\\S+) WebShield SMTP V(\\d\\S.*?) Network Associates, Inc\\. Ready at","flag":"","cpes":["a:mcafee:webshield_smtp:$2"],"matchers":{"product":"Network Associates WebShield","version":"$2","hostname":"$1"}}
+{"pattern":"^220(\\S+) WebShielde(\\w+)\/SMTP Ready.","flag":"","cpes":[],"matchers":{"product":"WebShielde$2 smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-.+\\w]+) ESMTP MailMasher ready to boogie\r\n","flag":"","cpes":[],"matchers":{"product":"MailMasher smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) ESMTP Postfix \\(([-.\\w]+)\\) \\(([-.\\w ]+)\\)","flag":"","cpes":["a:postfix:postfix:$2"],"matchers":{"info":"$3","product":"Postfix smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 (.*) ([\\w._-]+) ESMTP Postfix \\(([\\w._-]+)\\)\r\n","flag":"","cpes":["a:postfix:postfix:$3"],"matchers":{"info":"$1","product":"Postfix smtpd","version":"$3","hostname":"$2"}}
+{"pattern":"^220([\\s-]\\S+) ESMTP Postfix","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^(?:220-.*\r\n)?220 ([\\w._-]+) ESMTP Postfix","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220 [\\*\\d\\ ]{2,300}\r\n","flag":"","cpes":["o:cisco:pix_firewall_software"],"matchers":{"device":"firewall","product":"Cisco PIX sanitized smtpd"}}
+{"pattern":"^220 ArGoSoft Mail Server Pro for WinNT\/2000\/XP, Version ([-.\\w]+) \\(([-.\\w]+)\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"$2","product":"ArGoSoft Mail Server Pro","version":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w.]+) ArGoSoft Mail Server Pro for WinNT\/2000\/XP, Version [\\d.]+ \\(([\\d.]+)\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft Mail Server Pro","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w.]+) ArGoSoft Mail Server, Version [\\d.]+ \\(([\\d.]+)\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft Mail Server","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ArGoSoft Mail Server Freeware, Version [\\d.]+ \\(([\\d.]+)\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft Mail Server Freeware","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ArGoSoft Mail Server Plus for WinNT\/2000, Version [\\d.]+ \\(([\\d.]+)\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft Mail Server Plus","version":"$1","os":"Windows"}}
+{"pattern":"^220 ([-.\\w]+) ESMTP server \\([Pp]ost.[Oo]ffice v([-.\\w]+) release ([-.\\w]+) ID# ","flag":"","cpes":[],"matchers":{"product":"Post.Office","version":"$2 release $3","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) ESMTP VisNetic.MailServer.v([-.\\w]+); ","flag":"","cpes":[],"matchers":{"product":"VisNetic MailServer","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) ESMTP Service. Welcome.\r\n$","flag":"","cpes":["a:stalker:communigate_pro"],"matchers":{"product":"CommuniGate Pro smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) Process Software ESMTP service V([-.\\w]+) ready","flag":"","cpes":["o:hp:openvms"],"matchers":{"product":"Process Software smtpd","version":"$2","os":"OpenVMS","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) Mercury (\\d[-.\\w]+) ESMTP server ready\\.\r\n$","flag":"","cpes":[],"matchers":{"product":"Mercury Mail smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220   ESMTP Service \\(Lotus Domino Release ([\\w._-]+)\\) ready at ","flag":"","cpes":["a:ibm:lotus_domino:$1"],"matchers":{"product":"Lotus Domino smtpd","version":"$1"}}
+{"pattern":"^220 ([-.\\w]+) ESMTP Service \\(Lotus Domino Release (\\d[-.\\w ]+)\\) ready","flag":"","cpes":["a:ibm:lotus_domino:$2"],"matchers":{"product":"Lotus Domino smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) ESMTP Service \\(Lotus Domino (\\d[-.\\w ]+)\\) ready at","flag":"","cpes":["a:ibm:lotus_domino:$2"],"matchers":{"product":"Lotus Domino smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220  ESMTP Service \\(Lotus Domino Release (\\d[-.\\w ]+)\\) ready at ","flag":"","cpes":["a:ibm:lotus_domino:$1"],"matchers":{"product":"Lotus Domino smtpd","version":"$1"}}
+{"pattern":"^220 ([-.\\w]+) ESMTP Service \\(Lotus Domino Build V([\\w_]+) Beta (\\w+)\\) ready at ","flag":"","cpes":["a:ibm:lotus_domino:$2:beta$3"],"matchers":{"product":"Lotus Domino smtpd","version":"$2 Beta $3","hostname":"$1"}}
+{"pattern":"^220  ESMTP Service \\(Lotus Domino Build V([\\w_]+) Beta (\\w+)\\) ready at ","flag":"","cpes":["a:ibm:lotus_domino:$1:beta$2"],"matchers":{"product":"Lotus Domino smtpd","version":"$1 Beta $2"}}
+{"pattern":"^220 ([-.\\w]+) ESMTP Service \\(Lotus Domino Versione ([\\w._ -]+)\\) ready","flag":"","cpes":["a:ibm:lotus_domino:$2:::it"],"matchers":{"info":"Italian","product":"Lotus Domino smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) Lotus SMTP MTA Service Ready\r\n$","flag":"","cpes":["a:ibm:lotus_domino"],"matchers":{"product":"Lotus Notes SMTP","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) WebSTAR Mail Simple Mail Transfer Service Ready\r\n","flag":"","cpes":[],"matchers":{"product":"WebSTAR SMTP server","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) SMTP NAVGW (\\d[-.\\w]+);","flag":"","cpes":[],"matchers":{"product":"Norton Antivirus Gateway NAVGW","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) Kerio MailServer (\\d[-.\\w]+) ESMTP ready\r\n","flag":"","cpes":[],"matchers":{"product":"Kerio MailServer","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) Kerio MailServer (\\d[-.\\w]+ patch \\d+) ESMTP ready\r\n","flag":"","cpes":[],"matchers":{"product":"Kerio MailServer","version":"$2","hostname":"$1"}}
+{"pattern":"^220 YSmtp(\\S+) ESMTP service ready","flag":"","cpes":[],"matchers":{"product":"Yahoo! smtpd","hostname":"$1"}}
+{"pattern":"^220 (\\S+) GMX Mailservices ESMTP","flag":"","cpes":[],"matchers":{"product":"GMX smtpd","hostname":"$1"}}
+{"pattern":"^220 (\\S+) ESMTP MailMax (\\d[-.\\w\\d]+)","flag":"","cpes":[],"matchers":{"product":"MailMax smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 (\\S+) ESMTP WEB.DE V([^\\s\\;]+)","flag":"","cpes":[],"matchers":{"product":"Web.de smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^relaylock: Error: PRODUCT_ROOT_D not defined\nrelaylock: Error: PRODUCT_ROOT_D not defined\n1\n$","flag":"","cpes":[],"matchers":{"info":"broken","product":"Plesk relaylock smtp wrapper"}}
+{"pattern":"^220 Compuserve Office Mail Service \\(lnxc-(\\d+)\\) ESMTP","flag":"","cpes":[],"matchers":{"product":"Compuserve smtpd","version":"$1"}}
+{"pattern":"^220 Welcome to Nemesis ESMTP server on \\S+","flag":"","cpes":[],"matchers":{"product":"Nemesis smtpd"}}
+{"pattern":"^220 Welcome to the INDY SMTP Server\r\n$","flag":"","cpes":[],"matchers":{"product":"INDY smtpd"}}
+{"pattern":"^220 Postini E?SMTP (\\d+) [\\w\\d_+\/:-]+ ready","flag":"","cpes":[],"matchers":{"product":"Postini smtpd","version":"$1"}}
+{"pattern":"^220 ([\\w\\d-]+)\\.hotmail\\.com Sending unsolicited commercial","flag":"","cpes":[],"matchers":{"product":"Hotmail smtpd","hostname":"$1"}}
+{"pattern":"^220[-\\s](\\S+) \\(IntraStore TurboSendmail\\) E?SMTP Service ready","flag":"","cpes":[],"matchers":{"product":"TurboSendmail smtpd","hostname":"$1"}}
+{"pattern":"^220[-\\s](\\S+) E?SMTP Mirapoint (\\d[^\\;]+);","flag":"","cpes":[],"matchers":{"product":"Mirapoint smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP Mirapoint Messaging Server MOS ([^;\r\n]+)[;\r\n]","flag":"","cpes":[],"matchers":{"product":"Mirapoint Messaging Server MOS smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220[-\\s](\\S+) Trend Micro InterScan Messaging Security Suite, Version: (\\d\\S+) ready","flag":"","cpes":["a:trendmicro:interscan_messaging_security_suite:$2"],"matchers":{"product":"Trend Micro InterScan smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220[-\\s](\\S+).*?Server ESMTP \\(iPlanet Messaging Server (\\d[^\\(\\)]+)","flag":"","cpes":["a:sun:iplanet_messaging_server:$2"],"matchers":{"product":"Sun iPlanet smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220[-\\s](\\S+) running Eudora Internet Mail Server (\\d\\S+)","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Eudora smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220[-\\s](\\S+) running Eudora Internet Mail Server X (\\d\\S+)\r\n","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"product":"Eudora smtpd","version":"$2","os":"Mac OS X","hostname":"$1"}}
+{"pattern":"^220 (\\S+) - Maillennium E?SMTP","flag":"","cpes":[],"matchers":{"product":"Maillennium smtpd","hostname":"$1"}}
+{"pattern":"^220 (\\S+).*?SMTP \\(Sun Internet Mail Server sims.(\\d[^\\)]+)\\)","flag":"","cpes":[],"matchers":{"product":"Sun sims smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 (\\S+) ESMTP qpsmtpd (\\d\\S+) ready;","flag":"","cpes":["a:ask_bjorn_hansen:qpsmtpd:$2"],"matchers":{"product":"qpsmtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 (\\S+) ESMTP XWall v(\\d\\S+)","flag":"","cpes":[],"matchers":{"product":"XWall smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 (\\S+) ESMTP Service \\(Worldmail (\\d[^\\)]+)\\) ready","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Worldmail smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 (\\S+) eMail Sentinel (\\d+) ESMTP Service ready","flag":"","cpes":[],"matchers":{"product":"eMail Sentinel smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 (\\S+) ESMTP mxl_mta-(\\d[^\\;]+);","flag":"","cpes":[],"matchers":{"product":"mxl smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 (\\S+) -- Server ESMTP \\(SUN JES MTA 6\\.x\\)","flag":"","cpes":[],"matchers":{"product":"SUN JES smtpd","version":"6.x","hostname":"$1"}}
+{"pattern":"^220 (\\S+) Service ready by DvISE PostMan \\((\\d+)\\) ESMTP Server","flag":"","cpes":[],"matchers":{"product":"DvISE PostMan smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) Service ready by DvISE PostMan \\((\\d+)\\) ESMTP Server \\(Tobit Software, Germany\\)\r\n","flag":"","cpes":[],"matchers":{"product":"Tobit DvISE PostMan smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ?(\\S+) ESMTP server \\(InterMail v(\\S+)","flag":"","cpes":[],"matchers":{"product":"InterMail smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) -- Server ESMTP \\(Sun Java\\(tm\\) System Messaging Server ([\\w._-]+) \\(built .*; (\\d+)bit\\)","flag":"","cpes":["a:sun:java_system_messaging_server:$2"],"matchers":{"info":"$3 bits","product":"Sun Java System Messaging Server smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) -- Server ESMTP \\(Sun Java\\(tm\\) System Messaging Server ([\\w._-]+) (\\d+)bit \\(built .*\\)\\)\r\n","flag":"","cpes":["a:sun:java_system_messaging_server:$3"],"matchers":{"info":"$2 bits","product":"Sun Java System Messaging Server smtpd","version":"$3","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) -- Server ESMTP \\(Sun Java System Messaging Server ([\\d.]+) \\(built .*\\)\\)\r\n","flag":"","cpes":["a:sun:java_system_messaging_server:$2"],"matchers":{"product":"Sun Java System Messaging Server smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 (\\S+) -- Server ESMTP \\(Sun Java System Messaging Server (\\d[^\\(\\)]+)","flag":"","cpes":["a:sun:java_system_messaging_server:$2"],"matchers":{"product":"Sun Java System Messaging Server smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 jMailer SMTP Server\r\n$","flag":"","cpes":[],"matchers":{"product":"jMailer smtpd"}}
+{"pattern":"^220[- ][^ ]+ Smail-([^ ]+) .*ESMTP","flag":"s","cpes":[],"matchers":{"product":"Smail-ESMTP","version":"$1"}}
+{"pattern":"^220[- ][^ ]+ Smail-([^ ]+) ","flag":"","cpes":[],"matchers":{"product":"Smail","version":"$1"}}
+{"pattern":"^220 \\[([-\\w_.]+)\\] ESMTP amavisd-new service ready\r\n","flag":"","cpes":["a:ijs:amavisd_new"],"matchers":{"product":"amavisd-new smtpd","hostname":"$1"}}
+{"pattern":"^220 SMTP-Server Classic Hamster (?:Vr\\.|Version) [\\d.]+ \\(Build ([\\d.]+)\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Classic Hamster smtpd","version":"$1","os":"Windows"}}
+{"pattern":"^220-Stalker Internet Mail Server V.([\\w.]+) is ready\\.\r\n","flag":"","cpes":["o:apple:mac_os"],"matchers":{"product":"Stalker smtpd","version":"$1","os":"Mac OS"}}
+{"pattern":"^220-([-\\w_.]+) Stalker Internet Mail Server V\\.([\\w.]+) is ready\\.\r\n","flag":"","cpes":["o:apple:mac_os"],"matchers":{"product":"Stalker smtpd","version":"$2","os":"Mac OS","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP MailMax ([\\d.]+) [A-Z][a-z][a-z].*\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"MailMax smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) Mailmax version ([\\d. ]+) ESMTP Mail Server Ready \r\n","flag":"","cpes":[],"matchers":{"product":"MailMax smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) running IBM MVS SMTP CS V2R10 on .*\r\n","flag":"","cpes":["o:ibm:mvs"],"matchers":{"product":"IBM MVS smtpd","hostname":"$1","os":"MVS"}}
+{"pattern":"^220 [-\\w_]+ ESMTP ([-\\w_.]+) \\(Debian\/GNU\\)\r\n","flag":"","cpes":["a:postfix:postfix","o:debian:debian_linux","o:linux:linux_kernel"],"matchers":{"info":"Debian","product":"Postfix smtpd","hostname":"$1","os":"Linux"}}
+{"pattern":"^220 ESMTP \\(Debian\/GNU Mewwwwwww\\)\r\n","flag":"","cpes":["a:postfix:postfix","o:debian:debian_linux","o:linux:linux_kernel"],"matchers":{"info":"Debian","product":"Postfix smtpd","os":"Linux"}}
+{"pattern":"^220 ([\\w._-]+) [\\w._-]+ ESMTP Postfix \\(Debian\/GNU\\)","flag":"","cpes":["a:postfix:postfix","o:debian:debian_linux","o:linux:linux_kernel"],"matchers":{"info":"Debian","product":"Postfix smtpd","hostname":"$1","os":"Linux"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP postfix NO UCE\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"info":"whoson patch","product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTPD Server - Postfix\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP PostFix ([\\d.]+)\r\n","flag":"","cpes":["a:postfix:postfix:$2"],"matchers":{"product":"Postfix smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP Oracle Email Server SMTP Inbound Server\t([\\d.]+) \t  Ready\r\n","flag":"","cpes":[],"matchers":{"product":"Oracle smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) Mail essentials  server \\(([\\d.]+)\\) ready for ESMTP transfer\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Mail essentials for Exchange smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP - WinRoute Pro ([\\d.]+)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"WinRoute Pro smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP Lyris ListManager service ready\r\n","flag":"","cpes":[],"matchers":{"product":"Lyris ListManager smtpd","hostname":"$1"}}
+{"pattern":"^220  ESMTP Lyris service ready\r\n","flag":"","cpes":[],"matchers":{"product":"Lyris smtpd"}}
+{"pattern":"^220  ESMTP Lyris ListManager service ready\r\n","flag":"","cpes":[],"matchers":{"product":"Lyris ListManager smtpd"}}
+{"pattern":"^220-([-\\w_.]+) ESMTP\r\n220 [-\\w_.]+ AsyncOS\r\n","flag":"","cpes":["o:cisco:asyncos"],"matchers":{"device":"specialized","product":"IronPort C-60 smtpd","hostname":"$1","os":"AsyncOS"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP Ready 12\\.\r\n","flag":"","cpes":[],"matchers":{"device":"firewall","product":"Tunix firewall smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP server \\(Netscape Messaging Server - Version ([\\d.]+)\\) ready .*\r\n","flag":"","cpes":["a:netscape:messaging_server:$2"],"matchers":{"product":"Netscape Messaging Server","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP SMTPBeamer v([\\d.]+)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"SMTPBeamer smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ZMailer Server ([\\w.]+) #\\d+ ESMTP ready at .*\r\n","flag":"","cpes":[],"matchers":{"product":"ZMailer smtpd","version":"$2","os":"Unix","hostname":"$1"}}
+{"pattern":"^220 - zeus SMTPS Sendmail ([-\\w_.]+)\/[-\\w_.]+; .*\n","flag":"","cpes":[],"matchers":{"product":"Zeus SMTPS smtpd","version":"$1"}}
+{"pattern":"^220 Coremail SMTP\\(Anti Spam\\) System \\(\\w+\\[(\\d+)\\]\\)\r\n","flag":"","cpes":[],"matchers":{"product":"Coremail smtpd","version":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP WorkgroupMail ([\\d.]+) .*\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"WorkgroupMail smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) \\(PowerMTA\\(TM\\) v([\\w._-]+)\\) ESMTP service ready\r\n","flag":"","cpes":[],"matchers":{"product":"PowerMTA smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) \\(PowerMTA\\(TM\\) v([\\w._-]+)\\) dummy ESMTP ready\r\n","flag":"","cpes":[],"matchers":{"product":"PowerMTA smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP BorderWare MXtreme Mail Firewall\r\n","flag":"","cpes":[],"matchers":{"device":"firewall","product":"BorderWare MXtreme smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP Server \\(JAMES SMTP Server ([\\w.]+)\\) ready","flag":"","cpes":[],"matchers":{"product":"JAMES smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP Server \\(JAMES SMTP Server\\) ready ","flag":"","cpes":[],"matchers":{"product":"JAMES 3 M3 smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP MDaemon ([\\d.]+) ready\r\n","flag":"","cpes":["a:altn:mdaemon:$2","o:microsoft:windows"],"matchers":{"product":"MDaemon smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+)\\s+ESMTP MDaemon ([\\d.]+); .*\r\n","flag":"","cpes":["a:altn:mdaemon:$2","o:microsoft:windows"],"matchers":{"product":"MDaemon smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP MDaemon ([\\d.]+)(?: UNREGISTERED)?; .*\r\n","flag":"","cpes":["a:altn:mdaemon:$2","o:microsoft:windows"],"matchers":{"info":"Unregistered","product":"MDaemon smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP MSA MDaemon ([\\w._-]+)(?: UNREGISTERED)?; .*\r\n","flag":"","cpes":["a:altn:mdaemon:$2","o:microsoft:windows"],"matchers":{"info":"Unregistered","product":"MDaemon smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220[ -]([-\\w_.]+) ESMTP MSA MDaemon ([\\d.]+);","flag":"","cpes":["a:altn:mdaemon:$2","o:microsoft:windows"],"matchers":{"info":"MSA support","product":"MDaemon smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^421 Sorry, SMTP server too busy right now \\(193\\); try again later\r\n","flag":"","cpes":["a:altn:mdaemon","o:microsoft:windows"],"matchers":{"info":"Server too busy error","product":"MDaemon smtpd","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP HT Mail Server v([\\d.]+); .*\r\n","flag":"","cpes":["a:icewarp:mail_server:$2"],"matchers":{"product":"IceWarp smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP IceWarp ([\\d.]+)[; ]","flag":"","cpes":["a:icewarp:mail_server:$2"],"matchers":{"product":"IceWarp smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP Gruponet IE2020 ([\\d.\/]+);\r\n","flag":"","cpes":[],"matchers":{"device":"specialized","product":"Gruponet mail appliance smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) mailfront ESMTP\r\n","flag":"","cpes":[],"matchers":{"product":"mailfront smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP Server SLmail ([\\d.]+) Ready ESMTP spoken here\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"SLmail smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) VaMailArmor-([\\d.]+)\r\n","flag":"","cpes":[],"matchers":{"product":"VaMailArmor smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP MailFrontier \\(([\\d.]+)\\)\r\n","flag":"","cpes":[],"matchers":{"device":"firewall","product":"MailFrontier smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) WindowsNT SMTP Server v([\\w\/.]+) ESMTP ready at .*\r\n","flag":"","cpes":["o:microsoft:windows_nt"],"matchers":{"product":"Windows NT SMTP Server smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) \\(LSMTP for Windows NT v([\\w.]+)\\) ESMTP server ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"LSMTP smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP Mandamail ([\\d.]+)\/[\\d.]+\r\n","flag":"","cpes":[],"matchers":{"product":"Mandamail smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 Welcome to the QK SMTP Server\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"QK smtpd","os":"Windows"}}
+{"pattern":"^220 PostCast SMTP server \\(http:\/\/www\\.postcastserver\\.com\/\\) ready at .*\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"PostCast smtpd","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) running IBM MVS SMTP CS (\\w+) on .*\r\n","flag":"","cpes":["o:ibm:mvs"],"matchers":{"product":"IBM MVS smtpd","version":"$2","os":"MVS","hostname":"$1"}}
+{"pattern":"^Permission denied - do not try again\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"Access denied","product":"Hamster smtpd","os":"Windows"}}
+{"pattern":"^500 Permission denied - closing connection\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"Access denied","product":"Hamster smtpd","os":"Windows"}}
+{"pattern":"^220 \\(SMTP\\) hMailServer ([\\d.]+) - Up since .*\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"hMailServer smtpd","version":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP hMailServer ([\\w.-]+)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"hMailServer","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) Ready for action \\(Mailtraq ([\\d.]+)\/E?SMTP\\)\r\n","flag":"","cpes":["a:mailtraq:mailtraq:$2","o:microsoft:windows"],"matchers":{"product":"Mailtraq smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP Service Ready \\(QuickMail Pro Server for MacOS ([\\d.]+)\\)\r\n","flag":"","cpes":["o:apple:mac_os"],"matchers":{"product":"QuickMail Pro smtpd","version":"$2","os":"Mac OS","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) HP Sendmail \\(([\\d\/.]+) .*\\) ready at .*\r\n","flag":"","cpes":["a:hp:sendmail:$2","o:hp:hp-ux"],"matchers":{"product":"HP Sendmail","version":"$2","os":"HP-UX","hostname":"$1"}}
+{"pattern":"^220-([-\\w_.]+) Bluecat Networks Inc\\. Meridius Security Gateway\r\n220 ","flag":"","cpes":[],"matchers":{"device":"firewall","product":"Bluecat Meridius smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SurgeSMTP \\(Version ([\\w.-]+)\\) http:\/\/surgemail\\.com\r\n","flag":"","cpes":[],"matchers":{"product":"Surgemail smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) Hermes ([\\d.]+) ML SMTP Ready\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Hermes smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 LiteMail SMTP Server Ready\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"LiteMail smtpd","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP Server \\(DeskNow SMTP Server ([\\d.]+)\\) ready .*\r\n","flag":"","cpes":[],"matchers":{"product":"DeskNow smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP Server \\(DeskNow\\) ready","flag":"","cpes":[],"matchers":{"product":"DeskNow smtpd","hostname":"$1"}}
+{"pattern":"^220 network-box ESMTP\r\n","flag":"","cpes":[],"matchers":{"device":"firewall","product":"Network Box smtpd"}}
+{"pattern":"^220-\\S+ Sendmail ([\\d.]+)\/A\/UX ([\\d.]+) ready at .*\r\n220 ESMTP spoken here\r\n","flag":"","cpes":["a:sendmail:sendmail:$1","o:apple:a_ux:$2"],"matchers":{"info":"on A\/UX $2","product":"Sendmail","version":"$1","os":"A\/UX"}}
+{"pattern":"^220 ([-\\w_.]+) sina_smtpd \\(([\\d.-]+)\\) id=\\d+\r\n","flag":"","cpes":[],"matchers":{"product":"SINA smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SpearMail SMTP Daemon ready\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"SpearMail smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ESMTP on WebEasyMail \\[([\\d.]+)\\] ready\\.  http:\/\/www\\.51webmail\\.com\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"WebEasyMail smtpd","version":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) AntiVir MailGate\r\n","flag":"","cpes":[],"matchers":{"product":"AntiVir MailGate smtpd","hostname":"$1"}}
+{"pattern":"^220 server ESMTP KEN! v([\\d.]+); .*\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"AVM KEN! smtpd","version":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) NTMail \\(v([\\d.]+)\/[\\w.]+\\) ready for ESMTP transfer   \r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"NTMail smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220-([-\\w_.]+) Sendmail IBM OS\/2 SENDMAIL VERSION ([\\w.\/]+) ready at .*\r\n220 ESMTP spoken here\r\n","flag":"","cpes":["a:sendmail:sendmail:$2","o:ibm:os2"],"matchers":{"product":"Sendmail smtpd","version":"$2","os":"OS\/2","hostname":"$1"}}
+{"pattern":"^220 imss-2 ESMTP ready at .*\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Trend Micro IMSS smtpd","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) Service ready\\.\r\n214- Valid commands are:\r\n214- HELO  MAIL  RCPT  DATA  RSET  QUIT  NOOP\r\n214- HELP  VRFY\r\n214- Commands not valid are:\r\n214- SEND  SOML  SAML  TURN\r\n.*214- [-\\w_.]+ is running the OS\/400 operating system\\.\r\n","flag":"s","cpes":["o:ibm:os_400"],"matchers":{"product":"OS\/400 smtpd","hostname":"$1","os":"OS\/400"}}
+{"pattern":"^220 shttp\\.srv Simple Mail Transfer Service Ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Small Home Server smtpd","os":"Windows"}}
+{"pattern":"^501 Domain must resolve\r\n$","flag":"","cpes":[],"matchers":{"product":"odmrd"}}
+{"pattern":"^220 ([-\\w_.]+) ModusMail ESMTP Receiver Version ([\\d.]+) Ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ModusMail smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 mailmatrix SMTP Server \\(Mail Matrix Server\\) ready","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Mail Matrix smtpd","os":"Windows"}}
+{"pattern":"^220-([-\\w_.]+) ESMTP .* GoMail V([\\d.]+);","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"GoMail mass mailing plugin smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 [-\\w_.]+ Winmail Mail Server ESMTP ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Winmail smtpd","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP \\(Code-Crafters Ability Mail Server ([\\d.]+)\\)\r\n","flag":"","cpes":["a:code-crafters:ability_mail_server:$2","o:microsoft:windows"],"matchers":{"product":"Code-Crafters Ability Mail Server smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP Welcome to the Internet Anywhere Mail Server Version: ([\\d.]+)\\. Build: (\\d+) by True North Software, Inc\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"Build $3","product":"True North Internet Anywhere smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+); .* \\+\\d+\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Webwasher CSM Suite smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^451 Temporary local problem - please try later\r\n","flag":"","cpes":["a:djb:qmail"],"matchers":{"product":"qmail smtpd","os":"Unix"}}
+{"pattern":"^421 unable to read controls \\(#4\\.3\\.0\\)\r\n","flag":"","cpes":["a:djb:qmail"],"matchers":{"info":"qmail-smtpd-auth 0.31","product":"qmail smtpd","os":"Unix"}}
+{"pattern":"^220 ([-\\w_.]+) Miralix SMSGwSMTP Ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Miralix SMTP2SMS Gateway","hostname":"$1","os":"Windows"}}
+{"pattern":"^554 Please check your SMTP server is set to [-\\w_.]+\\.co\\.uk\\. Further help is available at","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^554 Please check that your outgoing mail server settings are correct\\. Contact your service provider's technical support for assistance\\.\n","flag":"i","cpes":[],"matchers":{}}
+{"pattern":"^220 ([-\\w_.]+) V([\\w._-]+), OpenVMS V([\\w._-]+) Alpha ready at .* \r\n","flag":"","cpes":["o:hp:openvms"],"matchers":{"info":"OpenVMS $3; Alpha","product":"OpenVMS smtpd","version":"$2","os":"OpenVMS","hostname":"$1"}}
+{"pattern":"^220 rblsmtpd\\.local\r\n","flag":"","cpes":[],"matchers":{"info":"Connecting from banned IP","product":"rblsmtpd wrapped smtpd"}}
+{"pattern":"^rblsmtpd: [\\d.]+ pid \\d+:.*220 rblsmtpd\\.local\r\n","flag":"s","cpes":[],"matchers":{"info":"Connecting from banned IP","product":"rblsmtpd wrapped smtpd"}}
+{"pattern":"^220 Welcome to the Advanced SMTP Server\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"SoftStack Advanced smtpd","os":"Windows"}}
+{"pattern":"^220  SurgeSMTP \\(Version ([-\\w_.]+)\\) http:\/\/surgemail\\.com\r\n","flag":"","cpes":[],"matchers":{"product":"Netwin Surgemail smtpd","version":"$1"}}
+{"pattern":"^220 HMailServer ESMTP\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"HMailServer smtpd","os":"Windows"}}
+{"pattern":"^220 SMTP-Server The Croatian Classic Hamster Ver\\. [\\d.]+ \\(Podverzija ([\\d.]+)\\)\r\n","flag":"","cpes":[],"matchers":{"info":"Croatian","product":"Classic Hamster smtpd","version":"$1"}}
+{"pattern":"^220 I, CALLPILOT\\[[\\d.]+\\], speak ESMTP\\.  Talk to me\\.\r\n","flag":"","cpes":[],"matchers":{"device":"telecom-misc","product":"Nortel CallPilot imapd"}}
+{"pattern":"^220 ([-\\w_.]+) Welcome to RaidenMAILD E?SMTP service v([\\d.]+),","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"RaidenMAILD smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ESMTP [^ ]+ CMailServer ([\\d.]+) SMTP Service Ready\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Youngzsoft CMailServer smtpd","version":"$1","os":"Windows"}}
+{"pattern":"^220 ESMTP on WinWebMail \\[([\\d.]+)\\] ready\\.  http:\/\/www\\.winwebmail","flag":"","cpes":["h:winwebmail:winwebmail_server:$1","o:microsoft:windows"],"matchers":{"product":"WinWebMail smtpd","version":"$1","os":"Windows"}}
+{"pattern":"^220-W E L C O M E   T O   Q U A R K M A I L   S M T P   S E R V I C E !\r\n220 ([-\\w_.]+) ESMTP server \\(quarkmail server - version ([\\d.]+)\\) ready","flag":"","cpes":[],"matchers":{"product":"Quarkmail smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP Sendmail Switch-([\\d.]+)\/Switch-([\\d.]+);","flag":"","cpes":[],"matchers":{"info":"Switch $3","product":"Sendmail Switch smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 .*\r\n221 2\\.7\\.0 Error: I can break rules, too\\. Goodbye\\.\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd"}}
+{"pattern":"^220 ([-\\w_.]+) running EIMS X ([\\w.]+)\r\n","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"product":"Eudora EIMS X smtpd","version":"$2","os":"Mac OS X","hostname":"$1"}}
+{"pattern":"^220  DP-3510\r\n","flag":"","cpes":[],"matchers":{"product":"Panasonic DP-3500 smtpd"}}
+{"pattern":"^220 ([-\\w_.]+) Axigen ESMTP ready\r\n","flag":"","cpes":["a:gecad:axigen_mail_server"],"matchers":{"product":"Axigen smtpd","hostname":"$1"}}
+{"pattern":"^421 Unexpected log failure, please try later\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd"}}
+{"pattern":"^220 ([-\\w_.]+) DynFX ESMTP Server ([-\\w_.]+) \\(","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"DynFX smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ;; ESMTP connection timed out; no servers could be reached Sendmail ([-\\w_.]+)\/","flag":"","cpes":["a:sendmail:sendmail:$1"],"matchers":{"info":"broken","product":"Sendmail","version":"$1"}}
+{"pattern":"^554 ([-\\w_.]+) ESMTP not accepting messages\r\n","flag":"","cpes":["a:sendmail:sendmail"],"matchers":{"info":"Not accepting mail","product":"Sendmail","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) L-Soft HDMail SMTP Service Version: ([-\\w_.()]+) ready","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"L-Soft HDMail smtpd","version":"$2","os":"Linux","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) Synchronet SMTP Server ([\\d.]+)-Win32 Ready\r\n","flag":"","cpes":["a:rob_swindell:synchronet:$2","o:microsoft:windows"],"matchers":{"product":"Synchronet smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ShareMailPro SMTP Server Ready \r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"LavaSoftware ShareMailPro smtpd","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP Service\\(Mail2000 ESMTP Server V([-\\w_.]+)\\) ready","flag":"","cpes":[],"matchers":{"product":"Mail2000 smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) 4D WebSTAR V Mail \\(([-\\w_.]+)\\) Ready for action\r\n","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"product":"4D WebSTAR smtpd","version":"$2","os":"Mac OS X","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP server \\(Neon Mail Server System Advance ([-\\w_.]+),","flag":"","cpes":[],"matchers":{"product":"Neon Mail Server smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^553 Requested action not taken; No permission\\.\r\n$","flag":"","cpes":[],"matchers":{"info":"Access denied","device":"PBX","product":"Mitel 3300 PBX smtpd"}}
+{"pattern":"^421 [-\\w_.]+ - Your name, '\\[[-\\w_.]+\\]', is unknown to me\\.\r\n","flag":"","cpes":["o:sco:sco_unix"],"matchers":{"info":"Unknown host","product":"SCO smtpd","os":"SCO UNIX"}}
+{"pattern":"^220 Service ready KM([\\w._-]+) smtpd\r\n","flag":"","cpes":["h:konicaminolta:bizhub_$1"],"matchers":{"device":"printer","product":"Konica Minolta bizhub $1 printer smtpd"}}
+{"pattern":"^220 ([\\w_.-]+) cqgreylist - minimal smptd\r\n","flag":"","cpes":[],"matchers":{"product":"cqgreylist minimal smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) ESMTP AnNyungSMTP ([\\w._-]+);","flag":"","cpes":[],"matchers":{"product":"AnNyung smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 DP-1820E\r\n","flag":"","cpes":["h:panasonic:dp-1820e"],"matchers":{"device":"printer","product":"Panasonic DP-1820E printer smtpd"}}
+{"pattern":"^220 ([\\w_.-]+) -- Server ESMTP \\(PMDF V([\\d.]+)-","flag":"","cpes":["o:hp:openvms"],"matchers":{"product":"PMDF smtpd","version":"$2","os":"OpenVMS","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) ESMTP SecurityGateway ([0-9]+.[0-9]+.[0-9]+)","flag":"","cpes":[],"matchers":{"product":"ALT-N SecurityGateway smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) VHCS2 [\\w._-]+ (\\w+) Managed ESMTP ([\\w._-]+)\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"info":"Virtual Hosting Control System $3 $2","product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) ESMTP ispCP (.*) OMEGA Managed\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"info":"ispCP OMEGA $2","product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220.*Simple Mail Transfer Service Ready\\. Version ([\\d.]+)","flag":"","cpes":[],"matchers":{"product":"Goodtech smtpd","version":"$1"}}
+{"pattern":"^220.*SMTP Welcome to the IA eMailServer Corporate Edition Version: ([\\d.]+ Build: [\\d]+)","flag":"","cpes":[],"matchers":{"product":"IA eMailServer Corporate","version":"$1"}}
+{"pattern":"^220.*SMTP Welcome to the IA eMailServer Standard Edition Version: ([\\d.]+ Build: [\\d]+)","flag":"","cpes":[],"matchers":{"product":"IA eMailServer Standard","version":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) bizsmtp ESMTP server ready\r\n","flag":"","cpes":[],"matchers":{"product":"Bizanga bizsmtp smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) ESMTP NetBox\\(tm\\)\r\n","flag":"","cpes":[],"matchers":{"product":"NetBox smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) StrongMail SMTP Service Version: (\\S+) ready","flag":"","cpes":[],"matchers":{"product":"StrongMail smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^421 Service not available, closing transmission channel\r\n$","flag":"","cpes":[],"matchers":{"info":"service disabled","device":"printer","product":"Oki 3200N laser printer smtpd"}}
+{"pattern":"^421 Service not available, closing transmission channel \r\n$","flag":"","cpes":[],"matchers":{"info":"service disabled","device":"printer","product":"Konica Minolta bizhub smtpd"}}
+{"pattern":"^220 ([\\w_.-]+) ESMTP OpenSMTPD\r\n","flag":"","cpes":[],"matchers":{"product":"OpenSMTPD","hostname":"$1"}}
+{"pattern":"^220 Merak MAILSRV\r\n","flag":"","cpes":[],"matchers":{"product":"Merak Mail Server smptd"}}
+{"pattern":"^220 ([\\w_.-]+) ESMTP Citadel server ready\\.\r\n","flag":"","cpes":["a:citadel:ux"],"matchers":{"product":"Citadel smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) Epiphany CME SMTP Server Version ([\\d.]+) ready at [^\r\n]*\r\n","flag":"","cpes":[],"matchers":{"product":"Epiphany Campaign Manager for Email (CME) smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) \\(\\w+\\) Welcome to Nemesis ESMTP server\r\n","flag":"","cpes":[],"matchers":{"product":"Nemesis smtpd","hostname":"$1"}}
+{"pattern":"^220 BEJY V([\\w._-]+)  SMTP ([\\w._-]+)  \\(c\\) \\d+-\\d+ by BebboSoft, Stefan \\\"Bebbo\\\" Franke, all rights reserved ready\r\n$","flag":"","cpes":[],"matchers":{"info":"BEJY $1","product":"BEJY smtpd","version":"$2"}}
+{"pattern":"^220 Welcome NGOS SMTP Server version ([\\w._-]+)\r\n$","flag":"","cpes":[],"matchers":{"product":"NewsGator Enterprise Server smtpd","version":"$1"}}
+{"pattern":"^220 ([\\w._-]+) Kerio Connect ([\\w._ -]+) ESMTP ready\r\n","flag":"","cpes":["a:kerio:connect:$2"],"matchers":{"product":"Kerio Connect smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 Service ready (KMBT[0-9A-F]+) smtpd\r\n","flag":"","cpes":[],"matchers":{"product":"Konica Minolta printer smtpd","hostname":"$1"}}
+{"pattern":"^220 Service ready M052 smtpd\r\n","flag":"","cpes":["h:konicaminolta:c360"],"matchers":{"product":"Konica Minolta C360 printer smtpd"}}
+{"pattern":"^220 ([\\w._-]+) running IBM VM SMTP Level (\\d+) on ","flag":"","cpes":[],"matchers":{"product":"IBM VM smtpd","version":"Level $2","hostname":"$1"}}
+{"pattern":"^220 DavMail SMTP ready at ","flag":"","cpes":[],"matchers":{"product":"DavMail smtpd"}}
+{"pattern":"^220 DavMail ([\\w._-]+) SMTP ready at ","flag":"","cpes":[],"matchers":{"product":"DavMail smtpd","version":"$1"}}
+{"pattern":"^421 4\\.3\\.2 Service not available\r\n","flag":"","cpes":["a:microsoft:exchange_server:2010"],"matchers":{"info":"not available","product":"Microsoft Exchange 2010 smtpd"}}
+{"pattern":"^220 ([\\w._-]+) InSciTek OIS Ready here ESMTP\r\n","flag":"","cpes":["h:allworx:6x"],"matchers":{"device":"VoIP phone","product":"Allworx 6x VoIP phone smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+)\\s+ESMTP IdeaSmtpServer ([^\\s]+) ready\\.\r\n","flag":"","cpes":[],"matchers":{"product":"IdeaSmtpServer smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) M\\+ Extreme Email Engine ESMTP ready ([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"product":"Messaging Architects M+ Extreme Email Engine smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) Service ready by David\\.fx \\(([\\w._-]+)\\) ESMTP Server \\(Tobit\\.Software, Germany\\)\r\n","flag":"","cpes":[],"matchers":{"product":"Tobit David.fx smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^554 5\\.7\\.1 <unknown\\[[\\w.]+\\]>: Client host rejected: Access denied\r\n","flag":"","cpes":["a:symantec:messaging_gateway"],"matchers":{"product":"Symantec Messaging Gateway smtpd"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP Symantec Messaging Gateway\r\n","flag":"","cpes":["a:symantec:messaging_gateway"],"matchers":{"product":"Symantec Messaging Gateway smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+)\\.\\* ESMTP MailEnable Service, Version: ([\\w._-]+)-- ready at \\d\\d\/\\d\\d\/\\d\\d \\d\\d:\\d\\d:\\d\\d\r\n","flag":"","cpes":["a:mailenable:mailenable:$2"],"matchers":{"product":"MailEnable smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 localhost Dumbster SMTP service ready\r\n","flag":"","cpes":[],"matchers":{"product":"Dumbster fake smtpd"}}
+{"pattern":"^220 ([\\w._-]+) -- Server ESMTP \\(Oracle Communications Messaging Exchange Server ([\\w._-]+) 64bit (\\(built \\w+ +\\d+ \\d+\\))\\)\r\n","flag":"","cpes":["a:oracle:communications_unified:$2"],"matchers":{"info":"$3","product":"Oracle Communications Message Exchange smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) -- Server ESMTP \\(Oracle Communications Messaging Server ([\\w._-]+) 64bit (\\(built \\w+ +\\d+ \\d+\\))\\)\r\n","flag":"","cpes":["a:oracle:communications_unified:$2"],"matchers":{"info":"$3","product":"Oracle Communications Messaging smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 \\[[\\d.]+\\] FTGate Server Ready \\(#3\\.01\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Floosietek FTGate smtpd","os":"Windows"}}
+{"pattern":"^554 ([\\w._-]+)\r\n$","flag":"","cpes":["o:cisco:asyncos"],"matchers":{"product":"Cisco IronPort C160 firewall smtpd","hostname":"$1","os":"AsyncOS"}}
+{"pattern":"^220 HOST: ([\\w._-]+) Supportworks ESMTP Server ([\\w._-]+) ready\r\n","flag":"","cpes":["a:hornbill:supportworks_itsm:$2","o:microsoft:windows"],"matchers":{"product":"Hornbill Supportworks smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) IP Office Voicemail Pro \\[Hardware mode 00\\] - Version ([\\w._-]+ \\([\\w._-]+\\)) SMTP MAIL Service ready .* ([+-]\\d\\d\\d\\d)\r\n","flag":"","cpes":[],"matchers":{"info":"time zone: $3","device":"PBX","product":"Avaya IP Office Voicemail Pro smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP \\w+\\.\\d+ - gsmtp\r\n","flag":"","cpes":[],"matchers":{"product":"Google gsmtp","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) mfiltro ESMTP server ready\r\n","flag":"","cpes":[],"matchers":{"product":"Netasq Mfiltro spam detection smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) smtp4dev ready\r\n","flag":"","cpes":[],"matchers":{"product":"smtp4dev","hostname":"$1"}}
+{"pattern":"^200 MacGyver SMTP Ready\\.\r\n","flag":"","cpes":["a:perl:perl"],"matchers":{"product":"Perl Net::SMTP::Server","version":"1.0"}}
+{"pattern":"^220 MacGyver SMTP Ready\\.\r\n","flag":"","cpes":["a:perl:perl"],"matchers":{"info":"or later","product":"Perl Net::SMTP::Server","version":"1.1"}}
+{"pattern":"^220 ([\\w._-]+) SMTP server ready \\(MgSMTP ([\\w._-]+)\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"MgSMTP","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) SMTP IceWarp ([\\w._-]+);","flag":"","cpes":["a:icewarp:mail_server:$2"],"matchers":{"product":"IceWarp smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^554-([\\w._-]+) \\(\\w+\\) Nemesis ESMTP Service not available\r\n","flag":"","cpes":[],"matchers":{"info":"blacklisted","product":"Nemesis smtpd","hostname":"$1"}}
+{"pattern":"^421 4\\.3\\.2 Server license expired\r\n","flag":"","cpes":["a:kerio:connect"],"matchers":{"info":"license expired","product":"Kerio Connect or MailServer smtpd"}}
+{"pattern":"^220 totemomail SMTP Server ready [\\w, :]+ ([+-]\\d\\d\\d\\d) \\([A-Z]*\\)\r\n","flag":"","cpes":[],"matchers":{"info":"time zone: $1","product":"totemomail Encryption Gateway smtpd"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP Service \\(IBM Domino Release ([ \\w._-]+)\\) ready at .* ([-+]\\d+)\r\n","flag":"","cpes":["a:ibm:lotus_domino:$2"],"matchers":{"info":"time zone: $3","product":"IBM Domino smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP Smtpd; [\\w, :]+ ([-+]\\d\\d\\d\\d)\r\n","flag":"","cpes":["a:fortinet:fortimail"],"matchers":{"info":"time zone: $2","product":"FortiMail smtpd","hostname":"$1"}}
+{"pattern":"^554-([\\w._-]+)\r\n554 Your access to this mail system has been rejected due to the sending MTA's poor reputation\\. If you believe that this failure is in error, please contact the intended recipient via alternate means\\.\r\n","flag":"","cpes":[],"matchers":{"info":"access denied","product":"IronPort mail appliance smtpd","hostname":"$1"}}
+{"pattern":"^220 Welcome to SafeQ Mail Service\\.\r\n","flag":"","cpes":["a:ysoft:safeq"],"matchers":{"device":"print server","product":"YSoft SafeQ smtpd"}}
+{"pattern":"^220 ([\\w.-]+) ESMTP ready \\(Spanel SMTPD ([\\w._-]+)\\)\r\n","flag":"","cpes":["a:master_web_network:spanel:$2"],"matchers":{"product":"MWN Spanel smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 smtp-sink ESMTP\r\n$","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtp-sink"}}
+{"pattern":"^220 ([\\w.-]+) FirstClass SMTP Submission Server v([\\d.]+) ready\r\n","flag":"","cpes":["a:opentext:firstclass:$2"],"matchers":{"product":"FirstClass submission server","version":"$2","hostname":"$1"}}
+{"pattern":"^421 \\[XMail (\\d[\\w._-]+) ESMTP Server\\] - Server too busy, retry later\r\n","flag":"","cpes":["a:davide_libenzi:xmail:$1"],"matchers":{"info":"server busy","product":"XMail smtpd","version":"$1"}}
+{"pattern":"^220 Xeams SMTP server;  - Xeams SMTP server; Version: ([\\d.]+) - build: (\\d+); \\d\\d\/\\d\\d\/\\d\\d \\d\\d:\\d\\d [AP]M\r\n","flag":"","cpes":["a:synametrics:xeams:$1"],"matchers":{"info":"build $2","product":"Synametrics Xeams smtpd","version":"$1"}}
+{"pattern":"^220 ([\\w.-]+) - Xeams SMTP server; Version: ([\\d.]+) - build: (\\d+); \\d\\d\/\\d\\d\/\\d\\d \\d\\d:\\d\\d [AP]M\r\n","flag":"","cpes":["a:synametrics:xeams:$2"],"matchers":{"info":"build $3","product":"Synametrics Xeams smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w.-]+) ESMTP service ready\r\n","flag":"","cpes":["a:cbdev:cmail"],"matchers":{"product":"cbdev cmail smtpd","hostname":"$1"}}
+{"pattern":"^550 Service unavailable; Client host \\[[^]]+\\] blocked using Trend Micro RBL\\+\\.Please see http:\/\/www\\.mail-abuse\\.com\/cgi-bin\/lookup\\?ip_address=","flag":"","cpes":["a:trend_micro:interscan_messaging_security_suite"],"matchers":{"info":"blacklisted","product":"Trend Micro InterScan Messaging Security Suite"}}
+{"pattern":"^220 ([\\w.-]+) ESMTP Haraka (\\d[\\w._-]*) ready\r\n","flag":"","cpes":["a:matt_sergeant:haraka:$2"],"matchers":{"product":"Haraka smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w.-]+) Burp Collaborator Server ready\r\n","flag":"","cpes":["a:portswigger:burp_suite"],"matchers":{"product":"Burp Collaborator smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w.-]+) DemonMail \\(c\\) Striata Communication Solutions 2000-(\\d\\d\\d\\d)\r\n","flag":"","cpes":["a:striata:demonmail"],"matchers":{"info":"copyright $2","product":"Striata DemonMail smtpd","hostname":"$1"}}
+{"pattern":"^220 SPAM, we hates it.\r\n","flag":"","cpes":[],"matchers":{"product":"Barracuda Spam firewall"}}
+{"pattern":"^220 PostCast SMTP server.*\r\n$","flag":"","cpes":[],"matchers":{"product":"PostCast SMTP server"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP ready\r\n500 5\\.5\\.1 Command unrecognized\r\n500 5\\.5\\.1 Command unrecognized\r\n","flag":"","cpes":[],"matchers":{"product":"Kerio MailServer smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP I2PNet Mailservice\r\n500 5\\.5\\.2 Error: bad syntax\r\n500 5\\.5\\.2 Error: bad syntax\r\n","flag":"","cpes":[],"matchers":{"product":"I2P smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+)\r\n500 5\\.5\\.1 Unrecognized command\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"SoftStack Free SMTP Server","hostname":"$1","os":"Windows"}}
+{"pattern":"^220[ -]([\\w._-]+) ESMTP\r.*\n521 5\\.7\\.0 Error: I can break rules, too\\. Goodbye\\.\r\n","flag":"s","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220\\s+(DP-\\d+)\r\n250-Hello\r\n250-DSN\r\n","flag":"","cpes":[],"matchers":{"info":"Panasonic printer","device":"printer","product":"Panasonic smtpd","version":"$1"}}
+{"pattern":"^220 ESMTP service ready\r\n250\\x20ok\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"info":"**BACKDOOR**","product":"Rustock smtp backdoor","os":"Windows"}}
+{"pattern":"^220 Hello [A-Z][a-z]{2}, .*\r\n501 Command \\\"EHLO\\\" requires an argument\r\n","flag":"","cpes":["a:ibm:lotus_notes"],"matchers":{"product":"Lotus Notes smtpd"}}
+{"pattern":"^220 ([\\w_.-]+) ESMTP\r\n250-[-\\w_.]+\r\n250-AUTH LOGIN CRAM-MD5 PLAIN\r\n250-AUTH=LOGIN CRAM-MD5 PLAIN\r\n250-PIPELINING\r\n250 8BITMIME\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Access Remote PC smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 \\[[\\w_.-]+\\] FTGate Server Ready\r\n250-([\\w._-]+)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Floosietek FTGate smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([\\w_.-]+) Ready\r\n250-.*\r\n250-AUTH LOGIN\r\n(?:250-8BITMIME\r\n)?250-SIZE\r\n250 DSN\r\n","flag":"","cpes":["a:novell:groupwise","o:novell:netware"],"matchers":{"product":"Novell NetWare GroupWise Internet Agent smtpd","hostname":"$1","os":"NetWare"}}
+{"pattern":"^220 .* Ready\r\n250-.*\r\n250-AUTH LOGIN\r\n(?:250-8BITMIME\r\n)?250-SIZE\r\n250 DSN\r\n","flag":"","cpes":["a:novell:groupwise","o:novell:netware"],"matchers":{"product":"Novell NetWare GroupWise Internet Agent smtpd","os":"NetWare"}}
+{"pattern":"^220 \\[[\\w_.-]+\\] ESMTP Ready\r\n501 HELO requires domain address\r\n","flag":"","cpes":["h:canon:imagerunner_c5185"],"matchers":{"device":"printer","product":"Canon imageRUNNER C5185 smtpd"}}
+{"pattern":"^220 .* SMTP ready at .*\r\n501 Command \\\"EHLO\\\" requires an argument\r\n","flag":"","cpes":["a:ibm:lotus_domino"],"matchers":{"product":"Lotus Domino smtpd"}}
+{"pattern":"^220 Hello\r\n501 Command \\\"EHLO\\\" requires an argument\r\n","flag":"","cpes":["a:ibm:lotus_domino"],"matchers":{"product":"Lotus Domino smtpd"}}
+{"pattern":"^220 ([\\w_.-]+)\r\n250-[\\w._-]+ Axigen ESMTP hello\r\n","flag":"","cpes":["a:gecad:axigen_mail_server"],"matchers":{"product":"Axigen smtpd","hostname":"$1"}}
+{"pattern":"^220 [^\r\n]*ESMTP[^\r\n]*\r\n501 ehlo requires domain\/address - see RFC-2821 4\\.1\\.1\\.1\r\n","flag":"","cpes":["a:ask_bjorn_hansen:qpsmtpd"],"matchers":{"product":"qpsmtpd"}}
+{"pattern":"^220 ([\\w_.-]+) ESMTP Service ready\r\n250-[\\w_.-]+ Missing required domain name in EHLO, defaulted to your IP address \\[[\\d.]+\\]\r\n","flag":"","cpes":[],"matchers":{"product":"Critical Path smtpd","hostname":"$1"}}
+{"pattern":"^220 \r\n501 \r\n","flag":"","cpes":["h:konicaminolta:bizhub_350"],"matchers":{"device":"printer","product":"Konica Minolta bizhub 350 printer smtpd"}}
+{"pattern":"^220 ([\\w_.-]+) ESMTP SonicWALL \\(([\\d.]+)\\)\r\n","flag":"","cpes":[],"matchers":{"device":"security-misc","product":"SonicWALL Email Security smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) ready\r\n250-[\\w_.-]+\r\n250 AUTH LOGIN PLAIN \r\n$","flag":"","cpes":[],"matchers":{"product":"Freemail smtpd","hostname":"$1"}}
+{"pattern":"^554 SMTP synchronization error\r\n","flag":"","cpes":["a:exim:exim"],"matchers":{"product":"Exim smtpd"}}
+{"pattern":"^220 ([\\w._-]+)  ESMTP\r\n501 Syntax: EHLO hostname\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220 ESMTP Postfix\r\n501 Syntax: EHLO hostname\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd"}}
+{"pattern":"^220-\\*{89}\r\n220 \\*{32}\r\n250-Welcome [\\w._-]+, nice to meet you\\.\\.\\.\r\n250-AUTH=(?:\\w+ ?)+\r\n250-AUTH(?: \\w+)+\r\n250-SIZE \\d+\r\n250-DSN\r\n250-ETRN\r\n250 XXXA\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft smtpd","os":"Windows"}}
+{"pattern":"^220 ESMTP Ready\r\n250-([\\w._-]+) Hello \\[[\\d.]+\\]\r\n250-SIZE\r\n250-PIPELINING\r\n250-DSN\r\n250-ENHANCEDSTATUSCODES\r\n250-STARTTLS\r\n250-X-ANONYMOUSTLS\r\n250-AUTH NTLM\r\n250-X-EXPS GSSAPI NTLM\r\n250-8BITMIME\r\n250-BINARYMIME\r\n250-CHUNKING\r\n250-XEXCH50\r\n250 XRDST\r\n","flag":"","cpes":[],"matchers":{"product":"Microsoft Outlook Web Access smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP\r\n250-\\1\r\n250-STARTTLS\r\n250-SIZE 50000000\r\n250-PIPELINING\r\n250 8BITMIME\r\n","flag":"","cpes":["a:djb:qmail"],"matchers":{"product":"qmail smtpd","hostname":"$1"}}
+{"pattern":"^220  ESMTP\r\n501 5\\.0\\.0 EHLO requires domain address\r\n","flag":"","cpes":["a:sendmail:sendmail"],"matchers":{"product":"Sendmail"}}
+{"pattern":"^552 Invalid domain name in HELO command \\(DLH use case\\)\\.\r\n","flag":"","cpes":["a:ibm:lotus_domino"],"matchers":{"product":"Lotus Notes smtpd"}}
+{"pattern":"^220 ([\\w.-]+) ESMTP \\w\\w\\w, \\d\\d \\w\\w\\w \\d\\d\\d\\d [\\d:]{8} ([-+]?\\d\\d\\d\\d)\r\n550 Invalid or missing command argument\\(s\\)\r\n","flag":"","cpes":["a:alt-n:mdaemon"],"matchers":{"info":"timezone: $2","product":"MDaemon smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w.-]+) Ready\r\n250-Requested mail action okay, completed\\.\r\n250 STARTTLS\r\n","flag":"","cpes":["a:mcafee:email_gateway"],"matchers":{"product":"McAfee Email Gateway","hostname":"$1"}}
+{"pattern":"^220 \\S*[^\\w.-]\\S* ESMTP CommuniGate Pro [^\\d].*\r\n250-([\\w.-]+) domain name should be qualified \r\n","flag":"","cpes":["a:stalker:communigate_pro"],"matchers":{"product":"CommuniGate Pro SMTP","hostname":"$1"}}
+{"pattern":"^220 (\\w[\\w.-]+) ESMTP\r\n501 Syntactically invalid EHLO argument\\(s\\)\r\n","flag":"","cpes":["a:exim:exim"],"matchers":{"product":"Exim smtpd","hostname":"$1"}}
+{"pattern":"^220 ESMTP (?:\\(NO U[BC]E\\))* ?server ready at \\w\\w\\w, \\d\\d \\w\\w\\w \\d\\d\\d\\d [\\d:]{8} ([-+]?\\d\\d\\d\\d)\r\n501 Command \"EHLO\" requires an argument\r\n","flag":"","cpes":["a:ibm:lotus_notes"],"matchers":{"info":"timezone: $1","product":"Lotus Notes smtpd"}}
+{"pattern":"^220 ([\\w._-]+) Mail ESMTP ready\r\n250-\\1 Axigen ESMTP hello\r\n","flag":"","cpes":["a:gecad:axigen_mail_server"],"matchers":{"product":"Axigen smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) Mail ESMTP ready\r\n250-([\\w._-]+) Axigen ESMTP hello\r\n","flag":"","cpes":["a:gecad:axigen_mail_server"],"matchers":{"info":"alt hostname: $2","product":"Axigen smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+)[^\r\n]*\r\n250-[^ ]* \\[[^]]+\\], this server offers \\d+ extensions\r\n250","flag":"","cpes":["a:mailenable:mailenable","o:microsoft:windows"],"matchers":{"product":"MailEnable smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 $","flag":"","cpes":[],"matchers":{"product":"OpenBSD spamd"}}
+{"pattern":"^220 ([-.+\\w]+) Generic SMTP handler\r\n214 Help not supported by this implementation\r\n$","flag":"","cpes":["a:symantec:enterprise_firewall"],"matchers":{"product":"Symantec Enterprise Firewall smtp proxy","hostname":"$1"}}
+{"pattern":"^220 Welcome to ([-.+\\w]+) ESMTP Server at .*\r\n214-Enter one of the following commands:\r\n214-HELO EHLO MAIL RCPT DATA RSET NOOP QUIT\r\n214 HELP VRFY EXPN STARTTLS \r\n$","flag":"","cpes":["a:ibm:lotus_domino"],"matchers":{"product":"Lotus Notes Domino smtpd","hostname":"$1"}}
+{"pattern":"^220.*?\n214-Commands supported:\r\n214-    HELO EHLO MAIL RCPT DATA(?: ETRN)?(?: AUTH)?\r\n214     NOOP QUIT RSET HELP \r\n$","flag":"","cpes":["a:exim:exim:3"],"matchers":{"product":"Exim smtpd","version":"3.X"}}
+{"pattern":"^220.*?\r?\n214-Commands supported:\r\n214 AUTH (?:STARTTLS )?HELO EHLO MAIL RCPT DATA NOOP QUIT RSET HELP(?: VRFY)?\r\n$","flag":"s","cpes":["a:exim:exim:4"],"matchers":{"product":"Exim smtpd","version":"4.X"}}
+{"pattern":"^220[\\s-](\\S+) ESMTP ?\r\n214[\\s-]qmail home page: http:\/\/cr\\.yp\\.to\/qmail\\.html, LinuxMagic Support http:\/\/www\\.linuxmagic\\.com\r\n","flag":"","cpes":["a:djb:qmail"],"matchers":{"info":"LinuxMagic","product":"qmail smtpd","hostname":"$1"}}
+{"pattern":"^220[\\s-](\\S+) ESMTP ?\r\n214[- ]qmail home page: http:\/\/pobox\\.com\/~djb\/qmail\\.html\r\n214[- ]qmail-ldap patch home page: http:\/\/www\\.nrg4u\\.com\r\n","flag":"","cpes":["a:djb:qmail"],"matchers":{"product":"qmail-ldap smtpd","hostname":"$1","os":"Unix"}}
+{"pattern":"^220[\\s-].*ESMTP ?\r\n214[- ]qmail home page: http:\/\/pobox\\.com\/~djb\/qmail\\.html\r\n","flag":"","cpes":["a:djb:qmail"],"matchers":{"product":"qmail smtpd","os":"Unix"}}
+{"pattern":"^220[\\s-](\\S+) (?:OK )?ESMTP ?\r\n214[- ]qmail home page: http:\/\/pobox\\.com\/~djb\/qmail\\.html","flag":"","cpes":["a:djb:qmail"],"matchers":{"product":"qmail smtpd","hostname":"$1","os":"Unix"}}
+{"pattern":"^220[\\s-].*?ESMTP\r\n214 netqmail home page: http:\/\/qmail\\.org\/netqmail\r\n","flag":"","cpes":[],"matchers":{"product":"netqmail smtpd","version":"1.04","os":"Unix"}}
+{"pattern":"^220 ([-.\\w]+) SMTP version 1\\.00;\r\n214 We strongly advise you to study (?:of )?the RFC ?821\\.\\.\\.\r\n$","flag":"","cpes":[],"matchers":{"product":"VirusBuster MailShield for SMTP","os":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP\r\n402 Error: command not implemented\r\n$","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220 smtpd\r\n502 [\\d.]+ Error: command not recognized\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd"}}
+{"pattern":"^220 ([-\\w_.]+)\r\n502 [\\d.]+ Error: command not recognized\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP (?:[^(]+? )?\\(Ubuntu\\)\r\n502 5\\.5\\.2 Error: command not recognized\r\n","flag":"","cpes":["a:postfix:postfix","o:canonical:ubuntu_linux","o:linux:linux_kernel"],"matchers":{"product":"Postfix smtpd","hostname":"$1","os":"Linux"}}
+{"pattern":"^220 (?:.*? )?([-\\w_.]+) ESMTP(?: [^\r\n]*)?\r\n502 5\\.5\\.2 Error: command not recognized\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220 (?:.*? )?([-\\w_.]+) ESMTP(?: [^\r\n]*)?\r\n402 4\\.5\\.2 Error: command not recognized\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) SMTP READY\r\n502 5\\.5\\.2 Error: command not recognized\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220 E?SMTP [^\r\n]*\r\n502 5\\.5\\.2 Error: command not recognized\r\n","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd"}}
+{"pattern":"^220 .*\r\n502 Error: command not implemented\r\n$","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP \\w+\r\n$","flag":"","cpes":["a:postfix:postfix"],"matchers":{"product":"Postfix smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-.\\w]+) ESMTP\r\n502 ESMTP command error\r\n$","flag":"","cpes":[],"matchers":{"product":"Courier smtpd","hostname":"$1"}}
+{"pattern":"214-2\\.0\\.0 This is sendmail version (\\S+)\r?\n214-2\\.0\\.0 Topics:","flag":"s","cpes":["a:sendmail:sendmail:$1"],"matchers":{"product":"Sendmail","version":"$1","os":"Unix"}}
+{"pattern":"214-2\\.0\\.0 This is sendmail\r\n214-2\\.0\\.0 Topics:","flag":"s","cpes":["a:sendmail:sendmail"],"matchers":{"product":"Sendmail","os":"Unix"}}
+{"pattern":"^220 (\\S+) E?SMTP Sendmail;","flag":"","cpes":["a:sendmail:sendmail"],"matchers":{"product":"Sendmail","hostname":"$1","os":"Unix"}}
+{"pattern":"^220.* Sendmail (\\d[-.\\w]+) -- HELP not implemented\r\n","flag":"s","cpes":["a:sendmail:sendmail:$1"],"matchers":{"product":"Sendmail","version":"$1","os":"Unix"}}
+{"pattern":"^220.*214-This is America Online mail version [vV](\\S+)","flag":"s","cpes":[],"matchers":{"product":"AOL smtpd","version":"$1"}}
+{"pattern":"^220.*214 2\\.0\\.0 http:\/\/www\\.google\\.com\/search.*RFC\\+2821\\s*\r?\n","flag":"s","cpes":[],"matchers":{"product":"Google smtpd"}}
+{"pattern":"^220.*214 SMTP server comments and bug reports to: \\<zmhacks\\@nic.funet.fi\\>","flag":"s","cpes":[],"matchers":{"product":"ZMailer smtpd"}}
+{"pattern":"^220.*500 MessageWall: Unrecognized command","flag":"s","cpes":[],"matchers":{"product":"MessageWall SMTP proxy"}}
+{"pattern":"^220.*500 Unknown or unimplemented command","flag":"s","cpes":[],"matchers":{"product":"MAILsweeper SMTP proxy"}}
+{"pattern":"^220.*214 See http\\:\\\/\\\/www\\.messagelabs\\.com\\\/support","flag":"s","cpes":[],"matchers":{"product":"MessageLabs smtpd"}}
+{"pattern":"^220 (\\S+) ESMTP Service\r\n502 5\\.3\\.0 Sendmail Xserve -- HELP not implemented\r\n$","flag":"","cpes":[],"matchers":{"product":"Xserve smtpd","hostname":"$1","os":"Unix"}}
+{"pattern":"^220 .*\r\n214-Commands Supported:\r\n214-HELO EHLO AUTH HELP QUIT MAIL NOOP RSET RCPT DATA ETRN VRFY STARTTLS\r\n214-Copyright \\(c\\) 1995-200\\d, Stalker Software, Inc\\.\r\n","flag":"","cpes":["a:stalker:communigate_pro"],"matchers":{"product":"CommuniGate Pro smtpd"}}
+{"pattern":"^220 Jana-Server ESMTP Service ready\r\n214- Jana Server ([\\w.]+)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Jana mail server","version":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP server ready .*\r\n214-This SMTP server is a part of the InterMail E-mail system\\.  For\r\n","flag":"","cpes":[],"matchers":{"product":"InterMail smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP\r\n535 Authentication required\\.\r\n","flag":"","cpes":[],"matchers":{"info":"Auth required","product":"Courier MSA smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP\r\n400 STARTTLS is required first\\.\r\n","flag":"","cpes":[],"matchers":{"info":"STARTTLS required","product":"Courier MSA smtpd","hostname":"$1"}}
+{"pattern":"^220  ESMTP\r\n214 qmail home page: http:\/\/pobox\\.com\/~djb\/qmail\\.html\r\n","flag":"","cpes":["a:djb:qmail"],"matchers":{"product":"qmail smtpd"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP\r\n214-Gentoo Linux qmail-([-\\w.]+)\r\n214 qmail home page: http:\/\/pobox\\.com\/~djb\/qmail\\.html\r\n","flag":"","cpes":["a:djb:qmail","o:gentoo:linux"],"matchers":{"info":"Gentoo","product":"qmail smtpd","version":"$2","os":"Linux","hostname":"$1"}}
+{"pattern":"^220 .* ESMTP\r\n214-Gentoo Linux qmail-([-\\w.]+)\r\n214 qmail home page: http:\/\/pobox\\.com\/~djb\/qmail\\.html\r\n","flag":"","cpes":["a:djb:qmail","o:gentoo:linux"],"matchers":{"info":"Gentoo","product":"qmail smtpd","version":"$1","os":"Linux"}}
+{"pattern":"^554 SMTP synchronization error\r\n$","flag":"","cpes":["a:exim:exim"],"matchers":{"product":"Exim smtpd"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP\r\n214-The following commands are recognized\r\n214-\tdata\tehlo\thelo\thelp\r\n214-\tmail\tnoop\tquit\trcpt\r\n214 \trset\tvrfy\r\n","flag":"","cpes":["o:cisco:asyncos"],"matchers":{"device":"specialized","product":"IronPort C60 smtpd","hostname":"$1","os":"AsyncOS"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP\r\n214-The following commands are recognized\r\n214-\tauth\tdata\tehlo\teuq_full\r\n214-\thelo\thelp\tmail\tnoop\r\n214 \tquit\trcpt\trset\tvrfy\r\n","flag":"","cpes":["o:cisco:asyncos"],"matchers":{"device":"specialized","product":"IronPort C600 smtpd","hostname":"$1","os":"AsyncOS"}}
+{"pattern":"^220  ESMTP\r\n214-The following commands are recognized\r\n214-\tauth\tdata\tehlo\thelo\r\n214-\thelp\tmail\tnoop\tquit\r\n214 \trcpt\trset\tvrfy\r\n","flag":"","cpes":[],"matchers":{"product":"Eserv\/4 smtpd"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP\r\n214-The following commands are recognized\r\n214-\tauth\tdata\tehlo\t","flag":"","cpes":["o:cisco:asyncos"],"matchers":{"device":"specialized","product":"IronPort smtpd","hostname":"$1","os":"AsyncOS"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP ready\r\n214 [\\d.]+ Commands: HELO EHLO MAIL RCPT DATA RSET NOOP VRFY QUIT STARTTLS\r\n","flag":"","cpes":[],"matchers":{"product":"Kerio smtpd","hostname":"$1"}}
+{"pattern":"^220 \\[?([-\\w_.]+)\\]? ESMTP server ready\\.\r\n214-Recognized SMTP commands are:\r\n214-   HELO   EHLO   MAIL   RCPT   DATA   RSET\r\n214-   AUTH   NOOP   QUIT   HELP   VRFY   SOML\r\n214 Mail server account is '([-\\w_.]+)'\\.\r\n","flag":"","cpes":[],"matchers":{"info":"Mail server account $2","product":"Mercury\/32 smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) Server ESMTP ready at .*\r\n241-\r\n$","flag":"","cpes":[],"matchers":{"device":"firewall","product":"BorderWare firewall smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP \r\n$","flag":"","cpes":[],"matchers":{"device":"firewall","product":"BorderWare firewall smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+)\r\n214-Commands supported:\r\n214 AUTH STARTTLS HELO EHLO MAIL RCPT DATA NOOP QUIT RSET HELP\r\n","flag":"","cpes":["a:exim:exim"],"matchers":{"product":"Exim smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) MailShield SMTP\r\n","flag":"","cpes":[],"matchers":{"product":"MailShield smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+)\r\n211 DATA EXPN HELO MAIL NOOP QUIT RCPT RSET SAML SEND SOML TURN VRFY\r\n","flag":"","cpes":["a:ipswitch:imail","o:microsoft:windows"],"matchers":{"product":"IMail smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP\r\n214  qmail home page: http:\/\/pobox\\.com\/~djb\/qmail\\.html, LinuxMagic Support http:\/\/www\\.linuxmagic\\.com\r\n","flag":"","cpes":["a:djb:qmail","o:linux:linux_kernel"],"matchers":{"product":"Linuxmagic qmail-based smtpd","hostname":"$1","os":"Linux"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP .*\r\n214-qmail home page: http:\/\/pobox\\.com\/~djb\/qmail\\.html\r\n214 qmail-ldap patch home page: http:\/\/www\\.nrg4u\\.com\r\n","flag":"","cpes":["a:djb:qmail"],"matchers":{"info":"qmail-ldap support","product":"qmail smtpd","hostname":"$1"}}
+{"pattern":"^220-([-\\w_.]+) ESMTP\r\n220-MagicMail Daemon with Built-In Anti-Spam\r\n220 See http:\/\/www\\.linuxmagic\\.com for info\r\n214 qmail home page: http:\/\/cr\\.yp\\.to\/qmail\\.html, LinuxMagic Support http:\/\/www\\.linuxmagic\\.com\r\n","flag":"","cpes":["a:djb:qmail","o:linux:linux_kernel"],"matchers":{"info":"with Anti-Spam","product":"Linuxmagic qmail-based smtpd","hostname":"$1","os":"Linux"}}
+{"pattern":"^220 ESMTP Service ready at .*\r\n214-Enter one of the following commands:\r\n214-HELO EHLO MAIL RCPT DATA RSET NOOP QUIT\r\n214 HELP \r\n","flag":"","cpes":["a:ibm:lotus_domino"],"matchers":{"product":"Lotus Domino smtpd"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP MTA\r\n214-This is Sendmail version AIX([\\d.]+)\/([\\w.]+)\r\n","flag":"","cpes":["a:sendmail:sendmail:$3","o:ibm:aix"],"matchers":{"info":"AIX $2","product":"Sendmail","version":"$3","os":"AIX","hostname":"$1"}}
+{"pattern":"^220 Service ESMTP Ready\r\n214-This is Sendmail version ([\\d.]+) \\((P[-\\w_.]+)\\)\r\n.*future enhancements, contact your HP representative","flag":"s","cpes":["a:sendmail:sendmail:$1p$2","o:hp:hp-ux"],"matchers":{"product":"Sendmail","version":"$1 patch $2","os":"HP-UX"}}
+{"pattern":"^220 ([-\\w_.]+)\r\n502 Command not implemented\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"IA Mailserver smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP[^\r\n]*\r\n211 DATA HELO EHLO MAIL NOOP QUIT RCPT RSET SAML TURN VRFY\r\n\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"hMailServer smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) .*\r\n211 DATA HELO EHLO MAIL NOOP QUIT RCPT RSET SAML TURN VRFY\r\n\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"hMailServer smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) - Ready at .*\r\n214-Commands:\r\n214-    HELO  MAIL  RCPT  DATA  RSET  NOOP    QUIT\r\n214-  For more info use 'HELP <topic>'\\.\r\n214 End of HELP info\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"NTMail smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ESMTP Service ready\r\n500 Command unrecognized\r\n$","flag":"","cpes":[],"matchers":{"product":"Zoe Java smtpd"}}
+{"pattern":"^220 ([-\\w_.]+) \r\n502 Command not implemented\r\n$","flag":"","cpes":["a:smartertools:smartermail","o:microsoft:windows"],"matchers":{"product":"SmarterMail smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP [-\\w_.]+ Mail Server ([\\d.]+); .*\r\n214-2\\.0\\.0 This is [-\\w_.]+ Mail Server [-\\w_.]+\r\n214-2\\.0\\.0 Topics:\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Merak Mail Server smtpd","version":"$2","os":"Windows","hostname":"$1"}}
+{"pattern":"^220 WebMail ESMTP\r\n502 negative vibes\r\n","flag":"","cpes":["a:mozilla:thunderbird"],"matchers":{"product":"Mozilla Thunderbird WebMail plugin smtpd"}}
+{"pattern":"^220 Mail Server\r\n211 Help:->Supported Commands: HELO,EHLO,QUIT,HELP,RCPT,MAIL,DATA,RSET,NOOP\r\n","flag":"","cpes":["a:mailenable:mailenable:2.0:-:enterprise","o:microsoft:windows"],"matchers":{"product":"MailEnable Enterprise","version":"2.0.x","os":"Windows"}}
+{"pattern":"^220 Welcome to the mail server\\.\r\n211 DATA EXPN HELO MAIL NOOP QUIT RCPT RSET SAML SEND SOML TURN VRFY\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Ipswitch iMail smtpd","os":"Windows"}}
+{"pattern":"^220 .*\r\n214-This is ArGoSoft Mail Server Pro for WinNT\/2000\/XP, Version [-\\w_.]+ \\(([-\\w_.]+)\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft Pro smtpd","version":"$1","os":"Windows"}}
+{"pattern":"^220 ArGoSoft Mail Server Freeware, Version [-\\w_.]+ \\(([-\\w_.]+)\\)\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"ArGoSoft Freeware smtpd","version":"$1","os":"Windows"}}
+{"pattern":"^220 ([-\\w_.]+) Service ready\\.\r\n214- Valid commands are:\r\n214- HELO  MAIL  RCPT  DATA  RSET  QUIT  NOOP\r\n214- HELP  VRFY\r\n214- Commands not valid are:\r\n214- SEND  SOML  SAML  TURN\r\n214- Mail forwarding handled by this server\\.\r\n","flag":"","cpes":[],"matchers":{"product":"i5\/OS V5R4M0 or OS\/400 smtpd","hostname":"$1"}}
+{"pattern":"^220 Simple Mail Tranfer Service Ready \r\n502 Commande not implement \r\n","flag":"","cpes":[],"matchers":{"device":"printer","product":"Brother printer smtpd"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP server is ready\r\n.*214-Copyright \\(c\\) 1995-2004, Stalker Software, Inc\\.\r\n","flag":"s","cpes":["a:stalker:communigate"],"matchers":{"product":"Stalker Software CommuniGate smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP\r\n211 DATA HELO EHLO MAIL NOOP QUIT RCPT RSET SAML TURN VRFY\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"hMailServer smtpd","hostname":"$1","os":"Windows"}}
+{"pattern":"^220 \\[[-\\w_.]+\\] Courier Mail Server ([-\\w_.]+) ESMTP service ready\r\n","flag":"","cpes":[],"matchers":{"product":"Courier MSA smtpd","version":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP\r\n214-This is qpsmtpd \r\n214-See http:\/\/smtpd\\.develooper\\.com\/\r\n","flag":"","cpes":["a:ask_bjorn_hansen:qpsmtpd"],"matchers":{"product":"qpsmtpd smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP Generic Ready\r\n502 Command not implemented\\.\r\n","flag":"","cpes":[],"matchers":{"product":"MailMarshal smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP SubEthaSMTP\r\n214-This is the SubEthaSMTP ([\\w._-]+) server","flag":"","cpes":["a:voodoodyne:subethasmtp:$2"],"matchers":{"product":"SubEtha smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP SubEthaSMTP null\r\n","flag":"","cpes":["a:voodoodyne:subethasmtp"],"matchers":{"product":"SubEtha smtpd","hostname":"$1"}}
+{"pattern":"^220 ([-\\w_.]+) ESMTP SubEthaSMTP (\\d[\\w._-]*)\r\n","flag":"","cpes":["a:voodoodyne:subethasmtp:$2"],"matchers":{"product":"SubEtha smtpd","version":"$2","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) ESMTP.*information about Email Mx, please see http:\/\/www\\.openwave\\.com\r\n","flag":"s","cpes":[],"matchers":{"product":"Openwave Email Mx smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) Welcome\r\n214-ESMTP Mail Server\r\n214-Available commands:\r\n214-    HELO    EHLO    MAIL    RCPT    DATA\r\n214-    RSET    NOOP    QUIT    HELP    VRFY\r\n214-    AUTH    ETRN\r\n214-For information on a specific command, type \\\"HELP <command>\\\"\\.\r\n214 OK\r\n","flag":"","cpes":[],"matchers":{"product":"SurgeMail smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+) ESMTP\r\n214-Run 'info anubis' or visit http:\/\/www\\.gnu\\.org\/software\/anubis\/manual\/\r\n214 End of HELP info\r\n$","flag":"","cpes":["a:gnu:anubis"],"matchers":{"product":"GNU Anubis","hostname":"$1"}}
+{"pattern":"^220 ([\\w_.-]+)\r\n211 DATA HELO EHLO MAIL NOOP QUIT RCPT RSET SAML TURN VRFY\r\n","flag":"","cpes":[],"matchers":{"product":"hMailServer","hostname":"$1"}}
+{"pattern":"^220 .+\r\n211 DATA HELO EHLO MAIL NOOP QUIT RCPT RSET SAML TURN VRFY\r\n\r\n","flag":"","cpes":[],"matchers":{"product":"hMailServer"}}
+{"pattern":"^220 ([\\w._-]+) -=- ESMTP\r\n502 unknown command\\.\r\n","flag":"","cpes":["a:pineapp:mail-secure"],"matchers":{"product":"PineApp SeCure SoHo smtpd","hostname":"$1"}}
+{"pattern":"^220 Ready to receive mail2 -=- ESMTP\r\n502 unknown command\\.\r\n","flag":"","cpes":["a:pineapp:mail-secure"],"matchers":{"product":"PineApp SeCure SoHo smtpd"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP service ready\r\n214 2\\.0\\.0 try reading the RFCs: http:\/\/www\\.imc\\.org\/rfcs\\.html\r\n","flag":"","cpes":[],"matchers":{"product":"PowerMTA smtpd","hostname":"$1"}}
+{"pattern":"^220 SMTP\r\n214-Usage: HELP <topic>\r\n214-Topics:\r\n214-\tHELO EHLO MAIL RCPT DATA\r\n214-\tVRFY EXPN RSET NOOP QUIT\r\n214 End of HELP info\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Trend Micro IMSS smtpd","version":"7.0","os":"Windows"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP\r\n214-2\\.0\\.0 These commands are recognised:\r\n214 2\\.0\\.0     DATA EHLO HELO HELP MAIL NOOP QUIT RCPT RSET\r\n","flag":"","cpes":[],"matchers":{"product":"Koto Internet Services smtpd","hostname":"$1"}}
+{"pattern":"^220 ([\\w._-]+) ESMTP\r\n250 2\\.0\\.0 See http:\/\/www\\.ietf\\.org\/rfc\/rfc2821\r\n","flag":"","cpes":["o:belllabs:plan_9"],"matchers":{"product":"Plan 9 upas\/smtpd","hostname":"$1","os":"Plan 9"}}
+{"pattern":"^220 ([\\w._-]+) Service ready\r\n214-Commands:\r\n214-\tHELO\tEHLO\tMAIL\tRCPT\tRSET\tNOOP\r\n214-\tQUIT\tHELP\tDATA\tAUTH\tVRFY\tEXPN\r\n214-\r\n214-For more info use \\\"HELP <topic>\\\"\r\n214 End of HELP info\r\n","flag":"","cpes":[],"matchers":{"product":"Gattaca Server smtpd","hostname":"$1"}}
+{"pattern":"^250 Ok, but unimplemented\r\n220 EventMachine SMTP Server\r\n","flag":"","cpes":[],"matchers":{"product":"Mailcatcher smtpd"}}
+{"pattern":"^220 uniFLOW SMTP Email Gateway\r\n500 Sorry, not implemented\r\n","flag":"","cpes":[],"matchers":{"product":"NT-ware uniFLOW\/MOM smtpd"}}

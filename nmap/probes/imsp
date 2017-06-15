@@ -1,0 +1,2 @@
+{"pattern":"^\\* OK Cyrus IMSP version (\\d[-.\\w]+) ready\r\n$","flag":"","cpes":["a:cmu:cyrus_imsp_server:$1"],"matchers":{"product":"Cyrus IMSPd","version":"$1"}}
+{"pattern":"^VIA: BAD IMSP busy\r\nFROM: BAD IMSP busy\r\nTO: BAD IMSP busy\r\n","flag":"","cpes":[],"matchers":{}}

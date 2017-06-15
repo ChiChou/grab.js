@@ -1,0 +1,1 @@
+{"pattern":"^-=QDS Task Refactoring Dev v([\\w._-]+) Debug Tracing LiveView=-\r\nType quit or \\^X to close connection\\.\r\n\r\n$","flag":"","cpes":[],"matchers":{"product":"QlikView Distribution Service","version":"$1"}}

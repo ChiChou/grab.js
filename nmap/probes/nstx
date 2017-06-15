@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\x06\\x84\\x80\\0\\x01\\0\\x01\\0\\0\\0\\0\\x07version\\x04bind\\0\\0\\x10\\0\\x01\\xc0\\x0c\\0\\x10\\0\\x01\\0\\0\\0\\0","flag":"","cpes":[],"matchers":{"product":"NSTX IP-over-DNS tunnel"}}

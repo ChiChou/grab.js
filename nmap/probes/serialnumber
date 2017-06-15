@@ -1,0 +1,2 @@
+{"pattern":"^SNRESPS:127\\.0\\.0\\.1:(0x[0-9A-F]{40}):xsvr:(0x[0-9A-F]{40}):(0x[0-9a-f]{8}):(0x[0-9A-F]{40}):127\\.0\\.0\\.1\\0$","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"info":"numbers: $1 $2 $3 $4","product":"Mac OS X Server serialnumberd","os":"Mac OS X"}}
+{"pattern":"^SNRESPS:([\\w._-]+):(0x[0-9A-F]{40}):xsvr:(0x[0-9A-F]{40}):(0x[0-9a-f]{8}):(0x[0-9A-F]{40}):[\\w._-]+\\0$","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"info":"numbers: $2 $3 $4 $5","product":"Mac OS X Server serialnumberd","hostname":"$1","os":"Mac OS X"}}

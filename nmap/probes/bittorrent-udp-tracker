@@ -1,0 +1,3 @@
+{"pattern":"^\\0\\0\\0\\x02....\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0$","flag":"s","cpes":[],"matchers":{"product":"BitTorrent UDP tracker"}}
+{"pattern":"^\\x03\\0\\0\\0\\0\\x01\\x86\\xa0Connection ID missmatch\\.\\0","flag":"","cpes":["a:dirk_engling:opentracker"],"matchers":{"product":"opentracker UDP tracker"}}
+{"pattern":"^\\x03\\0\\0\\0lic\\xa0Connection ID missmatch\\.\\0","flag":"","cpes":["a:dirk_engling:opentracker"],"matchers":{"product":"opentracker UDP tracker"}}

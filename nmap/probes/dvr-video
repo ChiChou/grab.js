@@ -1,0 +1,1 @@
+{"pattern":"^head\\0\\0\\0\\0[\\xf9-\\xfa].\\0\\0\\x04\\0\\0\\0\\x03\\0{45}[\\0\\x03]\\0","flag":"","cpes":[],"matchers":{"device":"media device","product":"LTS or QSEE DVR video server"}}

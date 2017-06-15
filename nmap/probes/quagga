@@ -1,0 +1,1 @@
+{"pattern":"^\r\nHello, this is [Qq]uagga \\(version (\\d[-.\\w]+)\\)\\.\r\nCopyright 1996-200","flag":"","cpes":["a:quagga:quagga:$1"],"matchers":{"info":"Derivative of GNU Zebra","product":"Quagga routing software","version":"$1"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\/0 0 ([-\\w_.]+)\r\n\/0 0 HUH\r\n","flag":"","cpes":[],"matchers":{"product":"Sassafras Key Server","hostname":"$1"}}

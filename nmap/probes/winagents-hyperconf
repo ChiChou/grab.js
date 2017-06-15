@@ -1,0 +1,1 @@
+{"pattern":"^ROSC: Invalid connection string$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"WinAgents HyperConf configuration management","os":"Windows"}}

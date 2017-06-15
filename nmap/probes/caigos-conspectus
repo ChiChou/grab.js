@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\0\\0\\0\\0\\0>r\\0\\0\\0\\0\\0\\0\\0\\xf8\\x926\\x01\\x14\\0\\0\\0CONSPECTUS_PG([\\w._-]+)\\x1a\\0\\0\\0unbekannter Code: 20353784$","flag":"","cpes":[],"matchers":{"info":"Caigos GIS","product":"Conspectus","version":"$1"}}

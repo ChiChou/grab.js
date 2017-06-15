@@ -1,0 +1,2 @@
+{"pattern":"^0x[0-9a-fA-F]{32}L","flag":"","cpes":[],"matchers":{"info":"Backup and Restore Utility","product":"Tolis BRU"}}
+{"pattern":"^0\nBad hex string for A from client\n","flag":"","cpes":[],"matchers":{"product":"Tolis BRU Server"}}

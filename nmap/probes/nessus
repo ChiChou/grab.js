@@ -1,0 +1,3 @@
+{"pattern":"^< NTP\/1.2 >\n","flag":"","cpes":["a:tenable:nessus"],"matchers":{"info":"NTP v1.2","product":"Nessus Daemon"}}
+{"pattern":"^< NTP\/1.1 >\n","flag":"","cpes":["a:tenable:nessus"],"matchers":{"info":"NTP v1.1","product":"Nessus Daemon"}}
+{"pattern":"^< NTP\/1.0 >\n","flag":"","cpes":["a:tenable:nessus"],"matchers":{"info":"NTP v1.0","product":"Nessus Daemon"}}

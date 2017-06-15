@@ -1,0 +1,1 @@
+{"pattern":"^RocketRcon v([\\d.]+)\r\n","flag":"","cpes":["a:rocketmod:rocketmod:$1"],"matchers":{"product":"Unity RocketMod RCON","version":"$1"}}

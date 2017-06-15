@@ -1,0 +1,1 @@
+{"pattern":"^ClamAV ([\\w.]+)\/(\\w+)\/(.+)$","flag":"","cpes":[],"matchers":{"info":"AV definitions updated on:$3","product":"ClamAV","version":"$1 ($2)"}}

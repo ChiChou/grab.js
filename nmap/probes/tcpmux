@@ -1,0 +1,2 @@
+{"pattern":"^-Service not available\r\n$","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^(sgi_[-.\\w]+\r\n(?:[-.\\w]+\r\n)*)$","flag":"","cpes":["o:sgi:irix"],"matchers":{"info":"Available services: $SUBST(1, \"\r\n\", \",\")","product":"SGI IRIX tcpmux","os":"IRIX"}}

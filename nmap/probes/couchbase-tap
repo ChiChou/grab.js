@@ -1,0 +1,2 @@
+{"pattern":"^\\x81\\x10..\\0\\0\\0\\0\\0\\0\\0.....\\0\\0\\0\\0\\0\\0\\0\\0ep_version([._\\w]+).*ep_dbname([_\\\\\\\/\\w\\s:]+)","flag":"s","cpes":[],"matchers":{"info":"DB name: $2","product":"Couchbase Membase","version":"$1"}}
+{"pattern":"^\\x81\\x10..\\0\\0\\0\\0\\0\\0\\0.....\\0\\0\\0\\0\\0\\0\\0\\0ep_version([._\\w]+)","flag":"s","cpes":[],"matchers":{"product":"Couchbase Membase","version":"$1"}}

@@ -1,0 +1,1 @@
+{"pattern":"^PTA\\0\\0\\0\\x03\\0 \\0\\0\\0\\0\\0\\0\\$\\0\\0\\0\\x0f\\0\\0N \\0\\0\\x9c\\?\\0\\0\\0\\xc8\\0\\0\\x07\\xd0\\0\\0\\0d\\0\\0N \\0\\0\\0\\0\r\\0\\0\\0PTA\\0\\0\\0\\x03\\0!\\0\\0\\0\\0\\0\\0\\x08\\0\\0\\0\\x08\\0\\0\\0\\0","flag":"","cpes":["a:paloaltonetworks:terminal_services_agent"],"matchers":{"product":"Palo Alto Networks Terminal Services agent"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\x15\\x01\\0\\0\\x08\\0\\0\\0\\0\\x80\t\\x03\\x08\\.NET\\x01\\0\\x02\\0\\0\\0\\0\\0\\0\\0\\x02\\0\\x03\\x01\\0\\x03\\0\\x01\\x01 \\0\\0\\0Authentication failure on server\\x05\\0\\0\\0\\0$","flag":"","cpes":[],"matchers":{"product":"StorageCraft Image Manager"}}

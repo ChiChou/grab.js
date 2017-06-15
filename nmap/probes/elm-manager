@@ -1,0 +1,1 @@
+{"pattern":"^ELM Enterprise Manager ([\\w._-]+)\r\nCopyright \\xa9 \\d+-\\d+ TNT Software, Inc\\.\r\n","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"TNT ELM log manager","version":"$1","os":"Windows"}}

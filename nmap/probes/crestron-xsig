@@ -1,0 +1,1 @@
+{"pattern":"^\\x0f\\0\\x01\\x02$","flag":"","cpes":["h:crestron"],"matchers":{"device":"specialized","product":"Crestron XSig communication"}}

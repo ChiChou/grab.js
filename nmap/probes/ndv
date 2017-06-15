@@ -1,0 +1,1 @@
+{"pattern":"^NDV_([\\d.]+) (?:[0-9a-f][0-9a-f]:){5}[0-9a-f][0-9a-f]\n","flag":"","cpes":["a:neocoretech:ndv:$1"],"matchers":{"product":"Neocoretech NDV","version":"$1"}}

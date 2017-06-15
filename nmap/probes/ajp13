@@ -1,0 +1,4 @@
+{"pattern":"^AB\\0\\x13\\x04\\x01\\x90\\0\\x0bBad Request\\0\\0\\0AB\\0\\x02\\x05\\x01$","flag":"","cpes":[],"matchers":{"product":"Apache Jserv"}}
+{"pattern":"^AB\\0N\\x04\\x01\\x94\\0\\x06\/cccb\/\\0\\0\\x02\\0\\x0cContent-Type\\0\\0\\x17text\/html;charset=utf-8\\0\\0\\x0eContent-Length\\0\\0\\x03970\\0AB\\x03","flag":"","cpes":[],"matchers":{"product":"Apache Jserv"}}
+{"pattern":"^\\0\\0\\0\\x01\\0\\x0cUnauthorized","flag":"","cpes":["a:oracle:containers_for_j2ee"],"matchers":{"info":"unauthorized","product":"Oracle Containers for J2EE"}}
+{"pattern":"^\\x41\\x42\\x00\\x01\\x09$","flag":"","cpes":[],"matchers":{"info":"Protocol v1.3","product":"Apache Jserv"}}

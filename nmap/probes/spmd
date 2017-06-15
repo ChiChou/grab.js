@@ -1,0 +1,1 @@
+{"pattern":"^SPMD_ACK\\0\\0\\x01\\0\\x01$","flag":"","cpes":["o:microsoft:windows"],"matchers":{"product":"Softimage XSI SPMD license server","os":"Windows"}}

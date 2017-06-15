@@ -1,0 +1,1 @@
+{"pattern":"^(?:53 client not logged in\\.\r\n)+$","flag":"","cpes":["a:hp:digital_sending_software"],"matchers":{"product":"HP Digital Sender client"}}

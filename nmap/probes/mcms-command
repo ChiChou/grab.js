@@ -1,0 +1,1 @@
+{"pattern":"^\nRemote Command: Connect\n\n MCMS VERSION ([\\w._-]+) *[\\d:]+ [\\d\/]+ Operating System : XPEK\n\\+","flag":"","cpes":["o:microsoft:windows_xp"],"matchers":{"product":"Polycom MCMS command port","version":"$1","os":"Windows XP"}}

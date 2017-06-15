@@ -1,0 +1,1 @@
+{"pattern":"^200 Welcome\r\n400-Unknown Command\r\n400 GET \/ HTTP\/1\\.0\r\n$","flag":"","cpes":[],"matchers":{"product":"RipBot video encoding server"}}

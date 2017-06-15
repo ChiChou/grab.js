@@ -1,0 +1,2 @@
+{"pattern":"^GENERAL: \\d+ \\d+<EoM>\n$","flag":"","cpes":["a:hp:storageworks_secure_path","o:microsoft:windows"],"matchers":{"product":"HP StorageWorks SecurePath","os":"Windows"}}
+{"pattern":"^Unauthorized client; connection refused<EoM>\n","flag":"","cpes":["a:hp:storageworks_secure_path","o:microsoft:windows"],"matchers":{"info":"unauthorized","product":"HP StorageWorks SecurePath","os":"Windows"}}

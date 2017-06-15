@@ -1,0 +1,1 @@
+{"pattern":"^BCP-2\\.0-Barracuda\n","flag":"","cpes":["a:barracuda:web_security_gateway"],"matchers":{"product":"Barracuda Web Security Gateway clustering protocol"}}

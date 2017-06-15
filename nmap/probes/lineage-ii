@@ -1,0 +1,3 @@
+{"pattern":"^\\x03\\0\\x7e$","flag":"","cpes":[],"matchers":{"product":"Lineage II game server"}}
+{"pattern":"^\\x03\\0.$","flag":"","cpes":[],"matchers":{"product":"Lineage II game server"}}
+{"pattern":"^G\\0\\0\\x01\\0\\0\\0\\xce\\x1e\\0\\0\\xce\\x1e\\0\\0\\xce\\x1e\\0\\0\/\\x04\\0\\x000\\0,\\x006\\0,\\x003\\x003\\x003\\x002\\0,\\x003\\x003\\x003\\x003\\0\\0\\0\\x81\\x8d\\0\\0\\x81\\x8d\\0\\0\\x91\\x91\\0\\0\\0\\0\\0\\0\\x02\\0\\0\\0","flag":"","cpes":[],"matchers":{"product":"L2J Lineage II game server"}}

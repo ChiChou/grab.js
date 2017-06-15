@@ -1,0 +1,1 @@
+{"pattern":"^Welcome MWTI RPC Communication Server Version ([\\w._-]+) \\[(?:Administrator|SYSTEM)\\]\r\n","flag":"","cpes":[],"matchers":{"product":"MWTI RPC Communication Server","version":"$1"}}

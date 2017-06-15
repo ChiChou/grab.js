@@ -1,0 +1,1 @@
+{"pattern":"^ZEO monitor server version ([\\w._-]+)\n.*\n\nStorage: \\d+\nServer started: ([\\w: ]+)\n","flag":"","cpes":["a:zope:zope_enterprise_objects:$1"],"matchers":{"info":"server started: $2","product":"Zope Enterprise Objects monitor server","version":"$1"}}

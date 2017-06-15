@@ -1,0 +1,1 @@
+{"pattern":"^\\x30\\0\\x02\\x31\\x02\\xfd\\xa8\\xe3\\x02\\0\\x06\\x44","flag":"","cpes":["a:citrix:metaframe"],"matchers":{"product":"Citrix MetaFrame"}}

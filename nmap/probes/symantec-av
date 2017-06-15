@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\x06\\x01\\x01\\0\\x10..........$","flag":"s","cpes":["a:symantec:antivirus"],"matchers":{"product":"Symantec rtvscan antivirus"}}

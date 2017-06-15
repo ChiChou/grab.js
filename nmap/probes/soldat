@@ -1,0 +1,2 @@
+{"pattern":"^Soldat Admin Connection Established\\.\\.\\.\r\nAdmin connected\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Soldat game admin server"}}
+{"pattern":"^Soldat Admin Connection Established\\.\r\nPassword request timed out\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Soldat game admin server"}}

@@ -1,0 +1,1 @@
+{"pattern":"^ksysguardd ([\\d.]+)\n\\(c\\)","flag":"","cpes":[],"matchers":{"product":"ksystemguardd","version":"$1"}}

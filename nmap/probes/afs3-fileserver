@@ -1,0 +1,1 @@
+{"pattern":"^load1:[\\d.]+###load2:[\\d.]+###load3:[\\d.]+###MemTotal:(\\d+) kB###MemFree:(\\d+) kB","flag":"","cpes":[],"matchers":{"info":"$2\/$1 kB free","product":"AFS fileserver"}}

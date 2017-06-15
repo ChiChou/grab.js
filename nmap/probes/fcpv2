@@ -1,0 +1,2 @@
+{"pattern":"^ProtocolError\nFatal=true\nCodeDescription=ClientHello must be first message\nCode=1\nGlobal=false\nEndMessage\n$","flag":"","cpes":[],"matchers":{"product":"Freenet Client Protocol listener"}}
+{"pattern":"^ProtocolError\nCodeDescription=ClientHello must be first message\nFatal=true\nCode=1\nGlobal=false\nEndMessage\n$","flag":"","cpes":[],"matchers":{"product":"Freenet Client Protocol listener"}}

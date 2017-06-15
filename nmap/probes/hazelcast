@@ -1,0 +1,1 @@
+{"pattern":"^HTTP\/1\\.1 200 OK\r\nContent-Length: \\d+\r\n\r\nCluster \\[\\d+\\] {\n\tMember (.*?)}\n\nConnectionCount: (\\d+)\nAllConnectionCount: (\\d+)\n\r\n$","flag":"s","cpes":["a:hazelcast:hazelcast"],"matchers":{"info":"ConnectionCount $2; AllConnectionCount $3; $SUBST(1,\"\n\tMember\",\",\")","product":"Hazelcast"}}

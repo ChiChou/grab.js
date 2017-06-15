@@ -1,0 +1,1 @@
+{"pattern":"^250 OK moleSoftware VHCS2 Server Welcomes You !\r\n","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"moleSoftware virtual hosting control system","os":"Linux"}}

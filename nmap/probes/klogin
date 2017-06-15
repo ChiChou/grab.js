@@ -1,0 +1,11 @@
+{"pattern":"^\\x01klogind: (All authentication systems disabled; connection refused)\\.\\.\r\n","flag":"","cpes":["a:mit:kerberos"],"matchers":{"info":"broken - $1","product":"MIT Kerberos klogin"}}
+{"pattern":"^\\x01rlogind: Login Incorrect\\.\r\n$","flag":"","cpes":["o:hp:hp-ux"],"matchers":{"product":"HP-UX kerberized rlogin","os":"HP-UX"}}
+{"pattern":"^\\x01rlogind: Kerberos Authentication not enabled\\.\\.\r\n","flag":"","cpes":["o:hp:hp-ux"],"matchers":{"info":"disabled","product":"HP-UX kerberized rlogin","os":"HP-UX"}}
+{"pattern":"^\\x01rlogind: Kerberos authentication failed\\.\r\n","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"Solaris kerberized rlogin","os":"Solaris"}}
+{"pattern":"^\\x01rlogind: Kerberos authentication failed, exiting\\.\r\n","flag":"","cpes":["o:sun:sunos"],"matchers":{"product":"Solaris kerberized rlogin","os":"Solaris"}}
+{"pattern":"^\\x01klogind: Kerberos authentication failed\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Kerberized rlogin"}}
+{"pattern":"^\\x01eklogin: Kerberos authentication failed\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Encrypted Kerberized rlogin"}}
+{"pattern":"^\\x01eklogind: Kerberos authentication failed\\.\r\n","flag":"","cpes":[],"matchers":{"product":"Encrypted Kerberized rlogin"}}
+{"pattern":"^\\x01krlogind: Kerberos Authentication Failed\\.\r\n\\0","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"AIX kerberized rlogin","os":"AIX"}}
+{"pattern":"^\\x01krlogind: Echec de l'authentification Kerberos\\.\r\n\\0","flag":"","cpes":["o:ibm:aix"],"matchers":{"info":"French","product":"AIX kerberized rlogin","os":"AIX"}}
+{"pattern":"^\\0\\0's Password: $","flag":"","cpes":["o:ibm:aix"],"matchers":{"product":"AIX kerberized rlogin","os":"AIX"}}

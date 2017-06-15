@@ -1,0 +1,1 @@
+{"pattern":"^DmdT\\0\\0\\0\\x17\\0\\0\\0\\x01$","flag":"","cpes":["o:apple:mac_os_x"],"matchers":{"product":"Apple Remote Events","os":"Mac OS X"}}

@@ -1,0 +1,4 @@
+{"pattern":"^GIOP\\x01...\\0\\0\\0\\0","flag":"s","cpes":[],"matchers":{"product":"CORBA naming service"}}
+{"pattern":"^GIOP\\x01\\0\\x01\\x06\\0\\0\\0\\0$","flag":"","cpes":[],"matchers":{"info":"Corba naming service","product":"omniORB omniNames"}}
+{"pattern":"^GIOP\\x01\\0\\x01\\x06\\0\\0\\0\\0$","flag":"","cpes":[],"matchers":{"info":"Corba naming service","product":"omniORB omniNames"}}
+{"pattern":"GIOP\\x01\\0\\x01\\x01@\\0\\0\\0\\0\\0\\0\\0\\x01\\0\\0\\0\\x02\\0\\0\\0'\\0\\0\\0IDL:omg\\.org\/CORBA\/OBJECT_NOT_EXIST:1\\.0\\0\\0\\0\\0\\0\\0\\x01\\0\\0\\0","flag":"","cpes":[],"matchers":{"product":"omg.org CORBA naming service"}}

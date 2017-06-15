@@ -1,0 +1,1 @@
+{"pattern":"^GET \\0\\0\\0\\0TP\/1\\.0\r\n$","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"OpenMosix Process Migration Service","os":"Linux"}}

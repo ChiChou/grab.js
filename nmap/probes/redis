@@ -1,0 +1,3 @@
+{"pattern":"^-ERR wrong number of arguments for 'get' command\r\n$","flag":"","cpes":[],"matchers":{"product":"Redis key-value store"}}
+{"pattern":"-ERR operation not permitted\r\n","flag":"s","cpes":[],"matchers":{"product":"Redis key-value store"}}
+{"pattern":"^\\$\\d+\r\n(?:#[^\r\n]*\r\n)*redis_version:([.\\d]+)\r\n","flag":"s","cpes":[],"matchers":{"product":"Redis key-value store","version":"$1"}}

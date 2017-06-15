@@ -1,0 +1,1 @@
+{"pattern":"^\\x8d\\0\\0\\0\\x8d\\0\\0\\0\\x100\\x81\\x89\\x02\\x81\\x81\\0.*\\x02\\x03\\x01\\0\\x01\\0$","flag":"","cpes":["a:ca:unicenter_remote_control"],"matchers":{"product":"CA Unicenter remote control"}}

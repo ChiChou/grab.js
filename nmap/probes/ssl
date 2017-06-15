@@ -1,0 +1,37 @@
+{"pattern":"^<html>\n<head>\n<script>\n\tvar redirect = \"https:\/\/\" \\+ window\\.location\\.host;\n\tfunction redirectPage\\(\\) \\{\n\t\twindow\\.location\\.href= redirect;\n\t\\}\n<\/script>\n<noscript>\n\t<META http-equiv='Refresh' content='0; URL=https:\/\/[^']*'>\n<\/noscript>\n<\/head>\n\n<body onLoad=\"redirectPage\\(\\);\">\nRedirecting to SSL secured connection\\.\n<p>","flag":"","cpes":[],"matchers":{"product":"Plesk Parallels Virtual Automation https redirect"}}
+{"pattern":"^<!DOCTYPE HTML PUBLIC \\\"-\/\/IETF\/\/DTD HTML 2\\.0\/\/EN\\\">\n<html><head>\n<title>400 Bad Request<\/title>\n<\/head><body>\n<h1>Bad Request<\/h1>\n<p>Your browser sent a request that this server could not understand\\.<br \/>","flag":"","cpes":["a:apache:http_server"],"matchers":{"info":"SSL-only mode","product":"Apache httpd"}}
+{"pattern":"^HTTP\/1\\.1 400 Bad Request\r\n.*Server: Apache[^\r\n]*\r\n.*<!DOCTYPE HTML PUBLIC \\\"-\/\/IETF\/\/DTD HTML 2\\.0\/\/EN\\\">\n<html><head>\n<title>400 Bad Request<\/title>\n<\/head><body>\n<h1>Bad Request<\/h1>\n<p>Your browser sent a request that this server could not understand\\.<br \/>","flag":"s","cpes":["a:apache:http_server"],"matchers":{"info":"SSL-only mode","product":"Apache httpd"}}
+{"pattern":"^\\x15\\x03\\x01\\0\\x02\\x02\\x0a$","flag":"","cpes":[],"matchers":{"product":"TLS","version":"1.0"}}
+{"pattern":"^\\x15\\x03[\\x00-\\x03]\\0\\x02\\x02[F\\x28]","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^\\x15\\x03[\\x00-\\x03]\\0\\x02\\x02[\nF\\x28]","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^\\x15\\x03[\\x00-\\x03]\\0\\x02\\x02[\nF\\x28]","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^\\x16\\x03\\0\\0J\\x02\\0\\0F\\x03\\0","flag":"","cpes":["a:openssl:openssl"],"matchers":{"info":"SSLv3","product":"OpenSSL"}}
+{"pattern":"^\\x16\\x03\\0..\\x02\\0\\0F\\x03\\0","flag":"s","cpes":["a:microsoft:iis","o:microsoft:windows"],"matchers":{"product":"Microsoft IIS SSL","os":"Windows"}}
+{"pattern":"^\\x16\\x03\\0\\0:\\x02\\0\\x006\\x03\\0","flag":"","cpes":["o:novell:netware"],"matchers":{"product":"Novell NetWare SSL","os":"NetWare"}}
+{"pattern":"^\\x16\\x03\\0\\0\\*\\x02\\0\\0&\\x03\\0\\xd10:\\xbd\\\\\\x8e\\xe3\\x15\\x1c\\x0fZ\\xe4\\x04\\x87\\x07\\xc0\\x82\\xa9\\xd4\\x0e\\x9c1LXk\\xd1\\xd2\\x0b\\x1a\\xc6\/p\\0\\0\n\\0\\x16\\x03\\0\\x026\\x0b\\0\\x022\\0","flag":"","cpes":[],"matchers":{"device":"firewall","product":"Cisco IDS SSL"}}
+{"pattern":"^\\x16\\x03\\0\\0\\+\\x02\\0\\0'\\x03\\0...\\?","flag":"s","cpes":[],"matchers":{"product":"PGP Corporation product SSL"}}
+{"pattern":"^\\x16\\x03\\0\\0\\*\\x02\\0\\0&\\x03\\0\\?","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^\\x15\\x03[\\x01\\x00]\\0\\x02\\x01\\0$","flag":"","cpes":[],"matchers":{"product":"multi-vendor SSL"}}
+{"pattern":"^}\\0\\x02\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0","flag":"","cpes":[],"matchers":{"product":"Oracle https"}}
+{"pattern":"^\\x15\\x03\\0\\0\\x02\\x02\\(31666:error:1408A0C1:SSL routines:SSL3_GET_CLIENT_HELLO:no shared cipher:s3_srvr\\.c:881:\n","flag":"","cpes":[],"matchers":{"product":"Webmin SSL Control Panel"}}
+{"pattern":"^20928:error:140760FC:SSL routines:SSL23_GET_CLIENT_HELLO:unknown protocol:s23_srvr\\.c:565:\n","flag":"","cpes":["a:djb:qmail"],"matchers":{"product":"qmail-pop3d behind stunnel"}}
+{"pattern":"^\\x16\\x03\\0\\0\\*\\x02\\0\\0&\\x03\\0B","flag":"","cpes":["a:torproject:tor"],"matchers":{"product":"Tor over SSL"}}
+{"pattern":"^\\x16\\x03\\0\\0\\*\\x02\\0\\0&\\x03.*IOS-Self-Signed-Certificate","flag":"s","cpes":[],"matchers":{"device":"router","product":"Cisco IOS ssl"}}
+{"pattern":"^\\x16\\x03\\0\\0\\*\\x02\\0\\0&\\x03.*\nCalifornia.*\tPalo Alto.*\\x0cVMware, Inc\\..*\\x1bVMware Management Interface","flag":"s","cpes":[],"matchers":{"product":"VMware management interface SSLv3"}}
+{"pattern":"^\\x16\\x03\\0\\0\\*\\x02\\0\\0&\\x03.*\\x0edropbox-client0","flag":"s","cpes":["a:dropbox:dropbox"],"matchers":{"product":"Dropbox client SSLv3"}}
+{"pattern":"^\\x16\\x03\\0\\0\\*\\x02\\0\\0&\\x03.*vCenterServer_([\\w._-]+)","flag":"s","cpes":["o:vmware:esxi:$1"],"matchers":{"product":"VMware ESXi Server httpd","version":"$1"}}
+{"pattern":"^\\x15\\x03[\\x00-\\x03]\\0\\x02\\x02[F\\x28]","flag":"","cpes":[],"matchers":{}}
+{"pattern":"^\\x16\\x03\\x03..\\x02...\\x03\\x03","flag":"s","cpes":[],"matchers":{"product":"TLSv1.2"}}
+{"pattern":"^\\x16\\x03\\x02..\\x02...\\x03\\x02","flag":"s","cpes":[],"matchers":{"product":"TLSv1.1"}}
+{"pattern":"^\\x16\\x03\\x01..\\x02...\\x03\\x01","flag":"s","cpes":[],"matchers":{"product":"TLSv1.0"}}
+{"pattern":"^\\x16\\x03\\0..\\x02...\\x03\\0","flag":"s","cpes":[],"matchers":{"product":"SSLv3"}}
+{"pattern":"^\\x16\\x03[\\0-\\x03]..\\x02\\0\\0.\\x03[\\0-\\x03]","flag":"s","cpes":[],"matchers":{}}
+{"pattern":"^\\x15\\x03[\\0-\\x03]\\0\\x02[\\x01\\x02].$","flag":"s","cpes":[],"matchers":{}}
+{"pattern":"^..\\x04\\0.\\0\\x02","flag":"s","cpes":[],"matchers":{"product":"SSLv2"}}
+{"pattern":"^\\x16\\x03\\x01..\\x02...\\x03\\x01","flag":"s","cpes":[],"matchers":{"product":"TLSv1"}}
+{"pattern":"^\\x16\\x03\\0..\\x02...\\x03\\0","flag":"s","cpes":[],"matchers":{"product":"SSLv3"}}
+{"pattern":"^\\x15\\x03[\\0-\\x03]\\0\\x02[\\x01\\x02].$","flag":"s","cpes":[],"matchers":{}}
+{"pattern":"^(?!x)x","flag":"","cpes":[],"matchers":{"product":"BUGBUG: This should never match"}}
+{"pattern":"^(?!x)x","flag":"","cpes":[],"matchers":{"product":"BUGBUG: This should never match"}}
+{"pattern":"^\\x16\\x03[\\0-\\x03]..\\x02\\0\\0.\\x03[\\0-\\x03].*\\x16\\x03[\\0-\\x03]\\0.\\x0c.....(.+?)(?:\\x16\\x03[\\0-\\x03]|$)","flag":"s","cpes":[],"matchers":{"info":"PSK identity hint: $P(1)","product":"TLS PSK"}}
+{"pattern":"^\\x15\\x03[\\0-\\x03]\\0\\x02[\\x01\\x02].$","flag":"s","cpes":[],"matchers":{}}

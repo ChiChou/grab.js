@@ -1,0 +1,1 @@
+{"pattern":"^0077ERR \n  Your Git client has made an invalid request:\n  GET \/ HTTP\/1\\.0\r\n\r\n\n  Visit http:\/\/support\\.github\\.com for help$","flag":"","cpes":[],"matchers":{"info":"GitHub","product":"Git"}}

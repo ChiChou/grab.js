@@ -1,0 +1,1 @@
+{"pattern":"^ACKDONEV\\$\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\x01\\0\\0\\0([\\d.]+)\\0\\0\\0","flag":"","cpes":[],"matchers":{"product":"1E NightWatchman WakeUp Server","version":"$1"}}

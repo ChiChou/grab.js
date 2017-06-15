@@ -1,0 +1,1 @@
+{"pattern":"^Status: 400 Bad Request\r\nServlet-Error: Malformed data sent to JServ\r\n\r\n$","flag":"","cpes":[],"matchers":{"product":"Apache Jserv"}}

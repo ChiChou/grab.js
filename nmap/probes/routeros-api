@@ -1,0 +1,1 @@
+{"pattern":"^\\x06!fatal\rnot logged in\\0","flag":"","cpes":["o:mikrotik:routeros"],"matchers":{"product":"MikroTik RouterOS API","os":"RouterOS"}}

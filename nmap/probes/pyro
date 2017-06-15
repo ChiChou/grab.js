@@ -1,0 +1,2 @@
+{"pattern":"^PYRO\\0\\x04\\0\\x12\\0\\0\\0\\x10\\0\\0\\0\\0\\0\\0","flag":"","cpes":[],"matchers":{"info":"protocol version 4","product":"Python Remote Object Nameserver"}}
+{"pattern":"^PYRO\\0\\x05\\0\\x12\\0\\0\\0\\x10\\0\\0\\0\\0\\0\\0","flag":"","cpes":[],"matchers":{"info":"protocol version 5","product":"Python Remote Object Nameserver"}}

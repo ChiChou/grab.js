@@ -1,0 +1,2 @@
+{"pattern":"^SIN 17osx nop nopwd \\d+$","flag":"s","cpes":["o:apple:mac_os_x"],"matchers":{"product":"Remote Mouse","os":"Mac OS X"}}
+{"pattern":"^SIN 17win nop nopwd \\d+$","flag":"s","cpes":["o:microsoft:windows"],"matchers":{"product":"Remote Mouse","os":"Windows"}}

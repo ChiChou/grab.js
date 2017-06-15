@@ -1,0 +1,1 @@
+{"pattern":"^\\0\\0\\x01\\x01@\n\\0\\x08\\x80\\0\\x82\\0L\\xb8..\\xff\\xff\\xff\\xff\\0\\0\\0\\0$","flag":"s","cpes":[],"matchers":{"device":"webcam","product":"Lorex security camera monitor"}}

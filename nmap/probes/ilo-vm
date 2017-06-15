@@ -1,0 +1,2 @@
+{"pattern":"^#\\0\\x04\\0$","flag":"","cpes":["h:hp:integrated_lights-out"],"matchers":{"product":"HP Integrated Lights-Out Virtual Media"}}
+{"pattern":"^\\\"\\0\\x03\\0$","flag":"","cpes":["h:hp:integrated_lights-out"],"matchers":{"product":"HP Integrated Lights-Out Virtual Media"}}

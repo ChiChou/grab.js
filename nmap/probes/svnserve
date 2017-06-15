@@ -1,0 +1,1 @@
+{"pattern":"^\\( success \\( \\d \\d \\( (?:ANONYMOUS )?\\) \\( ","flag":"","cpes":["a:apache:subversion"],"matchers":{"product":"Subversion"}}

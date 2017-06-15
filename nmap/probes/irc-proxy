@@ -1,0 +1,15 @@
+{"pattern":"^:dircproxy NOTICE AUTH :Looking up your hostname\\.\\.\\.\r\n:dircproxy NOTICE AUTH :Got your hostname\\.\r\n","flag":"","cpes":[],"matchers":{"product":"dircproxy"}}
+{"pattern":"^:dirkproxy NOTICE AUTH :Looking up your hostname\\.\\.\\.\r\n:dirkproxy NOTICE AUTH :Got your hostname\\.\r\n","flag":"","cpes":[],"matchers":{"product":"dirkproxy"}}
+{"pattern":"^:.*!psyBNC@lam3rz\\.de NOTICE \\* :psyBNC([-.\\w]+)\r\n","flag":"","cpes":[],"matchers":{"product":"psyBNC","version":"$1"}}
+{"pattern":"^:.*!pb@lam3rz\\.de NOTICE \\* :pb([-.\\w]+)\r\n","flag":"","cpes":[],"matchers":{"product":"psyBNC","version":"$1"}}
+{"pattern":"^:.*!psyBNC@lam3rz\\.de NOTICE \\* :","flag":"","cpes":[],"matchers":{"product":"psyBNC"}}
+{"pattern":"^:.*!psyBNC@[-\\w_.]+ NOTICE \\* :psyBNC on ([-\\w_.]+)\r\n","flag":"","cpes":[],"matchers":{"product":"psyBNC","hostname":"$1"}}
+{"pattern":"^:.*!psyBNC@([-\\w_.]+) NOTICE \\* :psyBNC([-\\w_.]+)\r\n","flag":"","cpes":[],"matchers":{"product":"psyBNC","version":"$2","hostname":"$1"}}
+{"pattern":"^:.*!BNC@([\\w._-]+) NOTICE \\* :psyBNC([\\w._-]+)\r\n","flag":"","cpes":[],"matchers":{"product":"psyBNC","version":"$2","hostname":"$1"}}
+{"pattern":"^:sbnc!sbnc@sbnc\\.soohrt\\.org NOTICE \\* :Wellcum\r\n","flag":"","cpes":[],"matchers":{"product":"sbnc"}}
+{"pattern":"^NOTICE AUTH :\\*\\*\\* .*\r\nNOTICE AUTH :\\*\\*\\* \\[BNC ([\\d.]+) ","flag":"","cpes":[],"matchers":{"product":"BNC irc-proxy","version":"$1"}}
+{"pattern":"^:[-\\w_.!@]+ NOTICE \\S+ :\\*\\*\\* shroudBNC *([\\d.]+) .Revision: (\\d+)","flag":"","cpes":["a:gunnar_beutner:shroudbnc:$1"],"matchers":{"product":"ShroudBNC irc-proxy","version":"$1 revision $2"}}
+{"pattern":"^:shroudbnc\\.info NOTICE AUTH :\\*\\*\\* shroudBNC ([\\d.]+) ","flag":"","cpes":["a:gunnar_beutner:shroudbnc:$1"],"matchers":{"product":"ShroudBNC irc-proxy","version":"$1"}}
+{"pattern":"^\\+OK \r\n-ERR XXX authorization first\r\n$","flag":"","cpes":[],"matchers":{"product":"muh irc proxy"}}
+{"pattern":"^:ezbounce!srv NOTICE \\(unknown\\) :\\x02","flag":"","cpes":[],"matchers":{"product":"ezbounce irc proxy","os":"Unix"}}
+{"pattern":"^Login failed\\. Disconnecting\\.\r\n$","flag":"","cpes":[],"matchers":{"info":"Login Failed","product":"psyBNC"}}

@@ -1,0 +1,2 @@
+{"pattern":"^\\|\/dev\/[hs]\\w\\w\\|","flag":"","cpes":[],"matchers":{"product":"hddtemp hard drive info server"}}
+{"pattern":"^\\|$","flag":"","cpes":[],"matchers":{"product":"hddtemp hard drive info server"}}

@@ -1,0 +1,1 @@
+{"pattern":"^\\x94\\x00\\x00\\x00\\x06\\x02\\x00\\x00\\x00\\xa4\\x00\\x00RSA1\\x00\\x04\\x00\\x00\\x01\\x00\\x01\\x00.{128}","flag":"s","cpes":[],"matchers":{"product":"G Data Security client"}}

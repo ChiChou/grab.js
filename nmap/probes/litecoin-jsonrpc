@@ -1,0 +1,2 @@
+{"pattern":"^HTTP\/1\\.0 401 Authorization Required\r\n.*Server: litecoin-json-rpc\/v([\\w._-]+)\r\n","flag":"s","cpes":[],"matchers":{"product":"Litecoin JSON-RPC","version":"$1"}}
+{"pattern":"^HTTP\/1\\.1 403 Forbidden\r\n.*Server: litecoin-json-rpc\/v([\\w._-]+)\r\n","flag":"s","cpes":[],"matchers":{"product":"Litecoin JSON-RPC","version":"$1"}}

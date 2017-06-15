@@ -1,0 +1,2 @@
+{"pattern":"^0\\0\\0\\0\\x02Client sent invalid network message \\(168626705\\)","flag":"","cpes":[],"matchers":{"info":"Terraria game server","product":"Terraria Dedicated Server Mod"}}
+{"pattern":"^.\\0R\\0\\0[\\x01-\\x06]\\0.{6}","flag":"s","cpes":[],"matchers":{}}

@@ -1,0 +1,2 @@
+{"pattern":"^Commands: HELP VER GET LIST SET INSTCMD LOGIN LOGOUT USERNAME PASSWORD STARTTLS\n","flag":"","cpes":[],"matchers":{"product":"Network UPS Tools upsd"}}
+{"pattern":"^Commands: VER REQ HELP LISTVARS LOGOUT LOGIN PASSWORD LISTRW VARTYPE VARDESC ENUM SET INSTCMD LISTINSTCMD INSTCMDDESC FSD MASTER USERNAME STARTTLS\n","flag":"","cpes":[],"matchers":{"product":"Network UPS Tools upsd"}}

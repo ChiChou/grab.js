@@ -1,0 +1,1 @@
+{"pattern":"^V([\\d.]+)\r\nERROR 0\r\n$","flag":"","cpes":["o:linux:linux_kernel"],"matchers":{"product":"Linux NetworX Network ICE Management Protocol","version":"$1","os":"Linux"}}
